@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 430" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bgTl" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070707"/>
+      <stop offset="100%" stop-color="#0f0f0f"/>
+    </linearGradient>
+  </defs>
+  <rect width="750" height="430" fill="url(#bgTl)" rx="12"/>
+
+  <text x="375" y="35" text-anchor="middle" fill="#f22e0d" font-size="20" font-weight="bold">Tarkett Projects Timeline</text>
+
+  <!-- Main timeline line -->
+  <line x1="80" y1="170" x2="670" y2="170" stroke="rgba(255,255,255,0.3)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Year markers -->
+  <circle cx="120" cy="170" r="10" fill="#f22e0d" stroke="#b0b5b9" stroke-width="2"/>
+  <text x="120" y="145" text-anchor="middle" fill="#f22e0d" font-size="16" font-weight="bold">2016</text>
+
+  <circle cx="300" cy="170" r="6" fill="rgba(255,255,255,0.3)"/>
+  <text x="300" y="145" text-anchor="middle" fill="#7f8c8d" font-size="12">2018</text>
+
+  <circle cx="400" cy="170" r="6" fill="rgba(255,255,255,0.3)"/>
+  <text x="400" y="145" text-anchor="middle" fill="#7f8c8d" font-size="12">2020</text>
+
+  <circle cx="480" cy="170" r="10" fill="#f22e0d" stroke="#ff6b52" stroke-width="2"/>
+  <text x="480" y="145" text-anchor="middle" fill="#f22e0d" font-size="16" font-weight="bold">2021</text>
+
+  <circle cx="630" cy="170" r="10" fill="#2ecc71" stroke="#a9dfbf" stroke-width="2"/>
+  <text x="630" y="145" text-anchor="middle" fill="#2ecc71" font-size="16" font-weight="bold">2026</text>
+
+  <!-- PVC bar (top) -->
+  <rect x="120" y="70" width="510" height="50" rx="8" fill="rgba(242,46,13,0.2)" stroke="#f22e0d" stroke-width="1.5"/>
+  <text x="375" y="93" text-anchor="middle" fill="#f22e0d" font-size="14" font-weight="bold">Tarkett PVC - SCADA + MES</text>
+  <text x="375" y="110" text-anchor="middle" fill="#b0b5b9" font-size="11">Continuous development since 2016 - Iterative approach</text>
+
+  <!-- Arrow indicating ongoing -->
+  <polygon points="630,95 650,95 650,85 670,95 650,105 650,95" fill="#f22e0d" opacity="0.6"/>
+
+  <!-- Wood bar (bottom) -->
+  <rect x="480" y="195" width="150" height="50" rx="8" fill="rgba(242,46,13,0.2)" stroke="#f22e0d" stroke-width="1.5"/>
+  <text x="555" y="218" text-anchor="middle" fill="#f22e0d" font-size="14" font-weight="bold">Tarkett Wood - MES</text>
+  <text x="555" y="235" text-anchor="middle" fill="#ff6b52" font-size="11">3-year planned scope</text>
+
+  <polygon points="630,220 650,220 650,210 670,220 650,230 650,220" fill="#f22e0d" opacity="0.6"/>
+
+  <!-- Milestones - PVC -->
+  <line x1="120" y1="120" x2="120" y2="160" stroke="#f22e0d" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="120" y="200" text-anchor="middle" fill="#b0b5b9" font-size="10">SCADA Base</text>
+  <text x="120" y="212" text-anchor="middle" fill="#b0b5b9" font-size="10">Installation</text>
+
+  <line x1="250" y1="120" x2="250" y2="160" stroke="#f22e0d" stroke-width="1" stroke-dasharray="3,2"/>
+  <circle cx="250" cy="170" r="5" fill="#f22e0d" opacity="0.6"/>
+  <text x="250" y="200" text-anchor="middle" fill="#b0b5b9" font-size="10">SAP Integration</text>
+  <text x="250" y="212" text-anchor="middle" fill="#b0b5b9" font-size="10">Phase</text>
+
+  <line x1="400" y1="120" x2="400" y2="160" stroke="#f22e0d" stroke-width="1" stroke-dasharray="3,2"/>
+  <circle cx="400" cy="170" r="5" fill="#f22e0d" opacity="0.6"/>
+  <text x="400" y="200" text-anchor="middle" fill="#b0b5b9" font-size="10">MES Expansion</text>
+
+  <!-- === 2026 Upcoming Projects === -->
+  <line x1="630" y1="180" x2="630" y2="258" stroke="#2ecc71" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="310" y="258" width="400" height="88" rx="10" fill="rgba(46,204,113,0.10)" stroke="#2ecc71" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="510" y="282" text-anchor="middle" fill="#2ecc71" font-size="13" font-weight="bold">2026 — Upcoming Projects</text>
+
+  <rect x="325" y="291" width="172" height="42" rx="6" fill="rgba(46,204,113,0.12)" stroke="#2ecc71" stroke-width="1"/>
+  <text x="411" y="308" text-anchor="middle" fill="#a9dfbf" font-size="12" font-weight="bold">Tarkett Textile</text>
+  <text x="411" y="325" text-anchor="middle" fill="#7f8c8d" font-size="10">New production line (MES)</text>
+
+  <rect x="510" y="291" width="185" height="42" rx="6" fill="rgba(46,204,113,0.12)" stroke="#2ecc71" stroke-width="1"/>
+  <text x="602" y="308" text-anchor="middle" fill="#a9dfbf" font-size="12" font-weight="bold">Energy Management</text>
+  <text x="602" y="325" text-anchor="middle" fill="#7f8c8d" font-size="10">Sustainability &amp; consumption tracking</text>
+
+  <!-- Legend -->
+  <rect x="150" y="372" width="450" height="45" rx="8" fill="rgba(255,255,255,0.05)"/>
+  <rect x="175" y="387" width="20" height="12" rx="3" fill="rgba(242,46,13,0.4)" stroke="#f22e0d" stroke-width="1"/>
+  <text x="205" y="397" fill="#b0b5b9" font-size="11">PVC Project</text>
+  <rect x="320" y="387" width="20" height="12" rx="3" fill="rgba(242,46,13,0.4)" stroke="#f22e0d" stroke-width="1"/>
+  <text x="350" y="397" fill="#ff6b52" font-size="11">Wood Project</text>
+  <polygon points="473,393 483,393 483,388 490,393 483,398 483,393" fill="#2ecc71" opacity="0.8"/>
+  <text x="500" y="397" fill="#a9dfbf" font-size="11">Ongoing / Upcoming</text>
+</svg>

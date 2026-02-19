@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SCADA Water Management Presentation</title>
+    <title>InView Platform - Tarkett Integration</title>
     <style>
         * {
             margin: 0;
@@ -13,7 +13,7 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0a2342 0%, #1e5f74 100%);
+            background: #070707;
             color: #ffffff;
             overflow: hidden;
             height: 100vh;
@@ -27,33 +27,57 @@
             position: relative;
         }
 
-        /* Header with tech pattern */
+        /* Header */
         .header {
-            background: rgba(10, 35, 66, 0.9);
-            border-bottom: 3px solid #00d9ff;
+            background: rgba(7, 7, 7, 0.95);
+            border-bottom: 3px solid #f22e0d;
             padding: 15px 40px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            box-shadow: 0 4px 20px rgba(0, 217, 255, 0.3);
+            box-shadow: 0 4px 20px rgba(242, 46, 13, 0.15);
         }
 
         .header-title {
             font-size: 1.2em;
             font-weight: 300;
             letter-spacing: 2px;
-            color: #00d9ff;
+            color: #f22e0d;
             text-transform: uppercase;
         }
 
         .slide-counter {
             font-size: 1em;
-            color: #4fc3f7;
+            color: #949ca1;
             font-weight: 300;
-            background: rgba(0, 217, 255, 0.1);
+            background: rgba(242, 46, 13, 0.08);
             padding: 5px 15px;
             border-radius: 20px;
-            border: 1px solid #00d9ff;
+            border: 1px solid rgba(242, 46, 13, 0.3);
+        }
+
+        /* Image-only slide overrides */
+        .slide-container.image-only-container {
+            padding: 10px 20px;
+            align-items: flex-start;
+        }
+
+        .slide.image-only {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .img-slide-title {
+            font-size: 0.85em !important;
+            margin-bottom: 4px !important;
+            color: #4e5559 !important;
+            font-weight: 400 !important;
+            letter-spacing: 2px !important;
+            text-transform: uppercase !important;
+            width: 100%;
+            text-align: center;
         }
 
         /* Main slide area */
@@ -64,9 +88,9 @@
             justify-content: center;
             padding: 60px 100px;
             position: relative;
-            background: 
-                radial-gradient(circle at 20% 80%, rgba(0, 217, 255, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 80% 20%, rgba(79, 195, 247, 0.1) 0%, transparent 50%);
+            background:
+                radial-gradient(circle at 20% 80%, rgba(242, 46, 13, 0.04) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(242, 46, 13, 0.03) 0%, transparent 50%);
         }
 
         .slide {
@@ -95,8 +119,8 @@
         .slide h1 {
             font-size: 3.5em;
             margin-bottom: 20px;
-            color: #00d9ff;
-            text-shadow: 0 0 20px rgba(0, 217, 255, 0.5);
+            color: #f22e0d;
+            text-shadow: 0 0 30px rgba(242, 46, 13, 0.2);
             font-weight: 700;
             line-height: 1.2;
         }
@@ -104,15 +128,15 @@
         .slide h2 {
             font-size: 2.2em;
             margin-bottom: 30px;
-            color: #4fc3f7;
-            font-weight: 400;
+            color: #ffffff;
+            font-weight: 600;
             line-height: 1.3;
         }
 
         .slide h3 {
             font-size: 1.8em;
             margin: 25px 0 15px 0;
-            color: #81d4fa;
+            color: #949ca1;
             font-weight: 600;
         }
 
@@ -120,7 +144,7 @@
             font-size: 1.4em;
             line-height: 1.8;
             margin-bottom: 20px;
-            color: #e0f7fa;
+            color: rgba(255, 255, 255, 0.85);
         }
 
         .slide ul, .slide ol {
@@ -131,25 +155,25 @@
 
         .slide li {
             margin-bottom: 15px;
-            color: #b3e5fc;
+            color: #949ca1;
         }
 
         .slide strong {
-            color: #00d9ff;
+            color: #f22e0d;
             font-weight: 600;
         }
 
         /* Special styling for bullet points */
         .slide ul li::marker {
-            color: #00d9ff;
+            color: #f22e0d;
         }
 
         /* Code blocks */
         .slide code {
-            background: rgba(0, 217, 255, 0.1);
+            background: rgba(242, 46, 13, 0.1);
             padding: 2px 8px;
             border-radius: 4px;
-            color: #4fc3f7;
+            color: #f22e0d;
             font-family: 'Courier New', monospace;
         }
 
@@ -162,15 +186,29 @@
             height: auto;
             margin: 0 0 20px 30px;
             border-radius: 10px;
-            box-shadow: 0 8px 30px rgba(0, 217, 255, 0.4);
-            border: 2px solid rgba(0, 217, 255, 0.3);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+            border: 1px solid #282828;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             object-fit: contain;
         }
 
         .slide img:hover {
-            transform: scale(1.05);
-            box-shadow: 0 12px 40px rgba(0, 217, 255, 0.6);
+            transform: scale(1.02);
+            box-shadow: 0 12px 40px rgba(242, 46, 13, 0.15);
+        }
+
+        /* SVG images: larger display for diagram-heavy slides */
+        .slide img[src$=".svg"] {
+            max-width: 55%;
+            max-height: 75vh;
+            border: none;
+            box-shadow: none;
+            border-radius: 12px;
+        }
+
+        .slide img[src$=".svg"]:hover {
+            transform: scale(1.01);
+            box-shadow: none;
         }
 
         /* Content wrapper for slides with images */
@@ -202,9 +240,9 @@
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
-            background: rgba(0, 217, 255, 0.2);
-            border: 2px solid #00d9ff;
-            color: #00d9ff;
+            background: rgba(242, 46, 13, 0.1);
+            border: 2px solid rgba(242, 46, 13, 0.4);
+            color: #f22e0d;
             font-size: 2em;
             padding: 20px 30px;
             cursor: pointer;
@@ -215,8 +253,8 @@
         }
 
         .nav-button:hover {
-            background: rgba(0, 217, 255, 0.4);
-            box-shadow: 0 0 20px rgba(0, 217, 255, 0.6);
+            background: rgba(242, 46, 13, 0.25);
+            box-shadow: 0 0 20px rgba(242, 46, 13, 0.3);
             transform: translateY(-50%) scale(1.1);
         }
 
@@ -238,9 +276,9 @@
             bottom: 0;
             left: 0;
             height: 5px;
-            background: #00d9ff;
+            background: #f22e0d;
             transition: width 0.3s ease;
-            box-shadow: 0 0 10px rgba(0, 217, 255, 0.8);
+            box-shadow: 0 0 10px rgba(242, 46, 13, 0.5);
         }
 
         /* Loading indicator */
@@ -250,7 +288,7 @@
             left: 50%;
             transform: translate(-50%, -50%);
             font-size: 2em;
-            color: #00d9ff;
+            color: #f22e0d;
             text-align: center;
         }
 
@@ -260,8 +298,8 @@
             width: 50px;
             height: 50px;
             margin: 20px auto;
-            border: 5px solid rgba(0, 217, 255, 0.3);
-            border-top-color: #00d9ff;
+            border: 5px solid #282828;
+            border-top-color: #f22e0d;
             border-radius: 50%;
             animation: spin 1s linear infinite;
         }
@@ -276,12 +314,12 @@
             bottom: 20px;
             left: 50%;
             transform: translateX(-50%);
-            background: rgba(0, 217, 255, 0.1);
+            background: rgba(78, 85, 89, 0.15);
             padding: 10px 20px;
             border-radius: 20px;
-            border: 1px solid rgba(0, 217, 255, 0.3);
+            border: 1px solid #282828;
             font-size: 0.9em;
-            color: #4fc3f7;
+            color: #4e5559;
             opacity: 0.7;
             transition: opacity 0.3s;
         }
@@ -358,36 +396,36 @@
             }
         }
 
-        /* Water-themed decorative elements */
-        .water-decoration {
+        /* Decorative glow */
+        .bg-decoration {
             position: fixed;
             width: 100%;
             height: 100%;
             pointer-events: none;
             z-index: 0;
-            opacity: 0.1;
+            opacity: 0.08;
         }
 
-        .water-decoration::before {
-            content: '';
-            position: absolute;
-            width: 300px;
-            height: 300px;
-            background: radial-gradient(circle, #00d9ff 0%, transparent 70%);
-            top: -150px;
-            right: -150px;
-            animation: pulse 4s ease-in-out infinite;
-        }
-
-        .water-decoration::after {
+        .bg-decoration::before {
             content: '';
             position: absolute;
             width: 400px;
             height: 400px;
-            background: radial-gradient(circle, #4fc3f7 0%, transparent 70%);
-            bottom: -200px;
-            left: -200px;
-            animation: pulse 6s ease-in-out infinite;
+            background: radial-gradient(circle, #f22e0d 0%, transparent 70%);
+            top: -200px;
+            right: -200px;
+            animation: pulse 5s ease-in-out infinite;
+        }
+
+        .bg-decoration::after {
+            content: '';
+            position: absolute;
+            width: 350px;
+            height: 350px;
+            background: radial-gradient(circle, #7c2516 0%, transparent 70%);
+            bottom: -175px;
+            left: -175px;
+            animation: pulse 7s ease-in-out infinite;
         }
 
         @keyframes pulse {
@@ -403,7 +441,6 @@
 
         /* ===== Print / PDF export styles ===== */
         @media print {
-            /* Force browsers to keep background colors & images */
             * {
                 -webkit-print-color-adjust: exact !important;
                 print-color-adjust: exact !important;
@@ -417,7 +454,7 @@
             body {
                 overflow: visible;
                 height: auto;
-                background: #0a2342;
+                background: #070707;
             }
 
             .presentation-container {
@@ -425,13 +462,12 @@
                 overflow: visible;
             }
 
-            /* Hide interactive / decorative UI */
             .header,
             .nav-button,
             .progress-bar,
             .shortcuts-hint,
             .loading,
-            .water-decoration {
+            .bg-decoration {
                 display: none !important;
             }
 
@@ -441,7 +477,6 @@
                 background: none;
             }
 
-            /* Show every slide, one per page */
             .slide {
                 display: block !important;
                 width: 100vw;
@@ -451,7 +486,7 @@
                 box-sizing: border-box;
                 page-break-after: always;
                 break-after: page;
-                background: linear-gradient(135deg, #0a2342 0%, #1e5f74 100%);
+                background: #070707;
                 position: relative;
                 overflow: hidden;
                 animation: none !important;
@@ -462,19 +497,17 @@
                 break-after: avoid;
             }
 
-            /* Keep text colours */
-            .slide h1  { color: #00d9ff; text-shadow: none; }
-            .slide h2  { color: #4fc3f7; }
-            .slide h3  { color: #81d4fa; }
-            .slide p   { color: #e0f7fa; }
-            .slide li  { color: #b3e5fc; }
-            .slide strong { color: #00d9ff; }
-            .slide ul li::marker { color: #00d9ff; }
+            .slide h1  { color: #f22e0d; text-shadow: none; }
+            .slide h2  { color: #ffffff; }
+            .slide h3  { color: #949ca1; }
+            .slide p   { color: rgba(255, 255, 255, 0.85); }
+            .slide li  { color: #949ca1; }
+            .slide strong { color: #f22e0d; }
+            .slide ul li::marker { color: #f22e0d; }
 
-            /* Images: keep layout, remove hover effects */
             .slide img {
                 box-shadow: none;
-                border: 2px solid rgba(0, 217, 255, 0.3);
+                border: 1px solid #282828;
             }
         }
 
@@ -484,7 +517,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background: rgba(255, 82, 82, 0.9);
+            background: rgba(242, 46, 13, 0.9);
             color: white;
             padding: 30px 50px;
             border-radius: 10px;
@@ -496,11 +529,11 @@
     </style>
 </head>
 <body>
-    <div class="water-decoration"></div>
-    
+    <div class="bg-decoration"></div>
+
     <div class="presentation-container">
         <div class="header">
-            <div class="header-title">SCADA Water Management System</div>
+            <div class="header-title">InView Platform | Tarkett Integration</div>
             <div class="slide-counter">
                 <span id="currentSlide">1</span> / <span id="totalSlides">1</span>
             </div>
@@ -510,13 +543,13 @@
             <div class="loading" id="loading">Loading Presentation...</div>
         </div>
 
-        <button class="nav-button prev" onclick="prevSlide()" id="prevBtn">‹</button>
-        <button class="nav-button next" onclick="nextSlide()" id="nextBtn">›</button>
+        <button class="nav-button prev" onclick="prevSlide()" id="prevBtn">&#8249;</button>
+        <button class="nav-button next" onclick="nextSlide()" id="nextBtn">&#8250;</button>
 
         <div class="progress-bar" id="progressBar"></div>
 
         <div class="shortcuts-hint">
-            Use ← → arrow keys or click buttons to navigate
+            Use &#8592; &#8594; arrow keys or click buttons to navigate
         </div>
     </div>
 
@@ -524,28 +557,16 @@
         let slides = [];
         let currentSlide = 0;
 
-        // Load and parse markdown file
         async function loadPresentation() {
             try {
-                console.log('Fetching presentation.md...');
                 const response = await fetch('presentation.md?t=' + new Date().getTime());
-                
-                if (!response.ok) {
-                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-                }
-                
+                if (!response.ok) throw new Error(`HTTP ${response.status}: ${response.statusText}`);
                 const markdown = await response.text();
-                console.log('Loaded markdown, length:', markdown.length);
-                console.log('First 100 chars:', markdown.substring(0, 100));
-                
                 parseMarkdown(markdown);
                 renderSlide();
                 document.getElementById('loading').style.display = 'none';
-                console.log('Presentation loaded successfully!');
-                
             } catch (error) {
-                console.error('Error loading presentation:', error);
-                document.getElementById('loading').innerHTML = 
+                document.getElementById('loading').innerHTML =
                     `<div class="error-message">
                         Error loading presentation.md<br>
                         <small>${error.message}</small><br>
@@ -554,49 +575,31 @@
             }
         }
 
-        // Parse markdown into slides
         function parseMarkdown(markdown) {
             const slideTexts = markdown.split('---').map(s => s.trim()).filter(s => s);
             slides = slideTexts.map(slideText => convertMarkdownToHTML(slideText));
             document.getElementById('totalSlides').textContent = slides.length;
         }
 
-        // Simple markdown to HTML converter
         function convertMarkdownToHTML(markdown) {
             let html = markdown;
-
-            // Extract images first to move them to the right position
             let images = [];
             html = html.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (match, alt, src) => {
                 images.push(`<img src="${src}" alt="${alt}">`);
                 return '<!IMAGE_PLACEHOLDER!>';
             });
 
-            // Headers
             html = html.replace(/^### (.+)$/gm, '<h3>$1</h3>');
             html = html.replace(/^## (.+)$/gm, '<h2>$1</h2>');
             html = html.replace(/^# (.+)$/gm, '<h1>$1</h1>');
-
-            // Bold and italic
             html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
             html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
-
-            // Code
             html = html.replace(/`(.+?)`/g, '<code>$1</code>');
-
-            // Lists - unordered
             html = html.replace(/^\- (.+)$/gm, '<li>$1</li>');
             html = html.replace(/^  - (.+)$/gm, '<li style="margin-left: 30px;">$1</li>');
-
-            // Lists - ordered
             html = html.replace(/^\d+\.\s+(.+)$/gm, '<li>$1</li>');
+            html = html.replace(/(<li>.*<\/li>\n?)+/g, (match) => '<ul>' + match + '</ul>');
 
-            // Wrap consecutive list items in ul/ol tags
-            html = html.replace(/(<li>.*<\/li>\n?)+/g, (match) => {
-                return '<ul>' + match + '</ul>';
-            });
-
-            // Paragraphs
             html = html.split('\n\n').map(para => {
                 if (!para.match(/^<[hul]/) && !para.includes('<!IMAGE_PLACEHOLDER!>')) {
                     return '<p>' + para.replace(/\n/g, '<br>') + '</p>';
@@ -604,106 +607,73 @@
                 return para;
             }).join('\n');
 
-            // Remove image placeholders from text
             html = html.replace(/<!IMAGE_PLACEHOLDER!>/g, '');
 
-            // Add images at the beginning (so they float right and text flows around)
-            if (images.length > 0) {
+            const strippedText = html.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+            const isImageOnly = images.length === 1 && strippedText.length < 60;
+
+            if (isImageOnly) {
+                const isSvg = images[0].includes('.svg');
+                const maxW = isSvg ? '92%' : '97%';
+                const maxH = isSvg ? '82vh' : '88vh';
+                html = '<!--IMAGEONLY--><div style="text-align:center;width:100%;display:flex;flex-direction:column;align-items:center;">' +
+                    html.replace(/<h2>(.+?)<\/h2>/, '<h2 class="img-slide-title">$1</h2>') +
+                    images[0].replace('img ', 'img style="float:none;max-width:' + maxW + ';max-height:' + maxH + ';object-fit:contain;margin:4px auto 0;display:block;border-radius:8px;" ') +
+                    '</div>';
+            } else if (images.length > 0) {
                 html = images.join('') + html;
             }
 
             return html;
         }
 
-        // Render current slide
         function renderSlide() {
             const container = document.getElementById('slideContainer');
-            container.innerHTML = `<div class="slide active">${slides[currentSlide]}</div>`;
+            const content = slides[currentSlide];
+            const isImgOnly = content.startsWith('<!--IMAGEONLY-->');
+            const cleanContent = isImgOnly ? content.replace('<!--IMAGEONLY-->', '') : content;
+            container.innerHTML = `<div class="slide active${isImgOnly ? ' image-only' : ''}">${cleanContent}</div>`;
+            const sc = document.getElementById('slideContainer');
+            if (isImgOnly) { sc.classList.add('image-only-container'); }
+            else { sc.classList.remove('image-only-container'); }
             document.getElementById('currentSlide').textContent = currentSlide + 1;
             updateProgressBar();
             updateNavButtons();
         }
 
-        // Navigation functions
-        function nextSlide() {
-            if (currentSlide < slides.length - 1) {
-                currentSlide++;
-                renderSlide();
-            }
-        }
-
-        function prevSlide() {
-            if (currentSlide > 0) {
-                currentSlide--;
-                renderSlide();
-            }
-        }
+        function nextSlide() { if (currentSlide < slides.length - 1) { currentSlide++; renderSlide(); } }
+        function prevSlide() { if (currentSlide > 0) { currentSlide--; renderSlide(); } }
 
         function updateProgressBar() {
-            const progress = ((currentSlide + 1) / slides.length) * 100;
-            document.getElementById('progressBar').style.width = progress + '%';
+            document.getElementById('progressBar').style.width = ((currentSlide + 1) / slides.length) * 100 + '%';
         }
 
         function updateNavButtons() {
             document.getElementById('prevBtn').style.opacity = currentSlide === 0 ? '0.3' : '1';
-            document.getElementById('nextBtn').style.opacity = 
-                currentSlide === slides.length - 1 ? '0.3' : '1';
+            document.getElementById('nextBtn').style.opacity = currentSlide === slides.length - 1 ? '0.3' : '1';
         }
 
-        // Keyboard navigation
         document.addEventListener('keydown', (e) => {
-            if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
-                e.preventDefault();
-                nextSlide();
-            } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
-                e.preventDefault();
-                prevSlide();
-            } else if (e.key === 'Home') {
-                e.preventDefault();
-                currentSlide = 0;
-                renderSlide();
-            } else if (e.key === 'End') {
-                e.preventDefault();
-                currentSlide = slides.length - 1;
-                renderSlide();
-            }
+            if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { e.preventDefault(); nextSlide(); }
+            else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); prevSlide(); }
+            else if (e.key === 'Home') { e.preventDefault(); currentSlide = 0; renderSlide(); }
+            else if (e.key === 'End') { e.preventDefault(); currentSlide = slides.length - 1; renderSlide(); }
         });
 
-        // Auto-reload on file change (development feature)
-        let lastModified = null;
         let lastContent = null;
-        
         function checkForUpdates() {
             fetch('presentation.md?t=' + new Date().getTime())
-                .then(response => response.text())
-                .then(content => {
-                    if (lastContent && content !== lastContent) {
-                        console.log('Presentation.md changed, reloading...');
-                        loadPresentation();
-                    }
-                    lastContent = content;
-                })
-                .catch((err) => {
-                    console.log('Update check failed:', err.message);
-                });
+                .then(r => r.text())
+                .then(content => { if (lastContent && content !== lastContent) loadPresentation(); lastContent = content; })
+                .catch(() => {});
         }
-
-        // Check for updates every 2 seconds
         setInterval(checkForUpdates, 2000);
 
-        // Print support: inject ALL slides into the DOM before printing
         window.addEventListener('beforeprint', () => {
-            const container = document.getElementById('slideContainer');
-            container.innerHTML = slides
-                .map(html => `<div class="slide active">${html}</div>`)
-                .join('');
+            document.getElementById('slideContainer').innerHTML = slides.map(html => `<div class="slide active">${html}</div>`).join('');
         });
+        window.addEventListener('afterprint', () => renderSlide());
 
-        window.addEventListener('afterprint', () => {
-            renderSlide(); // restore single-slide view
-        });
-
-        // Initialize
         loadPresentation();
     </script>
 </body>
