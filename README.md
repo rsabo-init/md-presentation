@@ -35,6 +35,29 @@ Then open http://localhost:8000/presentation.html
    - `## Heading 2`
    - `**bold text**`
    - `- bullet point`
+   - `| Col | Col |` / `|---|---|` / `| Cell | Cell |` — tables
+
+### Hidden Notes Syntax (visible in MD, invisible in HTML)
+
+All `<!-- ... -->` HTML comment blocks are stripped before rendering. Use them for speaker notes and slide markers.
+
+#### Slide marker (page counter)
+Place at the very top of each slide, before the heading:
+```
+<!-- slide: 3/26 — Slide Title -->
+```
+
+#### Talk track (speaker notes)
+Place at the bottom of each slide, after the visible content:
+```
+<!-- talk:
+- First talking point
+- Second talking point
+- What to watch for in the audience
+-->
+```
+
+Both are fully visible in your markdown editor and completely hidden in the HTML presentation.
 
 ### After Editing (if not using Live Server)
 Run the sync script to update the HTML:

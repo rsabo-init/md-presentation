@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!-- saved from url=(0041)http://localhost:8000/presentation.html#7 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Presentation</title>
+    <title>InView IIoT Platform</title>
     <style>
         * {
             margin: 0;
@@ -148,13 +148,13 @@
         }
 
         .slide ul, .slide ol {
-            margin: 20px 0 20px 40px;
+            margin: 8px 0 8px 40px;
             font-size: 1.3em;
-            line-height: 1.9;
+            line-height: 1.6;
         }
 
         .slide li {
-            margin-bottom: 15px;
+            margin-bottom: 6px;
             color: #949ca1;
         }
 
@@ -166,6 +166,33 @@
         /* Special styling for bullet points */
         .slide ul li::marker {
             color: #f22e0d;
+        }
+
+        /* Tables */
+        .slide table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+            font-size: 1.2em;
+        }
+
+        .slide th {
+            background: rgba(242, 46, 13, 0.15);
+            color: #f22e0d;
+            padding: 12px 20px;
+            text-align: left;
+            border: 1px solid rgba(242, 46, 13, 0.3);
+            font-weight: 600;
+        }
+
+        .slide td {
+            padding: 10px 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.85);
+        }
+
+        .slide tr:nth-child(even) td {
+            background: rgba(255, 255, 255, 0.03);
         }
 
         /* Code blocks */
@@ -533,23 +560,25 @@
 
     <div class="presentation-container">
         <div class="header">
-            <div class="header-title"></div>
+            <div class="header-title">InView IIoT Platform</div>
             <div class="slide-counter">
-                <span id="currentSlide">1</span> / <span id="totalSlides">1</span>
+                <span id="currentSlide">7</span> / <span id="totalSlides">24</span>
             </div>
         </div>
 
-        <div class="slide-container" id="slideContainer">
-            <div class="loading" id="loading">Loading Presentation...</div>
-        </div>
+        <div class="slide-container" id="slideContainer"><div class="slide active"><p></p>
+<h2>DEVICES — Connect Anything</h2>
+<p><strong>We speak the language of your machines.</strong></p>
+<p><em>Natively supported protocols:</em><br></p><ul><li><strong>Siemens S7</strong> — direct PLC connection</li><br><li><strong>OPC UA / OPC DA</strong> — industrial interoperability standard</li><br><li><strong>Modbus TCP</strong> — most common industrial protocol</li><br><li><strong>IEC 60870-5-104</strong> — power grid, utilities, telecontrol</li><br><li><strong>MQTT / LoRaWAN</strong> — modern IoT sensors</li><br><li><strong>i3x</strong> — inVIEW proprietary protocol for gateway communication</li><br></ul><br><em>inVIEW IoT Gateways — for everything else:</em><br><ul><li>Hardware gateways that bridge legacy equipment to the platform</li><br><li>Support: <strong>Modbus RTU/TCP, Siemens S7, Ethernet/IP, Profinet, OPC</strong></li><br><li><strong>Custom script execution on the gateway</strong> — JavaScript logic runs locally, at the source</li><br><li><strong>Store &amp; Forward</strong> — buffers data locally during connectivity loss, syncs automatically</li><br><li>Gateway software is open for custom driver development</li><br></ul><br>&gt; <em>"If your machine generates data, we can connect to it — and process it right where it lives."</em><p></p>
+<p></p></div></div>
 
-        <button class="nav-button prev" onclick="prevSlide()" id="prevBtn">&#8249;</button>
-        <button class="nav-button next" onclick="nextSlide()" id="nextBtn">&#8250;</button>
+        <button class="nav-button prev" onclick="prevSlide()" id="prevBtn" style="opacity: 1;">‹</button>
+        <button class="nav-button next" onclick="nextSlide()" id="nextBtn" style="opacity: 1;">›</button>
 
-        <div class="progress-bar" id="progressBar"></div>
+        <div class="progress-bar" id="progressBar" style="width: 29.1667%;"></div>
 
         <div class="shortcuts-hint">
-            Use &#8592; &#8594; arrow keys or click buttons to navigate
+            Use ← → arrow keys or click buttons to navigate
         </div>
     </div>
 
@@ -563,6 +592,7 @@
                 if (!response.ok) throw new Error(`HTTP ${response.status}: ${response.statusText}`);
                 const markdown = await response.text();
                 parseMarkdown(markdown);
+                goToSlideFromHash();
                 renderSlide();
                 document.getElementById('loading').style.display = 'none';
             } catch (error) {
@@ -576,7 +606,8 @@
         }
 
         function parseMarkdown(markdown) {
-            const slideTexts = markdown.split('---').map(s => s.trim()).filter(s => s);
+            markdown = markdown.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+            const slideTexts = markdown.split(/\n---\n/).map(s => s.trim()).filter(s => s);
             slides = slideTexts.map(slideText => convertMarkdownToHTML(slideText));
             document.getElementById('totalSlides').textContent = slides.length;
             const titleMatch = markdown.match(/^#\s+(.+)/m);
@@ -589,10 +620,29 @@
 
         function convertMarkdownToHTML(markdown) {
             let html = markdown;
+            // Normalize Windows CRLF to LF
+            html = html.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+            // Strip hidden notes: <!-- ... --> blocks (talk tracks, slide markers)
+            html = html.replace(/<!--[\s\S]*?-->/g, '');
             let images = [];
             html = html.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (match, alt, src) => {
                 images.push(`<img src="${src}" alt="${alt}">`);
                 return '<!IMAGE_PLACEHOLDER!>';
+            });
+
+            // Convert markdown tables
+            html = html.replace(/((?:\|.+\|\n)+)/g, (tableBlock) => {
+                const rows = tableBlock.trim().split('\n').map(r => r.trim()).filter(r => r);
+                let tableHtml = '<table>';
+                let isHeader = true;
+                rows.forEach((row) => {
+                    if (row.match(/^\|[\s\-:|]+\|$/)) { isHeader = false; return; }
+                    const cells = row.split('|').slice(1, -1).map(c => c.trim());
+                    const tag = isHeader ? 'th' : 'td';
+                    tableHtml += '<tr>' + cells.map(c => `<${tag}>${c}</${tag}>`).join('') + '</tr>';
+                });
+                tableHtml += '</table>';
+                return tableHtml;
             });
 
             html = html.replace(/^### (.+)$/gm, '<h3>$1</h3>');
@@ -607,7 +657,8 @@
             html = html.replace(/(<li>.*<\/li>\n?)+/g, (match) => '<ul>' + match + '</ul>');
 
             html = html.split('\n\n').map(para => {
-                if (!para.match(/^<[hul]/) && !para.includes('<!IMAGE_PLACEHOLDER!>')) {
+                const isBlock = para.match(/^<[hult]/) || para.includes('<ul>') || para.includes('<li>');
+                if (!isBlock && !para.includes('<!IMAGE_PLACEHOLDER!>')) {
                     return '<p>' + para.replace(/\n/g, '<br>') + '</p>';
                 }
                 return para;
@@ -643,12 +694,20 @@
             if (isImgOnly) { sc.classList.add('image-only-container'); }
             else { sc.classList.remove('image-only-container'); }
             document.getElementById('currentSlide').textContent = currentSlide + 1;
+            history.replaceState(null, '', '#' + (currentSlide + 1));
             updateProgressBar();
             updateNavButtons();
         }
 
         function nextSlide() { if (currentSlide < slides.length - 1) { currentSlide++; renderSlide(); } }
         function prevSlide() { if (currentSlide > 0) { currentSlide--; renderSlide(); } }
+
+        function goToSlideFromHash() {
+            const hash = parseInt(window.location.hash.replace('#', ''));
+            if (!isNaN(hash) && hash >= 1 && hash <= slides.length) {
+                currentSlide = hash - 1;
+            }
+        }
 
         function updateProgressBar() {
             document.getElementById('progressBar').style.width = ((currentSlide + 1) / slides.length) * 100 + '%';
@@ -664,6 +723,7 @@
             else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); prevSlide(); }
             else if (e.key === 'Home') { e.preventDefault(); currentSlide = 0; renderSlide(); }
             else if (e.key === 'End') { e.preventDefault(); currentSlide = slides.length - 1; renderSlide(); }
+            else if (e.key >= '1' && e.key <= '9') { const n = parseInt(e.key) - 1; if (n < slides.length) { currentSlide = n; renderSlide(); } }
         });
 
         let lastContent = null;
@@ -682,5 +742,6 @@
 
         loadPresentation();
     </script>
-</body>
-</html>
+
+
+</body></html>

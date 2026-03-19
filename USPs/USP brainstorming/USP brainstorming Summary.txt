@@ -1,0 +1,179 @@
+USP brainstorming
+Wed, Mar 11, 2026
+
+Summary:
+
+The meeting reviewed and refined the company’s unique selling proposition (USP) and how to position the product versus competitors in the industrial software and systems market. The team clarified what a USP should convey, listed candidate strengths (functionality, security, reliability, flexibility, implementation and maintenance experience), and surveyed competitors including Siemens, Datastore, and Ignition. Feature work under development was reviewed—templating, responsive PC/tablet/phone design, multitenant microservices channelization, and real-time data and analytics—along with localization, timezone handling, and examples where long-term performance outperformed initial rivals.
+
+Discussion then moved to organizing inputs: participants favored an affinity-style grouping limited and pragmatic in scope, preferring three groups but allowing up to five depending on audience needs (clients, technical staff, operators/managers). Integration constraints, speed, cost, and scalability were highlighted as priority evaluation parameters. Parallel work on the website will slow execution briefly to improve positioning before incremental rollout. Technical topics covered scripts and edge computing across devices, questions about local versus distributed execution, pricing and competitor defense concerns, a no-code application platform and its governance, mobile parity and UI customization, and integration readiness including an “NQTT” protocol and prepared connectors. Device management, batch configuration, ML integration, distributed systems complexity, security, and remote-control features were noted as important. Configuration gaps remain for mail and SMS senders, and a final agenda theme was not completed before closing.
+
+
+Chapters & Topics:
+
+Opening and logistics
+The meeting opened with general check-ins, connectivity and arrival remarks from participants in the conference room. Participants exchanged brief logistical notes and polite acknowledgments before moving to agenda topics.
+
+Purpose and definition of USP
+The team asked why a clear USP is needed and discussed that a USP applies across services and products listed on the market. Participants emphasized the need to explain succinctly why customers should choose the company over competitors in short pitches.
+* The team listed core strengths to include in the USP: functionality, logistical experience, security, reliability, flexibility, implementation and maintenance.
+* The meeting aimed to define a clear USP for the product to distinguish it from competitors.
+* The market includes established competitors such as Siemens, Datastore, Humulosity, Wunderware, Ignition, and the company must position itself against them.
+
+Candidate strengths and foundational categories
+The group identified six foundational categories to underpin the USP effort and listed core strengths including functionality, logistical experience, security, reliability, flexibility, and implementation/maintenance. They noted additional protocol points exist outside those six categories.
+* The team proposed six foundational categories to structure the USP effort.
+
+Product features and implementation examples
+The discussion covered specific product features such as Boomerang-related functionality, templating to speed development, responsive design across devices, and automated reporting features. The team described signal/react behavior and implementation tracking as part of the product experience.
+* Product features discussed for differentiation included templating for faster development, responsive design for PC/tablet/phone, and real-time analytics and monitoring.
+
+Case reviews, multitenancy and real-time capabilities
+Participants examined past competitive cases (InSpatial, bids lost but strong long-term performance) and discussed multitenant microservices channelization that achieved high view counts. The team highlighted real-time data analysis and monitoring as a capability to leverage for differentiation.
+* A past bid was reviewed as an example where longer-term performance delivered advantage despite losing the initial competition.
+
+Localization, access model and competitor analysis
+The conversation moved to implementation constraints such as production vs. implementation permissions, open access and timezone/localization handling, and compared Siemens’ USP components like integration and industry-specific solutions. The group offered to discuss competitor USPs further but noted time constraints for deeper company-specific proposals.
+* Localization and timezone handling were raised as technical considerations to include in the platform design.
+
+Early meeting prompts and topic shift toward affinity grouping
+The discussion opens with brief interjections and transitions before the topic of affinity grouping is raised. Participants ask whether attendees recall what "Affinity" means and confirm it was previously explained, setting up the decision to apply that method.
+* The team will use an affinity-style method to group collected inputs into themes and build a matrix to identify overlaps and gaps.
+
+Defining the grouping method and process
+The team outlined a process to extract inputs, collect papers, define groups, and glue related items into a matrix to determine what is the same, unclear, irrelevant, or useful. Work should focus on five or six key points to identify viable groupings.
+
+Group categories and scope decisions
+Participants debated the nature of groups (technical, learning, business) and expressed uncertainty about exact categories. There was repeated emphasis on finding a pragmatic grouping approach rather than over-specifying categories.
+
+Planning pace, website work, and constraints
+The team agreed to proceed cautiously—slowing down execution while improving the website and then incrementally pushing progress. They reiterated uncertainties but affirmed ongoing work and a solid team presence.
+* The team reports being solid and intends to proceed deliberately (slow down, then push).
+* The website will be reviewed and used as a platform to build and iterate the work.
+
+Group count, audience segmentation, and prioritization parameters
+Integration complexity was raised as a constraint and the team recommended limiting groups (three preferred, up to five maximum). The priority decision should account for audience type, and speed, cost, expandability, and trustworthiness of results were highlighted as key parameters.
+* Integration with other systems is complex and needs to be treated as a significant constraint.
+* The group prefers to limit grouping to three clusters but will consider up to five if needed.
+* Group definitions should reflect target audiences: potential clients, technical people, and smaller operators/managers.
+* Speed and cost are the top parameters for decision-making and prioritization.
+
+Short break planning, grouping mechanics, and next steps discussion
+Participants planned to discuss details further after a break to finalize whether three groups suffice and to allow people to judge similarity across lists; they also noted potential operational issues and follow-ups with external parties.
+
+UX, Neo4j security, start/stop challenges, and demo references
+The conversation moved to UX practicality and Neo4j role-based security, with participants admitting repeated challenges in deciding where to start and stop work. A brief demonstration or screen share was referenced to show the current method and appearance.
+
+Edge computing and multi-device scripts
+Participants discussed that scripts are currently running on each device and the intent to run them across multiple devices, emphasizing that behavior depends on what runs locally and how services start simultaneously. The group noted uncertainty about local execution models and how voice/services may activate together.
+* The discussion focused on running existing scripts at the edge across multiple devices and the complexities that depend on local behavior.
+
+Examples and implementation experience
+The team compared their situation to running a blog on a device and clarified they do not use post-scripting, referencing long gaps since prior work and citing proven industry prefixes as prior success to draw from. This segment framed legacy experience as an advantage for current implementations.
+
+Clarifications and questions
+Participants asked and attempted to clarify topics such as opinions on USPF, who was being asked, and whether additional input was required, with mixed or no clear answers to some queries. Several speakers expressed not hearing or not knowing responses to posed questions.
+* The team has prior proven implementations in industry that they view as valuable legacy experience to leverage for current work.
+* A suggestion was made to take a photo immediately as a short-term action item during the meeting.
+
+Pricing and defense considerations
+The discussion turned to pricing strategy, noting concentration required to decide pricing, the relativity of "cheap" due to discounts, and concerns about how to defend offerings against competitors; no definitive pricing or defense decisions were recorded.
+* Pricing was debated as relative, with potential discounts considered to make offerings cheaper but possibly worse in quality.
+* The group raised concerns about defending against competitors but did not settle on a specific defensive approach.
+
+Competitive positioning and model complexity
+Speakers compared their position to competitors, noting dependence across companies and referencing basic models versus more complex paid models, with some disagreement and repeated uncertainty about exact positioning.
+
+Internal work, roles, and categorization
+The team reported they are working on custom roles and internal workstreams, proposed organizing features into three or four categories with a final item appended to prevent fragmentation, and urged readiness for that structure.
+* Work on custom roles and categorization into several buckets is underway to prevent feature fragmentation.
+
+Training, learning curve, and unresolved items
+Participants noted a slow learning curve despite receiving training and materials in the prior 5–10 days, reported reductions afterward, and several attendees made personal commitments or expressed uncertainty about next steps for specific tasks.
+* Participants reported a slow learning curve despite receiving training and materials in the prior 5–10 days.
+
+No-code platform capabilities and limitations
+The group described that the platform allows users to develop applications without coding and that it handles large volumes of data, but participants also expressed concerns about governance and outdated editing tools. The discussion emphasized simplified input models and repeated confirmation that development can occur without scientist involvement.
+* The platform supports building applications without coding, relying on large data inputs and simplified UI creation.
+* The platform editor is considered outdated by some participants and may need revision or replacement.
+
+Mobile app and UI customization
+Participants noted a mobile application on the same platform and discussed UI customization options such as changing screens and avatars, while expressing uncertainty about native deployment behavior and how the mobile UI synchronizes with the platform.
+* A mobile app exists on the same platform with UI customization and native-screen concerns that require clarification.
+
+Integration and protocol readiness
+The team reported having pre-printed/prepared applications and a protocol referred to as “NQTT” for integration, and gave an example where they adapted a prepared connector to accept customer data and transmit real WAM/SCADA information.
+* Pre-built integration support and a protocol ("NQTT") were available and were adapted for a customer to send real WAM/SCADA data.
+
+Device management and configuration workflow
+Attendees raised the need for batch device management and described a current workflow that requires visiting one location at a time to add devices or switches, indicating this is an unresolved operational friction.
+* Batch device management and single-location configuration were identified as requirements that are not fully solved.
+
+Technical concerns — ML, distributed systems, security, remote control
+The conversation covered ML integration, distributed-system challenges, and security control, and linked remote-control functionality to product adoption by senior management; participants reiterated uncertainty on some technical details and controls.
+* ML integration and distributed-system complexity were raised as technical challenges to address.
+* Remote-control capability was framed as critical for top-level management adoption of the product.
+
+Reporting and final remarks
+The meeting concluded with emphasis on reporting—particularly top-level and custom reports—and a brief exchange about four items needed for custom reporting and AI advising, followed by closing acknowledgements.
+* Reporting needs—particularly top-level/custom reports—were emphasized as an area for follow-up.
+
+Repeated confirmations and interruptions
+The opening segment contains multiple brief affirmations and interjections, including repeated agreement and several short "What?" interjections indicating clarification requests or interruptions during the discussion.
+
+Closing signals and time checks
+Participants exchanged closing remarks, thanked each other, and signaled that time was up for the current discussion, including several brief acknowledgements and a note that the meeting had limited remaining time.
+
+Timeline and remaining timeframe
+The team referenced real-time constraints and a specific remaining timeframe "from 14.10 until the end," and reiterated thanks as the session approached conclusion.
+* The meeting acknowledged a scheduling window "from 14.10 until the end" for follow-up or remaining items.
+
+Unfinished agenda and formal board meeting start
+The group confirmed that the final agenda/theme was not completed, expressed uncertainty about that item, and stated they were moving into a formal meeting with the board of directors.
+* The final agenda item was not completed before the formal board meeting began.
+
+Mail/SMS sender configuration and responsibilities
+The discussion focused on who should guide testers for mail-sender configuration in the local environment, how the SMS sender differs, the offer to provide sender details for server-side changes, and advice to consult colleagues or the manual for instructions.
+* The team raised the question of who should guide testers on configuring the mail sender for the project.
+* A participant offered to accept the sender details and change the SMS sender from the server side.
+* Attendees were reminded to consult the manual for configuration instructions.
+
+
+Action Items:
+
+* Conference room participant will ask participants to leave the digital commentators to simplify communication
+* Conference room participant will extract collected papers and group them into themes to build a matrix of similarities and differences.
+* Conference room participant will review and update the website to support the grouping and presentation work.
+* Conference room participant will evaluate integration constraints and document how integration complexity affects the proposed groupings.
+* Conference room participant will limit the initial group structure to three clusters and prepare an alternative plan that extends to up to five groups if needed.
+* Conference room participant will assess speed, cost, and scalability parameters for proposed solutions and summarize findings for the group.
+* Meeting participant will take a picture now as suggested during the meeting.
+* Meeting participant will work on the unspecified task they referenced when they said they will have to work on it.
+* Meeting participant will prepare to include the final categorized item at the end to prevent feature fragmentation.
+* Conference room participant will change the SMS sender on the server when someone sends the sender details
+* Meeting participant will consult the manual for configuration instructions
+
+
+Key Questions:
+
+* Why are they needed?
+* Why do we need a clear USP?
+* Is there any other situation?
+* Is there a famous Polish singer; do you know her?
+* Do you remember exactly what Affinity is?
+* Is this a web share (can attendees see the screen)?
+* Who were you asking for clarification about the topic?
+* Is there anything anyone wants to add?
+* What course do we have in Triangle?
+* Do you have two applications or can you make an application on the platform?
+* What is the difference between the IoT platform and our platform?
+* Wait—what do I do with remote control?
+* Why would top-level management adopt our product if it doesn't have remote control?
+* Do you have four things needed to make a custom report?
+* What is meant by "the technical"?
+* Who should guide testers on how to configure the mail sender for the project?
+* What kind of project is this (in terms of sender behavior)?
+
+
+Notepad:
+
+* No notes

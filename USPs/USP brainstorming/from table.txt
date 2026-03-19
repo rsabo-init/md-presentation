@@ -1,0 +1,37 @@
+Group 'Operational':
+- Inutitive UI - 2
+- Remote Control
+- Different components
+- No Code Configurator and IDE - 2
+- Templating - 2
+- No code mobile app
+- batch device management
+
+Technical
+- cloud agnostic and supports hybrid
+- lifetime history
+- high security standard verified
+- AI & ML integration - 2
+- Open for integrations - 2
+- Store and forward (local gateway history) - 2
+- proven scalability - 3
+- real time data 
+- edge computing 3
+- push mehanism oriented
+- distribuded system Control
+
+Top Level management
+- Very fast App implementation - 2
+- pricing - 2
+- pays as you go 
+- fast faeture development - 2
+- long presence in industry
+- proven ai in industry 
+
+All 3 groups:
+- high level support - 3
+
+Group less relevant:
+- custom software development available by Init
+- flexible custom reports
+- role based  access controll

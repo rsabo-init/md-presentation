@@ -1,0 +1,443 @@
+USP brainstorming
+Wed, Mar 11, 2026
+
+7:24 - Conference Room (Robert Sabo) - Speaker 1
+I have a lot of food, we skipped him all the way. Listen, can you hear me?
+
+7:33 - Conference Room (Robert Sabo) - Speaker 1
+I'm already there, I don't know if I'm on the right address.
+
+7:42 - Conference Room (Robert Sabo) - Speaker 2
+I'm here, about 45 before I leave, that's it. Thank you so much.
+
+8:17 - Conference Room (Robert Sabo) - Speaker 1
+I don't know.
+
+8:41 - Conference Room (Robert Sabo) - Speaker 2
+I'm sorry.
+
+9:03 - Conference Room (Robert Sabo) - Speaker 1
+I don't know. I don't know.
+
+9:30 - Conference Room (Robert Sabo) - Speaker 2
+Uh uh. Yeah, yeah. I'm Why are they needed? I don't know, but USPAs are for every service, product, company, whatever is listed on the market. I see that you mentioned USPAs, which I referred to in the pre-consultation part of some of the suggestions, which we will explain again. Functionality, knowledge of things, logistical experience, security, reliability, reliability, flexibility, implementation and maintenance. We have a 20-minute introductory presentation, Uh uh Uh uh. So, that's all for now, I'll see you again in the next session, and we'll have a discussion Uh uh. Why do we need a clear USP? The USP is related to the term of use and is not a predetermined proposition or point. It is not a predetermined predetermined proposition or point. It is not a predetermined predetermined proposition or point. Which we have in comparison to the competition. That's what we should focus on. Why are we better than everyone else? And when someone asks us, for example, in 60 seconds to explain our product, software, company, why exactly us, ISRB, that's because we should count in the end, for that reason, we are better than the competition. The market is now in a system of solutions, it is well-organized and secure, as you can see, IncoSiemens, Datastore, Humulosity, Wunderware, Ignition, Me, all of these are companies that deal with similar products as we do, and we have to stand out from all of these companies, and that's what we started with. In order to do that, we have to create a U.S. Firmware, so our partners, whether it's LinkedIn, or we can, our colleagues who are working on it now, Uh category. Security. System. Internet speed can be slow, because it takes years, months, weeks, days, and which are the most expensive, the most expensive finds. These are some four, or rather six categories that we have given, as, let's say, the foundations of our effort. Of course, we will come back to that later. There are other points that are not included in these six categories, uh Uh protocol. Uh and Uh yeah. I would say that with Boomerang, by the massive addition of velo and location, it has functionality that I understand and use, and it is not invisible at all. That's some Well, kind of templating, everything is in the phase of templating, so that you can do more things faster. Uh I'm I'm We have a lot of things that we can do. That's what we're accumulating and we're working on it. Responsive design, that is, the cleaning of the system and the goods. We have a PC, a tablet, a telephone. We use the same program for different systems. We have a tablet, a telephone, all the same. We have a genetic test, a false report without manual input. Experience. I don't know. I'm I don't know. I don't know. Uh uh When something happens, I send a signal, it comes, it reacts, it reacts, I use it, everything is fine. Excuse me, just a second. Can I ask you to leave the digital commentators, so that it is easier for you to communicate? Yes, you can leave them now. Yes, you can leave them now. So, this will be some kind of introduction to make post-production easier. I don't know. I don't know. Um uh I'm sorry, I'm helping myself with the blue one. I would like to go to InSpatial, if we can, to compare our case, where we were determined by some, or all of them, to enter the competition, and then we lost their part. Is there any other situation? I think that we did not win the competition, but we won in the long run, and we are simply better in the long run. I'm I'm I'm. Uh uh. System. Uh uh. I don't know. I don't know. I would like to add an example of this.
+
+30:14 - Conference Room (Robert Sabo) - Speaker 1
+I remember when we were talking about and then there was the story of how we will do it. Again, it's not too much of a story, but it's interesting to share. We were talking about how the Multitenant platform will look like on microservices when the channelization is transferred to the top, which has 100,000 views. We challenged ourselves, but how will it look like, and so on and so forth. We weren't aware that we had reached a point with the boomerang, that we had transferred the channelization. We didn't even pay attention to the project site, which is 10 times smaller. That was a good job. We did what we were most afraid of We were guided by the site and other things. We did what we were supposed to do. Thank you, you can continue.
+
+31:17 - Conference Room (Robert Sabo) - Speaker 1
+Implementation is allowed, but production is not allowed.
+
+31:23 - Conference Room (Robert Sabo) - Speaker 2
+We are following the implementation of the project. The last slide, now we are talking about CAI and we are talking about a lot of different things that we have already shown.
+
+31:45 - Unidentified Speaker
+For example, we talked about localization, local time and some applications.
+
+31:50 - Conference Room (Robert Sabo) - Speaker 2
+We have open access, there is no open source, there is no timezone problem, everything is done on the other side, so listen. And to tell you the truth, when it comes to localization, the platform. I have a lot of free time to do some of my own work. So, again, I would like to thank my colleagues, who helped me the most when we were trying to figure out how to do something. So, I would like to thank them for the opportunity to come and help us, and to use our platform. If you have any questions... The ones that are closest to you. Yes, yes. I don't know if it's a project, but I'm a little confused. That was the point where we were, and then I don't know, I was on the court that day, at that time, that is, in the afternoon, we hear each other in the evening, I don't know what time it is, I don't know what time it is, I don't I don't know. I've been working on my old computer, I don't know what else. It's good to know that I've been using laptops and computers for a long time, and I still use them. I'm still writing, I'm using SESC parameters. I've been using SESC parameters for a long time. I've been using SESC parameters for a long time. I'm We have a real-time, and we can analyze things in real-time, and we can keep track of the data and the system. We don't have to wait for something to happen, we can keep track of the documentation, we can keep track of the programs, and we can see if there are any changes that we can use as a reference. That folks want to go because they all want to be smarter.
+
+35:48 - Conference Room (Robert Sabo) - Speaker 1
+Okay. Okay. Space.
+
+36:45 - Conference Room (Robert Sabo) - Speaker 2
+Ah. I don't know. Uh I'm Uh uh.
+
+39:07 - Conference Room (Robert Sabo) - Speaker 1
+uh I would like to say that this is what we managed to pull out, what Siemens said about them, what is their USP, what is their unique sales point. We have shown this to two other companies, so Siemens, if you want to add something, we can go to a joint discussion.
+
+39:52 - Conference Room (Robert Sabo) - Speaker 2
+Yes, I would like to say that everything else was like a sub-pandemonium, integration, real-time data management, industry-specific solutions, software. Software. Business. And the percentage of completed work over 10 years. If you know any other companies, I will be happy to answer your questions. I would like to comment on what we could have done for that company, but we don't have time. Uh uh. Uh. Uh uh. Uh. Okay. Okay. The website. Is there a famous Polish singer? Do you know her? Do you know her?
+
+44:19 - Conference Room (Robert Sabo) - Speaker 1
+Do you Uh category.
+
+44:48 - Conference Room (Robert Sabo) - Speaker 2
+Do you remember exactly what Affinity is? We explained what Affinity is.
+
+45:13 - Conference Room (Robert Sabo) - Speaker 1
+and then we take them out, collect them all, define groups. Marko said he wouldn't care about the last ones for us. How are we going to group them? It depends. We need to work with five or six key points to see what they are, and if we could somehow work with them, if we can develop them, then we'll group them according to something. The idea is to group them according to how many people are waiting in each team, according to the set up, If we want to learn without keys, we need to group by something. That's why we suggest a group, and then we look at all the papers and then we glue which group is which, to understand what is the same, what is not well said, what is not relevant, what is not good, and in that way we will get a matrix. This is a group, I don't know, it will be technical, it will be learning, it will be business, it will be anything. I don't know.
+
+46:36 - Conference Room (Robert Sabo) - Speaker 2
+I don't know. I don't I'm going to. Okay. We said one. Yeah. Yeah.
+
+48:49 - Conference Room (Robert Sabo) - Speaker 1
+It's a really hard day for it. It's just a hard day for me. It's just a hard day for me. It's just a hard day for me I'm I'm Thank you very much. Okay. Okay. I don't think it's a good thing. I don't think it's a good thing. Thank you very much. Thank you.
+
+52:02 - Conference Room (Robert Sabo) - Speaker 2
+That's what we're trying to do.
+
+52:30 - Conference Room (Robert Sabo) - Speaker 1
+I mean, So, we're going to do that. So, we're going to do that. And this may be an answer to a couple of your questions, but I don't know. Yeah. Yeah.
+
+55:20 - Conference Room (Robert Sabo) - Speaker 2
+I didn't miss that.
+
+55:48 - Conference Room (Robert Sabo) - Speaker 1
+I don't know. And we are at least in the time of 50%. We have a solid team at the moment. And we're working on it. And we're going to go slow. But yeah, we are. We're trying to be the best we can be. We're going to slow it down. And we're going to push it up a little bit. And we're also going to be looking at the website. And we're going to build on the website. And we're going to build on the website. No, no, no, no. I don't know. I don't know. I'm talking about I'm sorry. I don't know. Thank you very much. I don't know what to say. You know. I don't know. Thank you very much. I don't know.
+
+1:01:30 - Conference Room (Robert Sabo) - Speaker 2
+I don't. I don't know. And integration with other systems, it's not that simple.
+
+1:02:31 - Conference Room (Robert Sabo) - Speaker 1
+It's similar to what you described, but it's a one-time thing.
+
+1:02:34 - Conference Room (Robert Sabo) - Speaker 2
+On the other hand, we will see if it makes sense to have three groups of people I don't think it makes sense to have more than five groups. I think three groups is just right. I think it's not enough, but three groups that we will remove, the fourth will be thrown away, or at that point we will take a break, whatever it takes.
+
+1:03:09 - Conference Room (Robert Sabo) - Speaker 1
+For me, the second priority is, when I decided how to do it exactly, for me, it's more about who I'm talking to. I wouldn't write about it, but it's a one-sided voice. First, when I talk to a potential client, second, when I talk to a technical person, and third, when I talk to a smaller operator, a boss, a manager, and so on, each of them has different focuses, different things are important to them, and that inspired me when I thought about I don't know what to think about it. That's my suggestion to the group.
+
+1:04:21 - Conference Room (Robert Sabo) - Speaker 2
+I would like to say something else.
+
+1:04:23 - Conference Room (Robert Sabo) - Speaker 1
+These things can only be remembered by those who are responsible for them. These two last things are the most important. How fast it can be and how much it will cost. This is what I like about the parameters. I like how much we can expand and how much we can trust what we see. I don't know.
+
+1:05:18 - Conference Room (Robert Sabo) - Speaker 2
+Okay.
+
+1:05:46 - Conference Room (Robert Sabo) - Speaker 1
+I don't know. I don't.
+
+1:06:13 - Conference Room (Robert Sabo) - Speaker 2
+Okay, let's talk a little bit more and then we'll go with that after the break. Okay, let's talk a little bit more and then we'll go with that after the break.
+
+1:06:41 - Conference Room (Robert Sabo) - Speaker 1
+Okay, let's And if you put three groups, then when we see here that you have written everything that is new, and now here we have a completely different list of things, a little differently, and that will be another group. That will give people to decide whether it is the same or not. Okay. Yeah. Okay. I'm not saying I'm exactly like me at all. We should come to a deal. We're also going to play in Siberia. And then somebody's going to come back to us. That is going to be a problem.
+
+1:07:50 - Conference Room (Robert Sabo) - Speaker 1
+But I don't think I'm going to be able to do it.
+
+1:07:54 - Conference Room (Robert Sabo) - Speaker 2
+But I don't think I'm going to be able to do it.
+
+1:08:07 - Conference Room (Robert Sabo) - Speaker 1
+Okay. Okay. I don't know. I don't know. Yeah.
+
+1:09:04 - Conference Room (Robert Sabo) - Speaker 2
+Yeah.
+
+1:09:30 - Conference Room (Robert Sabo) - Speaker 1
+Okay. Yeah. It's a bit more industrial. I'm going to have to shut up. I'm going to have to shut up. Okay. I don't know. I don't know. I don't. Yeah. Yeah. Thank you. Thank you. I don't know. I don't know.
+
+1:14:20 - Conference Room (Robert Sabo) - Speaker 2
+Oh, okay.
+
+1:14:47 - Conference Room (Robert Sabo) - Speaker 1
+I'm not worried. I think that's it. That's it. Okay. Okay. I don't know. I don't know. Thank you very much. What? What?
+
+1:17:39 - Conference Room (Robert Sabo) - Speaker 2
+I don't know. Okay. Yeah.
+
+1:18:05 - Conference Room (Robert Sabo) - Speaker 1
+I don't know. I don't know. I'm I'm I don't know. I don't know. Yeah. Yeah. It's up there. It's been a while, right? Bye-bye. I don't know. I'm going to be so excited. I don't know what I'm doing. I don't know what is this UX and practicality because it automatically brings us to Neo4j. There is a role in Neo4j security that you define with each table which user can do what. I am constantly looking for where to start and where to stop. But you started in a successful way. Here, this is what it looks like, You found this method, it's okay. It's not perfect. But now you know what to do and what not to do. And you don't know where to start and where not to start.
+
+1:23:48 - Conference Room (Robert Sabo) - Speaker 2
+And that's hard. And this is the first challenge.
+
+1:23:50 - Conference Room (Robert Sabo) - Speaker 1
+I have a problem more than one time. I couldn't figure out where to start and where not to start. I couldn't figure out where to start and where not to start. I'll be going. I'll be going. Is it a web share? I don't know if you can see it, but this is how it looks. Thank you. Yes, I can do it myself. Yes, you can do it yourself. Okay. Yeah. Yeah. I don't you you I don't know. I don't know. I am. I don't know. I don't know. I know.
+
+1:32:21 - Conference Room (Robert Sabo) - Speaker 2
+Uh uh.
+
+1:33:40 - Conference Room (Robert Sabo) - Speaker 1
+What's the easiest thing to write? What's the easiest thing to write?
+
+1:34:00 - Conference Room (Robert Sabo) - Speaker 2
+I don't know. I mean, you can turn it on now, but don't all the voices turn on at the same time. Okay, that's all we have, is there anyone else?
+
+1:35:05 - Conference Room (Robert Sabo) - Speaker 1
+Everyone has it, everyone has it, yes. Now, as I said a little while ago, So, you have scripts that are running on each device, and now it's edge computing, right? Yes. And now I would like it to run on multiple devices. So, it depends on what it does locally. So, you are running some kind of a blog on a website, and it's running on a device, I don't know. No. No. I don't know. No post scripting, script edge computing. No post scripting, edge computing. It's been a long time since I've heard about it.
+
+1:37:50 - Conference Room (Robert Sabo) - Speaker 2
+It's been a long time since I've heard about it. I mean, it will be all knocked out of the blue.
+
+1:38:16 - Conference Room (Robert Sabo) - Speaker 1
+I mean, yeah, it's computing today. I don't want to be in a provision. I don't want to be in a provision. Okay.
+
+1:39:06 - Conference Room (Robert Sabo) - Speaker 2
+Long presence in industry. Long presence in industry. Long presence in industry Yes, that could be Mars 2017.
+
+1:39:36 - Conference Room (Robert Sabo) - Speaker 1
+What do you think about the USPF?
+
+1:39:38 - Conference Room (Robert Sabo) - Speaker 1
+I don't know, I don't hear it.
+
+1:39:42 - Conference Room (Robert Sabo) - Speaker 2
+Who are you asking?
+
+1:40:08 - Conference Room (Robert Sabo) - Speaker 1
+It can be an advantage, I mean, I'm thinking about the game itself, it can be an advantage, because we have so much experience, you always have, how do you call it, that legacy gives you some value. So, for example, in our case, there is a prefix proven, that is, proven, we have already done it in the industry, in someone else's. Is there anything you want to add to this? If you don't have anything, you can say it.
+
+1:41:04 - Conference Room (Robert Sabo) - Speaker 2
+Hey, wait a minute, what course do we have in Triangle? Say yes.
+
+1:41:33 - Conference Room (Robert Sabo) - Speaker 1
+I have a good idea for us to take a picture now, we don't have to take it all and give it to someone else.
+
+1:42:00 - Conference Room (Robert Sabo) - Speaker 2
+Okay, when it comes to pricing, it's good, I'm a bit concentrated, you're not, this is the majority. We need to concentrate a bit.
+
+1:42:06 - Conference Room (Robert Sabo) - Speaker 1
+I'm doing it, I'm concentrating. How much is this one? I'm waiting for it to be done, so that nothing doesn't exist.
+
+1:42:13 - Conference Room (Robert Sabo) - Speaker 2
+Pricing. Cheap is relative, because we can get a discount. Some discount to make it cheap and bad. How are we going to defend ourselves?
+
+1:42:37 - Conference Room (Robert Sabo) - Speaker 1
+Like in Farpov.
+
+1:42:38 - Conference Room (Robert Sabo) - Speaker 2
+I don't have my defense. Yeah.
+
+1:43:18 - Conference Room (Robert Sabo) - Speaker 1
+I don't know.
+
+1:43:47 - Conference Room (Robert Sabo) - Speaker 2
+Let's be honest, we can compare that. We were better than them, but we were better than them.
+
+1:44:15 - Conference Room (Robert Sabo) - Speaker 1
+I mean, all companies are dependent on that. I mean, there are some basic models that pay for something more complex, everything goes separately.
+
+1:44:43 - Conference Room (Robert Sabo) - Speaker 2
+I don't know. I don't know.
+
+1:45:39 - Conference Room (Robert Sabo) - Speaker 1
+I'm going to have to work on it. I don't know what to do.
+
+1:46:34 - Conference Room (Robert Sabo) - Speaker 2
+I don't know.
+
+1:47:02 - Conference Room (Robert Sabo) - Speaker 1
+I would say that this is the most successful project I'm Yeah. Yeah.
+
+1:48:27 - Conference Room (Robert Sabo) - Speaker 1
+I'm you.
+
+1:48:55 - Conference Room (Robert Sabo) - Speaker 2
+you.
+
+1:49:21 - Conference Room (Robert Sabo) - Speaker 1
+Yeah. Yeah. We can say that we are working on custom roles, while we are still working on our own. We are still working on our own. We are still working on our own. We have other ideas, but...
+
+1:50:10 - Conference Room (Robert Sabo) - Speaker 2
+No, no, I'm just talking, I'm not commenting, I'm just saying that there will be, let's say, three categories, there will be four, and then we'll put one in the end. So that it doesn't fall apart. Please, don't fall apart. I'm talking about the whole thing. I'm talking about the whole thing. About you. That's why, I mean, we have to say, we have to put it in the end, I mean, we have to comment on it, I mean, because we have the same importance, but... You should be ready for that. Slow learning curve.
+
+1:50:52 - Conference Room (Robert Sabo) - Speaker 1
+In the last 5-10 days, we received a lot of gifts and received a lot of training. After that, we were reduced I think it's a no-go for them. No, we're not talking about that. I don't think it's a no-go. They don't have a no-go. They don't have a no-go. No, no, no, no new screens without coding, so they develop their own application without the help of scientists. Yes, but you can have a lot of data and programming.
+
+1:51:39 - Conference Room (Robert Sabo) - Speaker 2
+I mean, it's more like everything with very little input and with simple... I mean, it's just a lot of data. I mean, it's just a lot of data. I mean, it's just a lot of data.
+
+1:52:30 - Conference Room (Robert Sabo) - Speaker 1
+That's it, you can develop without the need to code your own application. You don't have to follow the rules. That's one of the interesting things for me. Yes, but now I'm a little... In the comments, I asked them if they were still in the team, if that was a little outdated, and in those moments when they developed it for me, it was a little innovative. Now that editor is a little old. But that's why we're doing it, we're not throwing out new versions, so... I'd like to say something. I'm a bit in a hurry, but there is a mobile app, it's the same platform, and you can Read the same secrets, you can throw out the mobile application, where you have a native, you change the screen, you change the display, I'm not sure if that's the same, how it works. So, when you customize your UI, how you look at it, you create your own, you create your own avatar, you create your own UI, and you draw everything, when this one doesn't have your application, it's in me, and it doesn't have to be deployed, it just has to be in the background, and it all works for me, it's something to be proud of
+
+1:53:50 - Conference Room (Robert Sabo) - Speaker 2
+things. Thank you. Do you want to add something?
+
+1:54:18 - Conference Room (Robert Sabo) - Speaker 1
+Again, the question is, do you have two applications?
+
+1:54:22 - Conference Room (Robert Sabo) - Speaker 2
+When we came to the conference, we wrote to you that you can make an application. I mean, what is it in your conference that you can make a serious application? I don't have so many hints, but it's a new conference, something new, something visually. Absolutely. It's changing. We've added the previous proof. We've added the previous proof.
+
+1:55:27 - Conference Room (Robert Sabo) - Speaker 1
+you to give a little bit of light.
+
+1:55:48 - Conference Room (Robert Sabo) - Speaker 2
+Push.
+
+1:55:52 - Conference Room (Robert Sabo) - Speaker 1
+Push.
+
+1:56:16 - Conference Room (Robert Sabo) - Speaker 2
+Easy, I agree.
+
+1:56:38 - Conference Room (Robert Sabo) - Speaker 1
+What do you think? I have to say it again. But we think the same. We think that our integration with whoever needs it, because we have pre-printed applications, or purchases, or the NQTT protocol that is ready for integration. The main thing for me was to have someone integrate with us, and it was easy.
+
+1:57:06 - Conference Room (Robert Sabo) - Speaker 2
+I don't know if there are more questions. Yes, you can. I'm just pointing out so that no one asks what you have integrated.
+
+1:57:14 - Conference Room (Robert Sabo) - Speaker 1
+I would like to tell you that we had an example where they wanted to send us data and send it through a protocol. We have it pre-prepared, we just changed a little bit and released it. FlexCloud, real data, WAM information integration, various data, NSCADA, Yeah. Yeah. Feature.
+
+1:58:28 - Conference Room (Robert Sabo) - Speaker 2
+Okay. Okay.
+
+1:58:56 - Conference Room (Robert Sabo) - Speaker 1
+I don't know. I don't. We have a new location here, we have something similar to Tollman If we look at the second one, it's a batch device management. That is, you have to go to one place at a time, you have to add hangers, you have to add some new switches, and so on. I really don't know if I've seen it anywhere else I told you to change it, but no one agreed. That's not the point. That's the point. Ideas are one and the same, but nothing.
+
+2:00:32 - Conference Room (Robert Sabo) - Speaker 2
+Well, not with their own parents.
+
+2:00:38 - Conference Room (Robert Sabo) - Speaker 1
+Well, I don't know. I don't know. Okay. Okay. If you make an AVS app, then you can't just go and install it on a normal device.
+
+2:02:45 - Conference Room (Robert Sabo) - Speaker 2
+And ML integration.
+
+2:02:46 - Conference Room (Robert Sabo) - Speaker 1
+And ML integration.
+
+2:03:14 - Conference Room (Robert Sabo) - Speaker 2
+I don't. I don't know. Yes, that's what I wanted to say.
+
+2:04:34 - Conference Room (Robert Sabo) - Speaker 1
+I don't know.
+
+2:04:56 - Conference Room (Robert Sabo) - Speaker 2
+I don't know.
+
+2:05:24 - Conference Room (Robert Sabo) - Speaker 1
+Distributed systems can be hard computing. We're going to say. No, they don't. Thank you very much. Thank you. I'm But we will not accept it, we will accept what suits us. Theoretically, we have the possibility to work with returns to the distribution. But as I mean, we in the application that we made, those applications touched our warehouse base less and more, and what do you want to say? This is a financial application, it's just a technical thing.
+
+2:08:39 - Conference Room (Robert Sabo) - Speaker 2
+I can't hear you. I can't hear you. It is, but the story is a bit different. I don't know where the story is from, but it's a bit different story. Yes, yes, I can understand that. But it's the same, it's not because it's...
+
+2:09:13 - Conference Room (Robert Sabo) - Speaker 2
+It's not because it's here, we're talking about the Ministry, I can hide it.
+
+2:09:15 - Conference Room (Robert Sabo) - Speaker 1
+Yes, that's right. And remote control. What is the difference? There is a big difference between the IoT platform and us. The IoT platform is the most important thing, but the IoT platform is the most important thing. The IoT platform is the most important thing, but the IoT platform is the most important thing.
+
+2:10:34 - Conference Room (Robert Sabo) - Speaker 2
+The IoT platform is the most important thing, but the IoT platform is the most important I mean, all I need people on my money on platform. I have been for a set to work with.
+
+2:10:44 - Conference Room (Robert Sabo) - Speaker 1
+So I don't even miss someone in Torino. I'm not going to open up to the owner.
+
+2:10:51 - Conference Room (Robert Sabo) - Speaker 2
+I am for the business.
+
+2:10:55 - Conference Room (Robert Sabo) - Speaker 1
+But for the business is kind of like a mini next in service.
+
+2:10:58 - Conference Room (Robert Sabo) - Speaker 2
+So it's kind of important.
+
+2:11:05 - Conference Room (Robert Sabo) - Speaker 1
+I don't know. I don't know.
+
+2:12:30 - Conference Room (Robert Sabo) - Speaker 2
+I don't know what to say. I don't know what to say.
+
+2:12:58 - Conference Room (Robert Sabo) - Speaker 1
+I'm security. I think that we are in control of it. I don't want to say that there is nothing we can do about it, but I think that we are in control of it.
+
+2:13:39 - Conference Room (Robert Sabo) - Speaker 2
+I think that we are in control of it.
+
+2:13:53 - Conference Room (Robert Sabo) - Speaker 1
+I think that we are in control I don't know.
+
+2:13:55 - Conference Room (Robert Sabo) - Speaker 2
+I don't know. I'm Is it I don't know.
+
+2:15:40 - Conference Room (Robert Sabo) - Speaker 1
+Maybe I'm going to have to go back to somewhere. Operational, technical...
+
+2:16:25 - Conference Room (Robert Sabo) - Speaker 2
+I don't know.
+
+2:16:54 - Conference Room (Robert Sabo) - Speaker 1
+technical is the one that will help you, in my opinion, to develop some other technical solution, or it is interesting how it is done technically, if it is done that way. Is it a software or is it a technical? It is not a software, it is not a technical, but it is used, I don't know.
+
+2:17:11 - Conference Room (Robert Sabo) - Speaker 2
+But why is it called technical?
+
+2:17:22 - Conference Room (Robert Sabo) - Speaker 1
+I don't know. I don't I don't know. No details also. I don't have any stress AI and ML integration.
+
+2:20:01 - Conference Room (Robert Sabo) - Speaker 2
+Many Please.
+
+2:20:09 - Conference Room (Robert Sabo) - Speaker 1
+I've been lost. I don't know. Background. Wait, what do I do with remote control?
+
+2:22:00 - Conference Room (Robert Sabo) - Speaker 2
+Let's move on to pricing.
+
+2:22:01 - Conference Room (Robert Sabo) - Speaker 1
+Remote control is for everything. Why would the top level management take our product if it doesn't have remote control? No, but that's what it looks like, That's what it looks like, That's what it looks like, I don't know if it's working or not. I don't know if it's working or not. I don't know I am.
+
+2:23:24 - Conference Room (Robert Sabo) - Speaker 2
+I see. I see. Configuration.
+
+2:23:50 - Conference Room (Robert Sabo) - Speaker 2
+Thank you very much.
+
+2:24:15 - Conference Room (Robert Sabo) - Speaker 1
+I don't know. We are making reports, why else than to look at the top level? We are making reports, why else than to look at the top level? We are making reports, why else than to look at the top level Because we don't talk about it as a custom report. We can talk about it now. Thank you for all the help. Let's finish.
+
+2:25:17 - Conference Room (Robert Sabo) - Speaker 2
+Do you have 4 things that you need to know to make a custom report?
+
+2:25:24 - Conference Room (Robert Sabo) - Speaker 1
+4 times AI, advising.
+
+2:25:40 - Conference Room (Robert Sabo) - Speaker 2
+Thanks for coming back.
+
+2:25:43 - Conference Room (Robert Sabo) - Speaker 1
+Thanks, man. It's not that fun. No, of course, it won't matter, right? OK. OK. What? What is the technical? Yeah, because she's the technical operation. Sorry, because you're going to continue in the game. First device management I am a technical teacher. I am a technical teacher.
+
+2:27:31 - Conference Room (Robert Sabo) - Speaker 2
+I don't know.
+
+2:27:57 - Conference Room (Robert Sabo) - Speaker 1
+You provoked me, in fact, yes. Theoretically. Well, really, people, that's one of the most basic functionalities of absolutely every web application. Well, yes, if you think logically, then yes. Well, yes, but maybe she doesn't like architects. Yes, that's true. I agree with you that it can happen. What? I agree with you that it can happen. I agree with you that it can happen. What?
+
+2:28:19 - Conference Room (Robert Sabo) - Speaker 2
+I agree with you that it can happen.
+
+2:28:21 - Conference Room (Robert Sabo) - Speaker 1
+What? I agree with you that it can happen. What? I agree with you that it can happen.
+
+2:28:24 - Conference Room (Robert Sabo) - Speaker 2
+What? I agree with you that it can much. But both of you are on the same spot. Take it up.
+
+2:29:39 - Conference Room (Robert Sabo) - Speaker 1
+Tom, Tom, Tom. Thank you very much. Yeah. Yeah.
+
+2:31:01 - Conference Room (Robert Sabo) - Speaker 2
+That's all the time. Yeah.
+
+2:31:28 - Conference Room (Robert Sabo) - Speaker 1
+Okay. Real time. Okay.
+
+2:32:22 - Conference Room (Robert Sabo) - Speaker 2
+you.
+
+2:32:48 - Conference Room (Robert Sabo) - Speaker 1
+What? But also more costly. Thank you very much.
+
+2:33:45 - Conference Room (Robert Sabo) - Speaker 2
+and after that, I mean, from 14.10 until the end. So, we didn't do the final theme, but we didn't... What do you mean, what?
+
+2:33:48 - Conference Room (Robert Sabo) - Speaker 1
+We didn't do the final theme, but we didn't... What do you mean, what? We didn't do the final theme, but we didn't... What do you mean, what?
+
+2:34:11 - Conference Room (Robert Sabo) - Speaker 2
+We didn't do the final theme I don't know.
+
+2:34:42 - Conference Room (Robert Sabo) - Speaker 1
+I'm sorry. I'm sorry. We are now officially in a meeting with the board of directors and everything else. Who should guide the testers on how to configure the mail sender for the project? We are talking about the local. We are talking about the local, whoever wants to participate. You know what I'm talking about. You can send me the sender, whoever you like, so that I can change the SMS from the side of the server. What kind of project is it? It's all the same everywhere.
+
+2:35:41 - Conference Room (Robert Sabo) - Speaker 2
+When you send it, the sender is... I mean, the SMS sender is different, right? No, no, no, I don't think so.
+
+2:35:48 - Conference Room (Robert Sabo) - Speaker 1
+And that's Dragan, I don't know where you're from, but Dragan, okay, I know. Does anyone know that now? Link, maybe, I mean, but I...
+
+2:35:58 - Conference Room (Robert Sabo) - Speaker 1
+I mean, between us, if you have a problem, if you have...
+
+2:36:07 - Conference Room (Robert Sabo) - Speaker 2
+The problem is that you don't go and ask your colleague, me, or Dragana, or someone else. You are the one who knows, you go and you don't work, and we have a problem.
+
+2:36:17 - Conference Room (Robert Sabo) - Speaker 1
+I have a question for you. What does it have to do with the time? You go and look at the manual, how it is written, what is written in it. I understand that I am talking about half past three, but the questions in the manual are very important. I mean, Bye bye.
