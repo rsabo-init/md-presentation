@@ -1,14 +1,31 @@
-| 9 | Lifetime history | 1/3 |
+| # | USP | Konsenzus |
+|---|---|---|
+| **🌐 Zajedničko (sve grupe)** | | |
+| 7 | High level support | ⭐ 3+/3 |
+| **🟩 Top Level Management** | | |
+| 1 | Veoma brza implementacija | 2+/3 |
+| 2 | Pricing | 2+/3 |
+| 4 | Brz razvoj feature-ova | 2/3 |
+| 6 | Dokazan AI u industriji | 1/3 |
+| 3 | Pay-as-you-go model | 1/3 |
+| 5 | Duga prisutnost u industriji | 1/3 |
+| **🔵 Technical** | | |
+| 16 | Edge computing | ⭐ 3/3 |
+| 14 | Dokazana skalabilnost | ⭐ 3/3 |
+| 12 | Otvorenost za integracije | 2+/3 |
+| 11 | AI & ML integracija | 2+/3 |
+| 13 | Store and Forward | 2/3 |
 | 18 | Kontrola distribuiranih sistema | 1+/3 |
-| 10 | High security standard | 1/3 |
-| 17 | Push mehanizam orjentisanost | 1/3 |
 | 8 | Cloud agnostičan + hybrid deployment | 1/3 |
+| 9 | Lifetime history | 1/3 |
+| 10 | High security standard | 1/3 |
 | 15 | Real-time podaci | 1/3 |
+| 17 | Push mehanizam orjentisanost | 1/3 |
 | **🟧 Operational** | | |
+| 20 | Remote Control | 1+/3 |
 | 22 | No-Code konfigurator i IDE | 2+/3 |
 | 24 | No-Code mobilna aplikacija | 1+/3 |
 | 23 | Templating | 2/3 |
 | 25 | Batch device management | 1/3 |
-| 20 | Remote Control | 1+/3 |
 | 19 | Intuitivan UI | 2/3 |
 | 21 | Raznovrsnost komponenti | 1/3 |

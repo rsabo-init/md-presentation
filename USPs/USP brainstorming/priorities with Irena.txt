@@ -1,6 +1,0 @@
-jedna od keypointa po njoj je:
-- mogucnost integracija izmedju scada systema + integracija sa drugim sistemam
-
-Dokument je obuhvatio vecinu rasprava. MZ nije imao nista da doda sto nije napisano jer je ivzestaj obuhvatao disksije sa staanka.
-
-Templating pojasnjen

@@ -1,8 +1,9 @@
 # USP — Pregled, Objašnjenja i Zaključci
 **InView Web SCADA / inVIEW IIoT platforma**
 
-> Ovaj dokument proširuje raw output sa brainstorming tabele (`from table.txt`) sa kontekstom, obrazloženjem i zaključcima za svaki USP.
+> Ovaj dokument predstavlja sažetak brainstorminga na temu USP-eva, sa kontekstom, obrazloženjem i zaključcima za svaki USP.
 > Osnova: brainstorming sastanak 11.03.2026., zapisnik, transkript i tehnički kontekst platforme.
+> Nakon brainstorminga, sprovedena je dodatna radionica sa Product Development Managerom koji je aktivno učestvovao u analizi. Tokom te radionice utvrđene su veze sličnosti između pojedinih USP-ova — grupe koje se međusobno nadopunjuju i koje se u prodajnoj komunikaciji trebaju tretirati zajedno.
 ****
 ---
 
@@ -19,10 +20,11 @@ Pored nekih USP-ova u originalnoj tabeli (`from table.txt`) stoji broj:
 | Oznaka | Značenje |
 |---|---|
 | *(nema broja)* | Samo **1 tim** je taj USP naveo |
-| `- 2` | **2 od 3 tima** su nezavisno navela taj USP |
-| `- 3` | Sva **3 tima** su nezavisno navela taj USP |
+| `2/3` | **2 od 3 tima** su nezavisno navela taj USP |
+| `3/3` | Sva **3 tima** su nezavisno navela taj USP |
+| `+` (npr. `2+/3`) | BDM je **samostalno, pre brainstorming sastanka**, predložio isti USP — dodatna eksterna potvrda relevantnosti |
 
-Ovaj broj je **indikator konsenzusa** — što je veći, to je šira saglasnost unutar tima da je taj USP stvarno relevantan i prepoznatljiv. USP-ovi sa brojem 2 ili 3 imaju veći prioritet jer nisu bili samo ideja jedne osobe.
+Ovaj broj je **indikator konsenzusa** — što je veći, to je šira saglasnost unutar tima da je taj USP stvarno relevantan i prepoznatljiv. USP-ovi sa brojem 2 ili 3 imaju veći prioritet jer nisu bili samo ideja jedne osobe. Oznaka `+` predstavlja dodatnu potvrdu van grupe — BDM je nezavisno i pre sastanka identifikovao isti USP kao relevantan.
 
 ### Grupe po ciljnoj publici
 
@@ -47,34 +49,73 @@ Kompletna lista svih 25 USP-ova sa konsenzus skorom, grupisana po ciljnoj public
 | # | USP | Konsenzus |
 |---|---|---|
 | **🌐 Zajedničko (sve grupe)** | | |
-| 7 | High level support | ⭐ 3+/3 |
+| 1 | High level support | ⭐ 3+/3 |
 | **🟩 Top Level Management** | | |
-| 1 | Veoma brza implementacija | 2+/3 |
-| 2 | Pricing | 2+/3 |
+| 2 | Veoma brza implementacija | 2+/3 |
+| 3 | Pricing | 2+/3 |
 | 4 | Brz razvoj feature-ova | 2/3 |
-| 6 | Dokazan AI u industriji | 1/3 |
-| 3 | Pay-as-you-go model | 1/3 |
-| 5 | Duga prisutnost u industriji | 1/3 |
+| 5 | Dokazan AI u industriji | 1/3 |
+| 6 | Pay-as-you-go model | 1/3 |
+| 7 | Duga prisutnost u industriji | 1/3 |
 | **🔵 Technical** | | |
-| 16 | Edge computing | ⭐ 3/3 |
-| 14 | Dokazana skalabilnost | ⭐ 3/3 |
-| 12 | Otvorenost za integracije | 2+/3 |
+| 8 | Edge computing | ⭐ 3/3 |
+| 9 | Dokazana skalabilnost | ⭐ 3/3 |
+| 10 | Otvorenost za integracije | 2+/3 |
 | 11 | AI & ML integracija | 2+/3 |
-| 13 | Store and Forward | 2/3 |
-| 18 | Kontrola distribuiranih sistema | 1+/3 |
-| 8 | Cloud agnostičan + hybrid deployment | 1/3 |
-| 9 | Lifetime history | 1/3 |
-| 10 | High security standard | 1/3 |
-| 15 | Real-time podaci | 1/3 |
-| 17 | Push mehanizam orjentisanost | 1/3 |
+| 12 | Store and Forward | 2/3 |
+| 13 | Kontrola distribuiranih sistema | 1+/3 |
+| 14 | Cloud agnostičan + hybrid deployment | 1/3 |
+| 15 | Lifetime history | 1/3 |
+| 16 | High security standard | 1/3 |
+| 17 | Real-time podaci | 1/3 |
+| 18 | Push mehanizam orjentisanost | 1/3 |
 | **🟧 Operational** | | |
-| 22 | No-Code konfigurator i IDE | 2+/3 |
-| 19 | Intuitivan UI | 2/3 |
-| 23 | Templating | 2/3 |
-| 20 | Remote Control | 1+/3 |
-| 24 | No-Code mobilna aplikacija | 1+/3 |
-| 21 | Raznovrsnost komponenti | 1/3 |
-| 25 | Batch device management | 1/3 |
+| 19 | Remote Control | 1+/3 |
+| 20 | No-Code konfigurator i IDE | 2+/3 |
+| 21 | No-Code mobilna aplikacija | 1+/3 |
+| 22 | Templating | 2/3 |
+| 23 | Batch device management | 1/3 |
+| 24 | Intuitivan UI | 2/3 |
+| 25 | Raznovrsnost komponenti | 1/3 |
+
+### Veze sličnosti (affinity grupe)
+
+Nakon brainstorminga, radionica sa Product Development Managerom identifikovala je USP-ove koji su konceptualno usko vezani i koji se trebaju komunicirati kao grupisana priča, a ne izolovane tačke:
+
+| Affinity grupa | USP-ovi |
+|---|---|
+| **Brzina isporuke** | #2 Veoma brza implementacija + #4 Brz razvoj feature-ova |
+| **Cenovni model** | #3 Pricing + #6 Pay-as-you-go model |
+| **No-Code ekosistem** | #20 No-Code konfigurator i IDE + #22 Templating + #21 No-Code mobilna aplikacija |
+
+Kod svakog USP-a iz gore navedenih grupa naznačena je veza sa ostalim članovima grupe.
+
+---
+
+## 🌐 Zajedničko za sve grupe
+
+---
+
+### 1. High level support (konsenzus: 3/3 tima) ⭐
+
+**Šta znači:**
+INIT tim pruža direktnu, ekspertsku podršku — bez niova tierova, posrednika, ili offshore help deska. Klijent komunicira direktno sa timom koji je napravio sistem.
+
+**Kontekst iz diskusije:**
+Jedini USP koji je tim konsenzusom svrstao u sve tri grupe — što govori o tome da je ovo horizontalna vrednost relevantna za svakoga. Sva 3 tima su ga nezavisno navela, što ga čini jedinim USP-om sa punim konsenzusom (3/3).
+
+**Zaključak:**
+Jak i dokaziv USP koji se posebno ističe u poređenju sa velikim vendorima (Siemens, AVEVA) gde support prolazi kroz nivoe, ticketing sisteme i offshore timove. Treba ga komunicirati konkretno: reaction time, dedicated kontakt, direktan pristup razvojnom timu.
+
+**+ Plusevi:**
+- Direktan pristup razvojnom timu = brže rešavanje problema
+- Timezone i kulturna bliskost (za EU i balkansko tržište)
+- Jak diferencijator od enterprise vendora
+- Pun timski konsenzus (3/3) — najjači signal iz brainstorminga
+
+**- Minusi / Rizici:**
+- Skalabilnost podrške može biti izazov sa rastom baze klijenata
+- Needs SLA formalizaciju da postane prodajni argument
 
 ---
 
@@ -83,7 +124,9 @@ Kompletna lista svih 25 USP-ova sa konsenzus skorom, grupisana po ciljnoj public
 
 ---
 
-### 1. Veoma brza implementacija (konsenzus: 2/3 tima)
+### 2. Veoma brza implementacija (konsenzus: 2/3 tima)
+
+> 🔗 *Affinity grupa — Brzina isporuke: usko vezano za **#4 Brz razvoj feature-ova***
 
 **Šta znači:**
 Projekti idu u produkciju u sedmicama, a ne godinama. Tim INIT-a je lokalno dostupan, bez outsourcing-a i timezone problema.
@@ -105,7 +148,9 @@ Jedan od najjačih USP-ova za Top Management publiku jer direktno govori o troš
 
 ---
 
-### 2. Pricing (konsenzus: 2/3 tima)
+### 3. Pricing (konsenzus: 2/3 tima)
+
+> 🔗 *Affinity grupa — Cenovni model: usko vezano za **#6 Pay-as-you-go model***
 
 **Šta znači:**
 Cenovni model platforme je konkurentan u poređenju sa enterprise SCADA rešenjima poput Siemensa ili Wonderwarea.
@@ -127,7 +172,9 @@ Pricing sam po sebi je slab USP — lako ga je kopirati i može da degradira bre
 
 ---
 
-### 3. Pay-as-you-go model (konsenzus: 1/3 tima)
+### 6. Pay-as-you-go model (konsenzus: 1/3 tima)
+
+> 🔗 *Affinity grupa — Cenovni model: usko vezano za **#3 Pricing***
 
 **Šta znači:**
 Klijenti plaćaju prema stvarnoj upotrebi ili na pretplatničkoj osnovi, a ne veliku licencu unapred. Niži barrier to entry.
@@ -151,6 +198,8 @@ Jak USP u modernom B2B SaaS kontekstu. Direktno odgovara na prigovor *"preskupo 
 
 ### 4. Brz razvoj feature-ova (konsenzus: 2/3 tima)
 
+> 🔗 *Affinity grupa — Brzina isporuke: usko vezano za **#2 Veoma brza implementacija***
+
 **Šta znači:**
 INIT tim kontinuirano i brzo isporučuje nove funkcionalnosti. Klijenti ne čekaju godine na feature koji im treba.
 
@@ -171,7 +220,7 @@ Jak USP ali ga je teško dokazati bez konkretnih referenci (changelog, roadmap, 
 
 ---
 
-### 5. Duga prisutnost u industriji (konsenzus: 1/3 tima)
+### 7. Duga prisutnost u industriji (konsenzus: 1/3 tima)
 
 **Šta znači:**
 INDAS Group postoji od 1992. (30+ godina), a komercijalna SCADA platforma od 2011. (15+ godina). To nije startup — to je dokazano rešenje sa realnim deploymentima.
@@ -193,7 +242,7 @@ Jedan od najjačih USP-ova za konzervativne klijente u regulisanim industrijama.
 
 ---
 
-### 6. Dokazana AI u industriji (konsenzus: 1/3 tima)
+### 5. Dokazana AI u industriji (konsenzus: 1/3 tima)
 
 **Šta znači:**
 AI/ML funkcionalnosti platforme nisu laboratorijski proof-of-concept — postoje realni klijenti koji koriste anomaly detection i predictive analytics u produkciji.
@@ -215,39 +264,12 @@ Jak USP kada je potkrepljen konkretnim primerima. Kombinacija "legacy credibilit
 
 ---
 
-## 🌐 Zajedničko za sve grupe
-
----
-
-### 7. High level support (konsenzus: 3/3 tima) ⭐
-
-**Šta znači:**
-INIT tim pruža direktnu, ekspertsku podršku — bez niova tierova, posrednika, ili offshore help deska. Klijent komunicira direktno sa timom koji je napravio sistem.
-
-**Kontekst iz diskusije:**
-Jedini USP koji je tim konsenzusom svrstao u sve tri grupe — što govori o tome da je ovo horizontalna vrednost relevantna za svakoga. Sva 3 tima su ga nezavisno navela, što ga čini jedinim USP-om sa punim konsenzusom (3/3).
-
-**Zaključak:**
-Jak i dokaziv USP koji se posebno ističe u poređenju sa velikim vendorima (Siemens, AVEVA) gde support prolazi kroz nivoe, ticketing sisteme i offshore timove. Treba ga komunicirati konkretno: reaction time, dedicated kontakt, direktan pristup razvojnom timu.
-
-**+ Plusevi:**
-- Direktan pristup razvojnom timu = brže rešavanje problema
-- Timezone i kulturna bliskost (za EU i balkansko tržište)
-- Jak diferencijator od enterprise vendora
-- Pun timski konsenzus (3/3) — najjači signal iz brainstorminga
-
-**- Minusi / Rizici:**
-- Skalabilnost podrške može biti izazov sa rastom baze klijenata
-- Needs SLA formalizaciju da postane prodajni argument
-
----
-
 ## 🔵 Technical
 > *Ciljna publika: sistemski arhitekti, tehnički evaluatori*
 
 ---
 
-### 8. Cloud agnostičan + podrška za hybrid deployment (konsenzus: 1/3 tima)
+### 14. Cloud agnostičan + podrška za hybrid deployment (konsenzus: 1/3 tima)
 
 **Šta znači:**
 Platforma ne zahteva specifičan cloud provider — može se deployovati na AWS, Azure, GCP, private cloud, on-premise serveru, ili u hibridnoj kombinaciji. Isti product, iste funkcionalnosti, bez obzira na deployment model.
@@ -269,7 +291,7 @@ Jak USP u B2B industrijskom segmentu. Posebno relevantan za klijente u EU koji i
 
 ---
 
-### 9. Lifetime history (trajno čuvanje istorije podataka) (konsenzus: 1/3 tima)
+### 15. Lifetime history (trajno čuvanje istorije podataka) (konsenzus: 1/3 tima)
 
 **Šta znači:**
 Platforma čuva kompletnu istoriju svih procesnih podataka bez automatskog brisanja. Klijent ima pristup podacima od prvog dana implementacije — godinama ili decenijama unazad.
@@ -291,7 +313,7 @@ Relevantan USP za industrije sa regulatornim zahtevima (energetika, farmaceutika
 
 ---
 
-### 10. High security standard (verifikovan) (konsenzus: 1/3 tima)
+### 16. High security standard (verifikovan) (konsenzus: 1/3 tima)
 
 **Šta znači:**
 Platforma implementira moderne bezbednosne standarde: granularna kontrola pristupa, audit log, modernu autentifikaciju, i enkriptovanu komunikaciju.
@@ -337,7 +359,7 @@ Jedan od najsnažnijih USP-ova platforme jer je AI/ML nativan deo arhitekture, a
 
 ---
 
-### 12. Otvorenost za integracije (konsenzus: 2/3 tima)
+### 10. Otvorenost za integracije (konsenzus: 2/3 tima)
 
 **Šta znači:**
 Platforma nudi multiple protokole i interfejse za integraciju sa eksternim sistemima: REST API, WebSocket, MQTT, i pre-pripremljene konektore za česte scenarije.
@@ -360,7 +382,7 @@ Jak USP posebno za System Integrator segment koji mora da poveže inView sa post
 
 ---
 
-### 13. Store and Forward (lokalni gateway history) (konsenzus: 2/3 tima)
+### 12. Store and Forward (lokalni gateway history) (konsenzus: 2/3 tima)
 
 **Šta znači:**
 Edge gateway lokalno čuva podatke kada je konekcija sa cloud-om ili centralnim serverom prekinuta, i automatski šalje podatke čim se konekcija uspostavi. Nema gubitka podataka zbog mrežnih ispada.
@@ -382,7 +404,7 @@ Kritičan USP za klijente u industrijama sa nepouzdanom mrežnom konekcijom (ter
 
 ---
 
-### 14. Dokazana skalabilnost (konsenzus: 3/3 tima) ⭐
+### 9. Dokazana skalabilnost (konsenzus: 3/3 tima) ⭐
 
 **Šta znači:**
 Platforma je dizajnirana za horizontalno skaliranje kroz mikroservisnu arhitekturu i Kafka event streaming, i ima realne dokaze iz produkcije.
@@ -403,7 +425,7 @@ Jak USP sa konkretnim dokazom. "Proven scalability" je puno snažnije od "scalab
 
 ---
 
-### 15. Real-time podaci (konsenzus: 1/3 tima)
+### 17. Real-time podaci (konsenzus: 1/3 tima)
 
 **Šta znači:**
 Platforma isporučuje procesne podatke u realnom vremenu kroz WebSocket stream — bez polling-a, bez kašnjenja. Korisnici vide žive podatke čim se pojave iz polja.
@@ -424,7 +446,7 @@ Osnovna (hygiene) sposobnost za SCADA platformu — svaka ozbiljna platforma ovo
 
 ---
 
-### 16. Edge computing (konsenzus: 3/3 tima) ⭐
+### 8. Edge computing (konsenzus: 3/3 tima) ⭐
 
 **Šta znači:**
 Platforma može pokretati logiku, skripte i automatizaciju direktno na edge uređajima — bliže izvoru podataka, bez potrebe za slanjem svega na centralni server ili cloud.
@@ -448,7 +470,7 @@ Visok konsenzus (3/3) unutar tima potvrđuje da je ovo prepoznat diferencijator.
 
 ---
 
-### 17. Push mehanizam orjentisanost (konsenzus: 1/3 tima)
+### 18. Push mehanizam orjentisanost (konsenzus: 1/3 tima)
 
 **Šta znači:**
 Platforma šalje podatke prema klijentima (web browsers, mobile aplikacije, third-party sistemi) čim se dogode promene — umesto da klijenti moraju stalno pitati za podatke (polling). Zasniva se na WebSocket i Kafka arhitekturi.
@@ -469,7 +491,7 @@ Više arhitekturni princip nego direktno prodajni USP. Najkorisnije ga je komuni
 
 ---
 
-### 18. Kontrola distribuiranih sistema (konsenzus: 1/3 tima)
+### 13. Kontrola distribuiranih sistema (konsenzus: 1/3 tima)
 
 **Šta znači:**
 Platforma može upravljati i nadgledati procese raspoređene na više fizičkih lokacija, objekata ili fabrika — iz jednog centralnog interfejsa.
@@ -496,7 +518,7 @@ Visoka vrednost za klijente sa multi-site operacijama (npr. lanci fabrika, distr
 
 ---
 
-### 19. Intuitivan UI (konsenzus: 2/3 tima)
+### 24. Intuitivan UI (konsenzus: 2/3 tima)
 
 **Šta znači:**
 Korisnički interfejs platforme je dizajniran da bude razumljiv osobama koje nisu IT stručnjaci — operaterima u pogonu, inženjerima na lokaciji, tehničarima. Platforma nudi responsive dizajn koji radi na PC-u, tabletu i mobilnom telefonu iz istog sistema.
@@ -518,7 +540,7 @@ Solidan USP, posebno u segmentu industrijskog tržišta gde je konkurencija čes
 
 ---
 
-### 20. Remote Control (konsenzus: 1/3 tima)
+### 19. Remote Control (konsenzus: 1/3 tima)
 
 **Šta znači:**
 Mogućnost upravljanja fizičkim uređajima, aktuatorima i procesima direktno sa web ili mobilnog interfejsa, sa bilo koje lokacije u svetu — bez fizičkog prisustva na lokaciji.
@@ -540,7 +562,7 @@ Jak USP koji se proteže kroz sve grupe publike — uprkos niskom sticker konsen
 
 ---
 
-### 21. Raznovrsnost komponenti (konsenzus: 1/3 tima)
+### 25. Raznovrsnost komponenti (konsenzus: 1/3 tima)
 
 **Šta znači:**
 Platforma nudi bogat skup gotovih vizuelnih i funkcionalnih komponenti (grafovi, merači, tabele, alarmi, mape, itd.) koji se koriste za izgradnju SCADA ekrana i aplikacija.
@@ -561,7 +583,9 @@ Dopunski USP koji jača No-Code priču. Teško ga je prodati kao standalone USP 
 
 ---
 
-### 22. No-Code konfigurator i IDE (konsenzus: 2/3 tima)
+### 20. No-Code konfigurator i IDE (konsenzus: 2/3 tima)
+
+> 🔗 *Affinity grupa — No-Code ekosistem: usko vezano za **#22 Templating** i **#21 No-Code mobilna aplikacija***
 
 **Šta znači:**
 Platforma omogućava izgradnju SCADA ekrana, workflow automatizacija i aplikacija bez pisanja koda — vizuelnim drag-and-drop editorom. IT tim klijenta ili sistem integrator mogu sami kreirati i menjati ekrane bez angažovanja programera.
@@ -583,7 +607,9 @@ Jak USP kada se komunicira u kontekstu brzine implementacije i nezavisnosti klij
 
 ---
 
-### 23. Templating (konsenzus: 2/3 tima)
+### 22. Templating (konsenzus: 2/3 tima)
+
+> 🔗 *Affinity grupa — No-Code ekosistem: usko vezano za **#20 No-Code konfigurator i IDE** i **#21 No-Code mobilna aplikacija***
 
 **Šta znači:**
 Mogućnost kreiranja šablona za SCADA ekrane, konfiguracije uređaja i procese koji se mogu višekratno koristiti i instancirati — bez ponovnog kreiranja od nule.
@@ -603,7 +629,9 @@ Solidan operativni USP koji se najjasnije izražava kroz konkretne primere (npr.
 
 ---
 
-### 24. No-Code mobilna aplikacija (konsenzus: 1/3 tima)
+### 21. No-Code mobilna aplikacija (konsenzus: 1/3 tima)
+
+> 🔗 *Affinity grupa — No-Code ekosistem: usko vezano za **#20 No-Code konfigurator i IDE** i **#22 Templating***
 
 **Šta znači:**
 Platforma omogućava kreiranje mobilnih aplikacija (iOS/Android) bez razvoja zasebne native aplikacije — koristeći isti no-code alat i iste podatke kao web verzija.
@@ -624,7 +652,7 @@ Potencijalno jak USP (mobilni pristup SCADA-i je tražen), ali treba interno raz
 
 ---
 
-### 25. Batch device management (konsenzus: 1/3 tima)
+### 23. Batch device management (konsenzus: 1/3 tima)
 
 **Šta znači:**
 Mogućnost dodavanja, konfiguracije i upravljanja većim brojem uređaja odjednom — umesto individualnog, jednog po jednog.
@@ -668,6 +696,28 @@ Reporting je prisutan u platformi (`IwsReport` servis), ali sam po sebi nije dif
 
 **Zaključak:**
 Neophodan feature za svaku enterprise platformu — hygiene factor, ne diferencirajući USP. Vredniji je kao deo šire "Security & Compliance" priče nego kao samostojna tačka. Na sastanku je pomenuto da je tim u aktivnom razvoju custom roles funkcionalnosti.
+
+---
+
+## BDM izbor — ključni USP-ovi
+
+Nakon prateće radionice, BDM je izdvojio skup USP-ova koje smatra **stvarno ključnim** za prodajnu komunikaciju. Ovo nije finalna lista za sve situacije — već predlog fokusiranih USP-ova koji imaju najveći potencijal u razgovoru sa klijentima.
+
+> 💡 *Oznaka `+` uz konsenzus znači da je BDM taj USP samostalno predložio i pre brainstorming sastanka — što je dodatna eksterna potvrda relevantnosti, van grupne dinamike.*
+
+| # | USP | (Konsenzus) | Napomena |
+|---|---|---|---|
+| 1 | High level support | (⭐ 3+/3) | Jedini USP sa punim timskim konsenzusom + BDM potvrdom |
+| 8 | Edge computing | (⭐ 3/3) | Pun timski konsenzus; jak tehnički diferencijator |
+| 9 | Dokazana skalabilnost | (⭐ 3/3) | Pun timski konsenzus; ima konkretan produkcioni dokaz |
+| 10 | Otvorenost za integracije | (2+/3) | Visok konsenzus + BDM potvrda |
+| 19 | Remote Control | (1+/3) | BDM potvrda; kritičan faktor za Top Management odluku |
+| 13 | Kontrola distribuiranih sistema | (1+/3) | BDM potvrda; visoka vrednost za multi-site klijente |
+| 2 + 4 | Veoma brza implementacija + Brz razvoj feature-ova | (2+/3 + 2/3) | Affinity grupa — komunicirati zajedno kao *brzina isporuke* |
+| 3 + 6 | Pricing + Pay-as-you-go model | (2+/3 + 1/3) | Affinity grupa — komunicirati zajedno kao *fleksibilan cenovni model* |
+| 20 + 22 + 21 | No-Code konfigurator + Templating + No-Code mobilna aplikacija | (2+/3 + 2/3 + 1+/3) | Affinity grupa — komunicirati zajedno kao *No-Code ekosistem* |
+
+Affinity grupe (parovi/trojke) se tretiraju kao **jedna prodajna priča**, a ne izolovane tačke — u ukupnom broju to je **9 USP-ova, grupisanih u 6 tematskih celina**.
 
 ---
 
