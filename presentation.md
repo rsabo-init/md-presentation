@@ -1,6 +1,6 @@
 <!-- slide: 1/27 — Title -->
 
-# InView IIoT Platform
+# InView - Cloud SCADA
 ## INIT Technologies
 
 
@@ -23,40 +23,13 @@
 - If they ask about stack, you can go deeper — this is the opening slide
 - Key message: mature product, active development, not a startup
 -->
-
 ---
-
-<!-- slide: 3/27 — Technical Context -->
-
-## The Industrial Data Problem
-
-**Every factory floor generates massive amounts of data. Most of it never gets used.**
-
-- PLCs, sensors, smart meters, IoT devices — all different vendors, all different protocols
-- OT (Operational Technology) and IT live in separate worlds — no shared data layer
-- Production events recorded **manually on paper** — shift logs, downtime reports, quality checks
-- Multiple disconnected software tools — one for planning, another for reporting, another for maintenance
-- Data moved **by hand between systems** — Excel exports, manual re-entry, email attachments
-- No single source of truth — decisions made on yesterday's numbers, not live data
-- Critical machine events go unnoticed until it's too late — no real-time alerting on the shop floor
-- Historical data locked in silos — impossible to correlate machine behavior with production output
-
-<!-- talk:
-- Technical framing, not a sales pitch — state the reality and move on
-- The manual paper point usually lands well with production managers — pause here
-- "OT/IT convergence" if they know the space
-- Don't solve it yet — that's the next slide
--->
-
----
-
-<!-- slide: 4/27 — Introducing inVIEW -->
 
 ## Introducing inVIEW
 
 **Cloud-driven. Edge automation. AI-enhanced.**
 
-inVIEW is an **Industrial IoT platform** that connects your machines, devices, databases and software — and lets you build real-time dashboards, SCADA visualizations, and MES workflows.
+inVIEW is an **Industrial Cloud SCADA** that connects your machines, devices, databases and software — and lets you build real-time dashboards, SCADA visualizations, and MES workflows.
 
 **Three core promises:**
 1. **See everything** — real-time data from every device, anywhere
@@ -65,11 +38,6 @@ inVIEW is an **Industrial IoT platform** that connects your machines, devices, d
 
 > *"It's not just monitoring. It's an evolution of how you run your production."*
 
-<!-- talk:
-- This is the product intro — brief, one slide, then straight into the architecture
-- Don't linger here — the next slides are where the technical substance is
-- "Evolution of a Distributed Control System" — use this if they know SCADA terminology
--->
 
 ---
 
@@ -96,24 +64,18 @@ inVIEW is an **Industrial IoT platform** that connects your machines, devices, d
 
 ![core-module](images/inview/core-module.png)
 
-**The heart of the platform.**
+**The heart of the platform. Proven to scale solutoin**
 
-- Real world data inside the Platform
-- Live variable streaming via **WebSocket** — data appears the moment it changes
-- Multi-source data aggregation — heterogeneous devices, one unified view
+- Real world data inside the Platform - live variable streaming
 - **Remote control** of field devices — write commands from anywhere in the world
 - **Alarm management** — configurable thresholds, deadband, double-check validation, false alarm prevention
+- Multi-source data aggregation — heterogeneous devices, one unified view
 - Multi-channel notifications: SMS, Email, Push
-- Complete alarm and event history — full audit trail
 
-> *"One platform. Your whole production floor. Live."*
-
-<!-- talk:
-- This is the core SCADA capability — operators, production managers, remote teams all benefit
-- Emphasize remote control — it's a real differentiator vs. read-only monitoring tools
-- Double-check alarm validation is worth mentioning — prevents alarm fatigue
-- WebSocket = push-based, no polling, no latency
--->
+#Proven to Scale
+- **100,000 simultaneous screen views** — live, on microservices architecture
+- Multi-tenant: multiple enterprise customers on shared infrastructure
+- Kubernetes orchestration — horizontal scaling, zero-downtime deployments
 
 ---
 
@@ -308,9 +270,9 @@ What the AI layer does:
 
 - **100,000 simultaneous screen views** — live, on microservices architecture
 - Multi-tenant: multiple enterprise customers on shared infrastructure
+- Kubernetes orchestration — horizontal scaling, zero-downtime deployments
 - Apache Kafka event streaming — 17 system-wide topics, built for throughput
 - Redis caching — sub-millisecond data access
-- Kubernetes orchestration — horizontal scaling, zero-downtime deployments
 
 **What this means for you:**
 - Start with one production line. Scale to your entire facility. Same platform.
