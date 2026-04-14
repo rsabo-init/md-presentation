@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 510">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1f35"/>
+      <stop offset="100%" stop-color="#080f1e"/>
+    </linearGradient>
+    <linearGradient id="inview-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a5585"/>
+      <stop offset="100%" stop-color="#0a2a4a"/>
+    </linearGradient>
+    <linearGradient id="mes-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a3028"/>
+      <stop offset="100%" stop-color="#051a14"/>
+    </linearGradient>
+    <linearGradient id="sap-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1540"/>
+      <stop offset="100%" stop-color="#0d0a28"/>
+    </linearGradient>
+    <linearGradient id="machine-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c2840"/>
+      <stop offset="100%" stop-color="#071520"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-sm" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- One-way arrow: sensor data → inVIEW -->
+    <marker id="arr-data" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#4fc3f7" opacity="0.9"/>
+    </marker>
+    <!-- Cyan bidirectional arrows (inVIEW ↔ MES) -->
+    <marker id="arr-c-end" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#00d9ff"/>
+    </marker>
+    <marker id="arr-c-start" markerWidth="9" markerHeight="7" refX="1" refY="3.5" orient="auto">
+      <polygon points="9 0, 0 3.5, 9 7" fill="#00d9ff"/>
+    </marker>
+    <!-- Purple bidirectional arrows (MES ↔ SAP) -->
+    <marker id="arr-p-end" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#9b7de8"/>
+    </marker>
+    <marker id="arr-p-start" markerWidth="9" markerHeight="7" refX="1" refY="3.5" orient="auto">
+      <polygon points="9 0, 0 3.5, 9 7" fill="#9b7de8"/>
+    </marker>
+    <!-- Green arrows: operator manages -->
+    <marker id="arr-g-end" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#7ec880"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="510" fill="url(#bg)"/>
+
+  <!-- Section background zones (subtle) -->
+  <rect x="0" y="0" width="200" height="510" fill="#ffffff" opacity="0.012"/>
+  <rect x="200" y="0" width="455" height="510" fill="#4fc3f7" opacity="0.015"/>
+  <rect x="655" y="0" width="305" height="510" fill="#9b7de8" opacity="0.018"/>
+
+  <!-- Section dividers -->
+  <line x1="200" y1="35" x2="200" y2="480" stroke="#1e4060" stroke-width="1" stroke-dasharray="4,5"/>
+  <line x1="655" y1="35" x2="655" y2="480" stroke="#1e2850" stroke-width="1" stroke-dasharray="4,5"/>
+
+  <!-- Section labels -->
+  <text x="100" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#3a6a8a" letter-spacing="2">SHOP FLOOR</text>
+  <text x="427" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#3a7a8a" letter-spacing="2">PLATFORM</text>
+  <text x="805" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#5a4a8a" letter-spacing="2">ENTERPRISE ERP</text>
+
+  <!-- ===== DATA FLOW LINES: Machines → inVIEW (one-way) ===== -->
+  <!-- All converge to inVIEW left edge center: (232, 228) -->
+  <line x1="148" y1="98"  x2="232" y2="228" stroke="#4fc3f7" stroke-width="1.6" stroke-dasharray="5,3" opacity="0.65" marker-end="url(#arr-data)"/>
+  <line x1="148" y1="153" x2="232" y2="228" stroke="#4fc3f7" stroke-width="1.6" stroke-dasharray="5,3" opacity="0.65" marker-end="url(#arr-data)"/>
+  <line x1="148" y1="208" x2="232" y2="228" stroke="#4fc3f7" stroke-width="1.6" stroke-dasharray="5,3" opacity="0.65" marker-end="url(#arr-data)"/>
+  <line x1="148" y1="263" x2="232" y2="228" stroke="#4fc3f7" stroke-width="1.6" stroke-dasharray="5,3" opacity="0.65" marker-end="url(#arr-data)"/>
+  <line x1="148" y1="318" x2="232" y2="228" stroke="#4fc3f7" stroke-width="1.6" stroke-dasharray="5,3" opacity="0.65" marker-end="url(#arr-data)"/>
+
+  <!-- "sensor data" label -->
+  <text x="178" y="216" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4fc3f7" opacity="0.8" transform="rotate(-20 178 216)">sensor data</text>
+
+  <!-- ===== inVIEW ↔ MES: two offset arrows ===== -->
+  <!-- → right -->
+  <line x1="392" y1="220" x2="460" y2="220" stroke="#00d9ff" stroke-width="2" marker-end="url(#arr-c-end)"/>
+  <!-- ← left -->
+  <line x1="460" y1="236" x2="392" y2="236" stroke="#00d9ff" stroke-width="2" marker-end="url(#arr-c-end)"/>
+  <!-- Label -->
+  <text x="426" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#00d9ff" opacity="0.85">real-time sync</text>
+
+  <!-- ===== MES ↔ SAP: two offset arrows ===== -->
+  <!-- → right -->
+  <line x1="602" y1="220" x2="700" y2="220" stroke="#9b7de8" stroke-width="2" marker-end="url(#arr-p-end)"/>
+  <!-- ← left -->
+  <line x1="700" y1="236" x2="602" y2="236" stroke="#9b7de8" stroke-width="2" marker-end="url(#arr-p-end)"/>
+  <!-- Label -->
+  <text x="651" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#9b7de8" opacity="0.9">orders / actuals</text>
+
+  <!-- ===== MACHINE BOXES ===== -->
+  <!-- 1. Press Line -->
+  <rect x="15" y="80" width="133" height="36" rx="6" fill="url(#machine-grad)" stroke="#4fc3f7" stroke-width="1.3"/>
+  <rect x="15" y="80" width="5" height="36" rx="3" fill="#4fc3f7" opacity="0.6"/>
+  <text x="88" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#7ab8d4">Press Line</text>
+  <text x="88" y="113" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#3a7090">mechanical press</text>
+
+  <!-- 2. Dryer Unit -->
+  <rect x="15" y="135" width="133" height="36" rx="6" fill="url(#machine-grad)" stroke="#4fc3f7" stroke-width="1.3"/>
+  <rect x="15" y="135" width="5" height="36" rx="3" fill="#4fc3f7" opacity="0.6"/>
+  <text x="88" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#7ab8d4">Dryer Unit</text>
+  <text x="88" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#3a7090">temp / humidity</text>
+
+  <!-- 3. Conveyor -->
+  <rect x="15" y="190" width="133" height="36" rx="6" fill="url(#machine-grad)" stroke="#4fc3f7" stroke-width="1.3"/>
+  <rect x="15" y="190" width="5" height="36" rx="3" fill="#4fc3f7" opacity="0.6"/>
+  <text x="88" y="210" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#7ab8d4">Conveyor Line</text>
+  <text x="88" y="223" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#3a7090">speed / throughput</text>
+
+  <!-- 4. Quality Sensor -->
+  <rect x="15" y="245" width="133" height="36" rx="6" fill="url(#machine-grad)" stroke="#4fc3f7" stroke-width="1.3"/>
+  <rect x="15" y="245" width="5" height="36" rx="3" fill="#4fc3f7" opacity="0.6"/>
+  <text x="88" y="265" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#7ab8d4">Quality Sensors</text>
+  <text x="88" y="278" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#3a7090">dimensions / defects</text>
+
+  <!-- 5. PLC / Gateway -->
+  <rect x="15" y="300" width="133" height="36" rx="6" fill="url(#machine-grad)" stroke="#4fc3f7" stroke-width="1.3"/>
+  <rect x="15" y="300" width="5" height="36" rx="3" fill="#4fc3f7" opacity="0.6"/>
+  <text x="88" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#7ab8d4">PLC / Gateway</text>
+  <text x="88" y="333" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#3a7090">Modbus / S7 / OPC</text>
+
+  <!-- ===== inVIEW PLATFORM BOX ===== -->
+  <!-- Glow halo -->
+  <rect x="229" y="185" width="166" height="86" rx="14" fill="none" stroke="#00d9ff" stroke-width="7" opacity="0.15"/>
+  <!-- Main box -->
+  <rect x="232" y="188" width="160" height="80" rx="12" fill="url(#inview-grad)" stroke="#00d9ff" stroke-width="2.5" filter="url(#glow)"/>
+  <text x="312" y="216" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="bold" fill="#00d9ff">inVIEW</text>
+  <text x="312" y="235" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#7ab8d4">Platform</text>
+  <text x="312" y="254" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4a8aaa" letter-spacing="1.5">SCADA · MONITOR · CONTROL</text>
+
+  <!-- ===== MES BOX ===== -->
+  <rect x="460" y="188" width="142" height="80" rx="12" fill="url(#mes-grad)" stroke="#00c896" stroke-width="2" filter="url(#glow-sm)"/>
+  <text x="531" y="218" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#00c896">MES</text>
+  <text x="531" y="237" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#5ab89a">Execution System</text>
+  <text x="531" y="254" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#3a7a60" letter-spacing="1">ORDERS · TRACKING · KPIs</text>
+
+  <!-- ===== SAP BOX ===== -->
+  <rect x="700" y="195" width="125" height="66" rx="12" fill="url(#sap-grad)" stroke="#7b68ee" stroke-width="2" filter="url(#glow-sm)"/>
+  <text x="762" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#9b8de8">SAP</text>
+  <text x="762" y="241" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#7a6ab8">ERP System</text>
+  <text x="762" y="255" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#5a4a90" letter-spacing="1">PLANNING · FINANCE</text>
+
+  <!-- ===== OPERATOR MANAGEMENT LINES ===== -->
+  <!-- From operator head area (422, 382) to inVIEW bottom center (312, 268) -->
+  <line x1="405" y1="385" x2="312" y2="270" stroke="#7ec880" stroke-width="1.8" stroke-dasharray="6,3" opacity="0.85" marker-end="url(#arr-g-end)"/>
+  <!-- From operator head area (422, 382) to MES bottom center (531, 268) -->
+  <line x1="439" y1="385" x2="531" y2="270" stroke="#7ec880" stroke-width="1.8" stroke-dasharray="6,3" opacity="0.85" marker-end="url(#arr-g-end)"/>
+
+  <!-- ===== OPERATOR STICK FIGURE ===== -->
+  <!-- Head -->
+  <circle cx="422" cy="408" r="16" fill="none" stroke="#a0d8a0" stroke-width="2"/>
+  <!-- Body -->
+  <line x1="422" y1="424" x2="422" y2="458" stroke="#a0d8a0" stroke-width="2"/>
+  <!-- Left arm -->
+  <line x1="422" y1="435" x2="400" y2="450" stroke="#a0d8a0" stroke-width="2"/>
+  <!-- Right arm -->
+  <line x1="422" y1="435" x2="444" y2="450" stroke="#a0d8a0" stroke-width="2"/>
+  <!-- Left leg -->
+  <line x1="422" y1="458" x2="408" y2="478" stroke="#a0d8a0" stroke-width="2"/>
+  <!-- Right leg -->
+  <line x1="422" y1="458" x2="436" y2="478" stroke="#a0d8a0" stroke-width="2"/>
+
+  <!-- Operator label -->
+  <text x="422" y="496" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#7ec880">Operator</text>
+  <text x="422" y="508" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4a804a">monitors &amp; controls</text>
+
+  <!-- ===== LEGEND ===== -->
+  <line x1="20" y1="494" x2="44" y2="494" stroke="#4fc3f7" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr-data)"/>
+  <text x="50" y="498" font-family="Arial,sans-serif" font-size="9" fill="#7ab8d4">Sensor data (read)</text>
+
+  <line x1="165" y1="490" x2="189" y2="490" stroke="#00d9ff" stroke-width="1.5" marker-end="url(#arr-c-end)"/>
+  <line x1="189" y1="498" x2="165" y2="498" stroke="#00d9ff" stroke-width="1.5" marker-end="url(#arr-c-end)"/>
+  <text x="195" y="498" font-family="Arial,sans-serif" font-size="9" fill="#7ab8d4">Bidirectional sync</text>
+
+  <line x1="320" y1="494" x2="344" y2="494" stroke="#7ec880" stroke-width="1.5" stroke-dasharray="6,3" marker-end="url(#arr-g-end)"/>
+  <text x="350" y="498" font-family="Arial,sans-serif" font-size="9" fill="#7ab8d4">Operator manages</text>
+
+</svg>

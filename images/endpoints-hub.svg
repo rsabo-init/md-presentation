@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540">
+  <defs>
+    <linearGradient id="bg-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1f35"/>
+      <stop offset="100%" stop-color="#080f1e"/>
+    </linearGradient>
+    <linearGradient id="center-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a5585"/>
+      <stop offset="100%" stop-color="#0a2a4a"/>
+    </linearGradient>
+    <linearGradient id="viz-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f3550"/>
+      <stop offset="100%" stop-color="#082030"/>
+    </linearGradient>
+    <linearGradient id="int-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1040"/>
+      <stop offset="100%" stop-color="#0d0828"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Cyan arrowheads (visualization) -->
+    <marker id="cv-end" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4fc3f7"/>
+    </marker>
+    <marker id="cv-start" markerWidth="10" markerHeight="7" refX="1" refY="3.5" orient="auto">
+      <polygon points="10 0, 0 3.5, 10 7" fill="#4fc3f7"/>
+    </marker>
+    <!-- Purple arrowheads (integration) -->
+    <marker id="ci-end" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#9b7de8"/>
+    </marker>
+    <marker id="ci-start" markerWidth="10" markerHeight="7" refX="1" refY="3.5" orient="auto">
+      <polygon points="10 0, 0 3.5, 10 7" fill="#9b7de8"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="540" fill="url(#bg-grad)"/>
+
+  <!-- Subtle concentric rings -->
+  <circle cx="450" cy="270" r="150" fill="none" stroke="#00d9ff" stroke-width="0.5" opacity="0.12"/>
+  <circle cx="450" cy="270" r="225" fill="none" stroke="#00d9ff" stroke-width="0.5" opacity="0.07"/>
+
+  <!-- ===== CONNECTION LINES (drawn before boxes) ===== -->
+
+  <!-- 1. Web Client: center-top(450,233) → satellite-bottom(450,73) -->
+  <line x1="450" y1="233" x2="450" y2="73"
+        stroke="#4fc3f7" stroke-width="2" opacity="0.75" stroke-dasharray="6,3"
+        marker-start="url(#cv-start)" marker-end="url(#cv-end)"/>
+
+  <!-- 2. Mobile App: center-top(497,233) → satellite-bottom(593,156) -->
+  <line x1="497" y1="233" x2="593" y2="156"
+        stroke="#4fc3f7" stroke-width="2" opacity="0.75" stroke-dasharray="6,3"
+        marker-start="url(#cv-start)" marker-end="url(#cv-end)"/>
+
+  <!-- 3. Power BI: center-right(535,290) → satellite-left(604,305) -->
+  <line x1="535" y1="290" x2="604" y2="305"
+        stroke="#4fc3f7" stroke-width="2" opacity="0.75" stroke-dasharray="6,3"
+        marker-start="url(#cv-start)" marker-end="url(#cv-end)"/>
+
+  <!-- 4. Grafana: center-bottom(468,308) → satellite-top(534,445) -->
+  <line x1="468" y1="308" x2="534" y2="445"
+        stroke="#4fc3f7" stroke-width="2" opacity="0.75" stroke-dasharray="6,3"
+        marker-start="url(#cv-start)" marker-end="url(#cv-end)"/>
+
+  <!-- 5. REST API: center-bottom(432,308) → satellite-top(366,445) -->
+  <line x1="432" y1="308" x2="366" y2="445"
+        stroke="#9b7de8" stroke-width="2" opacity="0.75" stroke-dasharray="6,3"
+        marker-start="url(#ci-start)" marker-end="url(#ci-end)"/>
+
+  <!-- 6. MQTT Broker: center-left(365,290) → satellite-right(296,305) -->
+  <line x1="365" y1="290" x2="296" y2="305"
+        stroke="#9b7de8" stroke-width="2" opacity="0.75" stroke-dasharray="6,3"
+        marker-start="url(#ci-start)" marker-end="url(#ci-end)"/>
+
+  <!-- 7. Webhooks: center-top(403,233) → satellite-bottom(307,156) -->
+  <line x1="403" y1="233" x2="307" y2="156"
+        stroke="#9b7de8" stroke-width="2" opacity="0.75" stroke-dasharray="6,3"
+        marker-start="url(#ci-start)" marker-end="url(#ci-end)"/>
+
+  <!-- ===== CENTER BOX ===== -->
+  <!-- Glow halo -->
+  <rect x="363" y="231" width="174" height="79" rx="14" fill="none" stroke="#00d9ff" stroke-width="6" opacity="0.2"/>
+  <!-- Main box -->
+  <rect x="365" y="233" width="170" height="75" rx="12"
+        fill="url(#center-grad)" stroke="#00d9ff" stroke-width="2.5" filter="url(#glow)"/>
+  <text x="450" y="260" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#00d9ff">inVIEW</text>
+  <text x="450" y="279" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="13" fill="#7ab8d4">Platform</text>
+  <text x="450" y="297" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="10" fill="#4a8aaa" letter-spacing="2">CLOUD SCADA</text>
+
+  <!-- ===== VISUALIZATION BOXES ===== -->
+
+  <!-- 1. Web Client — center (450, 50), box (390, 27, 120, 46) -->
+  <rect x="390" y="27" width="120" height="46" rx="8"
+        fill="url(#viz-grad)" stroke="#4fc3f7" stroke-width="1.5"/>
+  <text x="450" y="47" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4fc3f7">Web Client</text>
+  <text x="450" y="63" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="9" fill="#7ab8d4">Browser / App</text>
+
+  <!-- 2. Mobile App — center (622, 133), box (562, 110, 120, 46) -->
+  <rect x="562" y="110" width="120" height="46" rx="8"
+        fill="url(#viz-grad)" stroke="#4fc3f7" stroke-width="1.5"/>
+  <text x="622" y="130" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4fc3f7">Mobile App</text>
+  <text x="622" y="146" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="9" fill="#7ab8d4">iOS &amp; Android</text>
+
+  <!-- 3. Power BI — center (664, 319), box (604, 296, 120, 46) -->
+  <rect x="604" y="296" width="120" height="46" rx="8"
+        fill="url(#viz-grad)" stroke="#4fc3f7" stroke-width="1.5"/>
+  <text x="664" y="316" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4fc3f7">Power BI</text>
+  <text x="664" y="332" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="9" fill="#7ab8d4">BI Dashboards</text>
+
+  <!-- 4. Grafana — center (545, 468), box (485, 445, 120, 46) -->
+  <rect x="485" y="445" width="120" height="46" rx="8"
+        fill="url(#viz-grad)" stroke="#4fc3f7" stroke-width="1.5"/>
+  <text x="545" y="465" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4fc3f7">Grafana</text>
+  <text x="545" y="481" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="9" fill="#7ab8d4">Analytics</text>
+
+  <!-- ===== INTEGRATION BOXES ===== -->
+
+  <!-- 5. REST API — center (355, 468), box (295, 445, 120, 46) -->
+  <rect x="295" y="445" width="120" height="46" rx="8"
+        fill="url(#int-grad)" stroke="#9b7de8" stroke-width="1.5"/>
+  <text x="355" y="465" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#b39ddb">REST API</text>
+  <text x="355" y="481" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="9" fill="#8870b8">HTTP Endpoints</text>
+
+  <!-- 6. MQTT Broker — center (236, 319), box (176, 296, 120, 46) -->
+  <rect x="176" y="296" width="120" height="46" rx="8"
+        fill="url(#int-grad)" stroke="#9b7de8" stroke-width="1.5"/>
+  <text x="236" y="316" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#b39ddb">MQTT Broker</text>
+  <text x="236" y="332" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="9" fill="#8870b8">IoT Messaging</text>
+
+  <!-- 7. Webhooks — center (278, 133), box (218, 110, 120, 46) -->
+  <rect x="218" y="110" width="120" height="46" rx="8"
+        fill="url(#int-grad)" stroke="#9b7de8" stroke-width="1.5"/>
+  <text x="278" y="130" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#b39ddb">Webhooks</text>
+  <text x="278" y="146" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="9" fill="#8870b8">Event Hooks</text>
+
+  <!-- ===== LEGEND ===== -->
+  <rect x="18" y="512" width="10" height="10" rx="2" fill="#4fc3f7" opacity="0.85"/>
+  <text x="34" y="522" font-family="Arial, sans-serif" font-size="10" fill="#7ab8d4">Visualization Tools</text>
+  <rect x="172" y="512" width="10" height="10" rx="2" fill="#9b7de8" opacity="0.85"/>
+  <text x="188" y="522" font-family="Arial, sans-serif" font-size="10" fill="#7ab8d4">Integration Layer</text>
+  <text x="882" y="522" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#4a6a7a">&#x21C4; bidirectional communication</text>
+
+</svg>

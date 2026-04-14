@@ -3,7 +3,8 @@
     "allow": [
       "Bash(ls:*)",
       "Bash(node:*)",
-      "WebFetch(domain:www.inviewscada.com)"
+      "WebFetch(domain:www.inviewscada.com)",
+      "Bash(python -c \":*)"
     ]
   }
 }
