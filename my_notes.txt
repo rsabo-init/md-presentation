@@ -1,7 +1,0 @@
-1. Vodovod Novi Sad - general
-2. Client run throught
-3. Editor overview
-4. Configurator:
-    - Connecions and variables
-    - Alarms and events
-    - monitoring and mailing
