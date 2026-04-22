@@ -1,478 +1,560 @@
-<!-- slide: 1/27 — Title -->
-
-# InView - Cloud SCADA
-## INIT Technologies
-
-
----
-
-<!-- slide: 2/27 — Who We Are -->
-
-## Who We Are
-
-**INDAS Group / INIT Technologies — Novi Sad, Serbia**
-
-- INDAS Group founded **1992** — 30+ years in industrial software
-- INIT Technologies spun off **2020** — focused on software product R&D
-- **inVIEW** first commercial release: **2011**, microservices + cloud-native since 2017
-- Full-stack capability: field protocols → edge → cloud → AI/ML → web/mobile
-- In-house R&D — no outsourcing, continuous development
+<!-- slide: 1/30 — Title slide -->
+# inView IIoT Platform
+## Newsletter Q1 2026
 
 <!-- talk:
-- Don't oversell. Just state the facts — 30 years, real deployments, in-house team
-- If they ask about stack, you can go deeper — this is the opening slide
-- Key message: mature product, active development, not a startup
--->
----
-
-## Introducing inVIEW
-
-**Cloud-driven. Edge automation. AI-enhanced.**
-
-inVIEW is an **Industrial Cloud SCADA** that connects your machines, devices, databases and software — and lets you build real-time dashboards, SCADA visualizations, and MES workflows.
-
-**Three core promises:**
-1. **See everything** — real-time data from every device, anywhere
-2. **Control everything** — remote commands, automation, alarms
-3. **Understand everything** — AI/ML that finds patterns you can't see manually
-
-> *"It's not just monitoring. It's an evolution of how you run your production."*
-
-
----
-
-<!-- slide: 5/27 — The Platform: 6 Modules -->
-
-## The Platform — 6 Modules
-
-![6modules](images/inview/6modules.png)
-
-
-<!-- talk:
-- Use this as a map — "we'll walk through each of these in order"
-- Key message: full stack, not a point solution
-- The order follows the data flow: processing → connectivity → configuration → integration → intelligence → edge
+- Welcome to the Q1 newsletter presentation
+- Today we cover the biggest deliveries of this quarter
+- 90 minutes, 6 topics + Q&A
 -->
 
 ---
 
-<!-- slide: 6/27 — CORE ENGINE -->
+<!-- slide: 2/30 — Agenda -->
+# Agenda
 
-## CORE ENGINE — Real-Time SCADA at the Center
-
-![core-module](images/inview/core-module.png)
-
-**The heart of the platform. Proven to scale solutoin**
-
-- Real world data inside the Platform - live variable streaming
-- **Remote control** of field devices — write commands from anywhere in the world
-- **Alarm management** — configurable thresholds, deadband, double-check validation, false alarm prevention
-- Multi-source data aggregation — heterogeneous devices, one unified view
-- Multi-channel notifications: SMS, Email, Push
-
-#Proven to Scale
-- **100,000 simultaneous screen views** — live, on microservices architecture
-- Multi-tenant: multiple enterprise customers on shared infrastructure
-- Kubernetes orchestration — horizontal scaling, zero-downtime deployments
-
----
-
-<!-- slide: 7/27 — DEVICES + Gateways -->
-
-## DEVICES — Connect Anything
-
-![devices-module](images/arch.png)
-
-**We speak the language of your machines.**
-
-*Natively supported protocols:*
-- **OPC UA / OPC DA** — industrial interoperability standard
-- **IEC 60870-5-104** — power grid, utilities, telecontrol
-- **MQTT / LoRaWAN** — modern IoT sensors
-- **Modbus TCP** — most common industrial protocol
-- **Siemens S7** — direct PLC connection
-- **i3x** — inVIEW proprietary protocol for gateway communication
-
-*inVIEW IoT Gateways — for everything else:*
-- Hardware gateways that bridge legacy equipment to the platform
-- Support: **Modbus RTU/TCP, Siemens S7, Ethernet/IP, Profinet, OPC**
-- **Custom script execution on the gateway** — JavaScript logic runs locally, at the source
-- **Store & Forward** — buffers data locally during connectivity loss, syncs automatically
-- Gateway software is open for custom driver development
-
-> *"If your machine generates data, we can connect to it — and process it right where it lives."*
+- Edge Scripts — Flows & Simulator
+- inView ChatBots — Docs & Coding Agent
+- Responsive Client
+- App Improvements
+- Quality Guarantee
+- Highlights from 2025
+- Q&A
 
 <!-- talk:
-- Ask them upfront: "What PLCs and protocols are you running?" — Siemens is very likely for Parador (German manufacturer)
-- The gateway story is important: for older machines that don't speak modern protocols
-- Custom scripts on gateway = edge intelligence without cloud dependency
-- Store & Forward kills the "what happens if internet goes down" objection immediately
-- "We don't replace your automation hardware — we add an intelligence layer on top"
+- Let's get started
 -->
 
 ---
 
-<!-- slide: 8/27 — NO-CODE IDE -->
+<!-- slide: 3/30 — Edge Scripts: Background -->
+# Edge Scripts
 
-## NO-CODE IDE — Your Team Builds It
+IWS scripts have always been a powerful tool — C#-like code that reads and writes variables, executes logic, automates processes. But everything runs **in the cloud**.
 
-![nocode-module](images/inview/nocode-module.png)
+The i3x gateway sits on-site: reads devices, PLCs and sensors, sends variables to the cloud. It has processing power — and it's always there, regardless of internet connectivity.
 
-**The people who know your process — build the application.**
+**The question was:** why not push the script directly to the gateway?
 
-- **Drag-and-drop screen builder** — no programming required
-- Configurator runs entirely in a browser — no software to install
-- Your technician builds a new screen, not your software developer
+- Location without stable internet → the script must run autonomously
+- Real-time reaction to events → no cloud round-trip latency
+- The gateway already knows all local variables — no need to go to the cloud
 
-**One tool — web and mobile:**
-- Screens built in the IDE render on **web browser** and in the **native mobile app** (iOS & Android)
-- No separate mobile development — same screen definition, same data, same configuration
-
-**What this means in practice:**
-- Not dependent on a vendor for every configuration change
-- IT team or production engineers own the setup
-- **Templates** — configure one machine, replicate to 50 identical ones instantly
-- New production line → new screen in days, not months
-
-> *"Most SCADA vendors charge you every time you want to change a label. Your team does it themselves — and it works on every device."*
+![Edge Scripts — Architecture](images/q1-2026/edge-scripts-arch.svg)
 
 <!-- talk:
-- Strong reaction slide for people who've dealt with rigid SCADA vendors
-- Be honest: Configurator v3 is in active development — current version works, new one is coming
-- Template story is very practical: "50 identical presses, configure once, deploy 50 times"
-- "No-code doesn't mean limited — it means the domain expert, not the developer, is in control"
+- IWS scripts: powerful, but cloud-dependent
+- i3x: our gateway, on-site, reads Modbus/S7/OPC UA
+- Idea: deploy the script directly to i3x → it executes locally
+- Cloud is not needed for execution — only for sync when connection is available
 -->
 
 ---
 
-<!-- slide: 8/27 — NO-CODE IDE -->
+<!-- slide: 4/30 — Edge Scripts: How it works -->
+# Edge Scripts
 
-## NO-CODE IDE — Your Team Builds It
+The developer writes a script **almost identically** to an IWS script — similar syntax, same variable access, same mental model.
 
-![nocode-module](images/editor.png)
----
+The only difference: the script is deployed to the **i3x gateway**.
 
+- Executes **locally** on the gateway — the user doesn't notice
+- Works even when **there is no internet connection**
+- Can read variables from the cloud — remote locations can communicate
 
-<!-- slide: 8/27 — NO-CODE IDE -->
+**Result:** automation that lives at the network edge, independent of the cloud, but part of the same platform.
 
-## NO-CODE IDE — Your Team Builds It
-
-![nocode-module](images/client.png)
----
-
-<!-- slide: 8/27 — NO-CODE IDE -->
-
-## NO-CODE IDE — Your Team Builds It
-
-![nocode-module](images/editor2.png)
----
-<!-- slide: 8/27 — NO-CODE IDE -->
-
-## NO-CODE IDE — Your Team Builds It
-
-![nocode-module](images/client2.png)
----
-<!-- slide: 9/27 — ENDPOINTS -->
-
-## ENDPOINTS — Connect to Everything Outside
-
-![endpoints-hub](images/endpoints-hub.svg)
-
-**inVIEW doesn't live in isolation. It talks to your entire ecosystem.**
-
-**InView visualisation tools**
-- **Web Client** — expose live and historical tag data via standard InView Client — any browser, app
-- **Mobile App** — native iOS & Android app — same screens built in the No-Code IDE, always in sync, works on the shop floor
-- **Power BI** — connect inVIEW as a data source for business-level reporting, KPI dashboards, and management overviews
-- **Grafana** — plug inVIEW into Grafana for open-source analytical dashboards and time-series visualization
-**External systems to integrate with via**
-- **REST API** — standard HTTP endpoints for any external system
-- **MQTT broker** — publish data to any MQTT subscriber
-- **Webhooks / Event Hooks** — trigger external actions on alarms or data events
-
-> *"Any system that can send or receive HTTP, WebSocket, or MQTT can integrate with inVIEW."*
+![Edge Scripts — Architecture](images/q1-2026/edge-scripts-arch.svg)
 
 <!-- talk:
-- This is the integration layer — relevant when they ask "how does it connect to our ERP/SAP/MES?"
-- Value2REST is a practical example: every time a tag changes, automatically POST to SAP
-- Webhooks are useful for triggering external workflows from inVIEW alarm events
-- If they have an existing historian or database — "we can read from it directly"
+- Same syntax as IWS — no new learning curve
+- Deploy to gateway = script "lives" locally
+- Offline resilience: location without internet still executes logic
+- Cloud read: can consume cloud variables → DCS between locations
+- Key point: the user writes the same code, the platform knows where to execute it
 -->
 
 ---
 
-<!-- slide: 10/27 — AI/ML -->
+<!-- slide: 5/30 — Edge Scripts: Architecture -->
 
-## AI / ML — Your System Gets Smarter Over Time
-
-![ai-module](images/inview/ai-module.png)
-
-**Built in. Not bolted on.**
-
-What the AI layer does:
-
-- **Data analytics AI** - Anomaly Detection,  **Self-Prediction**
-- **RealTime Calculations** - In realtime have the AI output of your data
-- **AI control** - take actions from AI directly
-- **Edge RealTime AI Control** - download AI calculations to the Edge
-
-RealTime AI calculaton output
-> *"Your press temperature starts drifting at 02:00 AM. By 06:00 AM it would have caused a quality defect. The system flags it at 02:15 AM. Your night shift fixes it before morning. That's pattern recognition on your own historical data."*
+![Edge Scripts — Architecture](images/q1-2026/edge-scripts-arch.svg)
 
 <!-- talk:
-- Don't oversell "AI" — be specific: anomaly detection and prediction, not general intelligence
-- The ensemble approach (multiple algorithms running in parallel) is worth mentioning — higher accuracy, fewer false positives
-- "The more historical data you have, the better it gets" — Tarkett has years of data now
-- MLflow mention is good for technical audiences — shows mature ML lifecycle thinking
-- Key: it's native to the architecture, not a third-party add-on
+- Top: inView cloud — IWS scripts execute here, all variables, alarms, history
+- Bottom: two locations — each with an i3x gateway running Edge Scripts
+- Arrows to cloud: sync, optional, when internet is available
+- Inside each zone: gateway reads field devices (PLCs, sensors), executes script locally
+- Subtle line between zones: indirect communication through cloud when available
+- Offline OK badge: that's the key — the script doesn't stop when internet goes down
 -->
 
 ---
 
-<!-- slide: 11/27 — EDGE -->
+<!-- slide: 5/30 — Edge Scripts: Architecture -->
 
-## EDGE — Intelligence Where the Data Is Born
+![Edge Scripts — Flows](images/q1-2026/edge-scripts-1.png)
 
-![devices-module](images/arch.png)
+---
 
-**Processing logic runs directly on the edge device — at the machine, at the site.**
+<!-- slide: 5/30 — Edge Scripts: Architecture -->
 
-**What edge computing means here:**
-- Automation scripts run **locally** — no cloud round-trip for time-sensitive decisions
-- Works fully **offline** — no internet connection required for local operations
-- Reduces bandwidth — only relevant, processed data goes upstream
-- Latency-sensitive control stays on-site
-
-**Edge + Gateway combination:**
-- inVIEW Gateway runs edge scripts at the protocol bridge level
-- Custom JavaScript logic executes at the source
-- Local alarm detection, filtering, and aggregation before cloud sync
-- Scales to hundreds of distributed edge nodes from one central management interface
-
-> *"You have a press line with poor connectivity. With Edge, that line is fully autonomous — it monitors, reacts, logs — with or without a live cloud connection."*
+![Edge Scripts — Architecture](images/q1-2026/edge-scripts-arch.svg)
 
 <!-- talk:
-- This is the most technically interesting module for many industrial customers
-- The "offline capable" point is critical for factories with unreliable connectivity
-- Tie back to gateways from the DEVICES slide — "the gateway IS the edge node"
-- Mention store & forward again as the data reliability mechanism
-- "Managing 100 edge nodes from one central interface" — that's the scale story for distributed facilities
+- Top: inView cloud — IWS scripts execute here, all variables, alarms, history
+- Bottom: two locations — each with an i3x gateway running Edge Scripts
+- Arrows to cloud: sync, optional, when internet is available
+- Inside each zone: gateway reads field devices (PLCs, sensors), executes script locally
+- Subtle line between zones: indirect communication through cloud when available
+- Offline OK badge: that's the key — the script doesn't stop when internet goes down
+-->
+
+---
+<!-- slide: 6/30 — Edge Scripts: Flows -->
+# Flows
+
+NO-Code IDE with scripts? Let's draw the script.
+
+- Flow programming to draw scripts - **Visual presentation script**
+- Same behavior as written edge scripts - you also can switch to code if you prefere
+- Debug mode - easly simulate your flow
+
+<!-- talk:
+- TODO
 -->
 
 ---
 
-<!-- slide: 11/27 — EDGE -->
+<!-- slide: 7/30 — Edge Scripts: Simulator Mode -->
+# Simulator Mode
 
-## EDGE Scripts Editor
+![Edge Scripts — Simulator](images/q1-2026/edge-scripts-2.png)
 
-![devices-module](images/edge-scripts.png)
----
-
-
-<!-- slide: 11/27 — EDGE -->
-
-## EDGE Scripts Editor
-
-![devices-module](images/edge-scripts-2.png)
-
----
-<!-- slide: 11/27 — EDGE -->
-
-## EDGE Scripts Editor
-
-![devices-module](images/edge-scripts-3.png)
-
----
-<!-- slide: 12/27 — Deployment -->
-
-## Deployment — Your Rules, Your Infrastructure
-
-**Same platform. Same features. Your choice of where it runs.**
-
-| Model | What it means |
-|---|---|
-| **Cloud (SaaS)** | We host and manage — you just log in|
-| On-Premise | Fully on your servers, your data center, your control |
-| Hybrid | Some on-site, some cloud — best of both worlds |
-| Edge + Cloud | Local autonomy + cloud visibility and analytics |
-
-**Security** — verified architecture, with regular penetration testing cycles to stay ahead of threats.
-
+> ⚠️ TODO: Description of Simulator Mode — what it enables, how it works
 
 <!-- talk:
-- German company = likely data sovereignty concerns — address proactively
-- "Your data never has to leave your building if you don't want it to"
-- GDPR-aware architecture — EU company, EU-first thinking
-- Hybrid is the most common real-world scenario — edge/gateway on-site, dashboards in cloud
+- TODO
 -->
 
 ---
 
-<!-- slide: 18/27 — Tarkett Wood: Challenge -->
+<!-- slide: 8/30 — ChatBots: Intro -->
+# inView ChatBots
 
-## Tarkett — The Challenge
+**AI assistants built directly into the platform.**
 
-**Multiple divison in factory. Multi-stage production process. SAP-connected.**
+Two chatbots, two purposes:
 
-**Before inVIEW MES:**
-- Production was planned in **SAP** — but execution on the floor was disconnected
-- No real-time tracking — no machinery monitoring, work orders tracking on sheets
-- Material in-out and Mach Stoppage evidence manually — hours later, sometimes not at all
-- Shift reports took **45 minutes** to complete manually — every single shift
-- SAP always lagged reality — no one trusted the numbers
-
-> *"Management could see what was planned. Nobody could see what actually happened."*
+- **Docs** — answers questions about the platform using the official documentation
+- **Coding Agent** — writes C# scripts based on natural language descriptions
+- more coming...
 
 <!-- talk:
-- These are all very recognizable problems for any production manager
-- The 45-minute shift report is a concrete pain point — pause on it
-- "SAP lagged reality" — this is the core integration gap we solved
-- Don't rush to the solution yet. Let the problems register.
--->
-
----
-<!-- slide: 19/27 — Tarkett Wood: What We Built -->
-
-## Tarkett Wood — SCADA + MES (since 2021)
-
-**A full Manufacturing Execution System built on the inVIEW SCADA foundation.**
-
-**SCADA layer — real-time visibility:**
-- Full production floor visualization — presses, brush lines, packaging, all zones live
-- Real-time machine status, cycle parameters, trend analysis
-- TV screens on the shop floor — always-on production overview for operators
-
-**MES layer — planning and execution:**
-- **Production planning** — visual planning board, shift scheduling, line assignments
-- **Work order lifecycle** — SAP order → floor screen → execution tracked step by step
-- **Cycle evidence** — every press cycle recorded: duration, parameters, outcome
-- **Downtime management** — stoppages auto-detected, reason codes logged, duration tracked
-- **Quality & yield** — per-order data, reject tracking, product version management
-- **Shift reports** — generated automatically at shift end. Zero manual input.
-
-<!-- talk:
-- Show screenshots here if you have them — planning screen, work order view, shift report
-- The cycle evidence is a good technical detail — every press cycle, not just daily totals
-- Auto-detected downtime is significant: "the system knows when a machine stops, the operator just confirms why"
-- "Shift report generates itself" — this always gets a reaction
+- General LLM adoption — we've all seen how powerful this is
+- Both chatbots available inside the platform, without leaving the context
+- Goal: democratization — non-developers can use the platform effectively
 -->
 
 ---
 
-<!-- slide: 20/27 — SAP Integration -->
+<!-- slide: 9/30 — ChatBot: Docs -->
+# ChatBot: Docs
 
-## SAP Integration — Data Flows Both Ways
+**Documentation available through conversation.**
 
-![sap-integration-flow](images/sap-integration-flow.svg)
-
-**inVIEW and SAP talk to each other — automatically.**
-
-**inVIEW → SAP (data flowing back to ERP):**
-- Actual production quantities confirmed per order
-- Material consumption reported
-- Downtime events and stoppage reasons
-- Work order status updated in real time
-- Quality deviations flagged
-
-**SAP → inVIEW (data flowing down to the floor):**
-- Production orders pushed directly to floor screens
-- Material requirements, BOMs, product versions
-- Shift schedules and planning parameters
-
-> *"SAP always reflects what actually happened on the floor. Not because someone entered data — because the system entered it automatically."*
+> ⚠️ TODO: Fill in details — where it's available, what questions it covers, how RAG works
 
 <!-- talk:
-- Bidirectional is the key word — not just monitoring, actual SAP confirmation
-- "No manual data entry between floor and ERP" — this is the line that hits hardest
-- Pause after the quote. Let it land.
-- If they ask about SAP version compatibility — confirm specifics with team, we support standard interfaces
+- TODO
 -->
 
 ---
 
-<!-- slide: 22/27 — Screenshot: SCADA Overview -->
+<!-- slide: 10/30 — Coding Agent: Intro -->
+# Coding Agent
 
-## Tarkett Wood — SCADA Live View
+**Describe what the script should do — AI will write it for you.**
 
-![scada-pres](images/wood/scada pres.png)
+Writing C# scripts has always required programming knowledge. Users without technical experience couldn't create automations independently — the Coding Agent changes that.
+
+- Available directly in the Scripting section, without leaving the context
+- Generated code is applied with a single click (APPLY)
+- Variables from the configurator can be included in the context
+
+![AI chat panel in Configurator](images/q1-2026/chatbot-panel.png)
 
 <!-- talk:
-- Live SCADA screen from the wood production floor
-- Real-time machine states, temperature, speed, status — all visible at a glance
-- This is what the operator sees every shift
+- Democratizing automation — non-developers can create scripts
+- Reduces the burden on the support team
+- Non-coding questions are rejected — focus is exclusively on scripts
 -->
 
 ---
 
-<!-- slide: 23/27 — Screenshot: Daily Evidence -->
+<!-- slide: 11/30 — Coding Agent: Open Chat -->
+# Coding Agent — Open Chat
 
-## Tarkett Wood — Daily Production Evidence
+**Step 1: Describe it, AI generates it.**
 
-![daily-evidence](images/wood/daily evidence.png)
+A button in the Scripts screen opens the AI chat panel. The user describes the desired automation in natural language — the chatbot generates a C# snippet compatible with the platform's syntax.
+
+![Open chat](images/q1-2026/chatbot-open.png)
 
 <!-- talk:
-- Daily production report — automatically generated, no manual input
-- Every order, every cycle, every stoppage captured
-- This replaced 45 minutes of manual shift paperwork
+- Snippet is ready to paste into the Scripting editor
+- Non-coding questions are automatically rejected
 -->
 
 ---
 
-<!-- slide: 25/27 — Screenshot: Cycle Evidence -->
+<!-- slide: 12/30 — Coding Agent: APPLY -->
+# Coding Agent — APPLY
 
-## Tarkett Wood — Press Cycle Evidence
+**Step 2: One click, code in the editor.**
 
-![cycle-evidence](images/wood/cycle evidence.png)
+Clicking APPLY syncs the generated code directly into the Scripting editor. Iterations are supported — the user requests changes in the chat until the code is correct.
+
+![APPLY button](images/q1-2026/chatbot-apply.png)
 
 <!-- talk:
-- Every press cycle recorded — duration, product, result
-- Full traceability: which board was pressed, when, on which press, with which parameters
-- This is the data quality and compliance story
+- Default: replace. Optional: append
+- Compile feedback available directly in the editor
+- Session context is maintained per userId:scriptId combination
 -->
 
 ---
 
-<!-- slide: 21/27 — Tarkett Results -->
+<!-- slide: 13/30 — Coding Agent: Variables -->
+# Coding Agent — Variables
 
-## Tarkett — Results
+**Step 3: Context that eliminates errors.**
 
-**Wood Division (MES since 2021):**
-- Production planning fully digitalized and connected to SAP
-- Every work order tracked from SAP creation to floor completion
-- Every press cycle recorded — full production traceability
-- Downtime automatically detected and categorized
-- **Shift reports automated** — 45 minutes of manual work → 0
-- Live quality data per order, per shift, per product version
+Variables from the configurator can be included in the chat window. The model then generates code exclusively using the available system variables — eliminating errors caused by non-existent references.
 
-**PVC Division** *(running since 2016 — mentioned for reference):*
-- Full SCADA monitoring and control across all production zones
-- OEE tracking, command system, SAP-integrated production orders
-
-> *"They started with one line in 2016. Today they run two full divisions on inVIEW. That's 10 years of continuous expansion — the real proof isn't the sale, it's that they keep growing it."*
+![Variables in chat](images/q1-2026/chatbot-variable.png)
 
 <!-- talk:
-- The Wood results are the main story — go through them
-- PVC is just a footnote here — "and by the way, we've also been running PVC since 2016"
-- The 10-year partnership point is powerful — it signals reliability and trust
-- "They keep asking for more features" — that's the truest signal of a successful deployment
+- Drag & drop variables from the configurator into the chat
+- If required variables are missing — APPLY is disabled with a clear message
 -->
 
 ---
+
+<!-- slide: 14/30 — Responsive Client: Problem -->
+# Responsive Client
+
+**Screens that adapt to every device — without manual adjustment.**
+
+**Before:** Absolute positioning — every element has fixed coordinates and dimensions. On a mobile device or different resolution — unusable.
+
+**Now:** Flex layout — elements know how they relate to each other, not where exactly they are.
+
+<!-- talk:
+- This is a fundamental change in how screens are rendered
+- Same screen — correct on every device without developer intervention
+-->
+
 ---
 
-<!-- slide: 27/27 — Thank You -->
+<!-- slide: 15/30 — Responsive Client: Flex Layout -->
+# Responsive Client — Flex Layout
 
-## Thank You
+Screens are built in layers:
 
-**inVIEW IIoT Platform — INIT Technologies**
+- **Containers** — invisible zones that define layout directions (horizontal / vertical)
+- Containers can be nested — complex layouts without a single fixed coordinate
+- **Components** — occupy the space the container assigns them
 
-*The platform that connects your machines, your people, and your data.*
+When the screen expands or shrinks — the container redistributes space automatically.
 
-**Next step:** A short technical workshop at your site — we look at your current setup and define what a pilot could look like.
+**Result:** The same screen on a 10" industrial panel and a 27" monitor — clean on both.
+
+<!-- talk:
+- Flex is a standard web approach (CSS Flexbox)
+- No need for a separate mobile screen configuration
+-->
 
 ---
 
-**Robert Sabo | INIT Technologies**
-robert@industrial-it.software | inview.software
+<!-- slide: 16/30 — Responsive Client: Production -->
+# Responsive Client — In Production
 
-> *"You already have the data. Let's make it work for you."*
+- Merge develop ↔ responsive branch: **done**
+- Existing projects: **unaffected**
+- 10 key components: **verified**
+- Top menu rendering by screen type: **verified**
+
+**Approach:** Released to production. Bugs are fixed incrementally based on real-world usage.
+
+<!-- talk:
+- This is not "all or nothing" — works alongside existing projects
+- Mobile-first SCADA — competitive advantage
+-->
+
+---
+
+<!-- slide: 17/30 — App Improvements: Intro -->
+# App Improvements
+
+**Features that speed up everyday work in the Configurator.**
+
+- WYSIWYG — Quick Preview
+- Follow Live Values
+- Advanced Search
+
+<!-- talk:
+- Accumulated App team tasks — finally delivered in Q1
+- FE: 10 days, BE: 14 days
+-->
+
+---
+
+<!-- slide: 18/30 — WYSIWYG -->
+# WYSIWYG — Quick Preview
+
+**See how the screen looks — without saving, without login.**
+
+Clicking the **Quick Preview** button (eye icon) in the Editor toolbar shows the runtime appearance of the screen directly in the same window.
+
+- No saving the configuration
+- No prior login to the client
+- No risk of losing work — the previewer does not modify the configuration, only displays it
+
+![WYSIWYG button in toolbar](images/q1-2026/app-wysiwyg-button.png)
+
+<!-- talk:
+- Speeds up iteration when designing SCADA screens
+- Mobile and desktop preview — shows mobile/desktop configuration
+-->
+
+---
+
+<!-- slide: 19/30 — Follow Live Values -->
+# Follow Live Values
+
+**All the variables you follow — in one place.**
+
+On the Live Values page, users create their own groups and add variables from different connections.
+
+- Groups are selected as a filter — identical to how connections are selected
+- Live values of all variables in the group — on a single page
+- No jumping between different connections and pages
+
+![Adding a variable to a group](images/q1-2026/app-follow-live-add.png)
+
+<!-- talk:
+- Useful for operators monitoring variables from multiple systems simultaneously
+-->
+
+---
+
+<!-- slide: 20/30 — Advanced Search -->
+# Advanced Search
+
+**Wildcard search in the Configurator.**
+
+Activated automatically by entering quotes (`"` or `'`) in the search field.
+
+| Query | Result |
+|-------|--------|
+| `"temperatureSensor"` | Exact match only |
+| `"temp*Sensor"` | temperatureSensor, tempMaxSensor... |
+| `"*Sensor"` | All variables ending with Sensor |
+| `"temp*"` | Everything starting with temp |
+
+![Advanced search](images/q1-2026/app-advanced-search.png)
+
+<!-- talk:
+- Especially useful on projects with hundreds of variables
+- * replaces any sequence of characters
+-->
+
+---
+
+<!-- slide: 21/30 — Quality Guarantee: Intro -->
+# inView Quality Guarantee
+
+**Three pillars of quality delivered in Q1.**
+
+| Pillar | What it brings |
+|--------|----------------|
+| **Documentation** | Every component explained, every property defined |
+| **TestRails** | Centralized test case management |
+| **Automated Tests** | Every deploy automatically verified |
+
+<!-- talk:
+- This is not a single delivery — this is a change in process and quality culture
+-->
+
+---
+
+<!-- slide: 22/30 — Documentation -->
+# Documentation
+
+**Every component explained. Every property defined.**
+
+The Editor and Configurator are fully documented — every component with all its properties and their meaning.
+
+- **Editor** — all visual components, display logic, properties with descriptions
+- **Configurator** — drivers, connections, tags, scripts; including e.g. ModbusTCP driver
+
+Goal: anyone — regardless of experience — understands what a given option does and when to use it.
+
+**Available:** SharePoint — `INIT > Documents > Teams > QA`
+
+![inView Editor documentation](images/q1-2026/docs-editor.png)
+
+<!-- talk:
+- Reduces configuration errors
+- Reduces the need for support interventions
+- Working version in Word, final version published on SharePoint
+-->
+
+---
+
+<!-- slide: 23/30 — Documentation: Configurator -->
+# Documentation — Configurator
+
+![inView Configurator documentation](images/q1-2026/docs-configurator.png)
+
+![ModbusTCP Driver — all properties](images/q1-2026/docs-modbus.png)
+
+<!-- talk:
+- Example: ModbusTCP driver — all values, default values, usage context
+- Especially important for new team members and clients who configure independently
+-->
+
+---
+
+<!-- slide: 24/30 — TestRails -->
+# TestRails
+
+**Centralized test case management.**
+
+**Before:** Testing tracked in spreadsheets — unmanageable, unsustainable.
+
+**Now with TestRails:**
+- All test cases migrated and organized by procedure
+- Traceability of testing by milestones
+- Professional reports for stakeholders
+- Jira integration
+
+<!-- talk:
+- Quarter goal: 100% adoption by the QA team
+- All existing test cases recorded under well-defined testable scenarios
+-->
+
+---
+
+<!-- slide: 25/30 — Automated Tests -->
+# Automated Tests
+
+**Every deploy automatically verified.**
+
+Framework: **Cypress**
+
+| Procedure | What it covers |
+|-----------|----------------|
+| **Wells CRUD** (Boomerang) | Adding, renaming, retiring, deleting Wells |
+| **Advanced Configurator** | Most commonly used Configurator components |
+| **Editor / Client** | Consistency between configuration and client display |
+
+![Cypress tests running](images/q1-2026/qa-testovi.png)
+
+<!-- talk:
+- Critical operations whose failure directly impacts clients — covered automatically
+- All test cases documented in TestRails
+-->
+
+---
+
+<!-- slide: 26/30 — Automated Tests: PDF Report -->
+# Automated Tests — PDF Report
+
+**Results automatically delivered after every deploy.**
+
+- Structured PDF report with results of all test cases
+- Clear view of passed and failed tests per procedure
+- Automatic delivery to defined email addresses
+- Report history — tracking quality over time
+
+![Sample test report](images/q1-2026/qa-report.png)
+
+<!-- talk:
+- No more manual testing after every deploy
+- Fewer bugs in production, faster release cycles
+-->
+
+---
+
+<!-- slide: 27/30 — Highlights 2025: Intro -->
+# Highlights from 2025
+
+**Three deliveries that defined the platform last year.**
+
+- Value Prediction (ML Self-Prediction)
+- Anomaly Detection
+- Grafana, Power BI, WebHooks
+
+<!-- talk:
+- Worth recapping the key deliveries from 2025 before moving into Q2 2026
+-->
+
+---
+
+<!-- slide: 28/30 — Prediction -->
+# Value Prediction
+
+**The platform predicts variable values before they occur.**
+
+> ⚠️ TODO: Fill in with specific context — which project/client, who tested it, what the results were
+
+Technology: **LSTM neural networks + Random Forest**
+
+<!-- talk:
+- TODO: context — who tested it and with what results
+-->
+
+---
+
+<!-- slide: 29/30 — Anomaly Detection -->
+# Anomaly Detection
+
+**Automatic detection of abnormal variable behavior.**
+
+> ⚠️ TODO: Fill in with specific results/examples from 2025
+
+<!-- talk:
+- TODO: specific examples where anomaly detection caught a problem
+-->
+
+---
+
+<!-- slide: 30/30 — Grafana, Power BI, WebHooks -->
+# Grafana, Power BI, WebHooks
+
+**Integrations with popular analytics tools.**
+
+> ⚠️ TODO: Fill in with specific details of what was delivered in 2025
+
+<!-- talk:
+- TODO
+-->
+
+---
+
+<!-- slide: 31/31 — Q&A -->
+# Q&A
+
+**Questions?**
+
+![INIT Logo](images/init-logo.png)
+
+*INIT Technologies — inView Web SCADA*
+
+<!-- talk:
+- Thank everyone for their attention
+- Questions and comments
+- Next newsletter: Q2 2026
+-->
