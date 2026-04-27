@@ -1,375 +1,657 @@
 <!DOCTYPE html>
-<html lang="sr">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>inVIEW IIoT Platform — Q1 2026 Newsletter</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+<!-- saved from url=(0042)http://localhost:8000/presentation.html#25 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inView IIoT Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./newsletter_Q1_2026_files/css2" rel="stylesheet">
+    <style>
+        /* ── Brand tokens (inviewscada.com light theme) ── */
+        :root {
+            --accent:       #e23d21;
+            --accent-hover: #b3311a;
+            --bg:           #ffffff;
+            --bg-alt:       #f6f5f3;
+            --header-bg:    #ffffff;
+            --text:         #171717;
+            --text-muted:   #5a5a5a;
+            --text-faint:   #999999;
+            --border:       #e0e0e0;
+        }
 
-    body {
-      background-color: #111111;
-      font-family: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
-      color: #ffffff;
-    }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
-    .wrapper {
-      max-width: 900px;
-      margin: 40px auto;
-      background: #0d0d0d;
-      border-radius: 4px;
-      overflow: hidden;
-      border: 1px solid rgba(255,255,255,0.07);
-    }
+        body {
+            font-family: 'Roboto', 'Segoe UI', sans-serif;
+            background: var(--bg-alt);
+            color: var(--text);
+            overflow: hidden;
+            height: 100vh;
+        }
 
-    /* HEADER */
-    .header {
-      background-color: #070707;
-      padding: 52px 56px 48px;
-      text-align: center;
-      border-bottom: 2px solid #f22e0d;
-    }
-    .header .logo-line {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 12px;
-      margin-bottom: 32px;
-    }
-    .header .logo-line .bar {
-      flex: 1;
-      height: 1px;
-      background: rgba(255,255,255,0.1);
-      max-width: 120px;
-    }
-    .header .logo-text {
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 4px;
-      text-transform: uppercase;
-      color: #f22e0d;
-    }
-    .header h1 {
-      font-size: 38px;
-      font-weight: 900;
-      color: #ffffff;
-      line-height: 1.15;
-      margin-bottom: 16px;
-      letter-spacing: -0.5px;
-    }
-    .header h1 span { color: #f22e0d; }
-    .header .period {
-      font-size: 13px;
-      font-weight: 300;
-      color: #949ca1;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-    }
+        .presentation-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
 
-    /* INTRO */
-    .intro {
-      padding: 32px 56px;
-      border-bottom: 1px solid rgba(255,255,255,0.07);
-      background: rgba(255,255,255,0.02);
-    }
-    .intro p {
-      font-size: 16px;
-      font-weight: 300;
-      color: #c0c7cc;
-      line-height: 1.8;
-    }
+        /* ── Header ── */
+        .header {
+            background: var(--header-bg);
+            border-bottom: 3px solid var(--accent);
+            padding: 13px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        }
 
-    /* TOC */
-    .toc {
-      padding: 32px 56px;
-      border-bottom: 1px solid rgba(255,255,255,0.07);
-    }
-    .toc-label {
-      font-size: 10px;
-      font-weight: 700;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      color: #4e5559;
-      margin-bottom: 18px;
-    }
-    .toc-item {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      padding: 11px 0;
-      border-bottom: 1px solid rgba(255,255,255,0.05);
-      font-size: 15px;
-      color: #c0c7cc;
-      font-weight: 400;
-    }
-    .toc-item:last-child { border-bottom: none; }
-    .toc-item .num {
-      font-size: 11px;
-      font-weight: 700;
-      color: #f22e0d;
-      min-width: 26px;
-      letter-spacing: 1px;
-    }
+        .header-title {
+            font-size: 1.1em;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: var(--accent);
+            text-transform: uppercase;
+        }
 
-    /* SECTION */
-    .section {
-      padding: 52px 56px 44px;
-      border-bottom: 1px solid rgba(255,255,255,0.07);
-    }
+        .slide-counter {
+            font-size: 0.95em;
+            color: var(--text-muted);
+            font-weight: 400;
+            background: rgba(226,61,33,0.06);
+            padding: 4px 14px;
+            border-radius: 20px;
+            border: 1px solid rgba(226,61,33,0.2);
+        }
 
-    .section-tag {
-      display: inline-flex;
-      align-items: center;
-      margin-bottom: 20px;
-    }
-    .section-tag .tag-num {
-      font-size: 10px;
-      font-weight: 700;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: #f22e0d;
-      border: 1px solid #f22e0d;
-      padding: 3px 10px;
-      border-radius: 2px;
-    }
+        /* ── Image-only slide overrides ── */
+        .slide-container.image-only-container {
+            padding: 10px 20px;
+            align-items: flex-start;
+        }
 
-    .section h2 {
-      font-size: 30px;
-      font-weight: 900;
-      color: #ffffff;
-      margin-bottom: 18px;
-      line-height: 1.2;
-      letter-spacing: -0.3px;
-    }
+        .slide.image-only {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
 
-    .section .lead {
-      font-size: 17px;
-      font-weight: 700;
-      color: #f22e0d;
-      margin-bottom: 18px;
-      line-height: 1.5;
-    }
+        .img-slide-title {
+            font-size: 0.8em !important;
+            margin-bottom: 4px !important;
+            color: var(--text-faint) !important;
+            font-weight: 400 !important;
+            letter-spacing: 2px !important;
+            text-transform: uppercase !important;
+            width: 100%;
+            text-align: center;
+        }
 
-    .section p {
-      font-size: 15px;
-      font-weight: 300;
-      color: #c0c7cc;
-      line-height: 1.85;
-      margin-bottom: 20px;
-    }
+        /* ── Main slide area ── */
+        .slide-container {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 100px;
+            position: relative;
+            background: var(--bg);
+        }
 
-    .section p strong {
-      font-weight: 700;
-      color: #ffffff;
-    }
+        .slide {
+            display: none;
+            width: 100%;
+            max-width: 1400px;
+            animation: slideIn 0.4s ease-out;
+        }
 
-    .section ul {
-      list-style: none;
-      margin: 0 0 32px;
-      padding: 0;
-      border-left: 2px solid #f22e0d;
-      padding-left: 24px;
-    }
-    .section ul li {
-      font-size: 15px;
-      font-weight: 400;
-      color: #c0c7cc;
-      padding: 7px 0;
-      line-height: 1.65;
-    }
+        .slide.active { display: block; }
 
-    /* IMAGES — stacked vertically */
-    .images {
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-      margin-top: 32px;
-    }
-    .img-wrap {
-      position: relative;
-      border-radius: 4px;
-      overflow: hidden;
-      border: 1px solid rgba(255,255,255,0.1);
-      background: rgba(255,255,255,0.03);
-      line-height: 0;
-    }
-    .img-wrap img {
-      width: 100%;
-      display: block;
-      border-radius: 3px;
-    }
-    .img-placeholder {
-      display: none;
-      height: 220px;
-      align-items: center;
-      justify-content: center;
-      font-size: 11px;
-      color: #4e5559;
-      text-align: center;
-      padding: 16px;
-    }
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(40px); }
+            to   { opacity: 1; transform: translateX(0); }
+        }
 
-    /* COMING SOON */
-    .coming-soon {
-      background: rgba(255,255,255,0.02);
-      border: 1px dashed rgba(255,255,255,0.1);
-      border-radius: 4px;
-      padding: 36px 24px;
-      text-align: center;
-      margin-top: 10px;
-    }
-    .coming-soon span {
-      font-size: 10px;
-      font-weight: 700;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      color: #4e5559;
-    }
+        /* ── Typography ── */
+        .slide h1 {
+            font-size: 3.2em;
+            margin-bottom: 18px;
+            color: var(--accent);
+            font-weight: 700;
+            line-height: 1.15;
+        }
 
-    .subtitle-tags {
-      font-size: 12px;
-      color: #4e5559;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      font-weight: 500;
-      margin-bottom: 20px;
-    }
+        /* Accent underline bar below h1 — matches website .section-title::after */
+        .slide h1::after {
+            content: '';
+            display: block;
+            height: 5px;
+            width: 52px;
+            background-color: var(--accent);
+            margin-top: 14px;
+        }
 
-    /* FOOTER */
-    .footer {
-      background: #070707;
-      padding: 40px 56px;
-      text-align: center;
-      border-top: 1px solid rgba(255,255,255,0.07);
-    }
-    .footer .footer-logo {
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 4px;
-      text-transform: uppercase;
-      color: #f22e0d;
-      margin-bottom: 16px;
-    }
-    .footer p {
-      font-size: 12px;
-      font-weight: 300;
-      color: #4e5559;
-      line-height: 2.2;
-    }
-    .footer a {
-      color: #949ca1;
-      text-decoration: none;
-    }
-  </style>
+        .slide h2 {
+            font-size: 2em;
+            margin-bottom: 24px;
+            color: var(--text);
+            font-weight: 700;
+            line-height: 1.3;
+        }
+
+        .slide h3 {
+            font-size: 1.6em;
+            margin: 22px 0 12px 0;
+            color: var(--text-muted);
+            font-weight: 700;
+        }
+
+        .slide p {
+            font-size: 1.3em;
+            line-height: 1.75;
+            margin-bottom: 18px;
+            color: var(--text);
+        }
+
+        .slide ul, .slide ol {
+            margin: 8px 0 8px 36px;
+            font-size: 1.25em;
+            line-height: 1.6;
+        }
+
+        .slide li {
+            margin-bottom: 6px;
+            color: var(--text-muted);
+        }
+
+        /* Bullet colour — matches website ul li::before color */
+        .slide ul li::marker { color: var(--accent); }
+
+        .slide strong {
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        /* ── Blockquote (used for TODO notes) ── */
+        .slide blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 10px 20px;
+            margin: 16px 0;
+            background: rgba(226,61,33,0.04);
+            color: var(--text-muted);
+            font-size: 1.1em;
+            font-style: italic;
+        }
+
+        /* ── Tables ── */
+        .slide table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+            font-size: 1.15em;
+        }
+
+        .slide th {
+            background: rgba(226,61,33,0.07);
+            color: var(--accent);
+            padding: 11px 18px;
+            text-align: left;
+            border: 1px solid rgba(226,61,33,0.22);
+            font-weight: 700;
+        }
+
+        .slide td {
+            padding: 9px 18px;
+            border: 1px solid var(--border);
+            color: var(--text);
+        }
+
+        .slide tr:nth-child(even) td {
+            background: var(--bg-alt);
+        }
+
+        /* ── Code ── */
+        .slide code {
+            background: rgba(226,61,33,0.07);
+            padding: 2px 7px;
+            border-radius: 3px;
+            color: var(--accent-hover);
+            font-family: 'Consolas', 'Courier New', monospace;
+            font-size: 0.92em;
+        }
+
+        /* ── Images ── */
+        .slide img {
+            float: right;
+            max-width: 40%;
+            max-height: 70vh;
+            width: auto;
+            height: auto;
+            margin: 0 0 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+            border: 1px solid var(--border);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            object-fit: contain;
+        }
+
+        .slide img:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 30px rgba(226,61,33,0.12);
+        }
+
+        .slide img[src$=".svg"] {
+            max-width: 55%;
+            max-height: 75vh;
+            border: none;
+            box-shadow: none;
+            border-radius: 8px;
+        }
+
+        .slide img[src$=".svg"]:hover {
+            transform: scale(1.01);
+            box-shadow: none;
+        }
+
+        .slide-content { overflow: auto; width: 100%; }
+
+        .slide:has(img) h1,
+        .slide:has(img) h2,
+        .slide:has(img) h3,
+        .slide:has(img) p,
+        .slide:has(img) ul,
+        .slide:has(img) ol {
+            max-width: 55%;
+            margin-right: auto;
+        }
+
+        .slide::after { content: ''; display: table; clear: both; }
+
+        /* ── Navigation buttons ── */
+        .nav-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(226,61,33,0.07);
+            border: 2px solid rgba(226,61,33,0.35);
+            color: var(--accent);
+            font-size: 2em;
+            padding: 18px 28px;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            z-index: 10;
+            border-radius: 8px;
+        }
+
+        .nav-button:hover {
+            background: rgba(226,61,33,0.15);
+            box-shadow: 0 0 16px rgba(226,61,33,0.2);
+            transform: translateY(-50%) scale(1.08);
+        }
+
+        .nav-button:active { transform: translateY(-50%) scale(0.95); }
+        .nav-button.prev  { left: 30px; }
+        .nav-button.next  { right: 30px; }
+
+        /* ── Progress bar ── */
+        .progress-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 4px;
+            background: var(--accent);
+            transition: width 0.3s ease;
+        }
+
+        /* ── Loading ── */
+        .loading {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 2em;
+            color: var(--accent);
+            text-align: center;
+        }
+
+        .loading::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 50px;
+            margin: 20px auto;
+            border: 4px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* ── Shortcuts hint ── */
+        .shortcuts-hint {
+            position: absolute;
+            bottom: 18px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0,0,0,0.04);
+            padding: 8px 18px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            font-size: 0.85em;
+            color: var(--text-faint);
+            opacity: 0.7;
+            transition: opacity 0.3s;
+        }
+
+        .shortcuts-hint:hover { opacity: 1; }
+
+        /* ── Decorative background ── */
+        .bg-decoration {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .bg-decoration::before {
+            content: '';
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(226,61,33,0.04) 0%, transparent 70%);
+            top: -200px;
+            right: -200px;
+        }
+
+        .bg-decoration::after {
+            content: '';
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(226,61,33,0.03) 0%, transparent 70%);
+            bottom: -175px;
+            left: -175px;
+        }
+
+        /* ── Responsive ── */
+        @media (max-width: 1200px) {
+            .slide-container { padding: 40px 60px; }
+            .slide h1 { font-size: 2.6em; }
+            .slide h2 { font-size: 1.7em; }
+            .slide p, .slide li { font-size: 1.15em; }
+            .slide img { max-width: 45%; }
+            .slide:has(img) h1,
+            .slide:has(img) h2,
+            .slide:has(img) h3,
+            .slide:has(img) p,
+            .slide:has(img) ul,
+            .slide:has(img) ol { max-width: 50%; }
+        }
+
+        @media (max-width: 768px) {
+            .slide-container { padding: 20px 30px; }
+            .slide h1 { font-size: 2em; }
+            .slide h2 { font-size: 1.4em; }
+            .nav-button { padding: 14px 18px; font-size: 1.5em; }
+            .slide img { float: none; max-width: 100%; margin: 20px auto; display: block; }
+            .slide:has(img) h1,
+            .slide:has(img) h2,
+            .slide:has(img) h3,
+            .slide:has(img) p,
+            .slide:has(img) ul,
+            .slide:has(img) ol { max-width: 100%; }
+        }
+
+        /* ── Print / PDF ── */
+        @media print {
+            * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+            @page { size: landscape; margin: 0; }
+
+            body { overflow: visible; height: auto; background: var(--bg); }
+            .presentation-container { height: auto; overflow: visible; }
+
+            .header, .nav-button, .progress-bar,
+            .shortcuts-hint, .loading, .bg-decoration { display: none !important; }
+
+            .slide-container { display: block; padding: 0; background: none; }
+
+            .slide {
+                display: block !important;
+                width: 100vw;
+                height: 100vh;
+                max-width: none;
+                padding: 60px 80px;
+                box-sizing: border-box;
+                page-break-after: always;
+                break-after: page;
+                background: var(--bg);
+                position: relative;
+                overflow: hidden;
+                animation: none !important;
+            }
+
+            .slide:last-child { page-break-after: avoid; break-after: avoid; }
+
+            .slide h1     { color: var(--accent); }
+            .slide h2     { color: var(--text); }
+            .slide h3     { color: var(--text-muted); }
+            .slide p      { color: var(--text); }
+            .slide li     { color: var(--text-muted); }
+            .slide strong { color: var(--accent); }
+            .slide ul li::marker { color: var(--accent); }
+            .slide img    { box-shadow: none; border: 1px solid var(--border); }
+        }
+
+        /* ── Error message ── */
+        .error-message {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: var(--accent);
+            color: white;
+            padding: 30px 50px;
+            border-radius: 8px;
+            font-size: 1.2em;
+            text-align: center;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            z-index: 1000;
+        }
+    </style>
 </head>
 <body>
+    <div class="bg-decoration"></div>
 
-<div class="wrapper">
+    <div class="presentation-container">
+        <div class="header">
+            <div class="header-title">inView IIoT Platform</div>
+            <div class="slide-counter">
+                <span id="currentSlide">25</span> / <span id="totalSlides">40</span>
+            </div>
+        </div>
 
-  <!-- HEADER -->
-  <div class="header">
-    <div class="logo-line">
-      <div class="bar"></div>
-      <div class="logo-text">inVIEW IIoT Platform</div>
-      <div class="bar"></div>
+        <div class="slide-container image-only-container" id="slideContainer"><div class="slide active image-only"><div style="text-align:center;width:100%;display:flex;flex-direction:column;align-items:center;"><p></p>
+
+<p></p><img style="float:none;max-width:97%;max-height:88vh;object-fit:contain;margin:4px auto 0;display:block;border-radius:8px;" src="./newsletter_Q1_2026_files/Devices_configurator.png" alt="WYSIWYG Quick Preview — full view"></div></div></div>
+
+        <button class="nav-button prev" onclick="prevSlide()" id="prevBtn" style="opacity: 1;">‹</button>
+        <button class="nav-button next" onclick="nextSlide()" id="nextBtn" style="opacity: 1;">›</button>
+
+        <div class="progress-bar" id="progressBar" style="width: 62.5%;"></div>
+
+        <div class="shortcuts-hint">
+            Use ← → arrow keys or click buttons to navigate
+        </div>
     </div>
-    <h1>Šta je novo u <span>Q1 2026</span></h1>
-    <div class="period">Januar – Mart 2026 &nbsp;·&nbsp; INIT Technologies</div>
-  </div>
 
-  <!-- INTRO -->
-  <div class="intro">
-    <p>Ovo je pregled novina koje smo isporučili u prvom kvartalu 2026. godine. Od edge automatizacije do bržeg rada u aplikativu — nastavite da čitate.</p>
-  </div>
+    <script>
+        let slides = [];
+        let currentSlide = 0;
 
-  <!-- TOC -->
-  <div class="toc">
-    <div class="toc-label">U ovom broju</div>
-    <div class="toc-item"><span class="num">01</span> Edge Scripts</div>
-    <div class="toc-item"><span class="num">02</span> Scripting ChatBot</div>
-    <div class="toc-item"><span class="num">03</span> Relative Client</div>
-    <div class="toc-item"><span class="num">04</span> Brzi rad aplikativca</div>
-  </div>
+        async function loadPresentation() {
+            try {
+                const response = await fetch('presentation.md?t=' + new Date().getTime());
+                if (!response.ok) throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                const markdown = await response.text();
+                parseMarkdown(markdown);
+                goToSlideFromHash();
+                renderSlide();
+                document.getElementById('loading').style.display = 'none';
+            } catch (error) {
+                document.getElementById('loading').innerHTML =
+                    `<div class="error-message">
+                        Error loading presentation.md<br>
+                        <small>${error.message}</small><br>
+                        <small>Make sure you're accessing via http://localhost:8000</small>
+                    </div>`;
+            }
+        }
 
-  <!-- SECTION 1: Edge Scripts -->
-  <div class="section">
-    <div class="section-tag">
-      <span class="tag-num">01</span>
-    </div>
-    <h2>Edge Scripts</h2>
-    <p class="lead">Vaša automatizacija sada radi čak i kada internet ne radi.</p>
-    <p>
-      Skripte su omiljena i najčešće korišćena funkcionalnost iskusnijih inVIEW korisnika.
-      Sada smo ih kombinovali sa edge computingom — paradigmom gde se logika izvršava
-      direktno na terenu, tamo gde se podaci i nastaju, bez zavisnosti od clouda.
-      Predstavljamo <strong>Edge Scripts</strong>.
-    </p>
-    <p>
-      Edge Scripts donose izvršavanje skripti direktno na gateway uređaj na terenu —
-      bez zavisnosti od cloud konekcije. A za one koji ne žele da pišu kod, logiku možete
-      jednostavno nacrtati u vizuelnom editoru.
-    </p>
-    <ul>
-      <li>Skripte se izvršavaju lokalno na edge gateway-u</li>
-      <li>Automatizacija se ne prekida pri gubitku konekcije sa cloudom</li>
-      <li>Vizuelni editor — logika može da se crta, ne samo piše</li>
-    </ul>
-    <div class="images">
-      <div class="img-wrap">
-        <img
-          src="Newsletter Q1 2026/1. edge scripts 1.png"
-          alt="Edge Scripts — prikaz 1"
-          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
-        />
-        <div class="img-placeholder">edge scripts 1.png</div>
-      </div>
-      <div class="img-wrap">
-        <img
-          src="Newsletter Q1 2026/1. edge scripts 2.png"
-          alt="Edge Scripts — prikaz 2"
-          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
-        />
-        <div class="img-placeholder">edge scripts 2.png</div>
-      </div>
-    </div>
-  </div>
+        function parseMarkdown(markdown) {
+            markdown = markdown.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+            markdown = markdown.replace(/#STAR#/g, '&#42;');
+            const slideTexts = markdown.split(/\n---\n/).map(s => s.trim()).filter(s => s);
+            slides = slideTexts.map(slideText => convertMarkdownToHTML(slideText));
+            document.getElementById('totalSlides').textContent = slides.length;
+            const titleMatch = markdown.match(/^#\s+(.+)/m);
+            if (titleMatch) {
+                const title = titleMatch[1].trim();
+                document.querySelector('.header-title').textContent = title;
+                document.title = title;
+            }
+        }
 
-  <!-- SECTION 2: Scripting ChatBot -->
-  <div class="section">
-    <div class="section-tag"><span class="tag-num">02</span></div>
-    <h2>Scripting ChatBot</h2>
-    <div class="coming-soon"><span>Sadržaj u pripremi</span></div>
-  </div>
+        function convertMarkdownToHTML(markdown) {
+            let html = markdown;
+            // Normalize Windows CRLF to LF
+            html = html.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+            // Strip hidden notes: <!-- ... --> blocks (talk tracks, slide markers)
+            html = html.replace(/<!--[\s\S]*?-->/g, '');
+            let images = [];
+            html = html.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (match, alt, src) => {
+                images.push(`<img src="${src}" alt="${alt}">`);
+                return '<!IMAGE_PLACEHOLDER!>';
+            });
 
-  <!-- SECTION 3: Relative Client -->
-  <div class="section">
-    <div class="section-tag"><span class="tag-num">03</span></div>
-    <h2>Relative Client</h2>
-    <div class="coming-soon"><span>Sadržaj u pripremi</span></div>
-  </div>
+            // Convert markdown tables
+            html = html.replace(/((?:\|.+\|\n)+)/g, (tableBlock) => {
+                const rows = tableBlock.trim().split('\n').map(r => r.trim()).filter(r => r);
+                let tableHtml = '<table>';
+                let isHeader = true;
+                rows.forEach((row) => {
+                    if (row.match(/^\|[\s\-:|]+\|$/)) { isHeader = false; return; }
+                    const cells = row.split('|').slice(1, -1).map(c => c.trim());
+                    const tag = isHeader ? 'th' : 'td';
+                    tableHtml += '<tr>' + cells.map(c => `<${tag}>${c}</${tag}>`).join('') + '</tr>';
+                });
+                tableHtml += '</table>';
+                return tableHtml;
+            });
 
-  <!-- SECTION 4: Brzi rad aplikativca -->
-  <div class="section">
-    <div class="section-tag"><span class="tag-num">04</span></div>
-    <h2>Brzi rad aplikativca</h2>
-    <p class="subtitle-tags">WYSIWYG &nbsp;·&nbsp; Follow live values &nbsp;·&nbsp; Advanced search &nbsp;·&nbsp; Auto Script Renaming</p>
-    <div class="coming-soon"><span>Sadržaj u pripremi</span></div>
-  </div>
+            html = html.replace(/^### (.+)$/gm, '<h3>$1</h3>');
+            html = html.replace(/^## (.+)$/gm, '<h2>$1</h2>');
+            html = html.replace(/^# (.+)$/gm, '<h1>$1</h1>');
+            html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+            html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
+            html = html.replace(/`(.+?)`/g, '<code>$1</code>');
+            html = html.replace(/^\- (.+)$/gm, '<li>$1</li>');
+            html = html.replace(/^  - (.+)$/gm, '<li style="margin-left: 30px;">$1</li>');
+            html = html.replace(/^\d+\.\s+(.+)$/gm, '<li>$1</li>');
+            html = html.replace(/(<li>.*<\/li>\n?)+/g, (match) => '<ul>' + match + '</ul>');
 
-  <!-- FOOTER -->
-  <div class="footer">
-    <div class="footer-logo">inVIEW IIoT Platform</div>
-    <p>
-      INIT Technologies &nbsp;·&nbsp; Novi Sad, Serbia<br />
-      <a href="https://inview.software">inview.software</a>
-      &nbsp;·&nbsp;
-      <a href="https://industrial-it.software">industrial-it.software</a><br /><br />
-      © 2026 INIT Technologies. Sva prava zadržana.
-    </p>
-  </div>
+            html = html.split('\n\n').map(para => {
+                const isBlock = para.match(/^<[hult]/) || para.includes('<ul>') || para.includes('<li>');
+                if (!isBlock && !para.includes('<!IMAGE_PLACEHOLDER!>')) {
+                    return '<p>' + para.replace(/\n/g, '<br>') + '</p>';
+                }
+                return para;
+            }).join('\n');
 
-</div>
-</body>
-</html>
+            html = html.replace(/<!IMAGE_PLACEHOLDER!>/g, '');
+
+            const strippedText = html.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+            const isImageOnly = images.length === 1 && strippedText.length < 60;
+
+            if (isImageOnly) {
+                const isSvg = images[0].includes('.svg');
+                const maxW = isSvg ? '92%' : '97%';
+                const maxH = isSvg ? '82vh' : '88vh';
+                html = '<!--IMAGEONLY--><div style="text-align:center;width:100%;display:flex;flex-direction:column;align-items:center;">' +
+                    html.replace(/<h2>(.+?)<\/h2>/, '<h2 class="img-slide-title">$1</h2>') +
+                    images[0].replace('img ', 'img style="float:none;max-width:' + maxW + ';max-height:' + maxH + ';object-fit:contain;margin:4px auto 0;display:block;border-radius:8px;" ') +
+                    '</div>';
+            } else if (images.length > 0) {
+                html = images.join('') + html;
+            }
+
+            return html;
+        }
+
+        function renderSlide() {
+            const container = document.getElementById('slideContainer');
+            const content = slides[currentSlide];
+            const isImgOnly = content.startsWith('<!--IMAGEONLY-->');
+            const cleanContent = isImgOnly ? content.replace('<!--IMAGEONLY-->', '') : content;
+            container.innerHTML = `<div class="slide active${isImgOnly ? ' image-only' : ''}">${cleanContent}</div>`;
+            const sc = document.getElementById('slideContainer');
+            if (isImgOnly) { sc.classList.add('image-only-container'); }
+            else { sc.classList.remove('image-only-container'); }
+            document.getElementById('currentSlide').textContent = currentSlide + 1;
+            history.replaceState(null, '', '#' + (currentSlide + 1));
+            updateProgressBar();
+            updateNavButtons();
+        }
+
+        function nextSlide() { if (currentSlide < slides.length - 1) { currentSlide++; renderSlide(); } }
+        function prevSlide() { if (currentSlide > 0) { currentSlide--; renderSlide(); } }
+
+        function goToSlideFromHash() {
+            const hash = parseInt(window.location.hash.replace('#', ''));
+            if (!isNaN(hash) && hash >= 1 && hash <= slides.length) {
+                currentSlide = hash - 1;
+            }
+        }
+
+        function updateProgressBar() {
+            document.getElementById('progressBar').style.width = ((currentSlide + 1) / slides.length) * 100 + '%';
+        }
+
+        function updateNavButtons() {
+            document.getElementById('prevBtn').style.opacity = currentSlide === 0 ? '0.3' : '1';
+            document.getElementById('nextBtn').style.opacity = currentSlide === slides.length - 1 ? '0.3' : '1';
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { e.preventDefault(); nextSlide(); }
+            else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); prevSlide(); }
+            else if (e.key === 'Home') { e.preventDefault(); currentSlide = 0; renderSlide(); }
+            else if (e.key === 'End') { e.preventDefault(); currentSlide = slides.length - 1; renderSlide(); }
+            else if (e.key >= '1' && e.key <= '9') { const n = parseInt(e.key) - 1; if (n < slides.length) { currentSlide = n; renderSlide(); } }
+        });
+
+        let lastContent = null;
+        function checkForUpdates() {
+            fetch('presentation.md?t=' + new Date().getTime())
+                .then(r => r.text())
+                .then(content => { if (lastContent && content !== lastContent) loadPresentation(); lastContent = content; })
+                .catch(() => {});
+        }
+        setInterval(checkForUpdates, 2000);
+
+        window.addEventListener('beforeprint', () => {
+            document.getElementById('slideContainer').innerHTML = slides.map(html => `<div class="slide active">${html}</div>`).join('');
+        });
+        window.addEventListener('afterprint', () => renderSlide());
+
+        loadPresentation();
+    </script>
+
+
+</body></html>

@@ -1,84 +1,61 @@
 <svg width="960" height="580" viewBox="0 0 960 580" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070707"/>
-      <stop offset="100%" stop-color="#0e0606"/>
-    </linearGradient>
     <linearGradient id="cloudFill" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#200808"/>
-      <stop offset="100%" stop-color="#130404"/>
+      <stop offset="0%" stop-color="#fff3f0"/>
+      <stop offset="100%" stop-color="#ffeae5"/>
     </linearGradient>
     <linearGradient id="zoneFill" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0f0f0f"/>
-      <stop offset="100%" stop-color="#090909"/>
+      <stop offset="0%" stop-color="#f8f6f4"/>
+      <stop offset="100%" stop-color="#f2efec"/>
     </linearGradient>
     <linearGradient id="gwFill" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#171717"/>
-      <stop offset="100%" stop-color="#0b0b0b"/>
+      <stop offset="0%" stop-color="#eef2f8"/>
+      <stop offset="100%" stop-color="#e4eaf4"/>
     </linearGradient>
     <linearGradient id="devFill" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#101010"/>
-      <stop offset="100%" stop-color="#070707"/>
+      <stop offset="0%" stop-color="#f2f2f2"/>
+      <stop offset="100%" stop-color="#e8e8e8"/>
     </linearGradient>
-    <filter id="redGlow" x="-25%" y="-25%" width="150%" height="150%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="7" result="b"/>
-      <feFlood flood-color="#f22e0d" flood-opacity="0.28" result="c"/>
-      <feComposite in="c" in2="b" operator="in" result="g"/>
-      <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="dimGlow" x="-25%" y="-25%" width="150%" height="150%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="b"/>
-      <feFlood flood-color="#f22e0d" flood-opacity="0.14" result="c"/>
-      <feComposite in="c" in2="b" operator="in" result="g"/>
-      <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
     <marker id="arR" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
-      <polygon points="0 0,9 3.5,0 7" fill="#f22e0d"/>
+      <polygon points="0 0,9 3.5,0 7" fill="#e23d21"/>
     </marker>
     <marker id="arG" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
-      <polygon points="0 0,9 3.5,0 7" fill="#555"/>
-    </marker>
-    <marker id="arRrev" markerWidth="9" markerHeight="7" refX="1" refY="3.5" orient="auto-start-reverse">
-      <polygon points="0 0,9 3.5,0 7" fill="#f22e0d"/>
+      <polygon points="0 0,9 3.5,0 7" fill="#aaaaaa"/>
     </marker>
   </defs>
 
   <!-- Background -->
-  <rect width="960" height="580" fill="url(#bg)"/>
-  <!-- Subtle bottom glow -->
-  <ellipse cx="480" cy="580" rx="440" ry="130" fill="#f22e0d" fill-opacity="0.025"/>
+  <rect width="960" height="580" fill="#ffffff"/>
 
-  <!-- ─── SUBTLE ZONE-TO-ZONE CONNECTION (drawn first, everything on top) ─── -->
-  <!-- Very dim indirect communication hint -->
+  <!-- ─── SUBTLE ZONE-TO-ZONE CONNECTION ─── -->
   <line x1="430" y1="370" x2="530" y2="370"
-        stroke="#252525" stroke-width="1.5" stroke-dasharray="5,5"/>
+        stroke="#d8d8d8" stroke-width="1.5" stroke-dasharray="5,5"/>
 
   <!-- ─── CLOUD → ZONE ARROWS ─── -->
-  <!-- To Zone A -->
   <line x1="316" y1="172" x2="245" y2="228"
-        stroke="#555" stroke-width="1.8" stroke-dasharray="8,5" marker-end="url(#arG)"/>
+        stroke="#bbbbbb" stroke-width="1.8" stroke-dasharray="8,5" marker-end="url(#arG)"/>
   <line x1="304" y1="172" x2="233" y2="228"
-        stroke="#555" stroke-width="1.8" stroke-dasharray="8,5" marker-end="url(#arG)"/>
-  <!-- To Zone B -->
+        stroke="#bbbbbb" stroke-width="1.8" stroke-dasharray="8,5" marker-end="url(#arG)"/>
   <line x1="644" y1="172" x2="715" y2="228"
-        stroke="#555" stroke-width="1.8" stroke-dasharray="8,5" marker-end="url(#arG)"/>
+        stroke="#bbbbbb" stroke-width="1.8" stroke-dasharray="8,5" marker-end="url(#arG)"/>
   <line x1="656" y1="172" x2="727" y2="228"
-        stroke="#555" stroke-width="1.8" stroke-dasharray="8,5" marker-end="url(#arG)"/>
+        stroke="#bbbbbb" stroke-width="1.8" stroke-dasharray="8,5" marker-end="url(#arG)"/>
 
-  <!-- ─── ZONE A → DEVICES ARROW ─── -->
-  <line x1="210" y1="422" x2="210" y2="453"
-        stroke="#f22e0d" stroke-width="2" marker-end="url(#arR)" opacity="0.8"/>
-  <line x1="224" y1="453" x2="224" y2="423"
-        stroke="#f22e0d" stroke-width="2" marker-end="url(#arR)" opacity="0.8"/>
+  <!-- ─── GATEWAY ↔ FIELD DEVICES ARROWS ─── -->
+  <!-- Zone A: down arrow (gateway → field devices) -->
+  <line x1="213" y1="419" x2="213" y2="452"
+        stroke="#e23d21" stroke-width="2.5" marker-end="url(#arR)"/>
+  <!-- Zone A: up arrow (field devices → gateway) -->
+  <line x1="227" y1="455" x2="227" y2="422"
+        stroke="#e23d21" stroke-width="2.5" marker-end="url(#arR)"/>
+  <!-- Zone B: down arrow (gateway → field devices) -->
+  <line x1="733" y1="419" x2="733" y2="452"
+        stroke="#e23d21" stroke-width="2.5" marker-end="url(#arR)"/>
+  <!-- Zone B: up arrow (field devices → gateway) -->
+  <line x1="747" y1="455" x2="747" y2="422"
+        stroke="#e23d21" stroke-width="2.5" marker-end="url(#arR)"/>
 
-  <!-- ─── ZONE B → DEVICES ARROW ─── -->
-  <line x1="736" y1="422" x2="736" y2="453"
-        stroke="#f22e0d" stroke-width="2" marker-end="url(#arR)" opacity="0.8"/>
-  <line x1="750" y1="453" x2="750" y2="423"
-        stroke="#f22e0d" stroke-width="2" marker-end="url(#arR)" opacity="0.8"/>
-
-  <!-- ─── CLOUD (dominant, proper cloud shape) ─── -->
-  <!-- Large cloud path — 5 bumps, centered at x=480 -->
+  <!-- ─── CLOUD ─── -->
   <path d="
     M 228,170
     C 225,132 240,108 266,100
@@ -90,174 +67,160 @@
     C 654,36 692,56 694,100
     C 720,108 735,132 732,170
     Z"
-    fill="url(#cloudFill)" stroke="#f22e0d" stroke-width="2.5"
-    stroke-linejoin="round" filter="url(#redGlow)"/>
+    fill="url(#cloudFill)" stroke="#e23d21" stroke-width="2"
+    stroke-linejoin="round"/>
 
   <!-- Cloud content -->
   <text x="480" y="100" text-anchor="middle"
-        font-family="'Segoe UI',Arial,sans-serif" font-size="22" font-weight="700"
-        fill="#ffffff">inView Cloud Platform</text>
+        font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="22" font-weight="700"
+        fill="#171717">inView Cloud Platform</text>
   <!-- IWS Scripts badge -->
   <rect x="338" y="112" width="114" height="26" rx="13"
-        fill="#f22e0d" fill-opacity="0.18" stroke="#f22e0d" stroke-width="1.4"/>
+        fill="#e23d21" fill-opacity="0.12" stroke="#e23d21" stroke-width="1.4"/>
   <text x="395" y="129" text-anchor="middle"
-        font-family="'Segoe UI',Arial,sans-serif" font-size="12" font-weight="700"
-        fill="#f22e0d">IWS Scripts</text>
+        font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700"
+        fill="#e23d21">IWS Scripts</text>
   <!-- Variables badge -->
   <rect x="460" y="112" width="144" height="26" rx="13"
-        fill="#ffffff" fill-opacity="0.05" stroke="#333" stroke-width="1"/>
+        fill="#171717" fill-opacity="0.05" stroke="#cccccc" stroke-width="1"/>
   <text x="532" y="129" text-anchor="middle"
-        font-family="'Segoe UI',Arial,sans-serif" font-size="11"
-        fill="#666">Variables · Alarms · History</text>
+        font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11"
+        fill="#888888">Variables · Alarms · History</text>
   <!-- Executed in cloud note -->
   <text x="480" y="158" text-anchor="middle"
-        font-family="'Segoe UI',Arial,sans-serif" font-size="10"
-        fill="#666" font-style="italic">executed in cloud</text>
+        font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="10"
+        fill="#aaaaaa" font-style="italic">executed in cloud</text>
 
   <!-- ─── LOCATION ZONE A ─── -->
   <rect x="22" y="220" width="396" height="326" rx="18"
-        fill="url(#zoneFill)" stroke="#f22e0d" stroke-width="1.6"
-        stroke-opacity="0.55" filter="url(#dimGlow)"/>
-  <!-- Zone label -->
+        fill="url(#zoneFill)" stroke="#e23d21" stroke-width="1.5"
+        stroke-opacity="0.45"/>
   <text x="220" y="244" text-anchor="middle"
-        font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700"
-        fill="#f22e0d" fill-opacity="0.7" letter-spacing="2">LOCATION A</text>
+        font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700"
+        fill="#e23d21" fill-opacity="0.75" letter-spacing="2">LOCATION A</text>
 
-  <!-- i3x Gateway box (inside Zone A) -->
+  <!-- i3x Gateway box (Zone A) -->
   <rect x="48" y="256" width="344" height="162" rx="12"
-        fill="url(#gwFill)" stroke="#f22e0d" stroke-width="1.8" filter="url(#dimGlow)"/>
+        fill="url(#gwFill)" stroke="#e23d21" stroke-width="1.6"/>
   <!-- Header bar -->
   <rect x="48" y="256" width="344" height="36" rx="12"
-        fill="#f22e0d" fill-opacity="0.1"/>
+        fill="#e23d21" fill-opacity="0.08"/>
   <rect x="48" y="280" width="344" height="12"
-        fill="#f22e0d" fill-opacity="0.1"/>
+        fill="#e23d21" fill-opacity="0.08"/>
   <!-- LED dots -->
-  <circle cx="68"  cy="274" r="5" fill="#00cc66" opacity="0.9"/>
-  <circle cx="84"  cy="274" r="5" fill="#f22e0d" opacity="0.7"/>
-  <circle cx="100" cy="274" r="5" fill="#f22e0d" opacity="0.25"/>
-  <!-- Antenna -->
-  <line x1="370" y1="268" x2="370" y2="247" stroke="#666" stroke-width="2"/>
-  <line x1="361" y1="255" x2="370" y2="247" stroke="#555" stroke-width="1.5"/>
-  <line x1="379" y1="255" x2="370" y2="247" stroke="#555" stroke-width="1.5"/>
+  <circle cx="68"  cy="274" r="5" fill="#00aa44" opacity="0.9"/>
+  <circle cx="84"  cy="274" r="5" fill="#e23d21" opacity="0.7"/>
+  <circle cx="100" cy="274" r="5" fill="#e23d21" opacity="0.2"/>
   <!-- Gateway title -->
   <text x="220" y="275" text-anchor="middle"
-        font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700"
-        fill="#ffffff">i3x Gateway</text>
+        font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="15" font-weight="700"
+        fill="#171717">i3x Gateway</text>
   <!-- Edge Scripts badge -->
   <rect x="62" y="302" width="134" height="26" rx="13"
-        fill="#f22e0d" fill-opacity="0.14" stroke="#f22e0d" stroke-width="1.4"/>
+        fill="#e23d21" fill-opacity="0.1" stroke="#e23d21" stroke-width="1.3"/>
   <text x="129" y="319" text-anchor="middle"
-        font-family="'Segoe UI',Arial,sans-serif" font-size="12" font-weight="700"
-        fill="#f22e0d">Edge Scripts</text>
+        font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700"
+        fill="#e23d21">Edge Scripts</text>
   <!-- Offline OK badge -->
   <rect x="204" y="302" width="118" height="26" rx="13"
-        fill="#00cc66" fill-opacity="0.1" stroke="#00cc66" stroke-width="1.3"/>
+        fill="#00aa44" fill-opacity="0.08" stroke="#00aa44" stroke-width="1.2"/>
   <text x="263" y="319" text-anchor="middle"
-        font-family="'Segoe UI',Arial,sans-serif" font-size="12" font-weight="700"
-        fill="#00cc66">✓ Offline OK</text>
+        font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700"
+        fill="#00aa44">✓ Offline OK</text>
   <!-- Protocols -->
   <text x="220" y="354" text-anchor="middle"
-        font-family="'Segoe UI',Arial,sans-serif" font-size="11"
-        fill="#888">Modbus  ·  S7  ·  OPC UA</text>
+        font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11"
+        fill="#999999">Modbus  ·  S7  ·  OPC UA</text>
   <!-- Port connectors -->
-  <rect x="68"  y="398" width="14" height="10" rx="2" fill="#252525"/>
-  <rect x="90"  y="398" width="14" height="10" rx="2" fill="#252525"/>
-  <rect x="112" y="398" width="14" height="10" rx="2" fill="#252525"/>
-  <rect x="134" y="398" width="14" height="10" rx="2" fill="#1e1e1e"/>
+  <rect x="68"  y="398" width="14" height="10" rx="2" fill="#cccccc"/>
+  <rect x="90"  y="398" width="14" height="10" rx="2" fill="#cccccc"/>
+  <rect x="112" y="398" width="14" height="10" rx="2" fill="#cccccc"/>
+  <rect x="134" y="398" width="14" height="10" rx="2" fill="#dddddd"/>
 
-  <!-- Field Devices (inside Zone A) -->
+  <!-- Field Devices (Zone A) -->
   <rect x="60" y="456" width="320" height="74" rx="10"
-        fill="url(#devFill)" stroke="#333" stroke-width="1.5"/>
-  <!-- Inner header -->
+        fill="url(#devFill)" stroke="#cccccc" stroke-width="1.5"/>
   <rect x="60" y="456" width="320" height="22" rx="10"
-        fill="#ffffff" fill-opacity="0.03"/>
-  <rect x="60" y="468" width="320" height="10"
-        fill="#ffffff" fill-opacity="0.03"/>
-  <!-- Terminal blocks detail -->
-  <rect x="78"  y="494" width="12" height="9" rx="2" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
-  <rect x="98"  y="494" width="12" height="9" rx="2" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
-  <rect x="118" y="494" width="12" height="9" rx="2" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
-  <rect x="138" y="494" width="12" height="9" rx="2" fill="#1e1e1e" stroke="#2a2a2a" stroke-width="1"/>
+        fill="#171717" fill-opacity="0.03"/>
+  <!-- Terminal blocks -->
+  <rect x="78"  y="494" width="12" height="9" rx="2" fill="#cccccc" stroke="#bbbbbb" stroke-width="1"/>
+  <rect x="98"  y="494" width="12" height="9" rx="2" fill="#cccccc" stroke="#bbbbbb" stroke-width="1"/>
+  <rect x="118" y="494" width="12" height="9" rx="2" fill="#cccccc" stroke="#bbbbbb" stroke-width="1"/>
+  <rect x="138" y="494" width="12" height="9" rx="2" fill="#dddddd" stroke="#cccccc" stroke-width="1"/>
   <text x="220" y="476" text-anchor="middle"
-        font-family="'Segoe UI',Arial,sans-serif" font-size="14" font-weight="700"
-        fill="#ffffff">Field Devices</text>
+        font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="14" font-weight="700"
+        fill="#171717">Field Devices</text>
   <text x="220" y="499" text-anchor="middle"
-        font-family="'Segoe UI',Arial,sans-serif" font-size="10"
-        fill="#888">PLCs  ·  Sensors  ·  Meters</text>
-  <!-- Protocol via gateway label -->
-  <text x="220" y="520" text-anchor="middle"
-        font-family="'Segoe UI',Arial,sans-serif" font-size="10"
-        fill="#666">Modbus RTU  ·  Siemens S7</text>
+        font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="10"
+        fill="#999999">PLCs  ·  Sensors  ·  Meters</text>
+  <text x="220" y="518" text-anchor="middle"
+        font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="10"
+        fill="#bbbbbb">Modbus RTU  ·  Siemens S7</text>
 
   <!-- ─── LOCATION ZONE B ─── -->
   <rect x="542" y="220" width="396" height="326" rx="18"
-        fill="url(#zoneFill)" stroke="#f22e0d" stroke-width="1.6"
-        stroke-opacity="0.55" filter="url(#dimGlow)"/>
+        fill="url(#zoneFill)" stroke="#e23d21" stroke-width="1.5"
+        stroke-opacity="0.45"/>
   <text x="740" y="244" text-anchor="middle"
-        font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700"
-        fill="#f22e0d" fill-opacity="0.7" letter-spacing="2">LOCATION B</text>
+        font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="13" font-weight="700"
+        fill="#e23d21" fill-opacity="0.75" letter-spacing="2">LOCATION B</text>
 
   <!-- i3x Gateway (Zone B) -->
   <rect x="568" y="256" width="344" height="162" rx="12"
-        fill="url(#gwFill)" stroke="#f22e0d" stroke-width="1.8" filter="url(#dimGlow)"/>
+        fill="url(#gwFill)" stroke="#e23d21" stroke-width="1.6"/>
   <rect x="568" y="256" width="344" height="36" rx="12"
-        fill="#f22e0d" fill-opacity="0.1"/>
+        fill="#e23d21" fill-opacity="0.08"/>
   <rect x="568" y="280" width="344" height="12"
-        fill="#f22e0d" fill-opacity="0.1"/>
-  <circle cx="588" cy="274" r="5" fill="#00cc66" opacity="0.9"/>
-  <circle cx="604" cy="274" r="5" fill="#f22e0d" opacity="0.7"/>
-  <circle cx="620" cy="274" r="5" fill="#f22e0d" opacity="0.25"/>
-  <line x1="890" y1="268" x2="890" y2="247" stroke="#666" stroke-width="2"/>
-  <line x1="881" y1="255" x2="890" y2="247" stroke="#555" stroke-width="1.5"/>
-  <line x1="899" y1="255" x2="890" y2="247" stroke="#555" stroke-width="1.5"/>
+        fill="#e23d21" fill-opacity="0.08"/>
+  <circle cx="588" cy="274" r="5" fill="#00aa44" opacity="0.9"/>
+  <circle cx="604" cy="274" r="5" fill="#e23d21" opacity="0.7"/>
+  <circle cx="620" cy="274" r="5" fill="#e23d21" opacity="0.2"/>
   <text x="740" y="275" text-anchor="middle"
-        font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700"
-        fill="#ffffff">i3x Gateway</text>
+        font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="15" font-weight="700"
+        fill="#171717">i3x Gateway</text>
   <rect x="582" y="302" width="134" height="26" rx="13"
-        fill="#f22e0d" fill-opacity="0.14" stroke="#f22e0d" stroke-width="1.4"/>
+        fill="#e23d21" fill-opacity="0.1" stroke="#e23d21" stroke-width="1.3"/>
   <text x="649" y="319" text-anchor="middle"
-        font-family="'Segoe UI',Arial,sans-serif" font-size="12" font-weight="700"
-        fill="#f22e0d">Edge Scripts</text>
+        font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700"
+        fill="#e23d21">Edge Scripts</text>
   <rect x="724" y="302" width="118" height="26" rx="13"
-        fill="#00cc66" fill-opacity="0.1" stroke="#00cc66" stroke-width="1.3"/>
+        fill="#00aa44" fill-opacity="0.08" stroke="#00aa44" stroke-width="1.2"/>
   <text x="783" y="319" text-anchor="middle"
-        font-family="'Segoe UI',Arial,sans-serif" font-size="12" font-weight="700"
-        fill="#00cc66">✓ Offline OK</text>
+        font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="12" font-weight="700"
+        fill="#00aa44">✓ Offline OK</text>
   <text x="740" y="354" text-anchor="middle"
-        font-family="'Segoe UI',Arial,sans-serif" font-size="11"
-        fill="#888">Modbus  ·  S7  ·  OPC UA</text>
-  <rect x="588" y="398" width="14" height="10" rx="2" fill="#252525"/>
-  <rect x="610" y="398" width="14" height="10" rx="2" fill="#252525"/>
-  <rect x="632" y="398" width="14" height="10" rx="2" fill="#252525"/>
-  <rect x="654" y="398" width="14" height="10" rx="2" fill="#1e1e1e"/>
+        font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="11"
+        fill="#999999">Modbus  ·  S7  ·  OPC UA</text>
+  <rect x="588" y="398" width="14" height="10" rx="2" fill="#cccccc"/>
+  <rect x="610" y="398" width="14" height="10" rx="2" fill="#cccccc"/>
+  <rect x="632" y="398" width="14" height="10" rx="2" fill="#cccccc"/>
+  <rect x="654" y="398" width="14" height="10" rx="2" fill="#dddddd"/>
 
   <!-- Field Devices (Zone B) -->
   <rect x="580" y="456" width="320" height="74" rx="10"
-        fill="url(#devFill)" stroke="#333" stroke-width="1.5"/>
+        fill="url(#devFill)" stroke="#cccccc" stroke-width="1.5"/>
   <rect x="580" y="456" width="320" height="22" rx="10"
-        fill="#ffffff" fill-opacity="0.03"/>
-  <rect x="580" y="468" width="320" height="10"
-        fill="#ffffff" fill-opacity="0.03"/>
-  <rect x="598"  y="494" width="12" height="9" rx="2" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
-  <rect x="618"  y="494" width="12" height="9" rx="2" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
-  <rect x="638"  y="494" width="12" height="9" rx="2" fill="#1e1e1e" stroke="#333" stroke-width="1"/>
-  <rect x="658"  y="494" width="12" height="9" rx="2" fill="#1e1e1e" stroke="#2a2a2a" stroke-width="1"/>
+        fill="#171717" fill-opacity="0.03"/>
+  <rect x="598"  y="494" width="12" height="9" rx="2" fill="#cccccc" stroke="#bbbbbb" stroke-width="1"/>
+  <rect x="618"  y="494" width="12" height="9" rx="2" fill="#cccccc" stroke="#bbbbbb" stroke-width="1"/>
+  <rect x="638"  y="494" width="12" height="9" rx="2" fill="#cccccc" stroke="#bbbbbb" stroke-width="1"/>
+  <rect x="658"  y="494" width="12" height="9" rx="2" fill="#dddddd" stroke="#cccccc" stroke-width="1"/>
   <text x="740" y="476" text-anchor="middle"
-        font-family="'Segoe UI',Arial,sans-serif" font-size="14" font-weight="700"
-        fill="#ffffff">Field Devices</text>
+        font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="14" font-weight="700"
+        fill="#171717">Field Devices</text>
   <text x="740" y="499" text-anchor="middle"
-        font-family="'Segoe UI',Arial,sans-serif" font-size="10"
-        fill="#888">PLCs  ·  Sensors  ·  Meters</text>
-  <text x="740" y="520" text-anchor="middle"
-        font-family="'Segoe UI',Arial,sans-serif" font-size="10"
-        fill="#666">Modbus RTU  ·  Siemens S7</text>
+        font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="10"
+        fill="#999999">PLCs  ·  Sensors  ·  Meters</text>
+  <text x="740" y="518" text-anchor="middle"
+        font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="10"
+        fill="#bbbbbb">Modbus RTU  ·  Siemens S7</text>
 
   <!-- ─── LEGEND ─── -->
   <rect x="330" y="548" width="300" height="24" rx="8"
-        fill="#0a0a0a" stroke="#1a1a1a" stroke-width="1"/>
-  <line x1="346" y1="560" x2="366" y2="560" stroke="#555" stroke-width="1.4" stroke-dasharray="5,3"/>
-  <polygon points="366,557 372,560 366,563" fill="#555"/>
+        fill="#f8f8f8" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="346" y1="560" x2="366" y2="560" stroke="#aaaaaa" stroke-width="1.4" stroke-dasharray="5,3"/>
+  <polygon points="366,557 372,560 366,563" fill="#aaaaaa"/>
   <text x="378" y="564"
-        font-family="'Segoe UI',Arial,sans-serif" font-size="9.5"
-        fill="#888">cloud sync (when online)</text>
+        font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="9.5"
+        fill="#999999">cloud sync (when online)</text>
 </svg>

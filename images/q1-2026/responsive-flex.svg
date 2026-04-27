@@ -1,0 +1,249 @@
+<svg width="960" height="1065" viewBox="0 0 960 1065" xmlns="http://www.w3.org/2000/svg">
+<rect width="960" height="1065" fill="#faf8f6"/>
+
+<!-- TITLE -->
+<text x="36" y="50" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="40" font-weight="900" fill="#e23d21">CSS Flexbox</text>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- SECTION 1: flex-direction                               -->
+<!-- Boxes: w=200 h=168 — x=[36,264,492,720]  y=94         -->
+<!-- inner area: +10px pad, 180×148                         -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<text x="36" y="82" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="21" font-weight="700" fill="#171717">flex-direction</text>
+
+<!-- row: 3 rows × 3 items, item 52×26, gap_x=6 gap_y=8 -->
+<!-- xs=[52,110,168]  ys=[131,165,199] -->
+<rect x="36" y="94" width="200" height="168" rx="6" fill="#ffffff" stroke="#171717" stroke-width="2.5"/>
+<rect x="52"  y="131" width="52" height="26" rx="6" fill="#e23d21"/>
+<rect x="110" y="131" width="52" height="26" rx="6" fill="#e23d21"/>
+<rect x="168" y="131" width="52" height="26" rx="6" fill="#e23d21"/>
+<rect x="52"  y="165" width="52" height="26" rx="6" fill="#e23d21"/>
+<rect x="110" y="165" width="52" height="26" rx="6" fill="#e23d21"/>
+<rect x="168" y="165" width="52" height="26" rx="6" fill="#e23d21"/>
+<rect x="52"  y="199" width="52" height="26" rx="6" fill="#e23d21"/>
+<rect x="110" y="199" width="52" height="26" rx="6" fill="#e23d21"/>
+<rect x="168" y="199" width="52" height="26" rx="6" fill="#e23d21"/>
+<text x="136" y="280" text-anchor="middle" font-family="'Roboto Mono','Courier New',monospace" font-size="13" fill="#171717">row</text>
+
+<!-- column: 3 cols × 3 rows, item 30×40 PORTRAIT, gap_x=12 gap_y=8 -->
+<!-- inner 180×148: x_off=33→x_start=307, y_off=6→y_start=110 -->
+<!-- xs=[307,349,391]  ys=[110,158,206] -->
+<rect x="264" y="94" width="200" height="168" rx="6" fill="#ffffff" stroke="#171717" stroke-width="2.5"/>
+<rect x="307" y="110" width="30" height="40" rx="6" fill="#e23d21"/>
+<rect x="349" y="110" width="30" height="40" rx="6" fill="#e23d21"/>
+<rect x="391" y="110" width="30" height="40" rx="6" fill="#e23d21"/>
+<rect x="307" y="158" width="30" height="40" rx="6" fill="#e23d21"/>
+<rect x="349" y="158" width="30" height="40" rx="6" fill="#e23d21"/>
+<rect x="391" y="158" width="30" height="40" rx="6" fill="#e23d21"/>
+<rect x="307" y="206" width="30" height="40" rx="6" fill="#e23d21"/>
+<rect x="349" y="206" width="30" height="40" rx="6" fill="#e23d21"/>
+<rect x="391" y="206" width="30" height="40" rx="6" fill="#e23d21"/>
+<text x="364" y="280" text-anchor="middle" font-family="'Roboto Mono','Courier New',monospace" font-size="13" fill="#171717">column</text>
+
+<!-- row-reverse: same grid, reversed order perception -->
+<rect x="492" y="94" width="200" height="168" rx="6" fill="#ffffff" stroke="#171717" stroke-width="2.5"/>
+<rect x="508" y="131" width="52" height="26" rx="6" fill="#e23d21"/>
+<rect x="566" y="131" width="52" height="26" rx="6" fill="#e23d21"/>
+<rect x="624" y="131" width="52" height="26" rx="6" fill="#e23d21"/>
+<rect x="508" y="165" width="52" height="26" rx="6" fill="#e23d21"/>
+<rect x="566" y="165" width="52" height="26" rx="6" fill="#e23d21"/>
+<rect x="624" y="165" width="52" height="26" rx="6" fill="#e23d21"/>
+<rect x="508" y="199" width="52" height="26" rx="6" fill="#e23d21"/>
+<rect x="566" y="199" width="52" height="26" rx="6" fill="#e23d21"/>
+<rect x="624" y="199" width="52" height="26" rx="6" fill="#e23d21"/>
+<text x="592" y="280" text-anchor="middle" font-family="'Roboto Mono','Courier New',monospace" font-size="13" fill="#171717">row-reverse</text>
+
+<!-- column-reverse: portrait items same as column, xs=[763,805,847] -->
+<rect x="720" y="94" width="200" height="168" rx="6" fill="#ffffff" stroke="#171717" stroke-width="2.5"/>
+<rect x="763" y="110" width="30" height="40" rx="6" fill="#e23d21"/>
+<rect x="805" y="110" width="30" height="40" rx="6" fill="#e23d21"/>
+<rect x="847" y="110" width="30" height="40" rx="6" fill="#e23d21"/>
+<rect x="763" y="158" width="30" height="40" rx="6" fill="#e23d21"/>
+<rect x="805" y="158" width="30" height="40" rx="6" fill="#e23d21"/>
+<rect x="847" y="158" width="30" height="40" rx="6" fill="#e23d21"/>
+<rect x="763" y="206" width="30" height="40" rx="6" fill="#e23d21"/>
+<rect x="805" y="206" width="30" height="40" rx="6" fill="#e23d21"/>
+<rect x="847" y="206" width="30" height="40" rx="6" fill="#e23d21"/>
+<text x="820" y="280" text-anchor="middle" font-family="'Roboto Mono','Courier New',monospace" font-size="13" fill="#171717">column-reverse</text>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- SECTION 2: align-items                                  -->
+<!-- Boxes: w=200 h=168 — x=[36,264,492,720]  y=304        -->
+<!-- inner: 180×148  item w=50 gap=15  xs=[bx+10,+75,+140] -->
+<!-- heights: h1=52  h2=90  h3=34                            -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<text x="36" y="298" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="21" font-weight="700" fill="#171717">align-items</text>
+
+<!-- flex-start: items at top -->
+<rect x="36" y="306" width="200" height="168" rx="6" fill="#ffffff" stroke="#171717" stroke-width="2.5"/>
+<rect x="46"  y="316" width="50" height="52" rx="6" fill="#e23d21"/>
+<rect x="111" y="316" width="50" height="90" rx="6" fill="#e23d21"/>
+<rect x="176" y="316" width="50" height="34" rx="6" fill="#e23d21"/>
+<text x="136" y="492" text-anchor="middle" font-family="'Roboto Mono','Courier New',monospace" font-size="13" fill="#171717">flex-start</text>
+
+<!-- center: items centered on cross-axis -->
+<!-- inner_y=316  inner_h=148  center_y=316+74=390 -->
+<!-- item1 y=390-26=364  item2 y=390-45=345  item3 y=390-17=373 -->
+<rect x="264" y="306" width="200" height="168" rx="6" fill="#ffffff" stroke="#171717" stroke-width="2.5"/>
+<rect x="274" y="364" width="50" height="52" rx="6" fill="#e23d21"/>
+<rect x="339" y="345" width="50" height="90" rx="6" fill="#e23d21"/>
+<rect x="404" y="373" width="50" height="34" rx="6" fill="#e23d21"/>
+<text x="364" y="492" text-anchor="middle" font-family="'Roboto Mono','Courier New',monospace" font-size="13" fill="#171717">center</text>
+
+<!-- flex-end: items at bottom -->
+<!-- inner_bottom=316+148=464  item1 y=464-52=412  item2 y=464-90=374  item3 y=464-34=430 -->
+<rect x="492" y="306" width="200" height="168" rx="6" fill="#ffffff" stroke="#171717" stroke-width="2.5"/>
+<rect x="502" y="412" width="50" height="52" rx="6" fill="#e23d21"/>
+<rect x="567" y="374" width="50" height="90" rx="6" fill="#e23d21"/>
+<rect x="632" y="430" width="50" height="34" rx="6" fill="#e23d21"/>
+<text x="592" y="492" text-anchor="middle" font-family="'Roboto Mono','Courier New',monospace" font-size="13" fill="#171717">flex-end</text>
+
+<!-- stretch: items fill full cross-axis height -->
+<rect x="720" y="306" width="200" height="168" rx="6" fill="#ffffff" stroke="#171717" stroke-width="2.5"/>
+<rect x="730" y="316" width="50" height="148" rx="6" fill="#e23d21"/>
+<rect x="795" y="316" width="50" height="148" rx="6" fill="#e23d21"/>
+<rect x="860" y="316" width="50" height="148" rx="6" fill="#e23d21"/>
+<text x="820" y="492" text-anchor="middle" font-family="'Roboto Mono','Courier New',monospace" font-size="13" fill="#171717">stretch</text>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- VERTICAL DIVIDER                                        -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<line x1="480" y1="502" x2="480" y2="1058" stroke="#e23d21" stroke-width="1.5" opacity="0.4"/>
+
+<!-- SECTION HEADERS -->
+<text x="36"  y="512" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="21" font-weight="700" fill="#171717">justify-content</text>
+<text x="496" y="512" font-family="'Roboto','Segoe UI',Arial,sans-serif" font-size="21" font-weight="700" fill="#171717">align-content</text>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SECTIONS 3+4: justify-content (left) + align-content (right)  -->
+<!-- Boxes: w=200 h=155                                             -->
+<!-- justify-content left cols: x=36, x=256                        -->
+<!-- align-content right cols:  x=496, x=716                       -->
+<!-- inner: 180×135                                                 -->
+<!-- justify items: w=22 h=108  item_y=by+10+(135-108)/2=by+24     -->
+<!-- align items:   w=52 h=22   gap_x=6  x_start=bx+16             -->
+<!--                xs=[bx+16, bx+74, bx+132]                      -->
+<!-- ROWS at y=523, y=700, y=877 — labels at y=694, y=871, y=1048  -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<!-- ── ROW 1  y=523 ── -->
+
+<!-- justify-content: flex-start — bars packed left, gap=4 -->
+<rect x="36" y="523" width="200" height="155" rx="6" fill="#ffffff" stroke="#171717" stroke-width="2.5"/>
+<rect x="46" y="547" width="22" height="108" rx="5" fill="#e23d21"/>
+<rect x="72" y="547" width="22" height="108" rx="5" fill="#e23d21"/>
+<rect x="98" y="547" width="22" height="108" rx="5" fill="#e23d21"/>
+<text x="136" y="694" text-anchor="middle" font-family="'Roboto Mono','Courier New',monospace" font-size="13" fill="#171717">flex-start</text>
+
+<!-- justify-content: center — total=3*22+2*4=74, off=(180-74)/2=53 -->
+<!-- xs=[bx+63, bx+89, bx+115] → [319,345,371] -->
+<rect x="256" y="523" width="200" height="155" rx="6" fill="#ffffff" stroke="#171717" stroke-width="2.5"/>
+<rect x="319" y="547" width="22" height="108" rx="5" fill="#e23d21"/>
+<rect x="345" y="547" width="22" height="108" rx="5" fill="#e23d21"/>
+<rect x="371" y="547" width="22" height="108" rx="5" fill="#e23d21"/>
+<text x="356" y="694" text-anchor="middle" font-family="'Roboto Mono','Courier New',monospace" font-size="13" fill="#171717">center</text>
+
+<!-- align-content: flex-start — 2 rows packed at top, gap=6 -->
+<!-- xs=[512,570,628]  ys=[533,561] -->
+<rect x="496" y="523" width="200" height="155" rx="6" fill="#ffffff" stroke="#171717" stroke-width="2.5"/>
+<rect x="512" y="533" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="570" y="533" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="628" y="533" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="512" y="561" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="570" y="561" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="628" y="561" width="52" height="22" rx="5" fill="#e23d21"/>
+<text x="596" y="694" text-anchor="middle" font-family="'Roboto Mono','Courier New',monospace" font-size="13" fill="#171717">flex-start</text>
+
+<!-- align-content: center — total_h=2*22+6=50, off=(135-50)/2=42 -->
+<!-- ys=[533+42=575, 603] -->
+<rect x="716" y="523" width="200" height="155" rx="6" fill="#ffffff" stroke="#171717" stroke-width="2.5"/>
+<rect x="732" y="575" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="790" y="575" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="848" y="575" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="732" y="603" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="790" y="603" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="848" y="603" width="52" height="22" rx="5" fill="#e23d21"/>
+<text x="816" y="694" text-anchor="middle" font-family="'Roboto Mono','Courier New',monospace" font-size="13" fill="#171717">center</text>
+
+<!-- ── ROW 2  y=700 ── -->
+
+<!-- justify-content: flex-end — bars packed right -->
+<!-- inner_right=bx+10+180-22=bx+168=204, gap=4 -->
+<!-- xs[2]=204, xs[1]=178, xs[0]=152 -->
+<rect x="36" y="700" width="200" height="155" rx="6" fill="#ffffff" stroke="#171717" stroke-width="2.5"/>
+<rect x="152" y="724" width="22" height="108" rx="5" fill="#e23d21"/>
+<rect x="178" y="724" width="22" height="108" rx="5" fill="#e23d21"/>
+<rect x="204" y="724" width="22" height="108" rx="5" fill="#e23d21"/>
+<text x="136" y="871" text-anchor="middle" font-family="'Roboto Mono','Courier New',monospace" font-size="13" fill="#171717">flex-end</text>
+
+<!-- justify-content: space-between — gap=(180-66)/2=57 -->
+<!-- xs=[bx+10, bx+10+22+57=89, bx+10+22+57+22+57=168] → [46,345,424]... -->
+<!-- xs=[266,345,424] for bx=256 -->
+<rect x="256" y="700" width="200" height="155" rx="6" fill="#ffffff" stroke="#171717" stroke-width="2.5"/>
+<rect x="266" y="724" width="22" height="108" rx="5" fill="#e23d21"/>
+<rect x="345" y="724" width="22" height="108" rx="5" fill="#e23d21"/>
+<rect x="424" y="724" width="22" height="108" rx="5" fill="#e23d21"/>
+<text x="356" y="871" text-anchor="middle" font-family="'Roboto Mono','Courier New',monospace" font-size="13" fill="#171717">space-between</text>
+
+<!-- align-content: flex-end — 2 rows at bottom -->
+<!-- inner_bottom=700+10+135=845  total_h=50  ys=[795,823] -->
+<rect x="496" y="700" width="200" height="155" rx="6" fill="#ffffff" stroke="#171717" stroke-width="2.5"/>
+<rect x="512" y="795" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="570" y="795" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="628" y="795" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="512" y="823" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="570" y="823" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="628" y="823" width="52" height="22" rx="5" fill="#e23d21"/>
+<text x="596" y="871" text-anchor="middle" font-family="'Roboto Mono','Courier New',monospace" font-size="13" fill="#171717">flex-end</text>
+
+<!-- align-content: stretch — 2 rows each h=64, gap=6, fill 134 of 135 -->
+<!-- ys=[710, 780] -->
+<rect x="716" y="700" width="200" height="155" rx="6" fill="#ffffff" stroke="#171717" stroke-width="2.5"/>
+<rect x="732" y="710" width="52" height="64" rx="5" fill="#e23d21"/>
+<rect x="790" y="710" width="52" height="64" rx="5" fill="#e23d21"/>
+<rect x="848" y="710" width="52" height="64" rx="5" fill="#e23d21"/>
+<rect x="732" y="780" width="52" height="64" rx="5" fill="#e23d21"/>
+<rect x="790" y="780" width="52" height="64" rx="5" fill="#e23d21"/>
+<rect x="848" y="780" width="52" height="64" rx="5" fill="#e23d21"/>
+<text x="816" y="871" text-anchor="middle" font-family="'Roboto Mono','Courier New',monospace" font-size="13" fill="#171717">stretch</text>
+
+<!-- ── ROW 3  y=877 ── -->
+
+<!-- justify-content: space-around — total_space=114, per_section=38, half=19 -->
+<!-- xs=[bx+29=65, 65+22+38=125, 125+22+38=185] -->
+<rect x="36" y="877" width="200" height="155" rx="6" fill="#ffffff" stroke="#171717" stroke-width="2.5"/>
+<rect x="65"  y="901" width="22" height="108" rx="5" fill="#e23d21"/>
+<rect x="125" y="901" width="22" height="108" rx="5" fill="#e23d21"/>
+<rect x="185" y="901" width="22" height="108" rx="5" fill="#e23d21"/>
+<text x="136" y="1048" text-anchor="middle" font-family="'Roboto Mono','Courier New',monospace" font-size="13" fill="#171717">space-around</text>
+
+<!-- justify-content: space-evenly — total_space=114, n_gaps=4, gap=28 -->
+<!-- xs=[bx+38=294, 294+50=344, 344+50=394] for bx=256 -->
+<rect x="256" y="877" width="200" height="155" rx="6" fill="#ffffff" stroke="#171717" stroke-width="2.5"/>
+<rect x="294" y="901" width="22" height="108" rx="5" fill="#e23d21"/>
+<rect x="344" y="901" width="22" height="108" rx="5" fill="#e23d21"/>
+<rect x="394" y="901" width="22" height="108" rx="5" fill="#e23d21"/>
+<text x="356" y="1048" text-anchor="middle" font-family="'Roboto Mono','Courier New',monospace" font-size="13" fill="#171717">space-evenly</text>
+
+<!-- align-content: space-between — rows at top and bottom edges -->
+<!-- inner=[887,1022]  ys=[887, 887+22+91=1000] -->
+<rect x="496" y="877" width="200" height="155" rx="6" fill="#ffffff" stroke="#171717" stroke-width="2.5"/>
+<rect x="512" y="887" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="570" y="887" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="628" y="887" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="512" y="1000" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="570" y="1000" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="628" y="1000" width="52" height="22" rx="5" fill="#e23d21"/>
+<text x="596" y="1048" text-anchor="middle" font-family="'Roboto Mono','Courier New',monospace" font-size="13" fill="#171717">space-between</text>
+
+<!-- align-content: space-around — space=(135-44)/4≈23, ys=[910,978] -->
+<rect x="716" y="877" width="200" height="155" rx="6" fill="#ffffff" stroke="#171717" stroke-width="2.5"/>
+<rect x="732" y="910" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="790" y="910" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="848" y="910" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="732" y="978" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="790" y="978" width="52" height="22" rx="5" fill="#e23d21"/>
+<rect x="848" y="978" width="52" height="22" rx="5" fill="#e23d21"/>
+<text x="816" y="1048" text-anchor="middle" font-family="'Roboto Mono','Courier New',monospace" font-size="13" fill="#171717">space-around</text>
+
+</svg>
