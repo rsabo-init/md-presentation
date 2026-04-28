@@ -1,0 +1,6640 @@
+Feedback:
+
+Transcript 3 — The Real Presentation
+Opening: Major improvement
+This was the best opening of the three. "Welcome everyone and thank you. It's really great to see you all there" — clear, warm, no rambling. The newsletter concept was explained cleanly. The reward system was delivered in under 90 seconds — vs 3+ minutes in T2. That's exactly what was needed.
+
+What got significantly better
+Product names — "Edge Scripts" pronounced correctly from the first mention (04:12). "Docs Agent" and "Coding Agent" clearly named. This was a flagged problem in both T1 and T2 and it's largely fixed.
+
+The Flex/Responsive section — The T2 regression ("I don't use it and don't know how") is completely gone. Instead: "We do not invented anything new, it's already presented. We just try to use it and link it with the existing editor." Solid framing. He even showed a real BMS screen replicated in relative positioning — that's a much stronger demo anchor than either rehearsal had.
+
+Q&A handling — this is the biggest positive surprise. The real audience asked questions that the rehearsals didn't prepare for: diff view in the coding agent, why two separate AI agents, a support agent use case, privacy and data isolation, AI converting absolute to responsive screens, mobile configurations becoming obsolete, hiding elements by screen size. He handled every single one of these naturally and confidently. He gave honest, nuanced answers and even made good improvisational lines ("We have to leave something for Q2").
+
+Audience engagement — the reward system actually worked live. People asked. He handed out chocolates. The "Who knows what WYSIWYG stands for?" question got participation.
+
+Documentation — he said "documentation" correctly throughout. The "commentation" error from T1 and T2 is fixed.
+
+Quality section — the 3 challenges (documentation gap, deployment risk, visibility after deploy) named clearly and in sequence.
+
+What's still imperfect
+Sentence structure — incomplete thoughts and mid-sentence direction changes are still present, but less frequent than T1 or T2. It's no longer the dominant impression.
+
+"Elements" for LLMs — at the opening of the AI section (01:25:24): "the idea is about applying elements in our product." A slip. "LLMs" came out as "LS" once too. Not as bad as T2's "LLLLs" but not clean either.
+
+One awkward self-deprecation — in the Responsive section: "all these settings for me to be honest sounds how thick because I learned these X steps a lot" — mild, and the audience probably didn't notice, but it's a pattern worth watching.
+
+General verdict
+This was better than expected based on the rehearsals. The two biggest risks going in were the opening and the Flex section — both performed well. The area that was hardest to predict, the live Q&A, turned out to be the strongest part of the presentation. The audience got engaged, asked real technical questions, and you handled them with confidence and some humor.
+
+The remaining rough edges — incomplete sentences, the occasional product name slip — are visible in the transcript but likely minor in the room. The reward system, the real demo examples (BMS screen, OFM wells use case), and the honest answers on limitations (privacy, feature roadmap) all created the impression of someone who knows the product and is talking to colleagues, not performing a script.
+
+That's the right impression for this format.
+
+----------------------------------------------
+----------------------------------------------
+----------------------------------------------
+
+WEBVTT
+
+67c24ce6-e9c8-4a32-b5b7-2cd8bce14f38-0
+00:00:00.040 --> 00:00:00.520
+Have some time.
+
+5394d3a9-d2bf-4933-8059-cf03db0bfd8a-0
+00:00:00.520 --> 00:00:05.480
+So let's start first,
+welcome everyone and thank you.
+
+6632a338-d906-4302-aa90-80f998e42273-0
+00:00:06.240 --> 00:00:07.880
+It's really great to see you all there.
+
+59428481-fc32-462e-9b49-b6dc2a161b36-0
+00:00:09.240 --> 00:00:14.611
+What is this presentation about the
+purchase come up and we sit down and look
+
+59428481-fc32-462e-9b49-b6dc2a161b36-1
+00:00:14.611 --> 00:00:20.120
+back what we did in the previous period
+with our everyday tasks, everyday jobs.
+
+2c2f071e-ccde-4431-9b08-75a36356e5bd-0
+00:00:20.840 --> 00:00:23.491
+We just look forward, like what come next,
+what to fix,
+
+2c2f071e-ccde-4431-9b08-75a36356e5bd-1
+00:00:23.491 --> 00:00:24.960
+what to develop and to improve.
+
+7ff5a64b-c41a-440e-a806-64e98a946083-0
+00:00:26.040 --> 00:00:29.160
+We almost never sit down and check what
+we did in the past.
+
+0b07a4f4-68a7-4e99-9de2-0f6a6e5e00f6-0
+00:00:29.200 --> 00:00:34.040
+So we wanted to introduce something that
+we call newsletter presentation.
+
+ed8405f2-3b13-4d1d-bfc9-d469fe447869-0
+00:00:35.680 --> 00:00:37.120
+Why is newsletter presentation?
+
+8b1e4ac2-b395-46f2-adc6-d16df39172eb-0
+00:00:37.120 --> 00:00:40.360
+Because newsletter should be a letter
+right after presentation.
+
+2b3a82bf-b32f-4103-8297-8e58bb532854-0
+00:00:40.760 --> 00:00:42.852
+Yeah,
+we started to think about sending a
+
+2b3a82bf-b32f-4103-8297-8e58bb532854-1
+00:00:42.852 --> 00:00:43.400
+newsletter.
+
+cc482dd6-0f02-4701-aefc-b62956b54466-0
+00:00:43.400 --> 00:00:47.943
+But OK, before sending a newsletter,
+let's see down and present to everyone,
+
+cc482dd6-0f02-4701-aefc-b62956b54466-1
+00:00:47.943 --> 00:00:51.720
+all of us, see what is new,
+what we did in the previous period.
+
+16b7a2a8-faa0-459c-9c6d-a20c1f11570a-0
+00:00:52.360 --> 00:00:56.966
+So this is the first of this type of
+presentation that we will sit down this
+
+16b7a2a8-faa0-459c-9c6d-a20c1f11570a-1
+00:00:56.966 --> 00:00:59.360
+year, but we did in the previous period.
+
+f8218232-785e-4f14-b6c7-20a1757860ba-0
+00:01:00.720 --> 00:01:02.280
+Our idea is to give it quarterly.
+
+3b2c307b-27e1-402e-b836-664e322ba4bb-0
+00:01:02.280 --> 00:01:07.007
+So everything three months we will get
+something like this because this is the
+
+3b2c307b-27e1-402e-b836-664e322ba4bb-1
+00:01:07.007 --> 00:01:10.120
+first funding draw,
+it will be a little bit longer.
+
+59d2e6e7-a35e-4892-91dc-4698dd2f90f9-0
+00:01:10.280 --> 00:01:15.081
+So plan it is 90 minutes because we would
+like to present also something because
+
+59d2e6e7-a35e-4892-91dc-4698dd2f90f9-1
+00:01:15.081 --> 00:01:18.520
+last year that maybe not all of you that
+idea what it is.
+
+e5a16a1c-48c0-42bc-9ec5-9baee16c7079-0
+00:01:21.040 --> 00:01:25.360
+And yeah,
+let's start the vendor commitments.
+
+4c2859e0-4f10-4a15-b936-1a7268ae54ac-0
+00:01:26.280 --> 00:01:29.378
+Yeah,
+the agenda is to talk about few topics,
+
+4c2859e0-4f10-4a15-b936-1a7268ae54ac-1
+00:01:29.378 --> 00:01:33.825
+talk a little bit about F scripts,
+what they are, what they work,
+
+4c2859e0-4f10-4a15-b936-1a7268ae54ac-2
+00:01:33.825 --> 00:01:35.240
+what we use them for.
+
+b9f5810c-fe4d-4d33-8b6b-835dc81e98cc-0
+00:01:36.520 --> 00:01:42.466
+To talk about EMI and how large language
+models came into the EU product,
+
+b9f5810c-fe4d-4d33-8b6b-835dc81e98cc-1
+00:01:42.466 --> 00:01:48.574
+A little bit about responsive client,
+what is different if you change fully
+
+b9f5810c-fe4d-4d33-8b6b-835dc81e98cc-2
+00:01:48.574 --> 00:01:54.280
+approach of the SCADA drawing,
+to talk about application improvements.
+
+7a3dc751-080e-4920-b366-652b549290d5-0
+00:01:55.720 --> 00:01:59.021
+These two topics are for me very,
+very favourites,
+
+7a3dc751-080e-4920-b366-652b549290d5-1
+00:01:59.021 --> 00:02:03.746
+talking about continuous improvements and
+people must forget about them,
+
+7a3dc751-080e-4920-b366-652b549290d5-2
+00:02:03.746 --> 00:02:07.759
+but we have to keep them in mind that
+what we are also doing.
+
+e65c642e-69ed-4674-8266-76e10a4fdd63-0
+00:02:09.280 --> 00:02:10.520
+And yeah, lovely.
+
+23f6314c-43bb-4cca-9c0a-2646fa1f5264-0
+00:02:11.440 --> 00:02:14.760
+Let's talk about some highlights from
+last year.
+
+bc9b13e5-3fe3-4526-9342-f37008113db0-0
+00:02:14.760 --> 00:02:20.351
+So what you presented in last year that
+was not mentioned before in this
+
+bc9b13e5-3fe3-4526-9342-f37008113db0-1
+00:02:20.351 --> 00:02:26.401
+presentation or any presentation before,
+but we think it is important to talk,
+
+bc9b13e5-3fe3-4526-9342-f37008113db0-2
+00:02:26.401 --> 00:02:28.240
+talk about that I leave.
+
+dbea2462-7313-4bcf-a2d8-9675fc7b8e37-0
+00:02:29.000 --> 00:02:31.640
+I will leave some time at the end for the
+questions.
+
+c8d8ec62-7795-4637-8d08-8afab10be399-0
+00:02:32.240 --> 00:02:36.460
+But to make this presentation more
+interactive and more like a dialogue and
+
+c8d8ec62-7795-4637-8d08-8afab10be399-1
+00:02:36.460 --> 00:02:39.625
+the monologue,
+I would like to stop after the each topic
+
+c8d8ec62-7795-4637-8d08-8afab10be399-2
+00:02:39.625 --> 00:02:41.680
+and let's talk a little bit about it.
+
+a9df4571-6ec1-4998-826c-c2952fae309d-0
+00:02:42.360 --> 00:02:46.831
+For sure we have a time schedule so we
+cannot spend too much time,
+
+a9df4571-6ec1-4998-826c-c2952fae309d-1
+00:02:46.831 --> 00:02:51.235
+but I will leave few minutes for every
+topic to talk about it to,
+
+a9df4571-6ec1-4998-826c-c2952fae309d-2
+00:02:51.235 --> 00:02:55.840
+to ask questions that you get to give you
+some motivation to ask me.
+
+f4b48824-b09d-42e8-bb2d-a918372567c7-0
+00:02:56.000 --> 00:03:01.272
+I bring some sweeties here,
+so it is kind of a reward for every good
+
+f4b48824-b09d-42e8-bb2d-a918372567c7-1
+00:03:01.272 --> 00:03:01.960
+question.
+
+64e7dca7-4ba5-4b51-a144-1b00e691bee8-0
+00:03:02.280 --> 00:03:05.040
+OK, I have 4 type of sweeties.
+
+2b1cce82-9472-441a-acab-19176fbc8f14-0
+00:03:05.280 --> 00:03:07.080
+The milk has bits of flippy best ones.
+
+066f2156-7148-445a-bd7e-4c16511b0c56-0
+00:03:07.080 --> 00:03:10.337
+So the best questions,
+we'll get the best rewards and there is
+
+066f2156-7148-445a-bd7e-4c16511b0c56-1
+00:03:10.337 --> 00:03:11.320
+only three of them.
+
+8cb20ba0-039e-4be1-82bc-752b84ae506c-0
+00:03:12.200 --> 00:03:18.932
+I have like 10 marshmallows for good
+questions, 1 medium, medium,
+
+8cb20ba0-039e-4be1-82bc-752b84ae506c-1
+00:03:18.932 --> 00:03:20.360
+good question.
+
+25aeb956-6827-4a07-a871-d8760a2ec70f-0
+00:03:22.040 --> 00:03:27.106
+The banana chocolate is for OK questions
+better than shutting up and saying
+
+25aeb956-6827-4a07-a871-d8760a2ec70f-1
+00:03:27.106 --> 00:03:27.640
+nothing.
+
+735f62d2-8e89-487c-b4d3-bef4046e5349-0
+00:03:27.960 --> 00:03:31.643
+And the last one is for the others that
+when it's better to shut,
+
+735f62d2-8e89-487c-b4d3-bef4046e5349-1
+00:03:31.643 --> 00:03:32.760
+to not ask anything.
+
+11d7f634-c96a-41a3-994a-f760f274413b-0
+00:03:33.720 --> 00:03:34.160
+That's it.
+
+ad5b04fa-2378-4149-bceb-087cb2bdfd5a-0
+00:03:34.200 --> 00:03:36.240
+I hope there will be no questions like
+that.
+
+370cabdc-6c0a-45ff-a88b-f5a8dff29191-0
+00:03:36.240 --> 00:03:39.376
+But yes,
+let me know if I come through anything
+
+370cabdc-6c0a-45ff-a88b-f5a8dff29191-1
+00:03:39.376 --> 00:03:44.407
+that is important or you're previous or
+you do not know something about some
+
+370cabdc-6c0a-45ff-a88b-f5a8dff29191-2
+00:03:44.407 --> 00:03:44.800
+topic.
+
+4a8adb95-6a93-4e0a-b109-3a391db61b33-0
+00:03:45.440 --> 00:03:49.328
+Because if you do not know or it's not
+clear for you,
+
+4a8adb95-6a93-4e0a-b109-3a391db61b33-1
+00:03:49.328 --> 00:03:54.944
+maybe someone else also do not know,
+just do not have enough grade to ask the
+
+4a8adb95-6a93-4e0a-b109-3a391db61b33-2
+00:03:54.944 --> 00:03:55.880
+question, OK?
+
+8f3b7e6f-314a-4e35-b3a2-679f2997ec4e-0
+00:03:56.680 --> 00:04:01.301
+So after topic after this topic to the
+stop and if something is to you for all
+
+8f3b7e6f-314a-4e35-b3a2-679f2997ec4e-1
+00:04:01.301 --> 00:04:02.120
+the questions.
+
+d45904ce-0a61-46cb-987d-ddb494ac2853-0
+00:04:02.560 --> 00:04:12.960
+OK, so let's start edge scripts.
+
+afe66639-9e73-461b-bc8f-0fe1112811f8-0
+00:04:14.120 --> 00:04:16.920
+Edge scripts are named by two important
+things.
+
+b6e45dac-66c8-4dce-95b3-685a398bed01-0
+00:04:17.040 --> 00:04:19.400
+One is scripts, other is edge.
+
+33db1fa6-4a20-4439-9040-992dc651ffae-0
+00:04:20.960 --> 00:04:27.001
+Edge scripts as it's own on the platform
+is present from I would say very first
+
+33db1fa6-4a20-4439-9040-992dc651ffae-1
+00:04:27.001 --> 00:04:29.040
+purpose of of the platform.
+
+cb920dc5-ee49-46b7-8d2d-b9645a6ac5a4-0
+00:04:29.040 --> 00:04:35.152
+And as much as we want to make our
+platform known called ID whenever the
+
+cb920dc5-ee49-46b7-8d2d-b9645a6ac5a4-1
+00:04:35.152 --> 00:04:38.836
+application,
+whenever some more experienced
+
+cb920dc5-ee49-46b7-8d2d-b9645a6ac5a4-2
+00:04:38.836 --> 00:04:45.200
+application user comes to the usage,
+the scripts will be his favorite tool.
+
+32c917ba-8bd2-4c2c-85d7-43a70cf3bf59-0
+00:04:45.360 --> 00:04:50.404
+So it is mostly used for the advanced
+users because they help user to write
+
+32c917ba-8bd2-4c2c-85d7-43a70cf3bf59-1
+00:04:50.404 --> 00:04:51.400
+business logic.
+
+068593f8-5b9d-4a9a-97db-51c856fc695a-0
+00:04:52.760 --> 00:04:55.960
+All the all the custom things and
+requirements that I need.
+
+4be44284-efd2-4841-a150-70e61cadac5a-0
+00:04:56.840 --> 00:05:00.847
+On the other side,
+we can catch like communication on the
+
+4be44284-efd2-4841-a150-70e61cadac5a-1
+00:05:00.847 --> 00:05:06.168
+edge of the network and we have been
+passed a lot of gate base and the class
+
+4be44284-efd2-4841-a150-70e61cadac5a-2
+00:05:06.168 --> 00:05:11.212
+one that we are running and we're
+covering is E3 the France right now in
+
+4be44284-efd2-4841-a150-70e61cadac5a-3
+00:05:11.212 --> 00:05:16.809
+about on about more than 5000 of us in
+the US and tenths of the of the locations
+
+4be44284-efd2-4841-a150-70e61cadac5a-4
+00:05:16.809 --> 00:05:22.130
+here in Serbia and the E3 gate based
+seats on the site with the local device
+
+4be44284-efd2-4841-a150-70e61cadac5a-5
+00:05:22.130 --> 00:05:27.519
+in reading when the native protocol some
+data and sending class to the cloud.
+
+c18e3ff2-3ed1-4693-a81e-a304d459e48e-0
+00:05:28.360 --> 00:05:32.040
+Very valuable here is that it is on the
+edge of the network.
+
+d403d3f6-e28d-40b2-93fb-38a826a97643-0
+00:05:32.320 --> 00:05:35.400
+It communicates with the end location
+with the device in any moment.
+
+3afc3cf3-bf04-4a7f-a775-b6a294e524db-0
+00:05:35.880 --> 00:05:38.137
+OK,
+Internet connection is present sometimes
+
+3afc3cf3-bf04-4a7f-a775-b6a294e524db-1
+00:05:38.137 --> 00:05:38.840
+sometimes not.
+
+448184ed-214a-4cee-b21d-6c29fe6717dc-0
+00:05:40.400 --> 00:05:43.800
+What if we put this to get these two
+things together?
+
+b29a04cb-fb28-4911-b42f-654d436454a7-0
+00:05:44.000 --> 00:05:48.920
+Why we do not bring scripts down to the
+edge down to the gateway?
+
+4b7684f5-566a-49a9-8d09-2cff8020e835-0
+00:05:49.520 --> 00:05:52.709
+What we can get this,
+we can get reliability,
+
+4b7684f5-566a-49a9-8d09-2cff8020e835-1
+00:05:52.709 --> 00:05:55.760
+do not depend on if we get Internet or
+not,
+
+4b7684f5-566a-49a9-8d09-2cff8020e835-2
+00:05:55.760 --> 00:06:00.960
+real time reaction because everything
+works locally and many other things.
+
+0bb407a5-556b-40af-b152-9afca2141fa8-0
+00:06:01.640 --> 00:06:05.329
+Also all these variables,
+all these values are present locally on
+
+0bb407a5-556b-40af-b152-9afca2141fa8-1
+00:06:05.329 --> 00:06:06.000
+the network.
+
+39162670-c474-44de-a70c-694168b90712-0
+00:06:07.320 --> 00:06:11.840
+Let's see how we did it and what we have
+built on this topic.
+
+26a31cba-2fda-479a-b575-e6cf7bc31bcc-0
+00:06:12.960 --> 00:06:15.744
+If scripts are almost identical to the
+scripts, you know,
+
+26a31cba-2fda-479a-b575-e6cf7bc31bcc-1
+00:06:15.744 --> 00:06:17.760
+you will just open it to just another tab.
+
+2ce7636d-b864-4772-96ec-df6e6c3d33ee-0
+00:06:17.760 --> 00:06:22.600
+You will write some code and it's almost,
+almost equal to the original scripts.
+
+6f0e0935-a7f3-47a5-9732-8b0671c8772d-0
+00:06:23.600 --> 00:06:28.120
+Similar syntax, similar code,
+similar everything is almost the same.
+
+5093c41b-b6cc-40ae-97a0-24484be88c50-0
+00:06:28.400 --> 00:06:29.480
+What is the key difference?
+
+9faf60e6-455b-409e-89a7-468a36c0ec8c-0
+00:06:29.800 --> 00:06:33.680
+When we see the save button,
+it will not executed in the cloud.
+
+0102de90-458b-4709-9833-c1d38d5e15b8-0
+00:06:33.960 --> 00:06:39.840
+It will build the point in that will be
+sent down to the location on the gateway.
+
+f3db3887-aa56-4c9c-b554-e634cf58fe27-0
+00:06:42.200 --> 00:06:46.852
+The key difference, yes, yeah,
+it is deployed locally on the on the
+
+f3db3887-aa56-4c9c-b554-e634cf58fe27-1
+00:06:46.852 --> 00:06:47.400
+gateway.
+
+9151d0a5-a1ec-497e-9835-0af6eee82e3a-0
+00:06:47.960 --> 00:06:52.080
+It means that when it's done,
+it will execute right there.
+
+de8f3dfb-ee3f-405d-a8bf-2e6c1d6a1175-0
+00:06:52.080 --> 00:06:55.990
+So if you do all the logic,
+all that is written not depending on the
+
+de8f3dfb-ee3f-405d-a8bf-2e6c1d6a1175-1
+00:06:55.990 --> 00:06:57.520
+Internet connection at all.
+
+29a4006d-fb5d-47f9-a9a8-0169fd4df2d6-0
+00:06:59.600 --> 00:07:04.656
+The great thing about it is about it is
+that if you do need something from the
+
+29a4006d-fb5d-47f9-a9a8-0169fd4df2d6-1
+00:07:04.656 --> 00:07:06.320
+Internet, we can fetch it.
+
+808a2785-72b0-4532-89b8-19b4b9dbdccf-0
+00:07:06.840 --> 00:07:08.935
+OK,
+so in the script you're able to write
+
+808a2785-72b0-4532-89b8-19b4b9dbdccf-1
+00:07:08.935 --> 00:07:11.280
+reading some variables from the platform
+also.
+
+f53af1f5-8a14-41f9-b0d7-66c850a48b08-0
+00:07:11.920 --> 00:07:14.360
+And if you have connection to the get
+that failure.
+
+da1fe200-8754-4b85-8c1a-414eb3926a06-0
+00:07:14.520 --> 00:07:17.202
+If not, if you'll,
+you will define what is default,
+
+da1fe200-8754-4b85-8c1a-414eb3926a06-1
+00:07:17.202 --> 00:07:18.080
+default behavior.
+
+064e7fc5-86c7-49c6-96e4-2d09196450fd-0
+00:07:18.880 --> 00:07:22.853
+So if you get a scenario like this one
+with your location age,
+
+064e7fc5-86c7-49c6-96e4-2d09196450fd-1
+00:07:22.853 --> 00:07:25.440
+with the with the IT reads running on it.
+
+216cf549-04dc-47c8-9bf6-377e2a73e07b-0
+00:07:26.280 --> 00:07:29.739
+It is online, communicates,
+reads everything for the field and
+
+216cf549-04dc-47c8-9bf6-377e2a73e07b-1
+00:07:29.739 --> 00:07:32.320
+executes locally the script doing the
+control.
+
+459730fe-0772-4233-ad1d-463a34c33436-0
+00:07:32.600 --> 00:07:38.491
+But everything is if it needs some data
+from the location V that has its own data
+
+459730fe-0772-4233-ad1d-463a34c33436-1
+00:07:38.491 --> 00:07:42.084
+and its own,
+you can get it but not directly then
+
+459730fe-0772-4233-ad1d-463a34c33436-2
+00:07:42.084 --> 00:07:44.240
+through the through the cloud.
+
+271cfdc1-0fc9-49f5-82a0-24aee7d10a5c-0
+00:07:46.240 --> 00:07:49.480
+So cross communication between the script
+are also allowed.
+
+288b78f2-273c-4386-b0cf-1fd4b62511f9-0
+00:07:49.680 --> 00:07:54.280
+But we have to think about and keep in
+mind that they are optional.
+
+49fe3438-630d-4051-83f7-780dedfdbdd9-0
+00:07:54.280 --> 00:07:55.360
+They are not required.
+
+4abf592b-963b-4a7f-b4e9-750ea8b000bc-0
+00:07:55.600 --> 00:07:59.920
+We want to write these scripts to make
+make it work, make the word it works.
+
+7ebd84aa-3e2e-4d3e-8d54-8e37effa3309-0
+00:08:00.520 --> 00:08:01.840
+If you get connection or not.
+
+9b107bd0-8fbc-401f-8472-f27674c67d31-0
+00:08:03.760 --> 00:08:08.600
+When we meet this all together,
+what we get, we get fully automated.
+
+d8c858a6-ad4e-415b-b06b-bd0ae1fcb53f-0
+00:08:09.320 --> 00:08:12.160
+Leave full automation living down on the
+edge.
+
+1c158145-a749-4a10-ba09-a4074bc07bd5-0
+00:08:13.160 --> 00:08:16.251
+OK,
+so all the automation that you want will
+
+1c158145-a749-4a10-ba09-a4074bc07bd5-1
+00:08:16.251 --> 00:08:19.000
+stay there and execute, execute locally.
+
+1c8892db-364f-4331-90af-e9330531c845-0
+00:08:19.400 --> 00:08:21.400
+It is fully independent of the cloud.
+
+5d4fca0f-3411-4bbe-b9ae-a0403e781032-0
+00:08:22.120 --> 00:08:22.360
+OK.
+
+01670caa-908b-4099-8d00-88d2c3a24e3e-0
+00:08:22.360 --> 00:08:26.481
+So if you have a device that will go find
+some bad weather conditions,
+
+01670caa-908b-4099-8d00-88d2c3a24e3e-1
+00:08:26.481 --> 00:08:29.500
+if you go find for three days for these
+three days,
+
+01670caa-908b-4099-8d00-88d2c3a24e3e-2
+00:08:29.500 --> 00:08:31.880
+it will execute locally and it will work.
+
+dd69aa44-ef10-4901-a8b2-3c36ee72addb-0
+00:08:32.040 --> 00:08:33.640
+So you're logical not tell.
+
+6876a9f5-6a0b-4285-a222-afd6b72fa6a8-0
+00:08:34.960 --> 00:08:35.760
+I'm going to share.
+
+a17eb51a-6378-4d26-b1ae-09123860975d-0
+00:08:36.160 --> 00:08:43.100
+I would like to share a use case from the
+oil field monitor that would explain it
+
+a17eb51a-6378-4d26-b1ae-09123860975d-1
+00:08:43.100 --> 00:08:47.840
+was easier explanation for me what we do
+use using for.
+
+c03308b0-233b-41f0-90c1-dae7d4e126ad-0
+00:08:48.840 --> 00:08:53.996
+You'll know that on the monitor we are
+collecting data from the wells like you
+
+c03308b0-233b-41f0-90c1-dae7d4e126ad-1
+00:08:53.996 --> 00:08:58.240
+know well for the wells,
+collecting data attending to the cloud.
+
+07060e62-3e33-4d7c-ba68-ed4817290192-0
+00:08:59.760 --> 00:09:03.654
+Next to each well,
+there is a moksta small between escaping
+
+07060e62-3e33-4d7c-ba68-ed4817290192-1
+00:09:03.654 --> 00:09:07.160
+that is reading all the devices before
+the F scripts.
+
+70a6bfe8-91e2-475e-98b6-31c68693bc0b-0
+00:09:07.600 --> 00:09:10.584
+In the case of any of this scenario,
+for example,
+
+70a6bfe8-91e2-475e-98b6-31c68693bc0b-1
+00:09:10.584 --> 00:09:15.060
+better conditions or and design some very
+high pressure, high temperature,
+
+70a6bfe8-91e2-475e-98b6-31c68693bc0b-2
+00:09:15.060 --> 00:09:18.880
+whatever the well gets,
+that's some problem go to fault estate.
+
+c867d887-3f06-4740-90cc-d0cc774b0197-0
+00:09:19.560 --> 00:09:23.769
+OK, but the operator,
+the technical guy do open the boomerang,
+
+c867d887-3f06-4740-90cc-d0cc774b0197-1
+00:09:23.769 --> 00:09:25.640
+the oil field monitor check.
+
+19330539-6594-4603-8557-1492430cd183-0
+00:09:25.640 --> 00:09:27.800
+OK, I see these five LS are all fine.
+
+afa1c012-21a5-4cc6-9bac-b9831129044d-0
+00:09:28.320 --> 00:09:29.280
+Let's try to run them.
+
+5cea2af6-4ef5-4272-a5e3-845ac10f0359-0
+00:09:29.360 --> 00:09:34.227
+So I go there to click run,
+slow it a little bit down, for example,
+
+5cea2af6-4ef5-4272-a5e3-845ac10f0359-1
+00:09:34.227 --> 00:09:36.160
+let let it make run stable.
+
+8201659f-1cb8-4b41-bbfa-77e7bc7917eb-0
+00:09:36.240 --> 00:09:39.640
+Then I will reach the speed of target
+that I'm targeting.
+
+50b24f7c-71ea-4347-adaf-a4f15f940e6c-0
+00:09:40.440 --> 00:09:43.747
+OK,
+so that was the user scenario of any
+
+50b24f7c-71ea-4347-adaf-a4f15f940e6c-1
+00:09:43.747 --> 00:09:49.475
+coding on the scenario on the on the well
+with text scripts, the team,
+
+50b24f7c-71ea-4347-adaf-a4f15f940e6c-2
+00:09:49.475 --> 00:09:54.800
+our team built the script or scenario how
+to do it automatically.
+
+1c4e0d17-abf0-4292-beec-a765715150d9-0
+00:09:55.360 --> 00:09:58.734
+So they wrote the scripts OK in the case
+of failure,
+
+1c4e0d17-abf0-4292-beec-a765715150d9-1
+00:09:58.734 --> 00:10:03.572
+they for that much time after debating,
+try to start up with the little bit
+
+1c4e0d17-abf0-4292-beec-a765715150d9-2
+00:10:03.572 --> 00:10:04.400
+slower speed.
+
+002cc230-2d63-4268-96e0-4d25afaee2f6-0
+00:10:04.720 --> 00:10:09.263
+Make sure you're stable when you're
+stable slowly and more and more speed up
+
+002cc230-2d63-4268-96e0-4d25afaee2f6-1
+00:10:09.263 --> 00:10:10.680
+to use the target speed.
+
+d3dc15ef-3ee6-4d86-9359-ae9c20910aec-0
+00:10:11.720 --> 00:10:16.234
+What you're getting is if you deploy the
+script locally to the to the device
+
+d3dc15ef-3ee6-4d86-9359-ae9c20910aec-1
+00:10:16.234 --> 00:10:19.752
+through the scripts,
+you have nothing to do with the cortex
+
+d3dc15ef-3ee6-4d86-9359-ae9c20910aec-2
+00:10:19.752 --> 00:10:20.279
+scenario.
+
+dde0e211-ebef-4ee0-9940-5da8ede84e74-0
+00:10:20.680 --> 00:10:25.634
+So you have your 100 valves running doing
+you can have cortex scenario,
+
+dde0e211-ebef-4ee0-9940-5da8ede84e74-1
+00:10:25.634 --> 00:10:27.080
+everything gets back.
+
+23f173af-bda3-4727-a3b6-d88a9d3b3051-0
+00:10:27.080 --> 00:10:29.080
+You just sit there and see what happened.
+
+c9b90c78-9faa-4a8e-bceb-9d6efedf2814-0
+00:10:29.320 --> 00:10:31.400
+There is no need for erection at all.
+
+2a67bced-f030-404b-8e69-39197e5a3d64-0
+00:10:32.480 --> 00:10:36.998
+OK,
+so that one is for me like most beautiful
+
+2a67bced-f030-404b-8e69-39197e5a3d64-1
+00:10:36.998 --> 00:10:39.160
+example of bug bug HP.
+
+7442d929-f69d-41c4-a6e5-aa6ea7760b76-0
+00:10:44.520 --> 00:10:49.575
+This is the,
+let's say architecture best presenting
+
+7442d929-f69d-41c4-a6e5-aa6ea7760b76-1
+00:10:49.575 --> 00:10:52.200
+architecture how we design.
+
+cb854c09-8570-4dd7-a1fe-2788e716606c-0
+00:10:52.600 --> 00:10:56.647
+So before the scripts,
+we get the communication locally with the
+
+cb854c09-8570-4dd7-a1fe-2788e716606c-1
+00:10:56.647 --> 00:11:01.131
+smart gateway with the field,
+but every piece is it water management is
+
+cb854c09-8570-4dd7-a1fe-2788e716606c-2
+00:11:01.131 --> 00:11:05.491
+it, I mean it's not important,
+but we are reading the importance here
+
+cb854c09-8570-4dd7-a1fe-2788e716606c-3
+00:11:05.491 --> 00:11:07.920
+that this connection is field protocol.
+
+7eb6ffdb-6d1d-48be-9a57-e94ee79edca3-0
+00:11:07.920 --> 00:11:10.612
+So it means that it's native protocol
+modulus,
+
+7eb6ffdb-6d1d-48be-9a57-e94ee79edca3-1
+00:11:10.612 --> 00:11:15.080
+TCP modulus RTU S10 of something that is
+not safe to go through to the cloud.
+
+1decf1f7-e1ea-4b66-beec-03fbc96a137e-0
+00:11:15.440 --> 00:11:19.840
+So locally we do native reading and
+sending data to the cloud.
+
+bfebbd11-e7ed-4669-bf86-ab69684612a8-0
+00:11:20.920 --> 00:11:26.651
+Before here shifts we get writing same
+very similar logic that takes it within
+
+bfebbd11-e7ed-4669-bf86-ab69684612a8-1
+00:11:26.651 --> 00:11:32.092
+the cloud and then like in all the
+comments or the control but stand right
+
+bfebbd11-e7ed-4669-bf86-ab69684612a8-2
+00:11:32.092 --> 00:11:37.316
+there through the GPS and all
+communication with telling this component
+
+bfebbd11-e7ed-4669-bf86-ab69684612a8-3
+00:11:37.316 --> 00:11:41.524
+in the middle,
+we were able to create a script, build it,
+
+bfebbd11-e7ed-4669-bf86-ab69684612a8-4
+00:11:41.524 --> 00:11:46.239
+download right there to the data and it
+will execute it locally.
+
+dbe37c2e-85b0-4799-b191-c16e6dd4955c-0
+00:11:46.600 --> 00:11:54.000
+So if we cut this line fully our scenario,
+our use case will still work OK.
+
+ab10afbb-36a5-4829-b87f-abe7f2e426e9-0
+00:11:55.840 --> 00:12:01.354
+What we are getting works offline,
+we're getting low latency in case of slow
+
+ab10afbb-36a5-4829-b87f-abe7f2e426e9-1
+00:12:01.354 --> 00:12:05.293
+down, slow, slow down,
+it will also not slow down this
+
+ab10afbb-36a5-4829-b87f-abe7f2e426e9-2
+00:12:05.293 --> 00:12:10.521
+communication because do not depend,
+it is usually just physically cable
+
+ab10afbb-36a5-4829-b87f-abe7f2e426e9-3
+00:12:10.521 --> 00:12:16.394
+linked to both to both sides security,
+reliability and distributed communication,
+
+ab10afbb-36a5-4829-b87f-abe7f2e426e9-4
+00:12:16.394 --> 00:12:22.052
+distributed computing that is the case
+when we want this location to talk with
+
+ab10afbb-36a5-4829-b87f-abe7f2e426e9-5
+00:12:22.052 --> 00:12:22.839
+some other.
+
+c5d22565-601e-463c-a13b-5a1b4f2ff2b7-0
+00:12:23.120 --> 00:12:25.640
+OK, if you want to make sure OK,
+let's speed it up.
+
+7f2d2e20-fabe-43a6-b767-7946bb338bc2-0
+00:12:25.720 --> 00:12:28.480
+If my neighborhood has good remix.
+
+ec45ab6d-864a-4921-9157-b1760b8eede4-0
+00:12:28.720 --> 00:12:29.920
+If he's not, he's not there.
+
+d6156079-d1c4-4fa1-92d8-ae16d9e65ce1-0
+00:12:29.920 --> 00:12:33.510
+Let's slow down,
+make sure that we are OK OK,
+
+d6156079-d1c4-4fa1-92d8-ae16d9e65ce1-1
+00:12:33.510 --> 00:12:37.960
+so you're able to control between remote
+cases together.
+
+380a5eb5-6162-43b2-b38f-db9e1b9f880b-0
+00:12:39.560 --> 00:12:41.720
+Let's see how we do it,
+where we where we do it.
+
+ce3ced4e-cab8-4020-b406-676f86bc49fd-0
+00:12:42.600 --> 00:12:46.240
+Can I pay my reward for this moment
+because somebody else has something?
+
+138d5ec8-e92a-48bb-acfb-80b2cc5fe15f-0
+00:12:47.760 --> 00:12:48.040
+Yes.
+
+31d748aa-68a0-4b76-b720-e31889ef18e0-0
+00:12:48.680 --> 00:12:54.680
+So other than just having information,
+is it connected to the cloud or not?
+
+07af04fd-1abf-4892-bdd9-f01f1b4808e1-0
+00:12:54.960 --> 00:12:59.114
+Do we have any other system variables
+that can help you with logic,
+
+07af04fd-1abf-4892-bdd9-f01f1b4808e1-1
+00:12:59.114 --> 00:13:03.819
+which means like do a failover if I'm
+losing the connection with cloud or if
+
+07af04fd-1abf-4892-bdd9-f01f1b4808e1-2
+00:13:03.819 --> 00:13:08.280
+I'm not communicating to other more same
+network or something like that.
+
+713c6e65-2fd8-425d-8585-7c0155fc7c78-0
+00:13:08.720 --> 00:13:13.788
+So it's it's important that this level
+when you are executing something on the
+
+713c6e65-2fd8-425d-8585-7c0155fc7c78-1
+00:13:13.788 --> 00:13:16.676
+local level,
+but you expect some conditions,
+
+713c6e65-2fd8-425d-8585-7c0155fc7c78-2
+00:13:16.676 --> 00:13:21.745
+references or something else coming from
+other locations because some failover
+
+713c6e65-2fd8-425d-8585-7c0155fc7c78-3
+00:13:21.745 --> 00:13:24.440
+mechanisms, you put it within your script.
+
+847f9cea-dcdb-42cb-9aea-b0928694a2be-0
+00:13:24.880 --> 00:13:29.160
+And for that you so do we need some
+additional system variables, right?
+
+8a369c10-4e25-40d5-80a3-7d66fde723e2-0
+00:13:30.560 --> 00:13:34.240
+Yes, answer is fully yes, we do have two.
+
+f34f3c43-1c9d-40f4-b2c0-2b2751409c4b-0
+00:13:34.960 --> 00:13:37.400
+One is system variables.
+
+2d6291d3-9ebd-4a0b-a378-ea1841c92b41-0
+00:13:37.400 --> 00:13:41.700
+We always have this system variable that
+where you can check like manually what to
+
+2d6291d3-9ebd-4a0b-a378-ea1841c92b41-1
+00:13:41.700 --> 00:13:42.840
+do if well is offline.
+
+3cc82116-66b6-4955-b492-b5e3b3c34f7d-0
+00:13:43.160 --> 00:13:45.680
+But the script will also force you.
+
+cd2a73d4-ef47-42bd-a092-098cab9b6ea1-0
+00:13:45.840 --> 00:13:50.103
+In the case when you're writing a script
+and you want to read externally able,
+
+cd2a73d4-ef47-42bd-a092-098cab9b6ea1-1
+00:13:50.103 --> 00:13:51.560
+you have to define default.
+
+3c7fc7a8-b785-4a5b-bb8d-3f92d854b934-0
+00:13:52.120 --> 00:13:57.103
+So the syntax will force you to write
+what the what happens and what will be
+
+3c7fc7a8-b785-4a5b-bb8d-3f92d854b934-1
+00:13:57.103 --> 00:13:57.880
+the reading.
+
+e844ca9f-fd7a-4c24-a2bd-7b4f1dc7bd24-0
+00:13:57.920 --> 00:14:02.040
+If you are applying OK,
+so also the script is it will not compile
+
+e844ca9f-fd7a-4c24-a2bd-7b4f1dc7bd24-1
+00:14:02.040 --> 00:14:04.600
+if you do not define what is the default.
+
+362c19af-3bee-4a80-909b-ca580de40e93-0
+00:14:04.680 --> 00:14:05.440
+Default behavior.
+
+b4b5bda8-50e7-4f2c-987c-9a9342259159-0
+00:14:05.440 --> 00:14:15.840
+In the case of offline one chocolate for
+you, but you already got it to talk with.
+
+52b01536-9409-4850-b684-a4d00c49b5a9-0
+00:14:18.240 --> 00:14:20.080
+OK, so where is it located?
+
+959e1fe3-399e-4557-8a28-84e78243aa98-0
+00:14:20.640 --> 00:14:22.400
+On the Configurator, we go to the script.
+
+f880f986-19c0-4cd5-bea9-59e6a13b7b58-0
+00:14:22.400 --> 00:14:27.112
+It's just another tab,
+another sub tab in the scripts when we
+
+f880f986-19c0-4cd5-bea9-59e6a13b7b58-1
+00:14:27.112 --> 00:14:33.040
+want to create a new one with the last
+cuts, beauties proceed to define name.
+
+03bb25bb-2be9-417a-8c5b-776ed865211e-0
+00:14:33.160 --> 00:14:36.486
+It's clear then if you ask for a device
+type,
+
+03bb25bb-2be9-417a-8c5b-776ed865211e-1
+00:14:36.486 --> 00:14:42.273
+what is important to define a device type,
+Because choosing device type will be
+
+03bb25bb-2be9-417a-8c5b-776ed865211e-2
+00:14:42.273 --> 00:14:45.599
+automatically deployed as soon as we save
+it.
+
+2ef3dcb3-dd37-44e4-bb45-b87fbc3c5619-0
+00:14:46.000 --> 00:14:50.481
+And the other advantage is that all the
+variables and suggestions will be linked
+
+2ef3dcb3-dd37-44e4-bb45-b87fbc3c5619-1
+00:14:50.481 --> 00:14:51.920
+to that, that device type.
+
+290ad84a-2276-4553-a870-0bbca8dfdfa2-0
+00:14:51.920 --> 00:14:57.949
+So I cannot it will force me to use only
+variables and two pieces that we have on
+
+290ad84a-2276-4553-a870-0bbca8dfdfa2-1
+00:14:57.949 --> 00:14:59.200
+this device type.
+
+6b2e7e91-8959-443e-bfd7-884e83c30565-0
+00:14:59.760 --> 00:15:03.933
+OK, next to that, yeah,
+we have ability to deploy directly on on
+
+6b2e7e91-8959-443e-bfd7-884e83c30565-1
+00:15:03.933 --> 00:15:07.400
+single device,
+not all devices from that device type.
+
+3b6c611f-25f3-4c74-8e91-520ea8b76b24-0
+00:15:08.920 --> 00:15:12.077
+And yeah,
+we have the we choose the type and we do
+
+3b6c611f-25f3-4c74-8e91-520ea8b76b24-1
+00:15:12.077 --> 00:15:13.440
+have also these calls.
+
+eb59dcfc-55f2-4ef4-aafa-801df4e33f37-0
+00:15:13.440 --> 00:15:17.587
+We will come back to that later when we
+add it,
+
+eb59dcfc-55f2-4ef4-aafa-801df4e33f37-1
+00:15:17.587 --> 00:15:24.240
+it will it will give us a few comments
+showing the showing the commented out
+
+eb59dcfc-55f2-4ef4-aafa-801df4e33f37-2
+00:15:24.240 --> 00:15:26.400
+usage of different tools.
+
+d8dd0c36-b33c-48bd-bdf2-eb373e063a7b-0
+00:15:28.320 --> 00:15:32.080
+You can use it, you can read it,
+it's all commented, but it does.
+
+95958392-893a-4697-8fce-7dd1ac197b4c-0
+00:15:33.080 --> 00:15:33.960
+It's not required.
+
+2c0b1af8-00ba-485a-bc2a-d708208b1b1a-0
+00:15:34.080 --> 00:15:39.080
+Just delete it on the very top right,
+top right corner.
+
+9af594fd-ee7e-429a-b027-265f756de654-0
+00:15:39.120 --> 00:15:44.040
+You will have these suggestions where it
+will help you to find that all the local
+
+9af594fd-ee7e-429a-b027-265f756de654-1
+00:15:44.040 --> 00:15:48.840
+variables that you can and you can easily
+just speak on the reader write and it
+
+9af594fd-ee7e-429a-b027-265f756de654-2
+00:15:48.840 --> 00:15:51.840
+will give you the syncs how to read some
+of them.
+
+96149d7e-ba21-45cc-bd7b-0e3c568d8dbf-0
+00:15:51.840 --> 00:15:57.120
+So it is just a shortcut to write a code
+to easier write code next to the variable.
+
+3f64a217-a88b-46ff-9bb7-1be0219f3202-0
+00:15:57.120 --> 00:16:02.296
+We do have also recommendations,
+recommendations you can give us another
+
+3f64a217-a88b-46ff-9bb7-1be0219f3202-1
+00:16:02.296 --> 00:16:08.040
+tools used for this is also something new
+was not present in the scripts at all.
+
+0d433445-40f2-4d30-8632-a39031cae802-0
+00:16:08.040 --> 00:16:12.346
+But we do not get done right now to talk
+about them also, Yeah,
+
+0d433445-40f2-4d30-8632-a39031cae802-1
+00:16:12.346 --> 00:16:15.441
+when we are OK with it,
+we browse the script,
+
+0d433445-40f2-4d30-8632-a39031cae802-2
+00:16:15.441 --> 00:16:18.200
+Mark will attention some existing script.
+
+a8482399-fae4-43ba-86ff-ef41a5094b6b-0
+00:16:21.360 --> 00:16:23.320
+What else new do we have here?
+
+aa5c554c-4cdb-4a8c-9d42-255dc0bade06-0
+00:16:23.440 --> 00:16:24.600
+It is additional methods.
+
+ce06262a-4e9c-41e6-9e29-366d6312fe08-0
+00:16:25.040 --> 00:16:29.905
+Additional methods is a space to write a
+code that will be shared between more
+
+ce06262a-4e9c-41e6-9e29-366d6312fe08-1
+00:16:29.905 --> 00:16:32.800
+than once in the in the main script
+execution.
+
+e5dd94c3-f1f8-46dd-9feb-44417cb0fec8-0
+00:16:32.800 --> 00:16:37.168
+So in the main script execution,
+we will write the comments what to do and
+
+e5dd94c3-f1f8-46dd-9feb-44417cb0fec8-1
+00:16:37.168 --> 00:16:41.188
+if we want to reuse something,
+we will put it there and just call it
+
+e5dd94c3-f1f8-46dd-9feb-44417cb0fec8-2
+00:16:41.188 --> 00:16:42.120
+call it updates.
+
+db3eb1ab-c494-4999-b3b8-45aee5017dfa-0
+00:16:43.720 --> 00:16:47.321
+Yeah,
+I think it's so when we hit the save what
+
+db3eb1ab-c494-4999-b3b8-45aee5017dfa-1
+00:16:47.321 --> 00:16:51.222
+we'll do,
+it will automatically create this script,
+
+db3eb1ab-c494-4999-b3b8-45aee5017dfa-2
+00:16:51.222 --> 00:16:57.224
+build it as a plug in and send with your
+next step in configuration to the gate
+
+db3eb1ab-c494-4999-b3b8-45aee5017dfa-3
+00:16:57.224 --> 00:16:57.600
+base.
+
+0ddbab35-0304-41a4-99f1-314300faa5e0-0
+00:16:57.600 --> 00:17:00.440
+It will automatically send to all the
+gate base.
+
+6c379839-5521-444a-adc2-592c155a1b8a-0
+00:17:00.720 --> 00:17:04.748
+If you go to the connection and manage
+plug insurance, we will see,
+
+6c379839-5521-444a-adc2-592c155a1b8a-1
+00:17:04.748 --> 00:17:08.480
+we will see that that script is present
+is present right here.
+
+343b6330-3838-4f91-8258-a1c791f06dc3-0
+00:17:10.440 --> 00:17:14.640
+I get the use case with Start Stop system
+for the for the boomerang.
+
+2f276486-26b8-4e7d-a420-6fef3c05be60-0
+00:17:15.320 --> 00:17:16.960
+It is one case.
+
+c6a226cf-c40c-4a03-87b7-548df259ebc8-0
+00:17:17.560 --> 00:17:18.600
+It is not the only man.
+
+e78b6b81-6d4e-4c9e-9520-e45869ef26c4-0
+00:17:18.600 --> 00:17:21.883
+There are I would say about 10 more
+scripts,
+
+e78b6b81-6d4e-4c9e-9520-e45869ef26c4-1
+00:17:21.883 --> 00:17:27.940
+scripts like this that are writing right
+now in this moment on about 5000 bells in
+
+e78b6b81-6d4e-4c9e-9520-e45869ef26c4-2
+00:17:27.940 --> 00:17:29.400
+the US in the Texas.
+
+1e501995-2e87-4ff9-a8b9-16c44f966920-0
+00:17:29.400 --> 00:17:33.844
+So yes,
+that is the current kind of situation of
+
+1e501995-2e87-4ff9-a8b9-16c44f966920-1
+00:17:33.844 --> 00:17:35.840
+using using this tool.
+
+0b138820-5eb9-4b94-bbf2-72a6c6810c98-0
+00:17:37.760 --> 00:17:39.480
+OK, let's move a little bit forward.
+
+9594144a-2fd7-4b68-adca-876255d181be-0
+00:17:39.640 --> 00:17:45.622
+I have two more slides for dev scripts,
+then we'll stop with the questions and
+
+9594144a-2fd7-4b68-adca-876255d181be-1
+00:17:45.622 --> 00:17:47.440
+1st presentation please.
+
+a39a240e-8ecc-4174-bfc4-4d835698ce41-0
+00:17:51.760 --> 00:17:54.053
+OK,
+I already told that we are trying to be
+
+a39a240e-8ecc-4174-bfc4-4d835698ce41-1
+00:17:54.053 --> 00:17:55.200
+for no code ID, right?
+
+071fd5f7-87ae-4224-a776-1adb97eb7d0e-0
+00:17:55.200 --> 00:18:00.000
+So our idea is to build your application
+no code knowledge.
+
+01be078b-6cb7-4f6f-aee8-9717c9438eef-0
+00:18:00.080 --> 00:18:02.080
+But we came back with the code again,
+right?
+
+1e2af40a-26e5-4857-8e5f-2b044c43a7a9-0
+00:18:02.080 --> 00:18:03.000
+We write scripts.
+
+149087c3-3d1a-4e95-86d6-e6d290194e70-0
+00:18:03.400 --> 00:18:04.760
+Scripts requires some code knowledge.
+
+6a5d96b7-b528-40c5-a59f-2a90d7bb9e09-0
+00:18:06.440 --> 00:18:08.920
+On top of that we build flows.
+
+a681ced9-bf48-4086-8d95-3c875403fd6f-0
+00:18:09.200 --> 00:18:11.840
+Flows is for the flow programming.
+
+118f46ff-1469-429b-a0ec-b3ebbafcbe38-0
+00:18:12.160 --> 00:18:17.200
+This helps you to easily drag and drop
+your logic that you want to be OK.
+
+814e7ab7-5013-402b-893e-a61fda41759a-0
+00:18:17.240 --> 00:18:19.800
+So you can draw your scripts.
+
+5e7c65b0-8769-4141-a0aa-80d35b4822df-0
+00:18:19.800 --> 00:18:21.600
+You do not have to write it,
+you can even draw.
+
+afea85b5-0b7e-4ef4-92d3-ebb34393ce97-0
+00:18:22.720 --> 00:18:27.840
+It is nice to develop like that for
+someone who is more familiar to that.
+
+6bf2a0fb-cd21-4514-b058-5fae7c6588c2-0
+00:18:27.840 --> 00:18:33.874
+It is great for more developer guys
+decoding with the other decoding,
+
+6bf2a0fb-cd21-4514-b058-5fae7c6588c2-1
+00:18:33.874 --> 00:18:36.720
+but it gets the pension benefits.
+
+5470876f-abb3-40a2-9599-5dff670e46ae-0
+00:18:37.720 --> 00:18:41.374
+One of them is different mode because if
+we draw script,
+
+5470876f-abb3-40a2-9599-5dff670e46ae-1
+00:18:41.374 --> 00:18:46.120
+we can give an exact tools that he can
+draw that the user can draw there.
+
+4b72f8fe-9045-4ef9-8ac9-40de05959d0d-0
+00:18:46.120 --> 00:18:51.872
+So it's easily to turn on the simulation
+mode and we can claim what will be the
+
+4b72f8fe-9045-4ef9-8ac9-40de05959d0d-1
+00:18:51.872 --> 00:18:52.520
+scenario.
+
+6f2d959c-4262-4d1e-a1bd-418b9377792f-0
+00:18:52.880 --> 00:18:56.185
+If you do with the coding,
+then debugging the coding is a little bit
+
+6f2d959c-4262-4d1e-a1bd-418b9377792f-1
+00:18:56.185 --> 00:18:56.760
+complicated.
+
+9c41dd89-ba05-436c-9f06-ccd3e97b3766-0
+00:18:56.760 --> 00:18:58.320
+So it's not still not allowed.
+
+6e0e5e88-e79c-4cf2-ad71-ef279e66fe38-0
+00:18:58.840 --> 00:19:01.839
+The great thing at the end is that,
+as I mentioned,
+
+6e0e5e88-e79c-4cf2-ad71-ef279e66fe38-1
+00:19:01.839 --> 00:19:03.800
+this is a top of the edge scripts.
+
+4dcfba51-ae52-4a82-b6ce-178abe1f4a50-0
+00:19:04.040 --> 00:19:06.203
+So whatever you draw,
+whatever flow you have,
+
+4dcfba51-ae52-4a82-b6ce-178abe1f4a50-1
+00:19:06.203 --> 00:19:08.320
+it could just generate the code in the
+kind.
+
+e57d5f86-f92e-4c93-be4e-53eb7a975f0f-0
+00:19:08.360 --> 00:19:10.080
+So you can always check what this code
+does.
+
+6e83903c-d24b-49f9-b127-1c4a1b62dc7b-0
+00:19:10.640 --> 00:19:12.773
+And if you want in any moment switch the
+code,
+
+6e83903c-d24b-49f9-b127-1c4a1b62dc7b-1
+00:19:12.773 --> 00:19:14.680
+you can just switch the code and continue.
+
+44ace36a-0073-4488-a74f-179abf3891dc-0
+00:19:15.960 --> 00:19:17.520
+Let's see how it works here.
+
+b5fa22fe-07c7-4a0a-8466-20eb7c79fa3a-0
+00:19:17.720 --> 00:19:19.240
+Mark already show us.
+
+65fcee9d-d566-4ba7-88a0-b72a19acf364-0
+00:19:20.560 --> 00:19:23.615
+So as I said,
+in the moment of creating a script,
+
+65fcee9d-d566-4ba7-88a0-b72a19acf364-1
+00:19:23.615 --> 00:19:24.960
+you get the check box.
+
+9f15904e-5801-43cb-940f-dca9347ec18e-0
+00:19:25.600 --> 00:19:25.960
+Check box.
+
+65b3e126-6991-47bb-b2e0-efd7a05e82d6-0
+00:19:25.960 --> 00:19:27.480
+We want to use the false senator.
+
+7fa9dfca-07fc-4113-967e-7b97cb6d2ab4-0
+00:19:27.880 --> 00:19:31.272
+If you check it like yes,
+you will get editor that works,
+
+7fa9dfca-07fc-4113-967e-7b97cb6d2ab4-1
+00:19:31.272 --> 00:19:33.320
+script editor that looks like this.
+
+5ae2b300-575d-40ea-96fd-b5cdeb180a4b-0
+00:19:34.080 --> 00:19:36.960
+I don't hear some,
+I would say very stupid example.
+
+3ca363d9-106a-4691-ad0c-86991e17adf4-0
+00:19:37.200 --> 00:19:40.360
+But yeah, just to show you what we can,
+we can input output.
+
+217ff7d8-24dd-4fc3-8080-0088adfe4843-0
+00:19:41.120 --> 00:19:45.520
+We can bring some on the left side you
+can recommendation.
+
+334a8c24-253e-4b63-beef-23d40cecd599-0
+00:19:45.600 --> 00:19:46.880
+So these are some variables.
+
+a490978e-87c0-4f25-8b70-b4b17cca2993-0
+00:19:46.880 --> 00:19:49.560
+You can bring it there,
+choose the input or output.
+
+1de380e6-110d-49bb-b8ca-bab044979d5d-0
+00:19:50.520 --> 00:19:53.874
+When we do it,
+we can link with the operations,
+
+1de380e6-110d-49bb-b8ca-bab044979d5d-1
+00:19:53.874 --> 00:19:56.320
+operations result with some output.
+
+26c742c7-26ae-4ff2-b938-75a2bea41f4b-0
+00:19:56.320 --> 00:20:00.360
+We can also write it in the back there in
+summary of us.
+
+fb905625-401f-4922-8797-d41a973faad3-0
+00:20:00.360 --> 00:20:05.880
+So this is always the same Justin Strong
+for me on visualization.
+
+ba664c90-2786-4dd0-a399-e8e64a47512f-0
+00:20:06.240 --> 00:20:09.630
+In visualization for let's say the word
+yes,
+
+ba664c90-2786-4dd0-a399-e8e64a47512f-1
+00:20:09.630 --> 00:20:12.720
+let's check the other operations we have.
+
+883af3b3-da9e-4f71-a39e-cfe9316d4932-0
+00:20:13.160 --> 00:20:17.280
+It's interesting that we have this
+external list of BIOS.
+
+4a5a49e3-da96-448b-a510-75de4f889405-0
+00:20:18.520 --> 00:20:20.800
+Where you can search for all the all the
+variables.
+
+b1e744f7-5e72-4a1a-9b6a-09b097c53237-0
+00:20:20.800 --> 00:20:25.140
+So this one shows and gives you
+recommendation for all the variables that
+
+b1e744f7-5e72-4a1a-9b6a-09b097c53237-1
+00:20:25.140 --> 00:20:29.891
+you have in on your project that you can
+read with this with this screen then we
+
+b1e744f7-5e72-4a1a-9b6a-09b097c53237-2
+00:20:29.891 --> 00:20:31.240
+get the simulator mode.
+
+eb3bca68-4f77-461e-be0c-f7f3fade8b4a-0
+00:20:31.520 --> 00:20:36.045
+If you turn on the simulator,
+it will give us show us what are what are
+
+eb3bca68-4f77-461e-be0c-f7f3fade8b4a-1
+00:20:36.045 --> 00:20:39.000
+the internal,
+what are the external variables.
+
+b4ed83b1-590f-45cb-8097-20d2ebc59398-0
+00:20:39.440 --> 00:20:43.994
+And we can easily just set up some
+variables and go step by step and play,
+
+b4ed83b1-590f-45cb-8097-20d2ebc59398-1
+00:20:43.994 --> 00:20:46.120
+let's say, what will be the result.
+
+0268f6b0-b605-40ab-9c3c-f8ffb032feb5-0
+00:20:47.080 --> 00:20:52.087
+It is great for the debugging and for the
+usage or the usage of this type,
+
+0268f6b0-b605-40ab-9c3c-f8ffb032feb5-1
+00:20:52.087 --> 00:20:55.560
+but requires to draw the script and not
+to writing.
+
+39beb786-884a-4456-a991-aca96a464a4c-0
+00:20:57.200 --> 00:21:00.863
+What we're getting here is you can go
+offline that you simulate exactly what
+
+39beb786-884a-4456-a991-aca96a464a4c-1
+00:21:00.863 --> 00:21:01.720
+you've been asked.
+
+718a649f-5a69-444e-ad60-cb1a0b7a0ef6-0
+00:21:02.320 --> 00:21:05.720
+You can do the simulation of what what
+happens if you are offline?
+
+8f2bd473-20a1-42e7-9b83-6c790973c30d-0
+00:21:05.720 --> 00:21:08.964
+It could immediately show here, OK,
+this is something is not OK because
+
+8f2bd473-20a1-42e7-9b83-6c790973c30d-1
+00:21:08.964 --> 00:21:09.640
+you're offline.
+
+609c24e8-4075-4658-a1d9-fd685ddb7603-0
+00:21:10.000 --> 00:21:15.348
+And if you use the fault value,
+which is defined in the moment of the
+
+609c24e8-4075-4658-a1d9-fd685ddb7603-1
+00:21:15.348 --> 00:21:18.940
+creation,
+which is 17 in this in this example,
+
+609c24e8-4075-4658-a1d9-fd685ddb7603-2
+00:21:18.940 --> 00:21:24.900
+and let's check at the very end about
+this big traffic flows when the code is
+
+609c24e8-4075-4658-a1d9-fd685ddb7603-3
+00:21:24.900 --> 00:21:31.318
+generated, as I said, you can go to code,
+see how it you know this is also the code
+
+609c24e8-4075-4658-a1d9-fd685ddb7603-4
+00:21:31.318 --> 00:21:33.840
+of the script, you know the same.
+
+6c6e8419-5871-4070-ab32-be1504a416e8-0
+00:21:34.040 --> 00:21:38.848
+But once you move to the code approach
+and start changing the code,
+
+6c6e8419-5871-4070-ab32-be1504a416e8-1
+00:21:38.848 --> 00:21:41.040
+you cannot go back to the flow.
+
+cd83de09-d6ff-433a-9e62-ba723d6a955c-0
+00:21:41.040 --> 00:21:45.320
+So while you're ready to the flows,
+you can check what the code does,
+
+cd83de09-d6ff-433a-9e62-ba723d6a955c-1
+00:21:45.320 --> 00:21:49.600
+but when you start editing the code,
+the four will not be up to date.
+
+7d53fa19-2883-4d8f-975d-ea7942e467f6-0
+00:21:51.680 --> 00:21:54.699
+OK,
+I think it's all that we have on the
+
+7d53fa19-2883-4d8f-975d-ea7942e467f6-1
+00:21:54.699 --> 00:21:56.320
+topic of edge scripts.
+
+ea8f69ab-9679-418e-a3cf-4fb41e7bcd7d-0
+00:21:57.960 --> 00:22:00.280
+Let me first.
+
+12683d1a-8416-4760-b397-0411830ab7fb-0
+00:22:04.600 --> 00:22:05.800
+Do you have any questions?
+
+8b797ab5-366d-4876-ac2a-43dfe9da1c85-0
+00:22:09.880 --> 00:22:19.766
+OK, Yep,
+I don't care in the in the first part
+
+8b797ab5-366d-4876-ac2a-43dfe9da1c85-1
+00:22:19.766 --> 00:22:22.080
+colleagues.
+
+03f3197f-888e-41ac-9021-0dc1b1cf7b62-0
+00:22:23.040 --> 00:22:25.640
+Yeah, I tried to explain it.
+
+9972a105-c78f-410d-abfb-4cf248d8e338-0
+00:22:25.680 --> 00:22:30.663
+It's still a little bit complicated to
+bring bring the whole debugger to the
+
+9972a105-c78f-410d-abfb-4cf248d8e338-1
+00:22:30.663 --> 00:22:31.440
+environment.
+
+c1ef85bc-0e9f-4519-83e8-ef9078512b87-0
+00:22:31.800 --> 00:22:35.835
+I do not say it's possible and I don't,
+I cannot promise that it will not be
+
+c1ef85bc-0e9f-4519-83e8-ef9078512b87-1
+00:22:35.835 --> 00:22:37.880
+presented some of the upcoming factors.
+
+83054195-f759-48d8-b33b-f720a8306257-0
+00:22:38.320 --> 00:22:41.666
+But right now it was not,
+it was not easy to write,
+
+83054195-f759-48d8-b33b-f720a8306257-1
+00:22:41.666 --> 00:22:46.492
+especially because this is a very,
+very simple script that we draw here as
+
+83054195-f759-48d8-b33b-f720a8306257-2
+00:22:46.492 --> 00:22:47.200
+an example.
+
+91946a20-c849-43cc-ab0d-ee813983734e-0
+00:22:47.200 --> 00:22:50.186
+But when you check some real growth edge
+script,
+
+91946a20-c849-43cc-ab0d-ee813983734e-1
+00:22:50.186 --> 00:22:54.880
+the application team will explain you and
+show you some of them if you want.
+
+aa7fdd98-56ef-458f-9918-6f8e19efe259-0
+00:22:55.160 --> 00:22:57.880
+You will see that there is a lot more in
+complex logic behind it.
+
+95411b24-38fa-4afe-b5d3-bdd9569d8a6a-0
+00:22:57.880 --> 00:22:59.600
+OK, This is the playground.
+
+58dffcd1-e4f7-4e7a-9681-6bb30c2d2510-0
+00:22:59.600 --> 00:23:02.560
+Like human mathematician operations.
+
+9ea73221-ed1d-48f8-b37a-6529dfe8e609-0
+00:23:02.600 --> 00:23:04.880
+Operations that are not natural complex.
+
+dae881be-0376-45d3-92b7-0ce999644bbe-0
+00:23:07.600 --> 00:23:07.920
+Good luck.
+
+a0e73223-acb8-491a-9470-801060b04917-0
+00:23:11.400 --> 00:23:11.880
+Anyone else?
+
+da784d01-c3ed-459d-9cad-11e6c1864aa1-0
+00:23:14.120 --> 00:23:22.920
+What about the clothes from the curve?
+
+b8859d5e-e214-41a8-bf01-7ba6c46b6ddd-0
+00:23:23.680 --> 00:23:23.800
+Wow.
+
+442c36d0-64e0-474d-ba88-f05514a2d7d8-0
+00:23:27.160 --> 00:23:32.200
+Theoretically it would be possible if you
+leave it only to exact operations.
+
+e932a45a-7e47-455d-a6fa-af405faa5044-0
+00:23:32.400 --> 00:23:35.442
+I call it mathematical and logical
+operations,
+
+e932a45a-7e47-455d-a6fa-af405faa5044-1
+00:23:35.442 --> 00:23:40.749
+but as soon as it comes to more complex
+reusability logic and methods external up
+
+e932a45a-7e47-455d-a6fa-af405faa5044-2
+00:23:40.749 --> 00:23:44.568
+because state saving,
+I'm not sure how would I how would I
+
+e932a45a-7e47-455d-a6fa-af405faa5044-3
+00:23:44.568 --> 00:23:45.280
+realise it.
+
+6df6247d-7ffd-47f5-ba4f-80905ddc546d-0
+00:23:45.280 --> 00:23:48.058
+So again,
+I cannot tell you that it won't be
+
+6df6247d-7ffd-47f5-ba4f-80905ddc546d-1
+00:23:48.058 --> 00:23:51.084
+present,
+but right now it sounds too too complex
+
+6df6247d-7ffd-47f5-ba4f-80905ddc546d-2
+00:23:51.084 --> 00:23:52.320
+and too complicated.
+
+2b188e7e-dedb-4769-a532-ade04cee62c1-0
+00:23:52.760 --> 00:23:57.320
+So part of it is for the people that are
+actually not coding at all.
+
+bbfe46fb-47f8-476c-8da0-3f8b8f2548b5-0
+00:23:58.080 --> 00:24:02.818
+So the whole idea about the medical
+philosophy of the platform is that
+
+bbfe46fb-47f8-476c-8da0-3f8b8f2548b5-1
+00:24:02.818 --> 00:24:07.957
+essentially somebody working in the water
+that's on the cloud create a logic
+
+bbfe46fb-47f8-476c-8da0-3f8b8f2548b5-2
+00:24:07.957 --> 00:24:10.559
+without knowing a single line of cloth.
+
+25d0dce7-477d-4ade-9314-0a6ce1a9fbfe-0
+00:24:11.480 --> 00:24:15.277
+That's that's the theory why why we have
+clothes and why we have a simulation of
+
+25d0dce7-477d-4ade-9314-0a6ce1a9fbfe-1
+00:24:15.277 --> 00:24:15.840
+the clothes.
+
+e56f5c13-4920-4d3b-a3ac-f449fa5d7f4a-0
+00:24:16.240 --> 00:24:20.360
+But converting that to strictly is just
+how we do that in the background.
+
+73fa5f94-580f-4830-8d6f-a9f3dbbaca61-0
+00:24:22.000 --> 00:24:23.040
+Yeah, I understand that.
+
+7b17c6c9-eb26-40e6-a4cc-4ee5cbfe2e20-0
+00:24:23.040 --> 00:24:28.667
+But what you're saying it's too
+complicated to generate flows from the
+
+7b17c6c9-eb26-40e6-a4cc-4ee5cbfe2e20-1
+00:24:28.667 --> 00:24:31.680
+code you're looking at the library of.
+
+04934413-2f10-464c-b7f2-ad3d0bb6a89a-0
+00:24:32.320 --> 00:24:32.600
+Yeah.
+
+63b6cf05-1c5a-4e11-bf98-bf02d4c853b6-0
+00:24:32.680 --> 00:24:37.085
+You're basically saying that you can
+create everything with clothes that you
+
+63b6cf05-1c5a-4e11-bf98-bf02d4c853b6-1
+00:24:37.085 --> 00:24:37.600
+can code.
+
+d877e2fa-4db8-4d72-ab3c-86651163b86e-0
+00:24:37.960 --> 00:24:38.520
+Yes, exactly.
+
+b589ce08-641a-4dc4-87a4-1aa2ee2cb023-0
+00:24:39.240 --> 00:24:39.560
+Exactly.
+
+e91cef8d-d2a1-4384-a536-0caf178ce22e-0
+00:24:39.560 --> 00:24:40.720
+So clothes are most simple.
+
+da4607b8-098c-4d42-927a-eda5041a04f5-0
+00:24:42.640 --> 00:24:47.640
+Simple present in advance,
+but the advance cannot be simplified.
+
+87d42396-ba0a-4503-90ca-cf9d7dbfd3a1-0
+00:24:47.920 --> 00:24:49.160
+You can't simplify that.
+
+8bc2e130-8a36-43e5-a528-f155f3a15f30-0
+00:24:49.160 --> 00:24:53.280
+It will lose the precision and all the
+details that that it has.
+
+916e605a-e03b-41c9-8bc6-02ed90b4e241-0
+00:24:54.680 --> 00:25:11.000
+OK, any other question,
+let's open another topic not for idea.
+
+8119f7a8-c793-4693-ab5b-04cb2a1c94a1-0
+00:25:11.000 --> 00:25:11.360
+Thank you.
+
+fcc80231-788d-4ce0-8699-bb76a5622e53-0
+00:25:13.760 --> 00:25:17.734
+So at the topic that you will talk,
+we called it advice,
+
+fcc80231-788d-4ce0-8699-bb76a5622e53-1
+00:25:17.734 --> 00:25:23.243
+we tried to brand it in our product and
+the idea is about applying elements in
+
+fcc80231-788d-4ce0-8699-bb76a5622e53-2
+00:25:23.243 --> 00:25:24.080
+our product.
+
+700b8098-495a-40ef-a88f-defb9cbbb79e-0
+00:25:24.560 --> 00:25:28.691
+I guess you all know what are the
+elements for these who do not know
+
+700b8098-495a-40ef-a88f-defb9cbbb79e-1
+00:25:28.691 --> 00:25:33.541
+elements is the AI algorithm that stands
+behind every chatbot that they're using
+
+700b8098-495a-40ef-a88f-defb9cbbb79e-2
+00:25:33.541 --> 00:25:34.080
+nowadays.
+
+e5369862-989d-44fc-b025-9b9bd19e2aca-0
+00:25:34.400 --> 00:25:37.794
+OK,
+so 10 GPT Gemini told everyone has gone
+
+e5369862-989d-44fc-b025-9b9bd19e2aca-1
+00:25:37.794 --> 00:25:42.268
+what language model behind it and the
+element these days,
+
+e5369862-989d-44fc-b025-9b9bd19e2aca-2
+00:25:42.268 --> 00:25:48.440
+they're all witnesses of how they're
+changing all our jobs and the whole world.
+
+af284bb2-6312-468d-9e19-5a00cf1a3600-0
+00:25:48.960 --> 00:25:53.040
+But let's start with changing the the way
+of interacting with the software.
+
+614237d1-cd33-46c3-984c-20bd92e84816-0
+00:25:53.040 --> 00:25:56.490
+So we are forcing solely to not draw,
+not click,
+
+614237d1-cd33-46c3-984c-20bd92e84816-1
+00:25:56.490 --> 00:26:02.053
+not drag and drop just to communicate
+through the through the comments and our
+
+614237d1-cd33-46c3-984c-20bd92e84816-2
+00:26:02.053 --> 00:26:05.926
+our idea is to yeah,
+just follow it to bring it to the
+
+614237d1-cd33-46c3-984c-20bd92e84816-3
+00:26:05.926 --> 00:26:06.560
+industry.
+
+ac2ce371-3fbf-4bb1-bb08-6923dbb24464-0
+00:26:07.040 --> 00:26:10.041
+OK, because every progress,
+every improvement,
+
+ac2ce371-3fbf-4bb1-bb08-6923dbb24464-1
+00:26:10.041 --> 00:26:13.553
+everything that is new is present and
+goes everywhere,
+
+ac2ce371-3fbf-4bb1-bb08-6923dbb24464-2
+00:26:13.553 --> 00:26:17.640
+but always the industry something very
+slow coming back behind.
+
+7e6cf6e0-53bd-4628-b2cf-d28d2a5afeb0-0
+00:26:18.160 --> 00:26:21.960
+Our idea is to bring it together to bring
+all these innovations to the industry.
+
+5f4d97f2-e436-47ff-9bd0-709df453478b-0
+00:26:22.960 --> 00:26:29.167
+So LS now can understand the context can
+help you to generate your presentation,
+
+5f4d97f2-e436-47ff-9bd0-709df453478b-1
+00:26:29.167 --> 00:26:32.080
+for example, or to generate community.
+
+3e39a06f-15b4-4654-a456-7b7f0b7a6f0b-0
+00:26:32.080 --> 00:26:32.960
+So then there's a call.
+
+03d61881-5c1f-4ae0-81b5-d66851b09a68-0
+00:26:32.960 --> 00:26:38.320
+Let's see what we can do with it in the
+in you, how you can help us within you.
+
+82217992-8406-4e3d-a040-4671d094c1d6-0
+00:26:40.120 --> 00:26:43.760
+We identified 2 immediately valuable.
+
+75dd9c27-375d-4da7-8b2d-dd9018820407-0
+00:26:44.680 --> 00:26:47.800
+We identified 2 immediately valuable use
+cases.
+
+b81fd125-e14d-4e6c-af0b-40c3afc97ed2-0
+00:26:48.680 --> 00:26:50.880
+And today we will present only that.
+
+3a3eb7de-524c-45c7-a54a-af32d252b7f1-0
+00:26:51.440 --> 00:26:55.049
+One is knowledge share how to help us
+sharing,
+
+3a3eb7de-524c-45c7-a54a-af32d252b7f1-1
+00:26:55.049 --> 00:26:59.120
+sharing all the knowledge that we have
+from the new.
+
+f3097024-2f55-4ab6-93a9-483776b2fe90-0
+00:26:59.360 --> 00:27:03.080
+Another is script generation about
+writing scripts.
+
+4fffccf1-abec-465a-a246-1fc7c9071e4b-0
+00:27:03.200 --> 00:27:06.333
+Again,
+we go back to the script and it will be
+
+4fffccf1-abec-465a-a246-1fc7c9071e4b-1
+00:27:06.333 --> 00:27:07.000
+continued.
+
+68e8299d-6e39-4ccb-bf52-c68fcc2f2373-0
+00:27:07.000 --> 00:27:09.781
+It is not,
+it is not the only one that we have and
+
+68e8299d-6e39-4ccb-bf52-c68fcc2f2373-1
+00:27:09.781 --> 00:27:13.054
+they're working on,
+but these are something that we do have
+
+68e8299d-6e39-4ccb-bf52-c68fcc2f2373-2
+00:27:13.054 --> 00:27:13.600
+right now.
+
+94d2c60f-c5f0-42ae-b088-0410fb288316-0
+00:27:16.040 --> 00:27:19.280
+First one, now sorry, presentation.
+
+234174db-51ba-498c-bdd3-09b07850ed5e-0
+00:27:20.560 --> 00:27:23.160
+Yes, first one is about knowledge sharing.
+
+8aac7a68-930b-4d32-9b03-31e3039fcfa7-0
+00:27:23.360 --> 00:27:28.748
+We call it docs Agent, OK,
+it is agent that will help you to
+
+8aac7a68-930b-4d32-9b03-31e3039fcfa7-1
+00:27:28.748 --> 00:27:31.840
+navigate through the documentation.
+
+160b8d71-f530-4a29-9840-22e71793f55f-0
+00:27:32.240 --> 00:27:35.360
+I will say with that and the other words,
+it is assistance for you.
+
+1b7b4387-a38f-4f6d-814b-06ad2cfa978f-0
+00:27:35.880 --> 00:27:37.800
+You start to use the EMU platform.
+
+69062386-8d28-4c17-801d-f4e4de576fb3-0
+00:27:37.840 --> 00:27:41.040
+It will help you to find where is what
+you're looking for.
+
+2aef22eb-6218-4a10-828a-968df5e2984e-0
+00:27:43.760 --> 00:27:45.040
+It is trained.
+
+dd8b47d6-84c9-4ebb-93bf-ce2432de131f-0
+00:27:45.480 --> 00:27:46.200
+I'm not trained.
+
+64c4f2d4-2d3c-480c-bb42-3574355cadb7-0
+00:27:46.200 --> 00:27:46.440
+Trained.
+
+bed83bba-05e2-4cd3-958c-d83fdc74ee9c-0
+00:27:46.440 --> 00:27:47.560
+It is not correct.
+
+8fef98ce-a42c-4a39-ae51-d09955ebbbe4-0
+00:27:48.080 --> 00:27:52.040
+But you have the knowledge of the whole
+EMU system.
+
+f9303e26-4c3e-4936-a2c4-0ba4fc1edbd3-0
+00:27:52.320 --> 00:27:55.280
+What is it used for and which property do
+you have?
+
+2fb47f07-653d-48c0-9a54-c251d571ee4d-0
+00:27:55.760 --> 00:28:01.200
+When you multiply how many components,
+multiply all the property that we have.
+
+a5f536a7-78b1-4900-b8c0-edb70415239a-0
+00:28:02.000 --> 00:28:05.593
+We got the documentation that is huge and
+we will talk about it,
+
+a5f536a7-78b1-4900-b8c0-edb70415239a-1
+00:28:05.593 --> 00:28:08.800
+but this is the idea to let the agent
+help you to use it.
+
+168e8a3a-a26d-4314-85f6-18e8a9b77183-0
+00:28:09.200 --> 00:28:15.329
+OK, so you're able to open the docs,
+agent ask you whatever you want and
+
+168e8a3a-a26d-4314-85f6-18e8a9b77183-1
+00:28:15.329 --> 00:28:17.680
+you'll tell you give you OK.
+
+4be9a44e-5ddc-440f-a568-42f2a03713a7-0
+00:28:18.440 --> 00:28:22.759
+We're trying to focus only on the in your
+in your questions, not all,
+
+4be9a44e-5ddc-440f-a568-42f2a03713a7-1
+00:28:22.759 --> 00:28:24.240
+not about anything else.
+
+218fb610-f3ab-4a3a-a2ba-07e8e61ff19e-0
+00:28:24.640 --> 00:28:26.480
+So what advantages we get here?
+
+3117cf28-f9d3-4049-8945-1695eacde35d-0
+00:28:26.880 --> 00:28:30.520
+We do not have to run through the
+documentation manually to find what
+
+3117cf28-f9d3-4049-8945-1695eacde35d-1
+00:28:30.520 --> 00:28:31.560
+they're looking for.
+
+c4935f17-0fe5-4586-85e1-b3757cff08be-0
+00:28:31.760 --> 00:28:36.160
+There is no more,
+there is no need for context switching
+
+c4935f17-0fe5-4586-85e1-b3757cff08be-1
+00:28:36.160 --> 00:28:41.720
+your single IDE called EMU where you can
+find everything that you need.
+
+f6fb50e7-8504-41c1-abaf-aea624ff7f2a-0
+00:28:41.920 --> 00:28:44.600
+And the multi language is also also
+supported.
+
+0d391f19-50d3-401f-b529-3825dd5a6286-0
+00:28:44.600 --> 00:28:49.600
+So you can ask it Serbian or Spanish or
+whatever, whatever you want.
+
+efda401e-cadb-4425-baba-8d7da6d8004c-0
+00:28:50.080 --> 00:28:53.926
+And it benefits a lot for all the new
+team members,
+
+efda401e-cadb-4425-baba-8d7da6d8004c-1
+00:28:53.926 --> 00:28:56.960
+all the all of us who do not use the EMU.
+
+feae480c-bc18-4ac4-a135-a3f0b3004c32-0
+00:28:57.000 --> 00:29:00.080
+Every page for the for the tool for
+developing.
+
+2f43c6c9-c031-4bf4-9303-0766dfbe1309-0
+00:29:00.080 --> 00:29:04.840
+So help you helps you to find quickly the
+what you're looking for.
+
+fec1f263-a720-44ba-b13f-f41df7aabee9-0
+00:29:05.840 --> 00:29:07.200
+Let's see how it looks.
+
+7ac3828b-8b7e-4303-964b-0d41aa3bbd2d-0
+00:29:10.280 --> 00:29:13.900
+First of all,
+it is located in the editor at very
+
+7ac3828b-8b7e-4303-964b-0d41aa3bbd2d-1
+00:29:13.900 --> 00:29:16.000
+bottom, you will have a find.
+
+926c6029-307e-4075-abf1-2c6ac4686e0d-0
+00:29:16.000 --> 00:29:21.976
+You will find a button called AI and to
+open your classical prompt prompting
+
+926c6029-307e-4075-abf1-2c6ac4686e0d-1
+00:29:21.976 --> 00:29:22.520
+window.
+
+8e3b1ecb-9d20-4691-82d3-5898e3b4969b-0
+00:29:23.120 --> 00:29:27.501
+And you just feel free to write to ask
+everyone,
+
+8e3b1ecb-9d20-4691-82d3-5898e3b4969b-1
+00:29:27.501 --> 00:29:32.240
+it will give you something and tell you
+where to do.
+
+e7c8f9c5-e3d8-465f-a865-8f9d9d875d07-0
+00:29:32.760 --> 00:29:38.183
+But keep in mind that this is still like
+only telling you where to find and how to
+
+e7c8f9c5-e3d8-465f-a865-8f9d9d875d07-1
+00:29:38.183 --> 00:29:39.360
+do and what to do.
+
+7ece8750-db36-409c-b14b-cf78246445b2-0
+00:29:39.480 --> 00:29:41.800
+It will not do anything instead of you.
+
+ee1a286f-0680-4386-bcca-d398f6c61657-0
+00:29:42.360 --> 00:29:48.760
+OK great thing about it is it is not
+simple read of documentation.
+
+f9558656-28c5-49e4-b621-97f3c033daec-0
+00:29:49.040 --> 00:29:50.440
+It is linked with the LM.
+
+3427d061-fd36-4e67-b950-77bd8d340593-0
+00:29:50.440 --> 00:29:55.712
+So we built can build some knowledge
+based on what you asked for what it
+
+3427d061-fd36-4e67-b950-77bd8d340593-1
+00:29:55.712 --> 00:29:58.240
+stands there in the implementation.
+
+fe64f0e3-5993-491e-9a72-b5ab9eb91acb-0
+00:29:58.480 --> 00:30:03.252
+So you can ask like natural language that
+you're looking for if he's able to answer
+
+fe64f0e3-5993-491e-9a72-b5ab9eb91acb-1
+00:30:03.252 --> 00:30:03.480
+you.
+
+8610c843-7084-401a-9c85-f191dd14820b-0
+00:30:04.040 --> 00:30:07.745
+If not, he will tell you OK,
+I do not have enough information
+
+8610c843-7084-401a-9c85-f191dd14820b-1
+00:30:07.745 --> 00:30:09.000
+information for this.
+
+21866178-d11e-499e-9470-65b6b732a1c2-0
+00:30:10.360 --> 00:30:16.080
+Don't forget that it is our don't forget
+that it is our AI assistant assistant.
+
+408a9201-331c-4313-9f7d-bb74daa97eb1-0
+00:30:16.880 --> 00:30:20.580
+It is presented in the editor,
+but he can help you and tell you both
+
+408a9201-331c-4313-9f7d-bb74daa97eb1-1
+00:30:20.580 --> 00:30:21.600
+about the computer.
+
+6e424d1f-8741-4c37-8b89-61d43e98f674-0
+00:30:21.600 --> 00:30:25.640
+So you can ask about, OK,
+but what do I need for this connection?
+
+308a6dbe-d010-496d-8edd-8802bb560a72-0
+00:30:25.640 --> 00:30:28.800
+What do I need for doing OPCUA connection
+for example.
+
+3afd2a1e-1234-4f61-82be-40be5bda85af-0
+00:30:28.800 --> 00:30:32.320
+So it is not strictly,
+it is not strictly linked to the editor.
+
+6e947890-e702-4701-939f-3d178b1070b2-0
+00:30:33.160 --> 00:30:37.843
+OK then yeah,
+feel free to play with it because as much
+
+6e947890-e702-4701-939f-3d178b1070b2-1
+00:30:37.843 --> 00:30:43.447
+as you're asking it as much as bad
+questions you ask, it will get,
+
+6e947890-e702-4701-939f-3d178b1070b2-2
+00:30:43.447 --> 00:30:48.800
+it will give us the better context of
+what you are looking for.
+
+d899318b-4d9a-46a4-a4bd-9ea1838b8bfa-0
+00:30:49.200 --> 00:30:51.760
+So we can work on it to give you a proper
+answers.
+
+f6910e6c-980e-4e69-8b53-fb6b8dde3cfc-0
+00:30:52.120 --> 00:31:00.680
+OK so as much usage that better the the
+docs agent will be OK.
+
+e7014741-68b7-4e8c-8dad-2a1a6de5b2a2-0
+00:31:03.320 --> 00:31:08.880
+The other agent that we would like to
+show you is the coding agent.
+
+94aa60bb-d937-402e-9321-8ffc84eb86ca-0
+00:31:09.680 --> 00:31:13.560
+This is the specified one for the scripts
+and script writing.
+
+10ba4743-4039-4a6e-b808-ff44cbe5043d-0
+00:31:14.560 --> 00:31:19.505
+Again getting back to the ID to the idea
+of no code ID right We would like to have
+
+10ba4743-4039-4a6e-b808-ff44cbe5043d-1
+00:31:19.505 --> 00:31:20.280
+a no code ID.
+
+952af866-a657-47e9-9944-5efd974a3b86-0
+00:31:20.280 --> 00:31:22.640
+So then why the write code?
+
+147c28bb-0fc4-4a9d-b3d7-292c38c17969-0
+00:31:22.960 --> 00:31:25.120
+Let's do it with AI,
+let's do it through the front.
+
+b2c4f36c-844f-43b0-929b-444e53080cb3-0
+00:31:25.440 --> 00:31:29.360
+So we can integrate the agent on the
+scripting page.
+
+74dc99e8-c7fa-4920-9a2e-7936fb73fc6c-0
+00:31:29.680 --> 00:31:33.280
+This will help you to work with your work
+with your scripts.
+
+49a48526-ebf6-4dc3-93ac-c8b170a2f444-0
+00:31:33.560 --> 00:31:34.840
+It can analyse the script.
+
+03fa2762-4a43-459f-be48-48b31b3b2c8e-0
+00:31:35.200 --> 00:31:39.980
+So if you find, if you go to the script,
+if you did not wrote and want to find
+
+03fa2762-4a43-459f-be48-48b31b3b2c8e-1
+00:31:39.980 --> 00:31:43.248
+what it does,
+you can analyse it and help you show me
+
+03fa2762-4a43-459f-be48-48b31b3b2c8e-2
+00:31:43.248 --> 00:31:44.640
+the potential problems.
+
+8e101066-ce42-4e2c-a6c5-e659bbc70092-0
+00:31:45.040 --> 00:31:46.280
+You can write fully used.
+
+cc76611b-cc46-4796-aeae-bfcc4c50a106-0
+00:31:47.360 --> 00:31:51.342
+So yeah,
+pretty much useful tool to write write
+
+cc76611b-cc46-4796-aeae-bfcc4c50a106-1
+00:31:51.342 --> 00:31:57.815
+all these important part of it is that
+variable context is is some some tools
+
+cc76611b-cc46-4796-aeae-bfcc4c50a106-2
+00:31:57.815 --> 00:32:02.960
+how you limit in not use something that
+he's not interesting.
+
+c9360b23-2d1e-4087-b5dd-254c29babff6-0
+00:32:03.040 --> 00:32:07.557
+We cannot and do not want right now to
+give the LLM the scope of the full
+
+c9360b23-2d1e-4087-b5dd-254c29babff6-1
+00:32:07.557 --> 00:32:08.840
+process that you can.
+
+8be0532d-e994-4843-a390-4efd26d78f7a-0
+00:32:09.000 --> 00:32:12.681
+So you are the guy that the code
+engagement who gives him OK,
+
+8be0532d-e994-4843-a390-4efd26d78f7a-1
+00:32:12.681 --> 00:32:14.760
+work with this and this variations.
+
+3c465dea-9243-4382-a789-01c354c7a14f-0
+00:32:17.040 --> 00:32:17.520
+Let's try.
+
+17739962-4a86-4312-b37d-2c10606a40a5-0
+00:32:17.840 --> 00:32:18.760
+Let's see how it works.
+
+561f1340-4dd4-4ebf-a27d-8163b2fe5e72-0
+00:32:28.190 --> 00:32:31.750
+So let's open some existing script and
+check out OK,
+
+561f1340-4dd4-4ebf-a27d-8163b2fe5e72-1
+00:32:31.750 --> 00:32:35.310
+the button is right here next to the
+recommendation.
+
+4c3019f2-20e0-4dcf-98c7-a7fabce18b0a-0
+00:32:36.030 --> 00:32:38.670
+You can add Ki, it will open like that.
+
+ed88dc5a-46a0-4f4c-bfb3-45fbda379992-0
+00:32:38.990 --> 00:32:41.840
+And OK,
+right now we are ready to ask questions
+
+ed88dc5a-46a0-4f4c-bfb3-45fbda379992-1
+00:32:41.840 --> 00:32:42.910
+and talk about it.
+
+cc949d80-1479-4d2e-9827-5811411c12c7-0
+00:32:44.190 --> 00:32:44.550
+B.
+
+81fb515d-e4da-4f15-ba50-97847a0a2e9a-0
+00:32:45.280 --> 00:32:49.030
+Just keep in mind that you see that it
+included all the variables from the
+
+81fb515d-e4da-4f15-ba50-97847a0a2e9a-1
+00:32:49.030 --> 00:32:50.080
+script that we found.
+
+84f430bb-c598-4338-bc9a-3513ebcba014-0
+00:32:50.440 --> 00:32:54.640
+Keep in mind that it has all the false
+script already present in the context.
+
+eb4cf2aa-c47a-4788-9469-c9a24b1182b0-0
+00:32:54.640 --> 00:32:56.720
+So he knows what you are editing right
+now.
+
+d23805b8-e93c-44ab-a7ad-72e6139ea005-0
+00:32:57.240 --> 00:33:01.440
+So you can ask him to reach, to explain,
+to change something.
+
+30919d7f-0379-4030-a078-9dbcb816fbe6-0
+00:33:01.560 --> 00:33:05.365
+But I can ask him,
+can you write or repeat this one for that
+
+30919d7f-0379-4030-a078-9dbcb816fbe6-1
+00:33:05.365 --> 00:33:08.360
+in that location or increase price or
+whatever.
+
+8b94c274-a43f-42fd-bfec-09e257223cd6-0
+00:33:08.720 --> 00:33:12.108
+But everyone,
+the real part here is as soon as he
+
+8b94c274-a43f-42fd-bfec-09e257223cd6-1
+00:33:12.108 --> 00:33:16.039
+generates you the new code,
+if you have a button applied,
+
+8b94c274-a43f-42fd-bfec-09e257223cd6-2
+00:33:16.039 --> 00:33:19.359
+it will automatically apply the change in
+there.
+
+dd2d923a-eb8e-4803-bcc5-0aecc8043251-0
+00:33:19.720 --> 00:33:24.613
+So yeah, just translate,
+transfer the directive code to the to the
+
+dd2d923a-eb8e-4803-bcc5-0aecc8043251-1
+00:33:24.613 --> 00:33:29.068
+other features there are,
+we are usually struggling with the
+
+dd2d923a-eb8e-4803-bcc5-0aecc8043251-2
+00:33:29.068 --> 00:33:32.720
+compile,
+especially because sometimes the scripts
+
+dd2d923a-eb8e-4803-bcc5-0aecc8043251-3
+00:33:32.720 --> 00:33:36.080
+got scripts got too complicated and too
+long.
+
+47ac783d-d040-44df-865a-a56ed3fe8c8a-0
+00:33:36.520 --> 00:33:41.086
+So we use some time with to the compile
+the script we got here also the
+
+47ac783d-d040-44df-865a-a56ed3fe8c8a-1
+00:33:41.086 --> 00:33:43.560
+assistance to help us with the compile.
+
+675369bb-32c9-4803-b5f2-746287b36535-0
+00:33:44.160 --> 00:33:48.003
+As soon as we see some error,
+if you give accumulation,
+
+675369bb-32c9-4803-b5f2-746287b36535-1
+00:33:48.003 --> 00:33:50.680
+do you want me to fix it and keep down?
+
+02137562-6204-415c-b4ba-cb4f547fb9f6-0
+00:33:50.800 --> 00:33:55.026
+He will try to find what is the problem
+and again give you the possibility just
+
+02137562-6204-415c-b4ba-cb4f547fb9f6-1
+00:33:55.026 --> 00:33:56.400
+to apply to bring it back.
+
+5cec3811-9fef-490f-9336-7125a3ae82b5-0
+00:33:58.640 --> 00:34:01.440
+And yes, it's pretty much all.
+
+f104efce-93c9-4e81-8166-9f675a3b6c5c-0
+00:34:01.520 --> 00:34:03.560
+Yeah, the variable context.
+
+c9ce8241-f067-490d-8b96-ccb5ab82be47-0
+00:34:03.560 --> 00:34:07.432
+So here at the very top,
+you will find that context,
+
+c9ce8241-f067-490d-8b96-ccb5ab82be47-1
+00:34:07.432 --> 00:34:13.424
+the context management of the variables,
+where you can include which variables do
+
+c9ce8241-f067-490d-8b96-ccb5ab82be47-2
+00:34:13.424 --> 00:34:18.320
+you want to do you want you to you want
+to give him to know about.
+
+2b204735-a776-4aad-b7ea-b09842b03325-0
+00:34:18.800 --> 00:34:21.280
+You're able to Add all the connection
+from the variable.
+
+68a02fd1-0083-459f-8cb9-e872d59d07e2-0
+00:34:21.280 --> 00:34:23.726
+So if you want,
+you can give him all the variables that
+
+68a02fd1-0083-459f-8cb9-e872d59d07e2-1
+00:34:23.726 --> 00:34:24.120
+you have.
+
+8f8430d6-29cb-4dce-90dd-6593c04db099-0
+00:34:24.280 --> 00:34:24.800
+It's up to you.
+
+a5515968-60f3-424b-98f7-799f0c462a52-0
+00:34:25.560 --> 00:34:30.284
+But you have a tool to limit him not to
+see more than he should see in this
+
+a5515968-60f3-424b-98f7-799f0c462a52-1
+00:34:30.284 --> 00:34:30.720
+moment.
+
+8cf9c83a-ac52-4261-8938-3b190008f2c1-0
+00:34:33.160 --> 00:34:34.320
+Do we have anything that's here?
+
+b562ed7b-44ee-45dc-b630-b624c0fb387f-0
+00:34:36.600 --> 00:34:38.800
+No speak this time.
+
+55c713f0-eaec-4d81-b0e3-e81ce2aaed94-0
+00:34:45.360 --> 00:34:52.105
+I immediately see one thing that would be
+nice to have that's deep between the
+
+55c713f0-eaec-4d81-b0e3-e81ce2aaed94-1
+00:34:52.105 --> 00:34:54.240
+current code and the new.
+
+09a953bd-9b1c-4882-81d0-3bc7748441d4-0
+00:34:55.800 --> 00:35:03.172
+So maybe other than apply we could get
+and then did you check the genotopic
+
+09a953bd-9b1c-4882-81d0-3bc7748441d4-1
+00:35:03.172 --> 00:35:04.240
+already or?
+
+657b7a4a-caab-42c9-9cd2-82d7ac5c4588-0
+00:35:08.000 --> 00:35:11.200
+Yeah, thank you for Notion.
+
+68fa7555-6496-4464-95d8-40b4a7cfe655-0
+00:35:11.920 --> 00:35:16.886
+We are fully agree with you and it is
+already in the we have to leave something
+
+68fa7555-6496-4464-95d8-40b4a7cfe655-1
+00:35:16.886 --> 00:35:19.680
+for the Q2 new better presentation you
+know.
+
+5fc5d351-379f-4e40-a4c1-86dbca0ffe9c-0
+00:35:21.000 --> 00:35:21.360
+Thank you.
+
+73e83984-f9c3-4b73-834f-b2fc6838cb6f-0
+00:35:22.200 --> 00:35:23.600
+I have a two-part question.
+
+91fdb9a1-4f8c-40fa-b138-94e05973923b-0
+00:35:23.600 --> 00:35:28.280
+So first why are they separate,
+why have two agents who came just one?
+
+dfc7c2c2-9ed2-4445-b968-53da323754b3-0
+00:35:29.880 --> 00:35:31.000
+Yeah, great point.
+
+6cfc1356-7517-49f5-aa2f-a809c7903b6b-0
+00:35:32.880 --> 00:35:37.620
+Idea is to try to make the other one
+focusing only that one and not to make it
+
+6cfc1356-7517-49f5-aa2f-a809c7903b6b-1
+00:35:37.620 --> 00:35:42.240
+better and better versus the decisions
+because he knows everything about it.
+
+3d8e10ac-7538-49a6-b75a-ed5453813788-0
+00:35:42.720 --> 00:35:47.806
+So we would like to focus this one to
+make as much good for the skips and only
+
+3d8e10ac-7538-49a6-b75a-ed5453813788-1
+00:35:47.806 --> 00:35:52.120
+for skips and not use too much resources
+depending on where to go,
+
+3d8e10ac-7538-49a6-b75a-ed5453813788-2
+00:35:52.120 --> 00:35:54.760
+what you what you are asking, asking for.
+
+3694ee74-1723-4770-ab7e-6ea6536d601c-0
+00:35:55.880 --> 00:36:01.248
+And I guess the second part then is,
+is there any plans to make some sort of
+
+3694ee74-1723-4770-ab7e-6ea6536d601c-1
+00:36:01.248 --> 00:36:03.480
+let's call it the support agent?
+
+2522b9db-ac66-4bf2-9b3c-786fd388b708-0
+00:36:03.600 --> 00:36:09.836
+For example, when it comes to AB team,
+we started feeding robo resolution
+
+2522b9db-ac66-4bf2-9b3c-786fd388b708-1
+00:36:09.836 --> 00:36:16.410
+details on how we fix certain issues to
+aid the Co workers working in the 2nd
+
+2522b9db-ac66-4bf2-9b3c-786fd388b708-2
+00:36:16.410 --> 00:36:20.287
+shift,
+how to solve certain support issues as
+
+2522b9db-ac66-4bf2-9b3c-786fd388b708-3
+00:36:20.287 --> 00:36:21.720
+fast as possible.
+
+3b8c0b1d-426b-49c2-97a6-58234a92aa8d-0
+00:36:22.120 --> 00:36:27.084
+And if we have our own in house client,
+it would probably make a lot more sense
+
+3b8c0b1d-426b-49c2-97a6-58234a92aa8d-1
+00:36:27.084 --> 00:36:32.360
+to feed him all the information so we can
+feed more responsive pass resolving tasks.
+
+43e4fa12-bde3-4cc0-aeba-1fcc49056787-0
+00:36:32.360 --> 00:36:37.120
+And yeah, great, great question.
+
+831560b2-352b-4712-848b-fd7675758e03-0
+00:36:37.160 --> 00:36:40.120
+Yeah,
+that is the solution that requires time.
+
+0e1636ff-9af5-46aa-964d-22e8640ffc8e-0
+00:36:40.120 --> 00:36:44.912
+So right now when you're getting rolled,
+you're responsive,
+
+0e1636ff-9af5-46aa-964d-22e8640ffc8e-1
+00:36:44.912 --> 00:36:51.301
+you're actually making some data daily
+knowledge we will later use to integrate
+
+0e1636ff-9af5-46aa-964d-22e8640ffc8e-2
+00:36:51.301 --> 00:36:57.531
+all these individual agents into one
+which will be like that in wise like for
+
+0e1636ff-9af5-46aa-964d-22e8640ffc8e-3
+00:36:57.531 --> 00:37:02.243
+so you have access to the robot once
+essentially yeah, OK,
+
+0e1636ff-9af5-46aa-964d-22e8640ffc8e-4
+00:37:02.243 --> 00:37:04.639
+good writing for nothing here.
+
+a1555bf6-40bd-435c-a0ca-14c3b9666f7e-0
+00:37:05.200 --> 00:37:09.846
+Here we are opening another great
+question is about the policy of privacy
+
+a1555bf6-40bd-435c-a0ca-14c3b9666f7e-1
+00:37:09.846 --> 00:37:10.160
+data.
+
+1989fe2f-ab52-4f88-8ebf-38e96c4e928b-0
+00:37:10.640 --> 00:37:14.483
+You know, you,
+the thing you mentioned with you the
+
+1989fe2f-ab52-4f88-8ebf-38e96c4e928b-1
+00:37:14.483 --> 00:37:20.396
+robot and robot currently you that the
+scope of the only product that you have,
+
+1989fe2f-ab52-4f88-8ebf-38e96c4e928b-2
+00:37:20.396 --> 00:37:26.235
+it is a little bit hard right now to make
+full separation between knowledge of
+
+1989fe2f-ab52-4f88-8ebf-38e96c4e928b-3
+00:37:26.235 --> 00:37:27.640
+different projects.
+
+c8e72203-eace-4cbd-ba7d-2d2335022dd3-0
+00:37:27.640 --> 00:37:33.078
+So we're still trying to make sure that
+we are on the safe side before running
+
+c8e72203-eace-4cbd-ba7d-2d2335022dd3-1
+00:37:33.078 --> 00:37:33.560
+deeper.
+
+d24004a7-cd78-4bef-ba60-a180ffc2612a-0
+00:37:33.880 --> 00:37:37.057
+So yes,
+I would say that we are still not fully
+
+d24004a7-cd78-4bef-ba60-a180ffc2612a-1
+00:37:37.057 --> 00:37:39.640
+committed that we can fully control it.
+
+da75ba32-32b9-4218-a8cb-d2d2f97a0fc0-0
+00:37:40.240 --> 00:37:40.960
+In these moments.
+
+e5889b48-b093-4858-9a19-6847d48530b5-0
+00:37:40.960 --> 00:37:44.766
+We are fighting with the control because
+you can ask him whatever and it is not
+
+e5889b48-b093-4858-9a19-6847d48530b5-1
+00:37:44.766 --> 00:37:46.480
+deterministic question we'll answer.
+
+64d8a048-dc73-49fc-8f2b-35f35b955c58-0
+00:37:46.800 --> 00:37:48.720
+You can ask him what will be the weather
+tomorrow.
+
+343098eb-a04f-4ffc-8070-2896b73168ab-0
+00:37:49.240 --> 00:37:53.815
+We have sometimes to limit him not to
+answer on these questions, you know,
+
+343098eb-a04f-4ffc-8070-2896b73168ab-1
+00:37:53.815 --> 00:37:58.085
+and it gives a lot of space for the user
+to to try to play with this,
+
+343098eb-a04f-4ffc-8070-2896b73168ab-2
+00:37:58.085 --> 00:38:02.600
+to cancel these rules and then to ask
+something that is not not the case.
+
+c4a05733-be17-44c9-b754-9f9b48768940-0
+00:38:02.600 --> 00:38:06.240
+So that is why we are still running from
+that.
+
+abb47c23-5842-431e-9b22-babe28aec297-0
+00:38:07.760 --> 00:38:08.320
+Just the process.
+
+0b82691d-6802-4127-8104-8f22b206bb43-0
+00:38:08.600 --> 00:38:10.040
+You're really into the world.
+
+b8aeb298-dba5-415c-a501-924163e4939a-0
+00:38:10.040 --> 00:38:16.072
+First one for a double question for a
+great question and you got why don't why
+
+b8aeb298-dba5-415c-a501-924163e4939a-1
+00:38:16.072 --> 00:38:20.120
+don't we have the dog station for the
+configuration?
+
+6221f648-a9f0-4052-bbee-3de8b52810e9-0
+00:38:22.720 --> 00:38:23.280
+No problem.
+
+e40b84be-9cd6-4669-aca8-64b01bb1055f-0
+00:38:24.520 --> 00:38:27.040
+We didn't we didn't we didn't find the
+place.
+
+82d5bec5-1f09-46cd-b84d-a5e7d4f70a89-0
+00:38:27.040 --> 00:38:29.760
+So we need to write until now for that.
+
+e29df8a3-51e7-465c-9bb5-deb4141cf63d-0
+00:38:30.320 --> 00:38:31.120
+No, no problem.
+
+53243d24-8cf7-42ef-b7c4-42ed1f110c4f-0
+00:38:31.120 --> 00:38:34.155
+So we mentioned no context switching,
+but if I need,
+
+53243d24-8cf7-42ef-b7c4-42ed1f110c4f-1
+00:38:34.155 --> 00:38:38.106
+if I'm working on a Configurator and I
+need to ask you the question,
+
+53243d24-8cf7-42ef-b7c4-42ed1f110c4f-2
+00:38:38.106 --> 00:38:39.080
+I need to switch.
+
+12e4c9c4-e2fc-4410-b9cd-c2a7b95e9d50-0
+00:38:39.080 --> 00:38:39.520
+Yeah, Yeah.
+
+a184c4b2-43cc-4aff-9663-49cb4b88726a-0
+00:38:39.760 --> 00:38:43.080
+Go back together, Right.
+
+1b6e3c6f-2aba-47c9-a8a1-ccbb24029751-0
+00:38:43.440 --> 00:38:43.600
+Yeah.
+
+5890dc8c-1a45-4164-a0e0-864296645a02-0
+00:38:44.320 --> 00:38:45.160
+Thank you for suggesting.
+
+ed1f8261-5134-4574-842a-7f2261222a5d-0
+00:38:47.720 --> 00:38:48.240
+OK.
+
+d78b5c96-551b-4d53-acf0-02392ac1155d-0
+00:38:49.040 --> 00:38:49.800
+Can we move forward?
+
+f4f87954-68b6-4437-84de-31352b8bbe42-0
+00:38:50.520 --> 00:38:50.640
+Yeah.
+
+5c445d8c-06ea-438a-a035-bd576c87bb1d-0
+00:38:51.280 --> 00:38:59.200
+Anybody from the QA asking how do you do
+this, Marco?
+
+de6884b6-4ba9-48c5-99d1-a5892343ffc6-0
+00:39:00.360 --> 00:39:01.440
+Some shorter than that one.
+
+ff8c3548-f9ed-4c8a-8d90-54fe7e3b5a9d-0
+00:39:01.720 --> 00:39:07.200
+They said the role, yeah, Q2 and Q3Q4.
+
+0bc96498-7113-4f20-9995-6c5ffc369e53-0
+00:39:11.480 --> 00:39:13.240
+OK, Responsive client.
+
+8fb81ac9-9020-4fc3-a05d-b45e19a8f1d2-0
+00:39:13.480 --> 00:39:20.276
+This one is another feature on the editor,
+another fully new topic that sounds very
+
+8fb81ac9-9020-4fc3-a05d-b45e19a8f1d2-1
+00:39:20.276 --> 00:39:24.080
+funny when you're talking with some
+developer.
+
+79f4dca4-7dcd-4bf7-bc1b-8755dd0de0bf-0
+00:39:24.480 --> 00:39:24.640
+Why?
+
+bfe4edbf-53f6-4a8b-96f3-b9220d85faf9-0
+00:39:24.640 --> 00:39:28.200
+Because we are talking in many,
+many things about responsiveness.
+
+ece68ef4-ce21-4ef4-8235-eac00e4da6ab-0
+00:39:28.280 --> 00:39:31.440
+You know, that was built in 20 tanks,
+right?
+
+5931173c-8dac-41b3-b366-ece3e361271c-0
+00:39:31.720 --> 00:39:33.320
+Like 15 or 20 years ago.
+
+bbf80fa3-66a3-49c8-b8d3-3ccaf1bbd5ba-0
+00:39:33.520 --> 00:39:36.520
+It was already presenting the web,
+web standardization, right?
+
+a4ea013a-07f3-4467-b9f9-9b213f509a38-0
+00:39:36.520 --> 00:39:39.680
+But in this case, the world,
+it is still something really new.
+
+b93b1a9b-3f16-4689-8407-71a400f96132-0
+00:39:40.120 --> 00:39:42.748
+OK,
+so thank you for your honest opinion that
+
+b93b1a9b-3f16-4689-8407-71a400f96132-1
+00:39:42.748 --> 00:39:45.720
+this sounds fine,
+but in the scale world it is not.
+
+d5e8fac7-025f-42e2-a940-2429d75895b1-0
+00:39:45.760 --> 00:39:47.840
+It is not school present already.
+
+e82e2ad0-604d-4e8c-96f2-6dc7cc68e69f-0
+00:39:48.320 --> 00:39:52.280
+What is the difference between absolute
+and relative positioning?
+
+a3550fd8-96b8-45f4-b3de-72f0e2700a02-0
+00:39:52.360 --> 00:39:55.160
+It's absolute positioning on the editor,
+the video drawing something.
+
+1fc25bc2-1af1-4b33-9336-3928f1727440-0
+00:39:55.160 --> 00:40:00.080
+We just bring the item, the button,
+the image that everyone put it here.
+
+8951c178-95c9-4e70-92ce-29dd5fb80f4c-0
+00:40:00.080 --> 00:40:01.320
+OK, that will be on the X.
+
+269362d0-0cf3-46b6-ada0-05bd99f300ff-0
+00:40:02.360 --> 00:40:07.159
+Side X #20 like 30 millimetres from the
+left side and you're capability and it
+
+269362d0-0cf3-46b6-ada0-05bd99f300ff-1
+00:40:07.159 --> 00:40:11.654
+works perfectly right when you go to
+preview it works on your machine and
+
+269362d0-0cf3-46b6-ada0-05bd99f300ff-2
+00:40:11.654 --> 00:40:13.720
+you're super you're great with it.
+
+503cab4c-d66c-4e39-b005-1058b6a39617-0
+00:40:13.720 --> 00:40:18.160
+You'll finish your job after it goes to
+the product, to the client.
+
+dd03b151-8ce0-44eb-a9fd-5f77ae3ebd90-0
+00:40:18.520 --> 00:40:23.240
+He has some other view of the other side
+of the PC of the monitor.
+
+c581f2b2-ceeb-44b9-b376-a325c061aa48-0
+00:40:23.800 --> 00:40:28.002
+It was mesh,
+so look or need control or for this
+
+c581f2b2-ceeb-44b9-b376-a325c061aa48-1
+00:40:28.002 --> 00:40:32.118
+reason,
+I've had like 10 years ago introduced A
+
+c581f2b2-ceeb-44b9-b376-a325c061aa48-2
+00:40:32.118 --> 00:40:33.920
+relative positioning.
+
+a3027ab9-03d9-40b3-bb79-d550889c2383-0
+00:40:34.520 --> 00:40:38.884
+So you can put the items not in the fix
+it not in the absolute positioning,
+
+a3027ab9-03d9-40b3-bb79-d550889c2383-1
+00:40:38.884 --> 00:40:40.320
+but relative positioning.
+
+a1d8ec16-7365-4a58-99fa-7c5f276d4bc3-0
+00:40:40.320 --> 00:40:44.040
+So let's make it like 20% from the left
+left edge.
+
+563dcdde-d7ae-420f-bbe5-8c82759ac5e1-0
+00:40:44.360 --> 00:40:47.320
+OK, what we did,
+we bring this to the editor.
+
+13df219f-4e69-42c6-8346-c30369e68c13-0
+00:40:47.320 --> 00:40:52.456
+So right now, after this,
+you can create your scheme for relative
+
+13df219f-4e69-42c6-8346-c30369e68c13-1
+00:40:52.456 --> 00:40:54.480
+positioning in new editor.
+
+ce9fceff-ea72-4b43-81d9-627d8ba04cc8-0
+00:40:56.360 --> 00:41:00.280
+How it is built,
+we did it with the flex layout.
+
+8ed24d01-e87c-45f5-9a8e-7717b3919ca4-0
+00:41:00.920 --> 00:41:05.960
+Flex is the CSS standard for the dev,
+for the dev programming at all.
+
+27ea3666-f976-4bb1-9289-7f5b436a7895-0
+00:41:06.240 --> 00:41:11.200
+So we do not invented anything new,
+it's already presented.
+
+856e4f10-d942-4bdf-8b05-803219c07ff3-0
+00:41:11.200 --> 00:41:16.120
+We just try to use it and to link it with
+the with the existing editor.
+
+6401a8a9-0a29-4204-a8ec-ed5f02c62d5a-0
+00:41:16.600 --> 00:41:20.292
+With existing editor,
+when we're creating the screens,
+
+6401a8a9-0a29-4204-a8ec-ed5f02c62d5a-1
+00:41:20.292 --> 00:41:24.320
+we're creating the layers,
+layers and different containers.
+
+798ab8b4-76c8-43ec-9b45-9b6ed2f56c11-0
+00:41:24.960 --> 00:41:28.480
+Containers has its own align and
+positioning.
+
+ab2c4109-f687-4471-bfe6-64ff965e356a-0
+00:41:29.160 --> 00:41:31.840
+Inside the containers, we put components.
+
+8d4a5327-bbcd-4d8e-b1e6-903128a8cdfe-0
+00:41:32.280 --> 00:41:33.720
+Case of container is.
+
+89dbdd5f-7ecc-4360-b23f-eb3f0c8ce24d-0
+00:41:33.760 --> 00:41:38.902
+I can imagine if there's a box where I
+put something and if you take care about
+
+89dbdd5f-7ecc-4360-b23f-eb3f0c8ce24d-1
+00:41:38.902 --> 00:41:44.045
+where it is positioned and how wide and
+how to behave when you are thinking and
+
+89dbdd5f-7ecc-4360-b23f-eb3f0c8ce24d-2
+00:41:44.045 --> 00:41:46.359
+expanding, expanding this container.
+
+cd0d2360-d6f1-40cd-9a72-9a91951dc6f7-0
+00:41:46.640 --> 00:41:50.680
+The fun part is that containers are also
+components.
+
+fa94649b-fa05-4b65-9d22-1ad404f9aa1a-0
+00:41:50.840 --> 00:41:55.117
+So you can put container in container in
+container in container and create your
+
+fa94649b-fa05-4b65-9d22-1ad404f9aa1a-1
+00:41:55.117 --> 00:41:56.240
+whole screen with it.
+
+2d3b5076-9767-4420-b99b-95c1c846be0f-0
+00:41:56.680 --> 00:41:59.880
+Going with it you will create your grid
+layout.
+
+f137f36a-bda3-44b2-a51c-e7c8199f4846-0
+00:41:59.880 --> 00:42:05.185
+So it will create your nice grid,
+but is very positioned to have to behave
+
+f137f36a-bda3-44b2-a51c-e7c8199f4846-1
+00:42:05.185 --> 00:42:06.600
+where it is located.
+
+6c1950bd-3b6f-42b2-ae85-f0a2c47b3063-0
+00:42:06.640 --> 00:42:10.440
+When you're doing that, recite it finally,
+but you will get.
+
+38fdaeb8-1467-49a1-b335-3054c7d20c04-0
+00:42:10.440 --> 00:42:16.922
+You will get the same screen setup
+drawing nicely on 10 inch screen and 34
+
+38fdaeb8-1467-49a1-b335-3054c7d20c04-1
+00:42:16.922 --> 00:42:17.960
+inch screen.
+
+d739f391-bf70-484f-b1ed-c49feb4e586b-0
+00:42:18.320 --> 00:42:22.060
+OK, so again,
+this sounds interesting in this category
+
+d739f391-bf70-484f-b1ed-c49feb4e586b-1
+00:42:22.060 --> 00:42:23.080
+of development.
+
+7f871223-5107-4320-82a1-cf8ad8080217-0
+00:42:23.080 --> 00:42:24.680
+It was present like 15 years ago.
+
+da1f34e6-2890-4667-a344-88abdad7cb5b-0
+00:42:26.040 --> 00:42:32.040
+Let's see conference in the moment of the
+create of creation screen.
+
+1812efb5-9047-4f17-b80a-52ccd4c865c7-0
+00:42:32.760 --> 00:42:37.028
+When you go to create a new screen,
+you will be able to choose which editor
+
+1812efb5-9047-4f17-b80a-52ccd4c865c7-1
+00:42:37.028 --> 00:42:38.320
+you want to to work on.
+
+64a72fbf-21a9-40b8-91d0-f6e03f36d906-0
+00:42:38.920 --> 00:42:41.640
+The old one,
+the absolute solutioning or the relative.
+
+e1220925-e2d7-4b7e-821c-e8b2e45c821a-0
+00:42:42.920 --> 00:42:45.972
+When you add the screen with the relative
+positioning,
+
+e1220925-e2d7-4b7e-821c-e8b2e45c821a-1
+00:42:45.972 --> 00:42:50.078
+the full view will get different,
+all the settings on the right side will
+
+e1220925-e2d7-4b7e-821c-e8b2e45c821a-2
+00:42:50.078 --> 00:42:50.800
+be different.
+
+f7793c7d-7960-4b14-9a45-4a71b6ec73ca-0
+00:42:50.800 --> 00:42:56.212
+There is no positioning height X that
+locate numbers,
+
+f7793c7d-7960-4b14-9a45-4a71b6ec73ca-1
+00:42:56.212 --> 00:42:59.320
+there is only container setups.
+
+8c2b65b9-8595-4ebc-83e8-81010319c99e-0
+00:42:59.320 --> 00:43:04.251
+So you can split your screen,
+you can add grids and let's see how it
+
+8c2b65b9-8595-4ebc-83e8-81010319c99e-1
+00:43:04.251 --> 00:43:04.680
+works.
+
+2a2465c0-c4f1-4dab-832b-f2bc6d574b37-0
+00:43:04.880 --> 00:43:09.800
+We created here on the left side a
+container that have two other containers.
+
+42934fc1-913a-4453-b6f5-d36329d52f2d-0
+00:43:10.240 --> 00:43:12.880
+In the top one we added the alarm view.
+
+4bef5594-ce74-45bb-ac5b-2417e91ac020-0
+00:43:13.120 --> 00:43:15.520
+At the bottom one we will have a fuse
+buttons.
+
+5021e165-412d-4d72-ae6a-c05ba407d9f5-0
+00:43:16.520 --> 00:43:21.320
+By default it is it is located on the
+very top left corner.
+
+eed4078f-fcc3-4078-8811-2d28137f9905-0
+00:43:21.400 --> 00:43:27.758
+But all these settings we can change when
+you check now all these settings for me
+
+eed4078f-fcc3-4078-8811-2d28137f9905-1
+00:43:27.758 --> 00:43:33.108
+to be honest sounds how thick because I
+learned these X steps a lot,
+
+eed4078f-fcc3-4078-8811-2d28137f9905-2
+00:43:33.108 --> 00:43:36.519
+X steps and then height,
+weight properties.
+
+9bdac347-984a-4527-947f-e3b7c94d1616-0
+00:43:36.880 --> 00:43:39.680
+All these are flex like box properties.
+
+7762640a-82ae-4e51-be91-d62b49f09395-0
+00:43:40.320 --> 00:43:43.546
+Once,
+once when you learn them and learn how to
+
+7762640a-82ae-4e51-be91-d62b49f09395-1
+00:43:43.546 --> 00:43:46.840
+use them,
+you will get superpower how to use it.
+
+e787ac2e-9306-4418-9fa2-eb6b0553e56b-0
+00:43:46.840 --> 00:43:50.240
+You know you'll get your everyday in your
+everyday routine.
+
+626f87b2-e30f-4550-a50a-a329d978e2e9-0
+00:43:50.640 --> 00:43:55.165
+So on this button on this container,
+we added two buttons,
+
+626f87b2-e30f-4550-a50a-a329d978e2e9-1
+00:43:55.165 --> 00:43:59.000
+2 buttons centered in the position in the
+middle.
+
+fb4d5e02-81f8-4edb-923d-2367a9896108-0
+00:43:59.680 --> 00:44:02.840
+So as soon as we open this one,
+it will automatically precise.
+
+bedef9a3-53b7-45b3-af06-b4e052e39bb9-0
+00:44:04.240 --> 00:44:05.240
+Let me check this.
+
+43537345-55d4-46bc-a02f-01a028e3b209-0
+00:44:05.240 --> 00:44:07.040
+This is like a basic playground.
+
+f155d175-20d0-45e6-a804-e01426769de0-0
+00:44:07.440 --> 00:44:08.880
+It's not impressive, right?
+
+69a9ab6f-e87e-4456-bf93-5e978efbfcd4-0
+00:44:09.320 --> 00:44:15.395
+Let's see how to build a real screen,
+how to rebuild a real screen like complex
+
+69a9ab6f-e87e-4456-bf93-5e978efbfcd4-1
+00:44:15.395 --> 00:44:19.800
+one with this editor to make sure that
+you got the point.
+
+93ade79d-96b6-4f8a-8aad-e38260effb63-0
+00:44:19.800 --> 00:44:23.009
+And see,
+we tried to replicate one of the screens
+
+93ade79d-96b6-4f8a-8aad-e38260effb63-1
+00:44:23.009 --> 00:44:26.603
+that you also be familiar with,
+not all of most of you,
+
+93ade79d-96b6-4f8a-8aad-e38260effb63-2
+00:44:26.603 --> 00:44:31.160
+it is a dead board of the building
+management system of this building.
+
+9b357771-b326-4fd7-933f-ec19bb448140-0
+00:44:31.480 --> 00:44:35.475
+So when you open this,
+therefore you will see a tons of views of
+
+9b357771-b326-4fd7-933f-ec19bb448140-1
+00:44:35.475 --> 00:44:36.520
+trends and so on.
+
+d88dba97-49b4-44f7-9632-e00cac3e9ba9-0
+00:44:36.840 --> 00:44:38.440
+And all these are created.
+
+5d8a7a0b-d18b-4d56-81ae-c3ad35e2003c-0
+00:44:38.960 --> 00:44:41.640
+We replicated that screen with the
+relative positioning.
+
+6e443e3b-2cf8-4e85-b84c-ff088bafe68d-0
+00:44:41.640 --> 00:44:43.856
+So all,
+all the screen is created with the
+
+6e443e3b-2cf8-4e85-b84c-ff088bafe68d-1
+00:44:43.856 --> 00:44:44.320
+relative.
+
+c61fe40d-1414-4c8d-8006-50ffd026222d-0
+00:44:44.320 --> 00:44:49.275
+So there is a not be enough and about
+sense of of of containers difference to
+
+c61fe40d-1414-4c8d-8006-50ffd026222d-1
+00:44:49.275 --> 00:44:53.976
+define this and but you're getting the
+same screen that we created in the
+
+c61fe40d-1414-4c8d-8006-50ffd026222d-2
+00:44:53.976 --> 00:44:56.200
+absolute with absolute referencing.
+
+4877314d-42b6-403d-ae4f-fd49b4335a0c-0
+00:44:56.760 --> 00:45:03.197
+Here it is with the relative referencing
+and we are resizing it will automatically
+
+4877314d-42b6-403d-ae4f-fd49b4335a0c-1
+00:45:03.197 --> 00:45:05.680
+move down, get wider and shrink.
+
+cef32447-4a60-4c4b-8b72-0b262b1621dd-0
+00:45:06.640 --> 00:45:08.480
+So we will have always a nice view.
+
+b124f67c-9a56-44af-9247-9d477adc736c-0
+00:45:09.560 --> 00:45:13.717
+If you see like this now you can imagine
+that you we usually are building
+
+b124f67c-9a56-44af-9247-9d477adc736c-1
+00:45:13.717 --> 00:45:16.920
+different screen for the mobile,
+different from the web.
+
+2cbc23dd-7120-49f1-a132-4af41c027bab-0
+00:45:17.440 --> 00:45:20.488
+But if you know this and start to use
+this one,
+
+2cbc23dd-7120-49f1-a132-4af41c027bab-1
+00:45:20.488 --> 00:45:25.316
+it should not be different 1 you can
+create with the one single screen like
+
+2cbc23dd-7120-49f1-a132-4af41c027bab-2
+00:45:25.316 --> 00:45:30.080
+the screen that works fine with all all
+to the mobile and the web web app.
+
+6249bad3-73c8-48c4-9fd3-0e97ab7f8469-0
+00:45:33.120 --> 00:45:39.720
+So and yes, the other great.
+
+8eb7ce06-100e-4cd5-bb63-5942d8d9c2ba-0
+00:45:39.960 --> 00:45:43.600
+The other great thing about it is that
+it's very well documented.
+
+5ba108ca-3dbf-4c38-a160-ad09ee09e84c-0
+00:45:43.840 --> 00:45:47.247
+OK, so as I said,
+if I go and check all these properties
+
+5ba108ca-3dbf-4c38-a160-ad09ee09e84c-1
+00:45:47.247 --> 00:45:50.415
+about Flex,
+we tried to manage them to put the basic
+
+5ba108ca-3dbf-4c38-a160-ad09ee09e84c-2
+00:45:50.415 --> 00:45:54.360
+management to make easier when the user
+comes here how to use it.
+
+57f86a5e-6535-43ea-962c-534995839cc1-0
+00:45:54.520 --> 00:45:57.144
+But from time to time you will get,
+you will need a better,
+
+57f86a5e-6535-43ea-962c-534995839cc1-1
+00:45:57.144 --> 00:45:59.200
+a better understanding what it does and
+so on.
+
+96a56e32-6f03-4a38-aff4-9c026e9177b4-0
+00:45:59.800 --> 00:46:00.560
+In that moment.
+
+76062655-b09c-4c24-b3d5-762524475add-0
+00:46:00.880 --> 00:46:04.040
+It is very well documented and very
+widely used on the web.
+
+8ab3301f-eeca-4358-bd72-fb65050e4f7e-0
+00:46:04.160 --> 00:46:08.664
+So just search about it,
+how to put on the Flex screen, flex box,
+
+8ab3301f-eeca-4358-bd72-fb65050e4f7e-1
+00:46:08.664 --> 00:46:13.920
+how to to align on the left side,
+to align on 20% from the bottom and so on.
+
+1144e43f-f4d8-42dc-a186-4c49c085d3f9-0
+00:46:13.920 --> 00:46:18.880
+And you will find how to set up these
+properties just in the web programming.
+
+1a61895c-2187-45b3-865e-ba0282a55378-0
+00:46:18.880 --> 00:46:22.000
+You're setting these properties in the
+CSS here.
+
+b5684ccd-c077-408b-bbe9-fb137dfbcc84-0
+00:46:22.000 --> 00:46:24.960
+You will set it in the editor and they're
+done.
+
+cb0cef70-b96e-4701-b565-6cbd3252b726-0
+00:46:27.480 --> 00:46:29.280
+How does it sounds to you?
+
+dd350316-d636-44bb-856a-85eef3e1e8e6-0
+00:46:30.000 --> 00:46:31.880
+Let me know your questions.
+
+d9013006-5069-4761-a690-d0368a9a4883-0
+00:46:39.360 --> 00:46:47.308
+Is there any option to get like from the
+same AI model to use suggestions to
+
+d9013006-5069-4761-a690-d0368a9a4883-1
+00:46:47.308 --> 00:46:55.774
+replicate the existing absolute screen to
+to the one the one that honest response
+
+d9013006-5069-4761-a690-d0368a9a4883-2
+00:46:55.774 --> 00:46:56.600
+or deny?
+
+93ff232d-e801-4b40-b904-5919446888e9-0
+00:46:58.200 --> 00:47:01.280
+Right now we call it our colleagues who
+they created.
+
+d9821b16-bed8-495c-b6e0-d814515d6bcb-0
+00:47:01.600 --> 00:47:05.600
+But yeah,
+we did not was not able to to do it.
+
+047aa8d8-1fb7-4b42-ada0-5f6c715b006a-0
+00:47:05.920 --> 00:47:08.480
+Now pretty much that it's global.
+
+9c47fb53-a30b-41d2-8263-9f0417fbb22f-0
+00:47:08.600 --> 00:47:16.443
+If you define a proper set of rules that
+you will be able to not fully replicate,
+
+9c47fb53-a30b-41d2-8263-9f0417fbb22f-1
+00:47:16.443 --> 00:47:21.800
+but make as as good as possible to see to
+translate it.
+
+e1d5f797-ca29-453a-968e-1f6bb4b9799e-0
+00:47:21.800 --> 00:47:25.535
+But I'll be scared of it because the in
+that, yeah, it, it,
+
+e1d5f797-ca29-453a-968e-1f6bb4b9799e-1
+00:47:25.535 --> 00:47:30.640
+it will be a little bit critical of how
+all these containers should be organised.
+
+8fe26cc6-67fd-4438-92c4-7eae25dd5b57-0
+00:47:30.640 --> 00:47:32.360
+But let's play with it.
+
+c419c03c-08a1-45c6-ac3a-6e6b406c6fb8-0
+00:47:32.360 --> 00:47:32.960
+Why not?
+
+86376dfc-4eb4-415a-8cd3-81ad1c50c0e9-0
+00:47:32.960 --> 00:47:33.240
+I will.
+
+577bb8b9-99b0-4992-ba96-8858a0db9bc5-0
+00:47:33.560 --> 00:47:37.320
+I will be free to export the
+configuration of the absolute relative
+
+577bb8b9-99b0-4992-ba96-8858a0db9bc5-1
+00:47:37.320 --> 00:47:41.358
+and give me OK basis on this one,
+create the application of this one and
+
+577bb8b9-99b0-4992-ba96-8858a0db9bc5-2
+00:47:41.358 --> 00:47:42.520
+let's see what to do.
+
+b586674d-1799-48a4-84ae-08899bc653bc-0
+00:47:42.840 --> 00:47:47.608
+It's great that we have this example of
+complex network that we tried to make
+
+b586674d-1799-48a4-84ae-08899bc653bc-1
+00:47:47.608 --> 00:47:52.255
+equal so we can check how it will do,
+but we did not try not not me and the
+
+b586674d-1799-48a4-84ae-08899bc653bc-2
+00:47:52.255 --> 00:47:53.600
+normal reported to me.
+
+7643d0c0-8931-4fa4-b61d-0e73aae4afcd-0
+00:47:53.600 --> 00:47:57.040
+So let me know if someone did based on
+that.
+
+a3ba81e2-952d-402f-a93b-b49394d2681d-0
+00:47:57.520 --> 00:48:01.376
+For example,
+can we flag some of the components that
+
+a3ba81e2-952d-402f-a93b-b49394d2681d-1
+00:48:01.376 --> 00:48:07.123
+we for example don't want to show on the
+mobile view and when we shrinking the
+
+a3ba81e2-952d-402f-a93b-b49394d2681d-2
+00:48:07.123 --> 00:48:13.235
+page to just cut off some of them or yes,
+right now we are only doing the resizing,
+
+a3ba81e2-952d-402f-a93b-b49394d2681d-3
+00:48:13.235 --> 00:48:15.199
+the resizing, I'm not sure.
+
+7095834f-bd18-47a6-a3e9-d89a9a3a9ac9-0
+00:48:15.200 --> 00:48:20.377
+And I think that right now we do not have
+this take optical behind this when it the
+
+7095834f-bd18-47a6-a3e9-d89a9a3a9ac9-1
+00:48:20.377 --> 00:48:22.720
+view comes for that, but it is global.
+
+34b27fd5-4b63-41c5-9a23-965f46522fec-0
+00:48:23.400 --> 00:48:25.720
+We did not have need for that until now.
+
+2894162a-1bde-440a-bdc9-6e4e7fd8dbf3-0
+00:48:25.720 --> 00:48:29.680
+So I think that that's the main reason
+why we never developed it.
+
+1ff8a986-63df-4de2-ad5c-362e1c295837-0
+00:48:32.600 --> 00:48:34.956
+Also,
+is this something that would make mobile
+
+1ff8a986-63df-4de2-ad5c-362e1c295837-1
+00:48:34.956 --> 00:48:36.160
+configurations obsolete?
+
+c20ca3d4-71bc-4c20-80fc-0aa363d329c2-0
+00:48:38.800 --> 00:48:43.342
+Sorry, can you repeat, is there something,
+is this a feature that would make mobile
+
+c20ca3d4-71bc-4c20-80fc-0aa363d329c2-1
+00:48:43.342 --> 00:48:44.640
+configurations obsolete?
+
+c3dbb3da-fb8a-4bfc-8f18-ae661d3c0e36-0
+00:48:44.840 --> 00:48:49.050
+As in we can start using this rather than
+making mobile the the,
+
+c3dbb3da-fb8a-4bfc-8f18-ae661d3c0e36-1
+00:48:49.050 --> 00:48:52.612
+the problem is always here,
+the legislation, you know,
+
+c3dbb3da-fb8a-4bfc-8f18-ae661d3c0e36-2
+00:48:52.612 --> 00:48:56.240
+right now when you know this,
+they try to play with it.
+
+a60cde35-981b-46d8-9394-037540dad5b1-0
+00:48:56.520 --> 00:48:58.280
+The new project we will create with this.
+
+ad63c42d-a9f4-4972-8c08-c64dfb189842-0
+00:48:58.440 --> 00:48:58.920
+I hope so.
+
+87f446a3-5aa8-4e32-88c0-6ba81704caa5-0
+00:48:59.520 --> 00:49:04.781
+But when you will have time and to sit
+down and reconfigure all the previous
+
+87f446a3-5aa8-4e32-88c0-6ba81704caa5-1
+00:49:04.781 --> 00:49:09.360
+previously existing suites,
+right on previously existing products.
+
+a7d5823d-9b3a-4ebb-bb60-89379a6b47a1-0
+00:49:09.600 --> 00:49:13.911
+But if if you start to use it and to
+think about it in a moment of the
+
+a7d5823d-9b3a-4ebb-bb60-89379a6b47a1-1
+00:49:13.911 --> 00:49:17.920
+definition of your product,
+then no mobile could bring it at all.
+
+7ea7f125-026a-4451-8f69-e283200cdaa5-0
+00:49:19.120 --> 00:49:21.320
+You know,
+just you have to think about when I'm
+
+7ea7f125-026a-4451-8f69-e283200cdaa5-1
+00:49:21.320 --> 00:49:23.520
+creating a dead board, OK, I'll put this,
+this.
+
+9add882c-ef6b-4eac-b9e8-d7a3eb6891bb-0
+00:49:23.640 --> 00:49:27.974
+And if I put it like that,
+when I shrink the mobile, it will go done,
+
+9add882c-ef6b-4eac-b9e8-d7a3eb6891bb-1
+00:49:27.974 --> 00:49:28.160
+OK.
+
+632f762f-eaba-4544-a9a1-281064c0fa6c-0
+00:49:28.360 --> 00:49:32.593
+We saw here that when we recreated,
+when we tried to think that there was
+
+632f762f-eaba-4544-a9a1-281064c0fa6c-1
+00:49:32.593 --> 00:49:33.280
+extra place.
+
+6db748fb-a4e4-465c-a544-a90385f0bba8-0
+00:49:33.280 --> 00:49:37.200
+So when we created it,
+the main airport was not adopted to that.
+
+766b4f2d-4511-482f-ae96-c1f38120220e-0
+00:49:37.200 --> 00:49:39.480
+So you have to think about it in a moment
+of creation.
+
+01dba550-4581-4e09-a0d4-109f6082a58c-0
+00:49:39.920 --> 00:49:43.043
+But the answer is yes,
+when we start to use it necessarily and
+
+01dba550-4581-4e09-a0d4-109f6082a58c-1
+00:49:43.043 --> 00:49:45.920
+use only that there's no need for for
+mobile fees at all.
+
+69918a5c-b403-4df1-8812-778a3879ffab-0
+00:49:46.760 --> 00:49:50.240
+Those are the questions that we can ask
+about the level of details.
+
+4632cbe0-10c7-4279-8348-173ccdea437f-0
+00:49:50.440 --> 00:49:56.204
+So usually you don't want to see all the
+all the details on your mobile phone and
+
+4632cbe0-10c7-4279-8348-173ccdea437f-1
+00:49:56.204 --> 00:49:59.720
+give you on the on the you know,
+that's probably.
+
+acd52239-e175-47e9-a2a0-4e660e623477-0
+00:49:59.720 --> 00:50:02.540
+So if you know, figure that one out,
+you know,
+
+acd52239-e175-47e9-a2a0-4e660e623477-1
+00:50:02.540 --> 00:50:06.560
+just setting the level of details or like,
+like zoom in, zoom out.
+
+7fb33471-7a81-4126-b72e-c7c586add943-0
+00:50:06.560 --> 00:50:10.242
+And so that way,
+But when you're building application and
+
+7fb33471-7a81-4126-b72e-c7c586add943-1
+00:50:10.242 --> 00:50:15.322
+the details that you want to be available
+at certain levels of of weight of the
+
+7fb33471-7a81-4126-b72e-c7c586add943-2
+00:50:15.322 --> 00:50:19.958
+company to whatever that could be where
+we have essentially screen size,
+
+7fb33471-7a81-4126-b72e-c7c586add943-3
+00:50:19.958 --> 00:50:20.720
+screen size.
+
+e45ee2b4-d3c9-441d-adb0-0e5fce8b424f-0
+00:50:22.600 --> 00:50:26.779
+Because the initial reason for having
+this as especially mobile app instead of,
+
+e45ee2b4-d3c9-441d-adb0-0e5fce8b424f-1
+00:50:26.779 --> 00:50:29.182
+you know, doing it to your browser,
+you know,
+
+e45ee2b4-d3c9-441d-adb0-0e5fce8b424f-2
+00:50:29.182 --> 00:50:33.361
+mobile screen is because you don't want
+to cover all the details in your mobile
+
+e45ee2b4-d3c9-441d-adb0-0e5fce8b424f-3
+00:50:33.361 --> 00:50:34.719
+phone like you can invest.
+
+fc19fc98-f4c5-4b54-b93d-480ea1fc9a19-0
+00:50:36.480 --> 00:50:38.960
+Yeah, but this is great point.
+
+154cd2b7-2447-427e-90ab-2a1bf34c4f09-0
+00:50:40.040 --> 00:50:43.080
+And I'll come back to the again to the
+same question.
+
+c0aeadaa-5391-44cb-80eb-3a8983072a4d-0
+00:50:43.280 --> 00:50:46.240
+If you think about it at the moment,
+the definition is doable.
+
+2ee175fa-7ba7-417d-aa86-5c874dced763-0
+00:50:46.520 --> 00:50:48.040
+So we already have this.
+
+1fd850e6-2781-4ee9-8384-02e7f1a76b02-0
+00:50:48.360 --> 00:50:50.240
+So hide this elemental click.
+
+0f0f751f-97f4-4c19-9012-8448a33e902d-0
+00:50:50.320 --> 00:50:52.536
+You know,
+you have this option in the editor,
+
+0f0f751f-97f4-4c19-9012-8448a33e902d-1
+00:50:52.536 --> 00:50:56.102
+you can create alarm you went on some
+button to hide it or baseball to be
+
+0f0f751f-97f4-4c19-9012-8448a33e902d-2
+00:50:56.102 --> 00:50:56.440
+hidden.
+
+a720972c-1df7-4b41-831c-594137da7b98-0
+00:50:56.560 --> 00:50:58.637
+So if you create this,
+therefore like that,
+
+a720972c-1df7-4b41-831c-594137da7b98-1
+00:50:58.637 --> 00:50:59.960
+you can automatically fight.
+
+8a223b4f-5270-405d-9bdc-d43c78e16cfd-0
+00:51:00.400 --> 00:51:04.000
+Right now it is on the click button,
+so expand for the tails.
+
+64c39004-585a-4d3e-a057-dcca70dcf8eb-0
+00:51:04.000 --> 00:51:07.107
+But yeah,
+I think it's easy to doable to
+
+64c39004-585a-4d3e-a057-dcca70dcf8eb-1
+00:51:07.107 --> 00:51:11.200
+automatically try to some finding size of
+the screen.
+
+c420eac4-baf2-4b62-bd5e-a77da34f0c60-0
+00:51:14.160 --> 00:51:15.160
+I've I've got 1.
+
+5287554f-0e4e-487d-9b81-699ea5943a17-0
+00:51:17.080 --> 00:51:20.729
+So you say if you start a new project,
+you you're going to say,
+
+5287554f-0e4e-487d-9b81-699ea5943a17-1
+00:51:20.729 --> 00:51:22.840
+but what what's the existing project?
+
+4640c69d-678e-416c-b774-639e259adf7a-0
+00:51:22.880 --> 00:51:28.160
+So we need to create the new screens
+right now to go to the old browser.
+
+fc5c8284-dd8c-486b-af3d-9f5fb9e76459-0
+00:51:28.160 --> 00:51:34.320
+Can we do it with the how to hybrid
+Hybrid yeah, I believe yeah,
+
+fc5c8284-dd8c-486b-af3d-9f5fb9e76459-1
+00:51:34.320 --> 00:51:41.240
+I believe it is a lot so you can you can
+add a new screen with that one.
+
+2887b7e7-af43-432e-b64c-2e01a97d140a-0
+00:51:41.240 --> 00:51:45.221
+So they're fully OK with it There is no
+no problem but yeah, in my opinion,
+
+2887b7e7-af43-432e-b64c-2e01a97d140a-1
+00:51:45.221 --> 00:51:49.045
+it's always painful to rewrite,
+but you're when you're fully OK to sleep
+
+2887b7e7-af43-432e-b64c-2e01a97d140a-2
+00:51:49.045 --> 00:51:52.921
+the existing trains and all the new ones
+you make make them yes make them
+
+2887b7e7-af43-432e-b64c-2e01a97d140a-3
+00:51:52.921 --> 00:51:55.960
+responsive and you're OK with that one
+you're super fine.
+
+7df93c35-af9e-42b7-93f7-fcab707d7329-0
+00:51:56.040 --> 00:52:01.034
+I think there are also possibilities to
+create like sub containers can be like
+
+7df93c35-af9e-42b7-93f7-fcab707d7329-1
+00:52:01.034 --> 00:52:06.091
+you can create responsive on and inside
+that like very the bottom right part to
+
+7df93c35-af9e-42b7-93f7-fcab707d7329-2
+00:52:06.091 --> 00:52:09.000
+be a container with the absolute
+positioning.
+
+2c2bac37-2853-4cbb-970e-fd7a88f92377-0
+00:52:09.000 --> 00:52:14.798
+So you can also play with this this set
+up in the in the use case of key reducers,
+
+2c2bac37-2853-4cbb-970e-fd7a88f92377-1
+00:52:14.798 --> 00:52:18.920
+you all know about using containers,
+ice cream containers.
+
+f9a44234-f65e-479c-892c-838e8610dbf9-0
+00:52:18.920 --> 00:52:20.760
+So I think with the screen inside screen.
+
+3c6e14df-3164-48a7-a55d-dc5fe06fa3f3-0
+00:52:20.760 --> 00:52:23.389
+So here you,
+you can also play with relatives,
+
+3c6e14df-3164-48a7-a55d-dc5fe06fa3f3-1
+00:52:23.389 --> 00:52:26.074
+but again,
+you have to keep in mind what you're
+
+3c6e14df-3164-48a7-a55d-dc5fe06fa3f3-2
+00:52:26.074 --> 00:52:28.200
+doing and what is the purpose of that.
+
+d80d9bd4-e61b-4714-9171-7dd00feeeadc-0
+00:52:30.960 --> 00:52:36.800
+OK, let's move forward.
+
+e1799861-8094-45dc-87fb-d7e31f6adf06-0
+00:52:37.840 --> 00:52:44.600
+Another topic is about application user
+experience improvement.
+
+f8640eee-8297-4a0e-920a-3251c0a34fb9-0
+00:52:45.480 --> 00:52:48.970
+This topic is continuous,
+continuous improving,
+
+f8640eee-8297-4a0e-920a-3251c0a34fb9-1
+00:52:48.970 --> 00:52:51.080
+continuous improvement topic.
+
+63c0e892-c5cf-4718-8299-bcad53fddb06-0
+00:52:51.160 --> 00:52:54.520
+We, there is no, no finish off topic.
+
+4ed0ddc7-ad85-4eed-b18f-8bccf0a8b8b8-0
+00:52:54.520 --> 00:53:00.452
+There is what we wanted to point out here
+and to talk about is that we are working
+
+4ed0ddc7-ad85-4eed-b18f-8bccf0a8b8b8-1
+00:53:00.452 --> 00:53:04.383
+on that and to call all of you to
+participate with us,
+
+4ed0ddc7-ad85-4eed-b18f-8bccf0a8b8b8-2
+00:53:04.383 --> 00:53:07.599
+with us on that we have a great,
+great luck.
+
+1774e805-f0df-4ee0-ba55-39755adea96c-0
+00:53:07.720 --> 00:53:12.839
+Or it is a type of product that we have
+that the main user and most advanced
+
+1774e805-f0df-4ee0-ba55-39755adea96c-1
+00:53:12.839 --> 00:53:17.360
+application users are present with us
+here today and in our office.
+
+7f8cc38a-87fc-4976-92dc-42624591e475-0
+00:53:18.560 --> 00:53:22.955
+Just to clarify the users of the platform,
+I always like to explain that you have
+
+7f8cc38a-87fc-4976-92dc-42624591e475-1
+00:53:22.955 --> 00:53:23.920
+two type of users.
+
+36bd8cd7-53b4-4420-81c5-198e33eb9d7c-0
+00:53:23.920 --> 00:53:27.465
+One is the end user,
+it is CEO or the operator or manager or
+
+36bd8cd7-53b4-4420-81c5-198e33eb9d7c-1
+00:53:27.465 --> 00:53:30.720
+whatever who just open the client and
+check the result.
+
+b47a2400-81bb-4659-bb27-ce026976ffa7-0
+00:53:31.520 --> 00:53:37.129
+And you have application user who uses
+the platform to create the view for the
+
+b47a2400-81bb-4659-bb27-ce026976ffa7-1
+00:53:37.129 --> 00:53:37.840
+first one.
+
+e9b43e3c-d480-4dbf-9b8c-4e16de0423fc-0
+00:53:38.520 --> 00:53:38.800
+OK.
+
+dc1d7bdd-b3b8-4aae-bb62-c9fc44eee952-0
+00:53:39.480 --> 00:53:44.622
+The other one that the the application
+part is very important to us and you're
+
+dc1d7bdd-b3b8-4aae-bb62-c9fc44eee952-1
+00:53:44.622 --> 00:53:49.440
+doing your best to listen them and make
+their everyday easier and better.
+
+647bd30d-e24c-44ec-834b-9888808f3d81-0
+00:53:50.120 --> 00:53:51.400
+And this is topic about it.
+
+bdac67dd-d208-48d5-8f80-32dc2946cc85-0
+00:53:51.880 --> 00:53:56.172
+OK, So there are bunch of tasks,
+some of them are valuable to mention,
+
+bdac67dd-d208-48d5-8f80-32dc2946cc85-1
+00:53:56.172 --> 00:53:57.200
+some of them not.
+
+7b64e2ff-8c5a-494e-a86b-85a500832215-0
+00:53:57.720 --> 00:54:02.900
+We just want to keep this and I hope that
+we will keep this topic in all upcoming
+
+7b64e2ff-8c5a-494e-a86b-85a500832215-1
+00:54:02.900 --> 00:54:07.385
+newsletter presentation to solve
+something some key improvements on on
+
+7b64e2ff-8c5a-494e-a86b-85a500832215-2
+00:54:07.385 --> 00:54:08.080
+this topic.
+
+29ec15c2-9d38-4252-b0ee-01392acd23b2-0
+00:54:09.160 --> 00:54:16.200
+Here we wanted to show you 3 three tasks
+3 topics that we covered on on it.
+
+6e03ea1c-17a8-4a7a-9421-e4466017adba-0
+00:54:16.920 --> 00:54:22.749
+We choose them three only identicals that
+much time we look at and that these three
+
+6e03ea1c-17a8-4a7a-9421-e4466017adba-1
+00:54:22.749 --> 00:54:27.400
+are most Let's irreusable for all of you
+who do not know about it.
+
+d3c8c393-7f39-4e1f-80a2-bd301c644876-0
+00:54:27.400 --> 00:54:29.000
+Someone knows about it and use it.
+
+ce2cf304-eeb0-463c-ac3e-2db912eb593f-0
+00:54:29.240 --> 00:54:30.080
+Someone do not know.
+
+e4217891-e47b-481b-b5b1-a45cf71c0fa5-0
+00:54:30.080 --> 00:54:31.520
+So we would like to share.
+
+8a230778-0e9f-4833-a82c-87915d1d3592-0
+00:54:31.800 --> 00:54:33.880
+OK guys, this exists and you can use it.
+
+f29a72d0-cfde-4b9e-88ce-957906a7432f-0
+00:54:33.920 --> 00:54:34.840
+Feel free to use it.
+
+f86ce57c-0d4e-4d1e-b8c0-3e187f0e4830-0
+00:54:35.640 --> 00:54:39.360
+It is quick preview,
+advanced search and followed by this.
+
+a05c9c45-1e22-42c8-8dfe-1b8955571ff2-0
+00:54:40.360 --> 00:54:44.440
+Let's jump into detail of one of them
+quick preview.
+
+fd42375e-d3ab-4667-b8a4-c437f4a75093-0
+00:54:44.960 --> 00:54:52.120
+Once we teach,
+who knows what is this short for WJFIW?
+
+e01f8324-70ef-49ef-b16d-d3a4bde1ffc1-0
+00:55:00.120 --> 00:55:00.400
+Thank you.
+
+33c5a5bd-e969-44d1-ad73-d74367ffab84-0
+00:55:00.720 --> 00:55:01.320
+Yes, exactly.
+
+f3713dd2-714e-47b2-aa22-d7e1dce84e1d-0
+00:55:02.240 --> 00:55:05.747
+The biggest problem with our editor is
+we're drawing something and bring them,
+
+f3713dd2-714e-47b2-aa22-d7e1dce84e1d-1
+00:55:05.747 --> 00:55:07.080
+but you don't see how to sign.
+
+33cd7d9a-c064-46f9-9efb-ef85f4f50fa3-0
+00:55:07.120 --> 00:55:09.560
+Yeah, we found the solution.
+
+cc0626b8-a353-4e76-9896-2ad7c76d3509-0
+00:55:09.560 --> 00:55:10.440
+How to do it.
+
+f45ad297-b9b5-445e-bb88-a57f96400282-0
+00:55:10.440 --> 00:55:10.640
+Yeah.
+
+1a69ac66-65b7-414b-a47e-d62eab7d1283-0
+00:55:10.640 --> 00:55:13.000
+How the before this, how we use it.
+
+a6245001-3808-466b-966b-204330c9fb94-0
+00:55:13.200 --> 00:55:16.560
+We see the same open on the client and we
+see the result, right.
+
+97146dcf-d714-4ea3-bc71-42024a8a810d-0
+00:55:17.160 --> 00:55:18.920
+The problem here is that we have to save
+it.
+
+fbb6bf81-b7ec-4e7e-bf12-918b7f6c64f1-0
+00:55:19.480 --> 00:55:23.440
+We have to save the current temporary
+state to visualize.
+
+64154bf1-9485-4d53-b6e9-19439bea157a-0
+00:55:23.640 --> 00:55:28.052
+So we developed the quick preview button
+which will just render on the pop up,
+
+64154bf1-9485-4d53-b6e9-19439bea157a-1
+00:55:28.052 --> 00:55:29.840
+show you how it would look like.
+
+91fbcf62-71b4-476f-a620-cd3bb6c018ee-0
+00:55:30.360 --> 00:55:33.720
+OK, very simple and easy,
+but we're getting with it.
+
+26b6d97e-faf1-4632-a7e4-e25140abaf85-0
+00:55:34.440 --> 00:55:35.480
+No saving required.
+
+4d367c52-cd91-4d30-b8e8-17418f829ef2-0
+00:55:35.480 --> 00:55:39.448
+So no need to save,
+no client talking or it will just
+
+4d367c52-cd91-4d30-b8e8-17418f829ef2-1
+00:55:39.448 --> 00:55:41.800
+automatically quickly closeable.
+
+51019387-d9bc-4a9d-aea3-63103226472c-0
+00:55:43.040 --> 00:55:46.680
+More risk of losing the work,
+less temporary versions.
+
+2b88022b-dbd2-4054-bd13-eda4c2ab2d35-0
+00:55:46.880 --> 00:55:48.600
+You'll know right now using screens.
+
+96ca9501-2e5a-465b-8f5f-cc2020a78d43-0
+00:55:48.640 --> 00:55:52.663
+Using screens, you can using scenes,
+you will see all the saves,
+
+96ca9501-2e5a-465b-8f5f-cc2020a78d43-1
+00:55:52.663 --> 00:55:54.520
+all the stating of the screen.
+
+f927d13a-c196-45ed-8e5d-0aa13423947b-0
+00:55:54.800 --> 00:55:59.455
+So sometimes it's available for you to
+stay or not because you'll stay in
+
+f927d13a-c196-45ed-8e5d-0aa13423947b-1
+00:55:59.455 --> 00:56:00.840
+history that you save.
+
+e3f00885-7784-45fb-89ae-ad0f870bc2ea-0
+00:56:01.120 --> 00:56:03.271
+With this one,
+there is no need for temporary safe,
+
+e3f00885-7784-45fb-89ae-ad0f870bc2ea-1
+00:56:03.271 --> 00:56:03.520
+right?
+
+197cb521-b2e2-474e-be7b-a971614372f9-0
+00:56:03.520 --> 00:56:06.920
+You just go through the quick preview and
+you'll have it.
+
+dc9a94d0-90b1-4a61-aaaf-2c5685ee2ce3-0
+00:56:07.960 --> 00:56:12.030
+So here we are,
+there's the clicked on one screen move
+
+dc9a94d0-90b1-4a61-aaaf-2c5685ee2ce3-1
+00:56:12.030 --> 00:56:17.802
+something clicked on quick preview and it
+will render it as it is in the real
+
+dc9a94d0-90b1-4a61-aaaf-2c5685ee2ce3-2
+00:56:17.802 --> 00:56:18.320
+client.
+
+9482add3-c6e5-45a7-b30b-3dade20eb429-0
+00:56:19.000 --> 00:56:22.200
+OK, as I said, I think, right,
+just visualize it.
+
+f7cec47c-589a-44f9-9a42-f7262bb35c2f-0
+00:56:22.800 --> 00:56:27.329
+The great thing is that the great thing
+is that you very quickly can close it,
+
+f7cec47c-589a-44f9-9a42-f7262bb35c2f-1
+00:56:27.329 --> 00:56:29.680
+do another change and move forward again.
+
+a94e0927-cbc1-42cb-a3f9-08c1b36b295d-0
+00:56:29.680 --> 00:56:31.640
+Speak with you and it will show it.
+
+b3c8b0ff-e49f-40ad-a240-872e2aae137d-0
+00:56:32.480 --> 00:56:33.800
+So what is that?
+
+c13ca919-283c-490e-b65a-907c91ffc546-0
+00:56:36.040 --> 00:56:38.800
+OK, let's do another try.
+
+c3ad1b61-315a-46c0-821b-c3599ff7acab-0
+00:56:40.480 --> 00:56:41.520
+It's not a good presentation.
+
+4be1be50-9f3e-49bd-9b1f-89fb0b5786fc-0
+00:56:41.520 --> 00:56:42.680
+It's everything, right?
+
+1bbe9507-8127-4274-b8bf-da87eb00057b-0
+00:56:43.440 --> 00:56:45.520
+There have to be something to talk about
+later.
+
+3566c03e-cd6b-489e-95e5-46370adb3ef4-0
+00:56:52.520 --> 00:56:58.248
+There we are right now, yes,
+you will recognise it because it's always
+
+3566c03e-cd6b-489e-95e5-46370adb3ef4-1
+00:56:58.248 --> 00:57:01.880
+the X button at the very top is is
+viewable.
+
+5a1646ad-8c7c-4b85-a0e6-060642bece9d-0
+00:57:02.240 --> 00:57:07.914
+So right now we moved the all this
+container with the trends and without
+
+5a1646ad-8c7c-4b85-a0e6-060642bece9d-1
+00:57:07.914 --> 00:57:10.480
+saving we were able to review it.
+
+9568c8a2-6a6f-4755-95d0-b478fb69578d-0
+00:57:11.200 --> 00:57:13.600
+OK, easily speak.
+
+62da6097-ca49-457f-aeb9-cf61628a632a-0
+00:57:14.520 --> 00:57:21.120
+Let's move forward two more,
+let's say maybe basic use use cases.
+
+9ca4d6b8-5155-4215-b530-15823dbab874-0
+00:57:21.120 --> 00:57:24.317
+But yeah, one, both of them are driven,
+as I said,
+
+9ca4d6b8-5155-4215-b530-15823dbab874-1
+00:57:24.317 --> 00:57:27.640
+by the experience of everyday users of
+the platform.
+
+60599bc5-2698-40d4-bdce-76b138dc8239-0
+00:57:28.000 --> 00:57:29.680
+One of them is following by values.
+
+9858f790-da8c-43ab-a7c8-fea5c13b9d12-0
+00:57:30.040 --> 00:57:34.784
+But in typical use case that created the
+problem that is solved with these
+
+9858f790-da8c-43ab-a7c8-fea5c13b9d12-1
+00:57:34.784 --> 00:57:35.480
+approaches.
+
+69fea196-4fa1-4fd1-8aba-c5403433b928-0
+00:57:35.880 --> 00:57:39.258
+Usually when some of the colleagues look
+for some problem,
+
+69fea196-4fa1-4fd1-8aba-c5403433b928-1
+00:57:39.258 --> 00:57:42.636
+they have to open like few variables from
+this connection,
+
+69fea196-4fa1-4fd1-8aba-c5403433b928-2
+00:57:42.636 --> 00:57:45.728
+few variables from this connection,
+few of internals,
+
+69fea196-4fa1-4fd1-8aba-c5403433b928-3
+00:57:45.728 --> 00:57:47.160
+few bit only differently.
+
+d5d13534-8b11-47ec-8946-bb0d6aa4c859-0
+00:57:47.520 --> 00:57:52.457
+And the colleagues always work me also
+always open few texts right on first one,
+
+d5d13534-8b11-47ec-8946-bb0d6aa4c859-1
+00:57:52.457 --> 00:57:55.382
+first two value 2 variables,
+on the second one,
+
+d5d13534-8b11-47ec-8946-bb0d6aa4c859-2
+00:57:55.382 --> 00:57:59.040
+another three and they're speaking or
+splitting the screen.
+
+7556936c-b7fd-408f-99ef-3301f6db1c0a-0
+00:57:59.320 --> 00:58:03.033
+I were able to I,
+I was able to see all the variables with
+
+7556936c-b7fd-408f-99ef-3301f6db1c0a-1
+00:58:03.033 --> 00:58:06.306
+this one,
+we create our own group of variables that
+
+7556936c-b7fd-408f-99ef-3301f6db1c0a-2
+00:58:06.306 --> 00:58:07.440
+we're looking for.
+
+c8e0e19a-e881-4607-a13c-a83c5a753ac5-0
+00:58:07.440 --> 00:58:11.031
+So we're we can group the interesting
+variables in that moment,
+
+c8e0e19a-e881-4607-a13c-a83c5a753ac5-1
+00:58:11.031 --> 00:58:14.960
+the single group and go to preview of
+like like they do to only this.
+
+65146d8f-4d1e-4d73-b6cb-67fa98ec8e7d-0
+00:58:15.360 --> 00:58:20.313
+OK, so again, easy,
+easy features that will help you on
+
+65146d8f-4d1e-4d73-b6cb-67fa98ec8e7d-1
+00:58:20.313 --> 00:58:21.640
+everyday usage.
+
+b436257b-1cbd-4929-8f2b-1b45f1b1265f-0
+00:58:22.880 --> 00:58:29.280
+A transfer again came with the problem
+that our police taking everyday.
+
+04952676-25f5-44e4-a8e0-d8566bfd96ee-0
+00:58:29.520 --> 00:58:33.225
+The problem when we have a product with a
+tons of variables like almost a few
+
+04952676-25f5-44e4-a8e0-d8566bfd96ee-1
+00:58:33.225 --> 00:58:35.600
+millions of variables,
+it is hard to search that.
+
+433e9a3a-00a8-47e6-b558-9fde21ccf8e2-0
+00:58:35.960 --> 00:58:40.422
+And in some moments searching like a
+simple words is hard because you want to
+
+433e9a3a-00a8-47e6-b558-9fde21ccf8e2-1
+00:58:40.422 --> 00:58:45.171
+find something that starts with something
+that ends with and you're not able to do
+
+433e9a3a-00a8-47e6-b558-9fde21ccf8e2-2
+00:58:45.171 --> 00:58:49.520
+it because when you're writing just a
+search, if you'll find all the cases.
+
+b809689c-fd9b-40a6-a59d-5427e5153be0-0
+00:58:49.960 --> 00:58:55.392
+So we introduced the advanced search that
+gives you ability to if you put quotas or
+
+b809689c-fd9b-40a6-a59d-5427e5153be0-1
+00:58:55.392 --> 00:58:58.885
+double quotas,
+you have special symptoms that will be
+
+b809689c-fd9b-40a6-a59d-5427e5153be0-2
+00:58:58.885 --> 00:58:59.920
+advanced search.
+
+b9922f05-adaa-4194-8b24-1ee6d5f76c56-0
+00:58:59.960 --> 00:59:02.360
+OK, so we're backward compatible.
+
+7970154d-332b-445c-b538-f83300c09f95-0
+00:59:02.360 --> 00:59:06.413
+It means that if you're searching regular
+way, if you'll do the the old one,
+
+7970154d-332b-445c-b538-f83300c09f95-1
+00:59:06.413 --> 00:59:09.414
+if you put quotas,
+if you do the smart search advantage,
+
+7970154d-332b-445c-b538-f83300c09f95-2
+00:59:09.414 --> 00:59:11.520
+can we go back to these two to the case?
+
+acf4713d-a8bb-48f2-b57e-caca1f66c403-0
+00:59:14.200 --> 00:59:15.320
+So 2 use cases.
+
+7b34403b-ef1d-42c3-a4c4-ff5fc9f82fab-0
+00:59:15.520 --> 00:59:19.680
+One was the biggest problem was the white
+space in the regular search.
+
+95b09782-d290-4dfe-95f5-01227e82e1f0-0
+00:59:19.680 --> 00:59:23.745
+When you keep the white space,
+it will put 2 terms and find all the
+
+95b09782-d290-4dfe-95f5-01227e82e1f0-1
+00:59:23.745 --> 00:59:25.240
+searching that match one.
+
+7ecc9a94-0395-478a-836e-ad213994f5df-0
+00:59:25.240 --> 00:59:28.591
+And the second one,
+there is no search by the white space, OK,
+
+7ecc9a94-0395-478a-836e-ad213994f5df-1
+00:59:28.591 --> 00:59:30.720
+that was the first location of this one.
+
+a72ee7ab-e7f8-4de4-a50b-fd2c6e7c1f97-0
+00:59:31.160 --> 00:59:35.249
+And when the other device space and we
+search something like this,
+
+a72ee7ab-e7f8-4de4-a50b-fd2c6e7c1f97-1
+00:59:35.249 --> 00:59:40.010
+it will give us all the variables that
+have temperature by sense sensor in in
+
+a72ee7ab-e7f8-4de4-a50b-fd2c6e7c1f97-2
+00:59:40.010 --> 00:59:40.560
+its name.
+
+155a10d5-e2e0-44a0-b387-2c60cb706508-0
+00:59:41.400 --> 00:59:45.952
+The old search field give us all the
+variables that have temperature and
+
+155a10d5-e2e0-44a0-b387-2c60cb706508-1
+00:59:45.952 --> 00:59:49.320
+sensor in his name with this one before
+this 5 space.
+
+e999e368-7451-49cf-926d-88baef54070a-0
+00:59:50.320 --> 00:59:52.760
+Another wild card to use is the star.
+
+4dd6267c-877b-4ab4-a856-e59ecacfe93f-0
+00:59:53.720 --> 00:59:57.232
+When you first time put the star in the
+advanced search,
+
+4dd6267c-877b-4ab4-a856-e59ecacfe93f-1
+00:59:57.232 --> 01:00:00.560
+it will start to play with in fixed
+prefix suffix OK.
+
+b0c89e84-7a73-4f41-a637-9b0876fa22f6-0
+01:00:00.560 --> 01:00:02.120
+So if you put *.
+
+c2984f50-271a-42e4-bd91-2fe14c713f48-0
+01:00:02.560 --> 01:00:05.547
+Then sensor,
+it will give you all the variables and
+
+c2984f50-271a-42e4-bd91-2fe14c713f48-1
+01:00:05.547 --> 01:00:08.191
+with sensor OK,
+very similar with the prefix,
+
+c2984f50-271a-42e4-bd91-2fe14c713f48-2
+01:00:08.191 --> 01:00:09.800
+very similar with the index.
+
+91267ff0-c5a6-4a26-b5a1-afc2791d091b-0
+01:00:09.800 --> 01:00:17.244
+So you can play this start,
+start and again, very small things,
+
+91267ff0-c5a6-4a26-b5a1-afc2791d091b-1
+01:00:17.244 --> 01:00:21.200
+small progress, but we go to them.
+
+c345ee01-d89d-41d7-944a-80f30855bd7c-0
+01:00:25.360 --> 01:00:27.840
+So here's example.
+
+58b092d2-036c-4c68-ba57-dbaeaee85b50-0
+01:00:27.880 --> 01:00:30.637
+Yeah,
+all of both of these use cases are easily
+
+58b092d2-036c-4c68-ba57-dbaeaee85b50-1
+01:00:30.637 --> 01:00:34.200
+findable on the live entry because here
+we have both of them.
+
+c26a0f3b-3cf2-46c1-8dd0-591c2884814b-0
+01:00:34.600 --> 01:00:38.240
+Advanced search will be presented on all
+the search that we have right now.
+
+b0081f96-fdef-4712-bba1-176ff3c3cbd3-0
+01:00:38.240 --> 01:00:40.440
+I think we covered most of them,
+but not all of them.
+
+304103d5-3e7a-4ea9-bf2d-ca6a99de79b8-0
+01:00:40.520 --> 01:00:44.280
+You're still reading good on covering all
+the search to support advanced search.
+
+71433c07-9bff-40b7-ae76-0d6016d2d964-0
+01:00:45.280 --> 01:00:48.961
+While the following live analysis is
+present only on this screen because only
+
+71433c07-9bff-40b7-ae76-0d6016d2d964-1
+01:00:48.961 --> 01:00:50.000
+here it has the sense.
+
+98936b0a-fe56-4ecb-b84b-d5f0312e2aba-0
+01:00:50.880 --> 01:00:52.880
+So we do for enable that you're looking
+for.
+
+fa63ee80-7e8e-42e2-8258-1f33ce8e5c09-0
+01:00:53.240 --> 01:00:58.416
+You'll find the button at at the group,
+you quick manage group,
+
+fa63ee80-7e8e-42e2-8258-1f33ce8e5c09-1
+01:00:58.416 --> 01:01:00.520
+create a new group called.
+
+002595a4-6b6b-47fb-a406-930aab6b8fec-0
+01:01:00.560 --> 01:01:03.382
+OK,
+I'm debugging the pressure of the I don't
+
+002595a4-6b6b-47fb-a406-930aab6b8fec-1
+01:01:03.382 --> 01:01:06.880
+know the pump and Add all the variables
+I'm looking for.
+
+79e8a94b-54d0-473d-8d82-88ae5880f9ac-0
+01:01:08.000 --> 01:01:15.706
+I add like 10 of variables when I choose
+few of them next to the connection
+
+79e8a94b-54d0-473d-8d82-88ae5880f9ac-1
+01:01:15.706 --> 01:01:16.720
+filtering.
+
+bb8b9e15-a5a9-4fef-bf78-f4b9106e3ab6-0
+01:01:16.800 --> 01:01:21.620
+Yeah, go to other search,
+choose them and then next to connection
+
+bb8b9e15-a5a9-4fef-bf78-f4b9106e3ab6-1
+01:01:21.620 --> 01:01:25.200
+filtering variables,
+filter to switch to groups.
+
+a4a2b62a-ed4f-4aee-94c1-0f11a0fdd2ed-0
+01:01:25.480 --> 01:01:28.506
+And yes,
+here we are able to preview all the
+
+a4a2b62a-ed4f-4aee-94c1-0f11a0fdd2ed-1
+01:01:28.506 --> 01:01:30.120
+variables of that group.
+
+8f36bf94-5881-42f8-af0d-805f508a5995-0
+01:01:30.680 --> 01:01:34.880
+Here we don't have cognition because it
+is not expected to help.
+
+51551e4f-7036-4be1-947e-6c4fe4b2c3c4-0
+01:01:34.920 --> 01:01:37.040
+You want to see all of these variables at
+once.
+
+9d5242ca-63e8-480e-b839-5e87705aa034-0
+01:01:37.040 --> 01:01:41.280
+So this is the typical,
+typical use case like this.
+
+c56d0f3c-2bd4-4831-8450-4af91162fea5-0
+01:01:41.280 --> 01:01:44.661
+Search again,
+when we're searching something regularly,
+
+c56d0f3c-2bd4-4831-8450-4af91162fea5-1
+01:01:44.661 --> 01:01:47.440
+it will do,
+it will work as it's done before.
+
+629d1e8f-a1eb-4556-a972-132055807393-0
+01:01:47.680 --> 01:01:50.600
+Then we try to to write something.
+
+99ccedcc-f8ca-463e-b0b8-ed6641ed344a-0
+01:01:50.760 --> 01:01:54.920
+If you'll find Sweden,
+start at the start at the end.
+
+b8758587-1b09-4bab-b122-2d17ad390cbd-0
+01:01:55.400 --> 01:01:59.639
+If you feel that as like index,
+same behavior if you try to remove start
+
+b8758587-1b09-4bab-b122-2d17ad390cbd-1
+01:01:59.639 --> 01:02:01.440
+from the start or from the end.
+
+80fb3286-97c7-4495-a648-2aac93c8e477-0
+01:02:02.840 --> 01:02:09.840
+This is then let's go to start with the
+end.
+
+b3db4a7f-f95e-4bf6-b333-f9d31b4090e1-0
+01:02:09.880 --> 01:02:11.506
+Yeah,
+there is everything that starts with the
+
+b3db4a7f-f95e-4bf6-b333-f9d31b4090e1-1
+01:02:11.506 --> 01:02:11.680
+four.
+
+c25c0f67-f2d1-4e99-b741-8fa5af9ab798-0
+01:02:11.920 --> 01:02:16.480
+Do not forget that you're searching by
+the name and the and the ID.
+
+913cc7bd-02b4-41ee-a736-1e543e69c335-0
+01:02:16.480 --> 01:02:18.775
+So right now when we start with one and
+four,
+
+913cc7bd-02b4-41ee-a736-1e543e69c335-1
+01:02:18.775 --> 01:02:22.120
+already able to start with one and four
+was present, present here.
+
+0acd8cb3-6ebb-4966-b015-5e55311f9b1e-0
+01:02:28.600 --> 01:02:32.320
+OK,
+search working on the client side as well.
+
+17c7726e-5a30-4568-875d-5c0a74045848-0
+01:02:33.480 --> 01:02:38.322
+For example, in alarms,
+if you have an alarm description that
+
+17c7726e-5a30-4568-875d-5c0a74045848-1
+01:02:38.322 --> 01:02:42.461
+contains white space or blanks or I think
+right now,
+
+17c7726e-5a30-4568-875d-5c0a74045848-2
+01:02:42.461 --> 01:02:48.085
+I think right now that the client part is
+one of the one that two very,
+
+17c7726e-5a30-4568-875d-5c0a74045848-3
+01:02:48.085 --> 01:02:49.960
+very is not covered yet.
+
+c3989617-02f3-4cf8-ba96-e2c148b4984e-0
+01:02:51.000 --> 01:03:01.758
+It mostly covers the for the greater and
+the editor search to greater elements
+
+c3989617-02f3-4cf8-ba96-e2c148b4984e-1
+01:03:01.758 --> 01:03:03.120
+until now.
+
+bce7f759-80c5-45a9-8dd4-445b8a91dfcb-0
+01:03:03.120 --> 01:03:03.680
+Anything else?
+
+c076d7dc-bf4b-49b9-b5a1-910f89dc2934-0
+01:03:08.160 --> 01:03:10.042
+Well,
+I actually have a question about the
+
+c076d7dc-bf4b-49b9-b5a1-910f89dc2934-1
+01:03:10.042 --> 01:03:10.480
+procedure.
+
+b80d0273-0598-4957-8832-b284d096f6df-0
+01:03:11.440 --> 01:03:12.160
+Yes, the preview.
+
+51cdef51-d475-4bec-9fdf-b937c985ecf9-0
+01:03:13.040 --> 01:03:15.896
+Yes,
+would be possible to implement in the
+
+51cdef51-d475-4bec-9fdf-b937c985ecf9-1
+01:03:15.896 --> 01:03:20.680
+long run to be able to connect an actual
+device we made to the preview.
+
+bc1ca68f-9279-43c7-9a52-500bb1089f0f-0
+01:03:21.040 --> 01:03:24.402
+So for example,
+if we're making a completely brand new
+
+bc1ca68f-9279-43c7-9a52-500bb1089f0f-1
+01:03:24.402 --> 01:03:29.049
+screen for a new device type and we make
+a test device to make sure that we
+
+bc1ca68f-9279-43c7-9a52-500bb1089f0f-2
+01:03:29.049 --> 01:03:32.901
+properly link all the variables with
+everything showing right,
+
+bc1ca68f-9279-43c7-9a52-500bb1089f0f-3
+01:03:32.901 --> 01:03:37.731
+it would be useful to have the ability to
+have our device immediately show the
+
+bc1ca68f-9279-43c7-9a52-500bb1089f0f-4
+01:03:37.731 --> 01:03:38.159
+values.
+
+d27be18e-029b-4088-9cc2-4ac536807f55-0
+01:03:40.160 --> 01:03:42.688
+Yes,
+If you saw that all the values was when
+
+d27be18e-029b-4088-9cc2-4ac536807f55-1
+01:03:42.688 --> 01:03:44.880
+we did the preview was the real values.
+
+7b9fda73-52be-4fbe-8fc0-23391302ec9b-0
+01:03:45.240 --> 01:03:49.840
+The only the non working part was the
+changing of these values.
+
+2bd7f06c-81a6-4a38-9d05-9ff804283dbb-0
+01:03:49.880 --> 01:03:54.117
+But all the values will get automatically
+when you're choosing the screen that is
+
+2bd7f06c-81a6-4a38-9d05-9ff804283dbb-1
+01:03:54.117 --> 01:03:58.355
+with device type that is swooping space
+If the rescue for the device and it's the
+
+2bd7f06c-81a6-4a38-9d05-9ff804283dbb-2
+01:03:58.355 --> 01:04:01.197
+best device to choose once when you
+choose the device,
+
+2bd7f06c-81a6-4a38-9d05-9ff804283dbb-3
+01:04:01.197 --> 01:04:04.040
+it will next time it will recommend you
+to the device.
+
+4a55e563-cb45-4d81-8516-995baac9299f-0
+01:04:04.040 --> 01:04:07.109
+So yes,
+it is already done and it is if not,
+
+4a55e563-cb45-4d81-8516-995baac9299f-1
+01:04:07.109 --> 01:04:10.520
+it could be the more like tomorrow or
+next thing.
+
+212fd4af-462b-4fbf-89e5-27669daadc14-0
+01:04:10.760 --> 01:04:13.560
+And I know that it's in progress and we
+talked about it.
+
+7cb04bcd-7db6-4e12-bec1-492024672bfc-0
+01:04:13.560 --> 01:04:15.440
+So the answer is yes.
+
+62e724f4-5606-4ff2-9479-2b7e6735e43d-0
+01:04:17.720 --> 01:04:20.960
+Will that be too much for you that has
+the mouth for free?
+
+28fa9e83-d300-4662-bc54-a52212fd427d-0
+01:04:21.000 --> 01:04:32.812
+There's something Anyone else just give
+all the chocolate for the the variable
+
+28fa9e83-d300-4662-bc54-a52212fd427d-1
+01:04:32.812 --> 01:04:41.186
+breaking part,
+Are those groups persisted if I make No,
+
+28fa9e83-d300-4662-bc54-a52212fd427d-2
+01:04:41.186 --> 01:04:47.765
+no,
+they are not shared between the user to
+
+28fa9e83-d300-4662-bc54-a52212fd427d-3
+01:04:47.765 --> 01:04:49.560
+the product.
+
+808c3052-6781-4211-bae5-b36ecc394259-0
+01:04:49.560 --> 01:04:51.800
+It is stored only on your web client.
+
+355461a8-2a6a-4906-ab4d-c0d6b1fd0921-0
+01:04:51.800 --> 01:04:56.055
+So it is not you cannot,
+you cannot share with the with the team,
+
+355461a8-2a6a-4906-ab4d-c0d6b1fd0921-1
+01:04:56.055 --> 01:04:57.280
+your group, no, no.
+
+0a1f30e4-4f01-4d3e-8126-e060715d5551-0
+01:04:57.320 --> 01:05:00.732
+But if I make group for myself and then
+log out and log back e-mail,
+
+0a1f30e4-4f01-4d3e-8126-e060715d5551-1
+01:05:00.732 --> 01:05:01.920
+I still have that group.
+
+f7a84c44-de2f-4226-aedb-3645be963543-0
+01:05:02.520 --> 01:05:08.959
+I would say yes, it gives you the cookies,
+so user settings to keep that persistent,
+
+f7a84c44-de2f-4226-aedb-3645be963543-1
+01:05:08.959 --> 01:05:12.520
+but you cannot share it with the other,
+right?
+
+799e5fa8-ddd4-486e-a7cc-12d8e37f85d0-0
+01:05:15.120 --> 01:05:17.800
+We are looking for it and it will be
+useful.
+
+9709bd9a-a214-418f-bcbc-a58c4748fbec-0
+01:05:18.600 --> 01:05:24.219
+We are OK before moving forward back to
+this topic and instead it is continuous
+
+9709bd9a-a214-418f-bcbc-a58c4748fbec-1
+01:05:24.219 --> 01:05:28.573
+improvement and these I would like to
+make this presentation,
+
+9709bd9a-a214-418f-bcbc-a58c4748fbec-2
+01:05:28.573 --> 01:05:33.280
+this point as a call for all of you guys
+to give out the feedback.
+
+6c7449b4-4c92-4980-8829-0911e6601995-0
+01:05:34.040 --> 01:05:38.093
+It means us a lot if you think that
+something can be better,
+
+6c7449b4-4c92-4980-8829-0911e6601995-1
+01:05:38.093 --> 01:05:42.080
+nicer or whatever orbital leader and we
+will talk about it.
+
+c98bd327-39eb-4f61-818d-94d5ecaf877e-0
+01:05:42.320 --> 01:05:45.760
+So we are all here to make all this
+better.
+
+9427dc81-b7d3-4aab-89a8-056ce04758be-0
+01:05:46.440 --> 01:05:50.120
+OK, let's move forward.
+
+9d70bb5f-d237-4f0f-b949-8dac199ed445-0
+01:05:51.040 --> 01:05:54.560
+Let's talk a little bit little bit about
+quality again.
+
+c928f0b5-cf7d-40f2-aa5f-a62affd6649a-0
+01:05:54.560 --> 01:06:02.568
+One more topic that is continuous
+improvement or like to say continuous non
+
+c928f0b5-cf7d-40f2-aa5f-a62affd6649a-1
+01:06:02.568 --> 01:06:04.360
+this improvement.
+
+03b1b85d-e918-4b63-9c56-8cd467db9d94-0
+01:06:04.720 --> 01:06:07.559
+OK,
+so how do we keep how do we keep quality
+
+03b1b85d-e918-4b63-9c56-8cd467db9d94-1
+01:06:07.559 --> 01:06:12.480
+when we are doing qualities We were able
+to do it when it was 5 or 710 of us.
+
+e59eab89-6fa7-4fab-a54c-aa26445dc1ef-0
+01:06:12.480 --> 01:06:13.720
+It was all great night.
+
+c454e5b4-d9b3-47da-a513-681c35a8fb27-0
+01:06:14.440 --> 01:06:18.773
+They're going there are more and more of
+us doing different required task,
+
+c454e5b4-d9b3-47da-a513-681c35a8fb27-1
+01:06:18.773 --> 01:06:21.200
+different different changes in the system.
+
+13ab06da-4b7f-4b27-9224-1b365ec1b633-0
+01:06:21.200 --> 01:06:26.825
+How we keep all of it working and not
+smashing everything that you created
+
+13ab06da-4b7f-4b27-9224-1b365ec1b633-1
+01:06:26.825 --> 01:06:30.200
+before there are a lot of lot of
+components,
+
+13ab06da-4b7f-4b27-9224-1b365ec1b633-2
+01:06:30.200 --> 01:06:35.600
+lot of driver behaviour thought of all
+these together make thousands of
+
+13ab06da-4b7f-4b27-9224-1b365ec1b633-3
+01:06:35.600 --> 01:06:37.400
+configurable properties.
+
+2e723210-d2d4-49ab-b832-bbe981495482-0
+01:06:37.400 --> 01:06:41.240
+So all these small properties stand there
+for something, someone build it.
+
+f58e9ecd-cb1c-4ada-9e64-d9f7c4e95a24-0
+01:06:41.640 --> 01:06:44.704
+For some reason it no,
+no one came there and let's stay,
+
+f58e9ecd-cb1c-4ada-9e64-d9f7c4e95a24-1
+01:06:44.704 --> 01:06:46.640
+let's put it here and at this stage.
+
+cd41b839-ca84-403e-951b-52c3be035715-0
+01:06:46.720 --> 01:06:50.002
+So every,
+every property of this has some purpose
+
+cd41b839-ca84-403e-951b-52c3be035715-1
+01:06:50.002 --> 01:06:54.400
+that how do we keep keep it not smashing
+every time we do release.
+
+23e3b50a-7fa8-4166-9f16-8b3e07c4561f-0
+01:06:54.880 --> 01:07:00.609
+So three challenges that development of
+this type of product platform are present
+
+23e3b50a-7fa8-4166-9f16-8b3e07c4561f-1
+01:07:00.609 --> 01:07:06.059
+is documentation gap, how to keep up,
+keep up to date with the documentation,
+
+23e3b50a-7fa8-4166-9f16-8b3e07c4561f-2
+01:07:06.059 --> 01:07:10.880
+how to keep how to deal with the risk of
+deploying the new features.
+
+16a974b1-39c0-4bfa-b224-1d22f0388987-0
+01:07:11.680 --> 01:07:16.262
+And certainly what is the visibility
+after after deploy, after every deploy,
+
+16a974b1-39c0-4bfa-b224-1d22f0388987-1
+01:07:16.262 --> 01:07:19.000
+How do we manage to keep everything in
+front?
+
+024acd6b-0065-4448-9249-d82b10fc993d-0
+01:07:22.440 --> 01:07:25.065
+What we did,
+we created the latest version of the
+
+024acd6b-0065-4448-9249-d82b10fc993d-1
+01:07:25.065 --> 01:07:25.800
+documentation.
+
+d672605e-b754-427f-99db-546169e56c18-0
+01:07:25.880 --> 01:07:31.496
+So we wrote the document where we put all
+the user manual about our platform that
+
+d672605e-b754-427f-99db-546169e56c18-1
+01:07:31.496 --> 01:07:35.811
+we have in document to be able to read it,
+to be able to know,
+
+d672605e-b754-427f-99db-546169e56c18-2
+01:07:35.811 --> 01:07:39.716
+share the knowledge between the
+colleagues and everyone,
+
+d672605e-b754-427f-99db-546169e56c18-3
+01:07:39.716 --> 01:07:41.360
+to be able to follow it.
+
+02b5d988-3630-4e7b-bb79-6fd323cc7f7a-0
+01:07:42.720 --> 01:07:47.120
+In early days, years and years ago,
+it was a few of us.
+
+5fe1825c-1dbc-428d-b382-691d59457f67-0
+01:07:47.120 --> 01:07:51.056
+And you always can like, OK,
+ask you tell you that ask colleagues will
+
+5fe1825c-1dbc-428d-b382-691d59457f67-1
+01:07:51.056 --> 01:07:55.160
+tell you that so few of us together,
+maybe someone like and we don't know
+
+5fe1825c-1dbc-428d-b382-691d59457f67-2
+01:07:55.160 --> 01:07:57.600
+everything the best right now it's
+growing.
+
+4e895066-21dc-4c0f-8f67-a97cbe59de18-0
+01:07:57.600 --> 01:08:01.360
+It is not possible anymore because
+there's new and new changes coming.
+
+bb273aad-230a-4c9a-b9f8-428668b18558-0
+01:08:01.440 --> 01:08:05.109
+So we do have, we do,
+let's say revive the,
+
+bb273aad-230a-4c9a-b9f8-428668b18558-1
+01:08:05.109 --> 01:08:11.198
+the documentation cover all the
+Configurator and all the editor property
+
+bb273aad-230a-4c9a-b9f8-428668b18558-2
+01:08:11.198 --> 01:08:13.199
+that we have documented.
+
+4e82b975-4b96-464c-a504-c1c5f51c6440-0
+01:08:13.840 --> 01:08:16.496
+OK,
+right now this is available in the
+
+4e82b975-4b96-464c-a504-c1c5f51c6440-1
+01:08:16.496 --> 01:08:21.400
+SharePoint very quickly to become as a a
+regular process of deployment.
+
+d5cc2c0c-0437-419d-b7ee-11c0edc5e0cf-0
+01:08:21.400 --> 01:08:24.342
+So it will be stand there when you're
+logging,
+
+d5cc2c0c-0437-419d-b7ee-11c0edc5e0cf-1
+01:08:24.342 --> 01:08:29.226
+you will get the latest documentation if
+you link the second topic that we've
+
+d5cc2c0c-0437-419d-b7ee-11c0edc5e0cf-2
+01:08:29.226 --> 01:08:30.040
+talked about.
+
+1fbff05d-6dcb-4983-ace8-b0bf5d3a8035-0
+01:08:30.560 --> 01:08:32.440
+If you said what I said, what?
+
+46d67235-c4ac-4a6d-9e37-fcbeff5a8709-0
+01:08:32.440 --> 01:08:36.219
+Sorry,
+it's invite docs agent like docs agent
+
+46d67235-c4ac-4a6d-9e37-fcbeff5a8709-1
+01:08:36.219 --> 01:08:38.520
+can do nothing without this.
+
+eb2455b6-2430-481c-8590-c45a2dea1316-0
+01:08:38.840 --> 01:08:41.512
+OK,
+so this was the first and most important
+
+eb2455b6-2430-481c-8590-c45a2dea1316-1
+01:08:41.512 --> 01:08:44.720
+requirement to talk about the quotation
+agent at all.
+
+bd0ad425-707d-4a66-b919-0659451a6171-0
+01:08:45.840 --> 01:08:48.080
+OK, let's see quickly.
+
+0cc916f2-dd2f-4767-970a-2fef4072cb39-0
+01:08:48.120 --> 01:08:52.750
+There is no too much place for the demo,
+but let's see how it works,
+
+0cc916f2-dd2f-4767-970a-2fef4072cb39-1
+01:08:52.750 --> 01:08:54.160
+how it is structured.
+
+367eec1d-c53c-4654-aa97-c156f3452e90-0
+01:08:54.520 --> 01:08:58.562
+So when you open these documents,
+you have all the pages, all the dialogues,
+
+367eec1d-c53c-4654-aa97-c156f3452e90-1
+01:08:58.562 --> 01:09:01.240
+all the models that are available in the
+platform.
+
+e64f25d7-62c8-46b5-9948-b39a08c4ddf4-0
+01:09:01.440 --> 01:09:02.200
+Describe it.
+
+a4d0a40a-8165-4b18-9fb3-422653ac10bf-0
+01:09:02.280 --> 01:09:04.886
+What it does with small image,
+The small image,
+
+a4d0a40a-8165-4b18-9fb3-422653ac10bf-1
+01:09:04.886 --> 01:09:09.176
+the image of the component can describe
+all the buttons and all the coins that
+
+a4d0a40a-8165-4b18-9fb3-422653ac10bf-2
+01:09:09.176 --> 01:09:10.480
+you can plug everything.
+
+10f79f3e-a349-4f52-a847-241b6b4f12af-0
+01:09:11.000 --> 01:09:17.200
+That was the only way how to be able to
+view LLM, to know everything about it.
+
+984289b3-fc63-40f1-93d4-ff3875e21351-0
+01:09:19.200 --> 01:09:23.283
+On the editor part is even more
+interesting because on single screen you
+
+984289b3-fc63-40f1-93d4-ff3875e21351-1
+01:09:23.283 --> 01:09:27.200
+have a ton of bars on the left side and
+the bottom on the right side.
+
+fa371487-8175-4da6-951c-aed903e18322-0
+01:09:27.640 --> 01:09:32.240
+All of them there are hundreds of small
+buttons, everything doing something.
+
+a1e5f19e-67c3-47d9-b33f-e0e41c844017-0
+01:09:32.440 --> 01:09:35.880
+Who can know to be said what all these
+buttons are doing.
+
+f006e1c3-806a-4918-81c3-36fa17355c09-0
+01:09:36.040 --> 01:09:43.468
+So we did our best to bring all that on
+the paper in written for to make to be
+
+f006e1c3-806a-4918-81c3-36fa17355c09-1
+01:09:43.468 --> 01:09:48.640
+able to hold when we do documents and OK,
+we cover it.
+
+9a5db40b-d21e-46d5-a31e-f212b11a61b5-0
+01:09:48.800 --> 01:09:49.760
+We are OK, we are happy.
+
+5cf72079-75c1-4cba-a323-cb98e82af354-0
+01:09:51.120 --> 01:09:54.226
+And then we go with the next release with
+the next update with the next improvement
+
+5cf72079-75c1-4cba-a323-cb98e82af354-1
+01:09:54.226 --> 01:09:55.040
+with the next feature.
+
+87c71409-3eb3-4015-ac52-2e25bd82be46-0
+01:09:55.240 --> 01:10:00.080
+How to follow it again,
+two tools that's helping us to do it.
+
+850a6167-4d80-46f6-9bf6-f4621b892d71-0
+01:10:00.360 --> 01:10:01.640
+One is test rays.
+
+6eab24b3-cca1-40c7-a981-d8a2a4d15413-0
+01:10:01.640 --> 01:10:07.259
+Test rays is a test case management tool
+like tool how to manage all the test
+
+6eab24b3-cca1-40c7-a981-d8a2a4d15413-1
+01:10:07.259 --> 01:10:12.014
+scenarios that we have,
+what the people will check and after each
+
+6eab24b3-cca1-40c7-a981-d8a2a4d15413-2
+01:10:12.014 --> 01:10:15.400
+deploy, very deploy,
+what do we have to check?
+
+0ad8c966-d02c-4bdd-bb12-94fba603af79-0
+01:10:15.400 --> 01:10:16.680
+What is the expected behavior?
+
+47c17b54-0334-4ebf-87a9-ca48ad037ef1-0
+01:10:17.400 --> 01:10:20.400
+Test Rails is the test grants is a tool.
+
+a45c4da8-5425-40d0-8c15-a7f0897ee996-0
+01:10:20.480 --> 01:10:25.080
+We're writing all the test scenarios that
+we have to cover on every report.
+
+6ff2be44-af21-4a08-9494-c62bdd159b1b-0
+01:10:26.080 --> 01:10:27.120
+And then let's move forward.
+
+35f579be-53ae-49d6-b0ca-563e2ab3706d-0
+01:10:27.280 --> 01:10:30.618
+If you have all these test cases,
+why do the human click and do these
+
+35f579be-53ae-49d6-b0ca-563e2ab3706d-1
+01:10:30.618 --> 01:10:31.000
+testing?
+
+107ea00e-bc09-478e-ab1d-cefab99e5196-0
+01:10:31.440 --> 01:10:33.762
+OK,
+Why do not rewrite the code that your
+
+107ea00e-bc09-478e-ab1d-cefab99e5196-1
+01:10:33.762 --> 01:10:35.200
+test automatically for us?
+
+8faea2ca-797f-4bba-9137-c01867e63171-0
+01:10:35.840 --> 01:10:40.313
+And that is also one of the great points
+because we are also doing this to cover
+
+8faea2ca-797f-4bba-9137-c01867e63171-1
+01:10:40.313 --> 01:10:43.240
+starting to cover everything by the
+automated tests.
+
+38f96d0f-513d-4713-9911-23503e369b12-0
+01:10:43.520 --> 01:10:48.041
+Right now we cover the basic
+personalities of every day of every
+
+38f96d0f-513d-4713-9911-23503e369b12-1
+01:10:48.041 --> 01:10:53.120
+release testing and it's great to see
+when you run it, it's clicking it.
+
+c10d1591-1a55-4ada-b336-0689390dfac2-0
+01:10:53.480 --> 01:10:57.557
+It feels like you sit next to someone and
+he's clicking all these test scenarios
+
+c10d1591-1a55-4ada-b336-0689390dfac2-1
+01:10:57.557 --> 01:10:57.960
+for you.
+
+939d595e-0b52-45a4-bafd-fb4b7e4cfc3a-0
+01:10:58.640 --> 01:11:03.308
+With all three topics that we mentioned,
+they are trying to close the local
+
+939d595e-0b52-45a4-bafd-fb4b7e4cfc3a-1
+01:11:03.308 --> 01:11:03.800
+deposit.
+
+6b373f0b-cd79-41f6-b33f-af31a6aeef28-0
+01:11:04.200 --> 01:11:05.909
+OK,
+You can imagine right now how how it
+
+6b373f0b-cd79-41f6-b33f-af31a6aeef28-1
+01:11:05.909 --> 01:11:06.160
+works.
+
+6698d8f8-9e4f-4b58-96ac-53ddc9a1ddff-0
+01:11:06.160 --> 01:11:11.280
+OK, the developer gives this new feature,
+the QA team has to test it.
+
+f1456985-fbcb-4f23-8aa0-53eb305a4be2-0
+01:11:11.280 --> 01:11:15.080
+How to test it, how to test,
+they have to write up that case.
+
+aac31f63-89ad-457c-b3d9-5c3fe2f290d6-0
+01:11:15.080 --> 01:11:19.038
+OK, They write it in the test rate,
+then what is the expected behaviour is
+
+aac31f63-89ad-457c-b3d9-5c3fe2f290d6-1
+01:11:19.038 --> 01:11:20.200
+here to be documented.
+
+2bc54040-b91f-4c48-927c-546189023a4b-0
+01:11:20.400 --> 01:11:24.983
+We have to put it into documentation and
+on it, if you have both of them,
+
+2bc54040-b91f-4c48-927c-546189023a4b-1
+01:11:24.983 --> 01:11:30.000
+I do not rewrite the script, the script,
+the automated test to work with myself.
+
+f08a0fa6-7d78-436a-bfa8-3d6c20eb63d7-0
+01:11:30.440 --> 01:11:35.501
+OK, so with this we are closing the loop,
+guaranteeing the quality and guaranteeing
+
+f08a0fa6-7d78-436a-bfa8-3d6c20eb63d7-1
+01:11:35.501 --> 01:11:39.960
+that with the new features we will not
+kill all the previously delivered.
+
+efd28a8f-ee02-4b44-8c93-c220f24e8184-0
+01:11:42.840 --> 01:11:43.720
+Let's see how it works.
+
+e9660cb6-e376-45ef-b813-cddce4270278-0
+01:11:43.720 --> 01:11:47.051
+Yeah, as I said,
+automated tests when you run them,
+
+e9660cb6-e376-45ef-b813-cddce4270278-1
+01:11:47.051 --> 01:11:52.497
+if you feel like this and show me all the
+cases called the scenario that he's doing,
+
+e9660cb6-e376-45ef-b813-cddce4270278-2
+01:11:52.497 --> 01:11:57.814
+if you literally open the web editor for
+you and click and do everything by itself
+
+e9660cb6-e376-45ef-b813-cddce4270278-3
+01:11:57.814 --> 01:11:59.160
+so you can follow it.
+
+393d1f59-dedf-4d1c-a840-1162a330d608-0
+01:11:59.400 --> 01:12:03.960
+And if you like robot playing with your
+mouse and with your with your screen.
+
+9ef8b0f6-7843-4f0e-9fda-adfd585c9aad-0
+01:12:03.960 --> 01:12:08.197
+At the end when we put all this together
+after each deploy,
+
+9ef8b0f6-7843-4f0e-9fda-adfd585c9aad-1
+01:12:08.197 --> 01:12:13.423
+you're receiving this type of report
+showing what was new delivered here,
+
+9ef8b0f6-7843-4f0e-9fda-adfd585c9aad-2
+01:12:13.423 --> 01:12:18.720
+what was the problem, what had failed,
+but what are the problems you face?
+
+5c175813-e010-4b07-9361-fa869fe9be2b-0
+01:12:19.440 --> 01:12:24.480
+What does the number of retrying for each
+component to test to make it stable?
+
+b525770a-6035-4747-bbcc-94bd76ab9a2a-0
+01:12:24.520 --> 01:12:31.269
+So this is these are the tools how we
+together with our creative forcing to
+
+b525770a-6035-4747-bbcc-94bd76ab9a2a-1
+01:12:31.269 --> 01:12:34.200
+keep the quality and not load it.
+
+bceae637-30f7-4188-a123-b2e859357a25-0
+01:12:37.880 --> 01:12:44.431
+Do we have any questions thinking about
+in the editor you have like when you
+
+bceae637-30f7-4188-a123-b2e859357a25-1
+01:12:44.431 --> 01:12:50.983
+click and drag the component on the on
+canvas and then when you do the right
+
+bceae637-30f7-4188-a123-b2e859357a25-2
+01:12:50.983 --> 01:12:55.492
+side menu,
+you get this info item and when you click
+
+bceae637-30f7-4188-a123-b2e859357a25-3
+01:12:55.492 --> 01:12:57.959
+on it, there's a description.
+
+ee9d2d08-f97a-4b41-aef8-48c73c064c64-0
+01:12:58.360 --> 01:13:02.000
+There's usually a YouTube video as an
+explainer as well.
+
+4c7e127f-ad34-40fd-9f26-07ec3d1967cc-0
+01:13:02.640 --> 01:13:05.676
+Maybe we should add that there are some,
+you know,
+
+4c7e127f-ad34-40fd-9f26-07ec3d1967cc-1
+01:13:05.676 --> 01:13:10.500
+transport explaining you and navigating
+you instead of reading or or right click
+
+4c7e127f-ad34-40fd-9f26-07ec3d1967cc-2
+01:13:10.500 --> 01:13:13.120
+on a component on the on the canvas
+itself.
+
+047c3839-12f9-4612-baee-98d525f567fd-0
+01:13:13.280 --> 01:13:15.520
+That gives you the opportunity to what's
+this?
+
+cb406aec-f36e-43fc-be6c-86d7faa832cb-0
+01:13:16.600 --> 01:13:17.640
+Yeah, written here.
+
+8ed230d8-993d-4ecc-bb2c-73d3445e80a5-0
+01:13:17.640 --> 01:13:21.720
+The the the problem right now is that we
+have a few documentation on different
+
+8ed230d8-993d-4ecc-bb2c-73d3445e80a5-1
+01:13:21.720 --> 01:13:25.283
+sizes we have together, You know,
+we have the documentation that you
+
+8ed230d8-993d-4ecc-bb2c-73d3445e80a5-2
+01:13:25.283 --> 01:13:25.800
+described.
+
+2839b821-c925-4e5d-b4fd-65fde04b427d-0
+01:13:25.800 --> 01:13:30.200
+We have the LLM agent and docs agent,
+but who is talking about all the problems?
+
+9dc327bc-3fc5-45cd-a1d5-e051bc432406-0
+01:13:30.200 --> 01:13:34.901
+We have the YouTube videos, you know,
+linking all them together and create
+
+9dc327bc-3fc5-45cd-a1d5-e051bc432406-1
+01:13:34.901 --> 01:13:36.720
+valuable, valuable knowledge.
+
+aa7cfc5a-c0b1-4842-8cf5-45f8e0a4a6b1-0
+01:13:43.160 --> 01:13:43.640
+Anyone else?
+
+fa03fd95-6a13-4214-b15d-264e44bb45f3-0
+01:13:50.840 --> 01:13:52.120
+OK, let's move forward.
+
+8e0816a1-46ab-415a-8796-c27ca97e2546-0
+01:13:53.800 --> 01:13:59.400
+The last topic that we will cover today
+will be about highlights from the 2025.
+
+253f68a2-55be-416b-8be4-17e7e0a17019-0
+01:13:59.760 --> 01:14:05.373
+So if you know maybe some not big banks
+is November to the Expo to the new
+
+253f68a2-55be-416b-8be4-17e7e0a17019-1
+01:14:05.373 --> 01:14:11.511
+Germany where we presented our products
+at all and we've highlighted a few of the
+
+253f68a2-55be-416b-8be4-17e7e0a17019-2
+01:14:11.511 --> 01:14:14.880
+critical few of the most important
+features.
+
+eabdc816-7eb3-41c8-b5ee-f489e865f91a-0
+01:14:14.880 --> 01:14:19.560
+So things that we do not mention earlier
+we will mention right here, right there.
+
+333c637f-c1b2-4bbd-8671-c680b010bb32-0
+01:14:21.040 --> 01:14:23.040
+I like to group them in two groups.
+
+ab13c6fa-4314-40ba-bef1-62209b67f20d-0
+01:14:23.040 --> 01:14:26.760
+One is playing with the AI,
+but not the element AI.
+
+7d463782-1b2f-4433-9612-7bc3106ea9a5-0
+01:14:26.760 --> 01:14:31.224
+This is the let's say legacy,
+the old AI on the Indio and other
+
+7d463782-1b2f-4433-9612-7bc3106ea9a5-1
+01:14:31.224 --> 01:14:32.480
+integration tools.
+
+08a74771-0b0f-428e-a1f2-8669f370bb27-0
+01:14:33.600 --> 01:14:35.760
+Let's see them,
+let's see what's here with them.
+
+7fcd5786-593b-458a-8b45-d2f3065197fc-0
+01:14:35.920 --> 01:14:37.160
+First one is in your forecast.
+
+0c83a36a-b32d-435e-b6b2-de8a6af77001-0
+01:14:39.400 --> 01:14:43.781
+The problem that we want to solve,
+we want to give a generic solution for
+
+0c83a36a-b32d-435e-b6b2-de8a6af77001-1
+01:14:43.781 --> 01:14:48.163
+prediction for the forecasting today,
+how to on the platform you to carry
+
+0c83a36a-b32d-435e-b6b2-de8a6af77001-2
+01:14:48.163 --> 01:14:51.480
+history of polio variables, not all,
+but all important.
+
+10dff2a2-bfdb-42e2-8abc-04afe74e6eef-0
+01:14:51.840 --> 01:14:54.360
+How you can play to predict it.
+
+dd430e1c-3798-4c8f-8bfb-05969fe02c9a-0
+01:14:54.880 --> 01:14:55.760
+You can download it.
+
+3168b1d8-d653-4c3a-9e82-773def7fa406-0
+01:14:55.880 --> 01:14:58.416
+If you're AI expert, you can download it,
+write the script,
+
+3168b1d8-d653-4c3a-9e82-773def7fa406-1
+01:14:58.416 --> 01:15:01.080
+strength the model and so on,
+and you will get the prediction.
+
+928dc2d0-17e7-4e50-a2d5-e50328adc9c3-0
+01:15:01.520 --> 01:15:06.035
+But for them,
+you will need the AI expertise recreated
+
+928dc2d0-17e7-4e50-a2d5-e50328adc9c3-1
+01:15:06.035 --> 01:15:07.760
+tool to play with AI.
+
+5c9047b2-d719-4783-ab9a-93be35804f29-0
+01:15:08.080 --> 01:15:12.705
+If you have nothing about AI, OK,
+if you know nothing about AI,
+
+5c9047b2-d719-4783-ab9a-93be35804f29-1
+01:15:12.705 --> 01:15:17.187
+you just want to do some prediction and
+you just want to yes,
+
+5c9047b2-d719-4783-ab9a-93be35804f29-2
+01:15:17.187 --> 01:15:20.440
+tell that you are doing the AI how it
+works.
+
+a6848e3d-cf4f-4e19-8a33-9e4081e50687-0
+01:15:20.920 --> 01:15:24.760
+On the the greater part,
+you're able to bring the variable that
+
+a6848e3d-cf4f-4e19-8a33-9e4081e50687-1
+01:15:24.760 --> 01:15:25.960
+you want to predict.
+
+d9b8ac4e-7f07-4802-8626-693dc3266f02-0
+01:15:26.880 --> 01:15:31.602
+Bring all the variables if you think that
+it can affect this prediction and just
+
+d9b8ac4e-7f07-4802-8626-693dc3266f02-1
+01:15:31.602 --> 01:15:32.360
+play with it.
+
+420ac519-1796-4189-b2e1-d4e16ffe61b4-0
+01:15:32.440 --> 01:15:33.640
+See what is accuracy?
+
+be61b25c-30db-48f9-89ea-4e127eb7a8fe-0
+01:15:33.920 --> 01:15:37.640
+Train the model and all this training is
+no coordinated at all.
+
+52c998c3-3059-4785-afcd-d6d4841d301c-0
+01:15:37.640 --> 01:15:39.880
+So you're just clicking the plane on the
+integrator.
+
+66b46537-db17-4eb3-8756-df51c47cc858-0
+01:15:41.400 --> 01:15:46.709
+You're able to select the features,
+features like the variables which are
+
+66b46537-db17-4eb3-8756-df51c47cc858-1
+01:15:46.709 --> 01:15:50.800
+more gives you more accurate prediction
+than the others.
+
+be6129f0-21a8-4d0e-ba7b-47185eff2f4a-0
+01:15:51.360 --> 01:15:55.440
+The great thing is that whatever you
+choose, you can train and see the results.
+
+45878e64-a6c4-4f7a-b354-22c71aef14bb-0
+01:15:55.440 --> 01:15:57.360
+See how accurate your prediction is.
+
+8d9535d5-0127-44d1-86a0-dd343077ee90-0
+01:15:57.880 --> 01:16:00.040
+You can change the period of training.
+
+a351463b-a93f-47c0-b249-bc2f5f0eab0c-0
+01:16:00.040 --> 01:16:04.120
+So always the prediction data is as good
+as your database.
+
+e43ae491-b90c-44c1-b121-0ba011aff5fc-0
+01:16:04.120 --> 01:16:08.600
+So it's up to you to filter the good data
+to do good prediction.
+
+94d67715-c711-4fda-9f78-238b58546ef6-0
+01:16:11.400 --> 01:16:12.160
+Let's move forward.
+
+5a66b704-e12c-4fe4-b2ba-c78a1ac41ebd-0
+01:16:12.160 --> 01:16:15.960
+Let's see how it works on the on the
+client.
+
+d1f5d81d-72ed-4d32-a0b6-e38527e7c702-0
+01:16:16.400 --> 01:16:21.400
+So this is the presentation,
+the test project for the Expo.
+
+72ea88b5-871c-4084-9b67-94b9dd4d9545-0
+01:16:22.320 --> 01:16:27.288
+Very creative,
+very simple and I would say a very stupid
+
+72ea88b5-871c-4084-9b67-94b9dd4d9545-1
+01:16:27.288 --> 01:16:34.000
+variable that goes from zero to 1 1000 in
+few minutes and then go back to 0.
+
+7f0535d3-c644-4d1f-8fab-ee1dbb32fc44-0
+01:16:34.360 --> 01:16:35.680
+So it's very predictable.
+
+e65b6715-ef6b-4e0d-b398-6892b3d5f672-0
+01:16:35.800 --> 01:16:37.840
+You know,
+you know exactly what it's going to do.
+
+92f07555-740e-45bf-b945-1f8fe5ca1abf-0
+01:16:38.120 --> 01:16:40.552
+OK,
+but how to use right now the universal
+
+92f07555-740e-45bf-b945-1f8fe5ca1abf-1
+01:16:40.552 --> 01:16:45.134
+tools and special tool to predict that,
+how to use the in view as its prediction
+
+92f07555-740e-45bf-b945-1f8fe5ca1abf-2
+01:16:45.134 --> 01:16:46.040
+tool to show it.
+
+0759022b-e40b-42a0-934c-18a996090a15-0
+01:16:47.360 --> 01:16:47.920
+And we did it.
+
+70ad235a-93b9-4a59-8a6f-3cad7739aaa0-0
+01:16:48.200 --> 01:16:51.944
+You will see the setup,
+what you're getting when you see this,
+
+70ad235a-93b9-4a59-8a6f-3cad7739aaa0-1
+01:16:51.944 --> 01:16:56.520
+you see this, this is a prediction value,
+OK, so it's doing some prediction.
+
+2a8e2d46-7a5b-4e7f-8805-7019e3c2e9a3-0
+01:16:56.520 --> 01:16:58.440
+So what will be the value in 10 minutes?
+
+e9b1242d-6a3c-40f8-9a6c-be57d5cd415b-0
+01:16:59.280 --> 01:17:03.499
+The great part about it that we love to
+focus on is what was the history of the
+
+e9b1242d-6a3c-40f8-9a6c-be57d5cd415b-1
+01:17:03.499 --> 01:17:04.080
+prediction?
+
+694b8ebe-42d5-4e9a-bdbe-feb305b8d2f9-0
+01:17:04.760 --> 01:17:10.154
+If you think about it,
+which of the forecast for prediction
+
+694b8ebe-42d5-4e9a-bdbe-feb305b8d2f9-1
+01:17:10.154 --> 01:17:14.560
+tools give you the history of prediction,
+right?
+
+36319e27-a913-43dd-8cae-0a32d8341420-0
+01:17:14.840 --> 01:17:18.906
+Even if you check the better forecast,
+you always get the forecast,
+
+36319e27-a913-43dd-8cae-0a32d8341420-1
+01:17:18.906 --> 01:17:23.570
+but you never check in the background
+what was predicted for 10 days and what
+
+36319e27-a913-43dd-8cae-0a32d8341420-2
+01:17:23.570 --> 01:17:26.800
+was reality as we because they would lose
+their jobs.
+
+96139c7e-87fc-407b-82e0-3a42e201982a-0
+01:17:26.800 --> 01:17:28.360
+Maybe this is a wrong, wrong thing.
+
+dddb2295-5d44-40c8-afa5-438e85f22fbc-0
+01:17:28.560 --> 01:17:31.635
+So yeah,
+but we wanted to make sure that historian
+
+dddb2295-5d44-40c8-afa5-438e85f22fbc-1
+01:17:31.635 --> 01:17:32.480
+also was good.
+
+e8e38230-5283-4d09-9855-77a8e288073d-0
+01:17:32.480 --> 01:17:33.800
+The prediction in history was also good.
+
+0d0ef75e-8ddd-4612-b68d-5c4a3e89fb0d-0
+01:17:34.440 --> 01:17:37.080
+This is not perfect, but this is very,
+very good.
+
+139e6fff-63d8-4b45-8316-6145f5506d6c-0
+01:17:37.440 --> 01:17:41.851
+If you check the accuracy of this
+presentation of this prediction as got
+
+139e6fff-63d8-4b45-8316-6145f5506d6c-1
+01:17:41.851 --> 01:17:44.631
+into greater,
+you will see that it is the the
+
+139e6fff-63d8-4b45-8316-6145f5506d6c-2
+01:17:44.631 --> 01:17:48.679
+prediction is 99 point something that is
+unreal cool, unreal good.
+
+a18c3d3a-d41c-447a-8b54-087b06b7368a-0
+01:17:48.840 --> 01:17:52.166
+I mean the AI,
+the model in the background detected that
+
+a18c3d3a-d41c-447a-8b54-087b06b7368a-1
+01:17:52.166 --> 01:17:53.800
+this is like simple pattern.
+
+615e37e5-3884-4b79-9b2e-195be34ec9d7-0
+01:17:54.560 --> 01:17:59.000
+The great thing about all this is that it
+was all the views with this screen.
+
+c9d07387-a78c-479b-a8aa-f590b42a4d99-0
+01:17:59.640 --> 01:18:02.200
+OK, so we are creating the application.
+
+0eaaf01c-0a49-476e-ac68-bd507457fbdf-0
+01:18:02.600 --> 01:18:04.200
+We are creating the application.
+
+2aa34024-0aff-4360-9304-4eabd9bca4c6-0
+01:18:04.320 --> 01:18:08.800
+We have few types we do not have right
+now time to run through all of them.
+
+7f5eedf7-d432-4dc0-bf06-c12a09dfbb26-0
+01:18:09.480 --> 01:18:14.051
+If you if we do in you out the forecaster
+that is tool that we're talking about
+
+7f5eedf7-d432-4dc0-bf06-c12a09dfbb26-1
+01:18:14.051 --> 01:18:16.851
+right now,
+we'll be able to just bring the input
+
+7f5eedf7-d432-4dc0-bf06-c12a09dfbb26-2
+01:18:16.851 --> 01:18:18.680
+variables, the output variables.
+
+98b423d4-a9d8-4607-866b-ade06d950a4f-0
+01:18:18.800 --> 01:18:23.442
+Output variables are one that we want to
+predict input variables that all the
+
+98b423d4-a9d8-4607-866b-ade06d950a4f-1
+01:18:23.442 --> 01:18:26.240
+variables that we think can affect the
+output.
+
+a4a64b73-3dd7-4b77-beb7-007948b832b7-0
+01:18:26.760 --> 01:18:28.597
+OK,
+we're putting them between contract
+
+a4a64b73-3dd7-4b77-beb7-007948b832b7-1
+01:18:28.597 --> 01:18:31.720
+choose the very three contain and you
+will get the training result.
+
+0745b289-9183-47f4-8186-c41f70529298-0
+01:18:31.800 --> 01:18:36.900
+And you see the six metre the accuracy of
+this this model is 99 point .34,
+
+0745b289-9183-47f4-8186-c41f70529298-1
+01:18:36.900 --> 01:18:42.408
+which is which is verified unreal in the
+real world in the real measurement that
+
+0745b289-9183-47f4-8186-c41f70529298-2
+01:18:42.408 --> 01:18:46.760
+that the accuracy is not is not even
+possible like I would say.
+
+502ac96c-b484-410d-bb59-11356fa1ccb6-0
+01:18:48.360 --> 01:18:53.864
+So here we have to play with it to add
+and delete variables that can affect or
+
+502ac96c-b484-410d-bb59-11356fa1ccb6-1
+01:18:53.864 --> 01:18:59.647
+not some advanced settings on top on very
+down here your your capability to choose
+
+502ac96c-b484-410d-bb59-11356fa1ccb6-2
+01:18:59.647 --> 01:19:03.480
+the variable where you want to put the
+forecast today.
+
+a82f6205-249e-4955-b05f-d232b1780d2b-0
+01:19:03.840 --> 01:19:07.494
+So for example,
+forecast what will be the better in
+
+a82f6205-249e-4955-b05f-d232b1780d2b-1
+01:19:07.494 --> 01:19:13.116
+better is better example because when the
+forecast is completed for other time,
+
+a82f6205-249e-4955-b05f-d232b1780d2b-2
+01:19:13.116 --> 01:19:16.559
+but let's tempered for or pressure of
+this room.
+
+91aa3263-0653-40a9-9aaa-f43d1929ebf7-0
+01:19:17.120 --> 01:19:18.800
+Let's predict what will be in one hour.
+
+a1558c29-3e70-4c13-b566-9d2a92a297de-0
+01:19:18.800 --> 01:19:23.215
+You can put it in the other variable and
+play with it as a regular variable to set
+
+a1558c29-3e70-4c13-b566-9d2a92a297de-1
+01:19:23.215 --> 01:19:24.280
+up alarms and so on.
+
+acde3c74-325d-4d21-8e10-2dd92d666a5c-0
+01:19:24.520 --> 01:19:30.680
+So this is our AI could be greater
+showing the forecast, OK.
+
+011a575b-85ba-40a8-b04e-b8a7c6ee43ce-0
+01:19:32.480 --> 01:19:36.240
+The other one that we wanted to cover was
+anomaly detection.
+
+24803e35-6311-4546-a245-d0b9e09f15c8-0
+01:19:36.840 --> 01:19:41.579
+All of us knows about the finding the
+alarms in the event and these features
+
+24803e35-6311-4546-a245-d0b9e09f15c8-1
+01:19:41.579 --> 01:19:45.395
+came in the very first,
+I would say very first version of the
+
+24803e35-6311-4546-a245-d0b9e09f15c8-2
+01:19:45.395 --> 01:19:50.196
+platform here we wanted to bring the
+automatic detection of the anomalies and
+
+24803e35-6311-4546-a245-d0b9e09f15c8-3
+01:19:50.196 --> 01:19:54.320
+the non normal alarming status alarming
+behaviour to the platform.
+
+f3b08541-d287-4c47-88d9-8d629c592c28-0
+01:19:54.680 --> 01:20:00.127
+So you're able to set up PKP support
+right now five different algorithms you
+
+f3b08541-d287-4c47-88d9-8d629c592c28-1
+01:20:00.127 --> 01:20:03.240
+can set them on to detect to the
+anomalies.
+
+159292af-cea4-44ba-95c0-cc4ea464337c-0
+01:20:03.240 --> 01:20:05.809
+If you say there is he detected that
+there is anomaly,
+
+159292af-cea4-44ba-95c0-cc4ea464337c-1
+01:20:05.809 --> 01:20:08.800
+you will see the notification,
+you will see something about it.
+
+30c67653-89b1-4de6-92b3-fad666b22e3d-0
+01:20:10.440 --> 01:20:11.400
+Let's see an example.
+
+35b695a2-89c7-4143-86f0-f46234102a24-0
+01:20:12.120 --> 01:20:14.880
+I'm trying to leave this period up to
+keep in time.
+
+bb2551b9-3d60-43b4-96de-003cecf7d76a-0
+01:20:16.600 --> 01:20:20.683
+So when you go to anomaly detection 31 on
+the trend,
+
+bb2551b9-3d60-43b4-96de-003cecf7d76a-1
+01:20:20.683 --> 01:20:23.920
+it will be visualizing as the commands OK.
+
+3e689a98-6c57-470b-928b-527c00f53a2d-0
+01:20:24.080 --> 01:20:30.449
+Here we I think fetch some data from the
+API and the front anomaly detection on
+
+3e689a98-6c57-470b-928b-527c00f53a2d-1
+01:20:30.449 --> 01:20:36.421
+that you will find there's a comment
+similar as a comment could be written
+
+3e689a98-6c57-470b-928b-527c00f53a2d-2
+01:20:36.421 --> 01:20:40.482
+like OK,
+here we found anomaly called ROCROPROC is
+
+3e689a98-6c57-470b-928b-527c00f53a2d-3
+01:20:40.482 --> 01:20:40.959
+right.
+
+f48b0f7e-28a1-4ffc-afbb-3d65a3ef0d1f-0
+01:20:41.200 --> 01:20:43.160
+I don't know, switch to them, never mind.
+
+f068e76e-35c7-49d9-9800-ecaa96b9c504-0
+01:20:44.400 --> 01:20:48.191
+But yeah,
+you can turn on each of them or more than
+
+f068e76e-35c7-49d9-9800-ecaa96b9c504-1
+01:20:48.191 --> 01:20:54.170
+one of them to turn on and you will get
+the, you will get anomaly if any of them,
+
+f068e76e-35c7-49d9-9800-ecaa96b9c504-2
+01:20:54.170 --> 01:20:57.160
+if any of them detect that it is anomaly.
+
+d3e15e1a-11ca-4102-a3b5-722bd10d457a-0
+01:20:57.600 --> 01:21:00.920
+The problem came when there is there are
+too much anomalies.
+
+3a3bfb8d-e622-46aa-b09c-00bdc9f91d44-0
+01:21:01.360 --> 01:21:03.240
+In that case, there is assemble mode.
+
+ffc14ab2-ce4a-435c-9593-80fec36924ff-0
+01:21:03.280 --> 01:21:04.120
+Yeah, I'm sorry.
+
+711bacf1-d84c-4479-84a1-7d1ab196a546-0
+01:21:04.240 --> 01:21:05.840
+Here is the setup, how we do it.
+
+1e849639-99a0-4ee7-bd28-7ef1977a6149-0
+01:21:06.160 --> 01:21:09.820
+When you go to computerator,
+here is anomaly screen which was the
+
+1e849639-99a0-4ee7-bd28-7ef1977a6149-1
+01:21:09.820 --> 01:21:13.480
+variable before that we have to go to
+enable and enable OK add 1.
+
+708260c6-9c40-4508-a7b8-8f76fd45201c-0
+01:21:13.560 --> 01:21:19.053
+I do want to do an only detection did
+then we go there we're able to choose
+
+708260c6-9c40-4508-a7b8-8f76fd45201c-1
+01:21:19.053 --> 01:21:21.800
+which algorithms we would like to use.
+
+2a87105c-10f6-4667-a828-b0bdf071e842-0
+01:21:22.520 --> 01:21:25.080
+All of these algorithms can be set
+manually.
+
+c1217641-e2f2-42f0-b339-e7f21eea3a74-0
+01:21:25.120 --> 01:21:28.912
+You can play with these,
+it's like small setups manually or you
+
+c1217641-e2f2-42f0-b339-e7f21eea3a74-1
+01:21:28.912 --> 01:21:32.408
+can do automatically OK,
+like analyze this period of date,
+
+c1217641-e2f2-42f0-b339-e7f21eea3a74-2
+01:21:32.408 --> 01:21:37.208
+analyze this period of data and set up
+automatically the limits and you will get
+
+c1217641-e2f2-42f0-b339-e7f21eea3a74-3
+01:21:37.208 --> 01:21:41.120
+set up of the of the anomalies and you
+will see it on the trends.
+
+e6e982b7-51dd-4300-b6b7-8be91cc7a36a-0
+01:21:41.840 --> 01:21:46.821
+The great thing I wanted to finish with
+it is if there is too many anomalies,
+
+e6e982b7-51dd-4300-b6b7-8be91cc7a36a-1
+01:21:46.821 --> 01:21:49.440
+you're able to turn on the assemble mode.
+
+9897c06a-b4cf-4404-9483-8d32ea0cd73e-0
+01:21:49.560 --> 01:21:54.870
+Assemble mode is like to tell, OK,
+give me anomaly only if all three of them
+
+9897c06a-b4cf-4404-9483-8d32ea0cd73e-1
+01:21:54.870 --> 01:21:59.766
+telling me that this anomaly OK,
+So if there is too much of anomalies,
+
+9897c06a-b4cf-4404-9483-8d32ea0cd73e-2
+01:21:59.766 --> 01:22:01.559
+just turn on turn on that.
+
+465c4947-855f-49c7-a990-98f8b29ffcf3-0
+01:22:01.920 --> 01:22:05.392
+And if you filter so long anomaly more
+than one,
+
+465c4947-855f-49c7-a990-98f8b29ffcf3-1
+01:22:05.392 --> 01:22:10.000
+I'm going to have confidence to say that
+it is it is an anomaly.
+
+e745c31b-620a-4111-a513-0d4340ea4c51-0
+01:22:16.880 --> 01:22:22.802
+And the other group of the teachers that
+we delivered to the to the export was
+
+e745c31b-620a-4111-a513-0d4340ea4c51-1
+01:22:22.802 --> 01:22:28.200
+different integration tools comment We do
+not want to confess about it.
+
+9253ee8b-4e1f-4a0b-8106-41b20a809353-0
+01:22:28.440 --> 01:22:30.800
+We are not that everything,
+but it's the truth.
+
+9d2d8267-7f4b-4035-9531-a0494d474c83-0
+01:22:31.120 --> 01:22:37.437
+So sometimes the client user had its own
+habits, their tool that they're using,
+
+9d2d8267-7f4b-4035-9531-a0494d474c83-1
+01:22:37.437 --> 01:22:42.650
+for example, the Power BI, very,
+very powerful Microsoft tool for
+
+9d2d8267-7f4b-4035-9531-a0494d474c83-2
+01:22:42.650 --> 01:22:43.440
+reporting.
+
+b3a6c707-abbb-4e93-b01d-dbcabb14e8aa-0
+01:22:43.920 --> 01:22:49.252
+We cannot make all our users,
+we can force all our users to use our
+
+b3a6c707-abbb-4e93-b01d-dbcabb14e8aa-1
+01:22:49.252 --> 01:22:49.880
+reports.
+
+6aa1e9f5-6c6e-4e2e-95c3-fdcf24df2107-0
+01:22:50.000 --> 01:22:54.920
+So we just gave them ability to write or
+draw a Power VI plugin.
+
+591b3363-783a-4290-ae34-13ac5a266a72-0
+01:22:55.200 --> 01:22:57.920
+Power VI reports with the in you later.
+
+4a55316a-737e-433d-9d32-55adcb40519e-0
+01:22:58.160 --> 01:23:00.920
+OK, so that is example of Power VI.
+
+ad137b22-80a2-49ea-b8bf-c6c488cf66d3-0
+01:23:01.320 --> 01:23:02.520
+Another is Verpana.
+
+7a5416d9-9ff3-4faf-aa85-1208e8c8ec93-0
+01:23:02.640 --> 01:23:08.240
+Verpana is well known in the DevOps,
+DevOps and IT world.
+
+a6fd3f6c-4d4b-424b-852f-f35b6e1cb27c-0
+01:23:08.880 --> 01:23:12.826
+Very useful,
+very again powerful tool to visualize
+
+a6fd3f6c-4d4b-424b-852f-f35b6e1cb27c-1
+01:23:12.826 --> 01:23:17.160
+different way of visualization of data,
+story and life.
+
+39a1f6e8-4f38-447b-8c3e-efb2420dbc59-0
+01:23:17.800 --> 01:23:23.011
+Again,
+we be so that it is useful to do this
+
+39a1f6e8-4f38-447b-8c3e-efb2420dbc59-1
+01:23:23.011 --> 01:23:25.560
+integration with them.
+
+62cd162e-8dbd-4bf1-a113-4fc552c884ce-0
+01:23:25.560 --> 01:23:28.122
+So,
+so maybe someone will will want to be
+
+62cd162e-8dbd-4bf1-a113-4fc552c884ce-1
+01:23:28.122 --> 01:23:32.880
+able to present all the data from the
+platform that you have on the Graphana.
+
+ee180e69-16ea-4b73-ad52-06626e80204d-0
+01:23:33.600 --> 01:23:35.040
+And the third one is the cooks.
+
+4e2c1a2c-189f-4a5d-992b-471d9ab38dea-0
+01:23:35.360 --> 01:23:37.480
+This is more let's say developer tool.
+
+02dfc40e-4a62-4341-96a7-5c2c2ee4499b-0
+01:23:37.760 --> 01:23:42.687
+If you have your own application and
+wants to get notified with the real time
+
+02dfc40e-4a62-4341-96a7-5c2c2ee4499b-1
+01:23:42.687 --> 01:23:45.972
+data that we are you are getting from the
+platform,
+
+02dfc40e-4a62-4341-96a7-5c2c2ee4499b-2
+01:23:45.972 --> 01:23:48.120
+you can do it with the best books.
+
+dd0d145a-4173-4ff8-ab73-4e6e289c2db8-0
+01:23:48.280 --> 01:23:52.910
+So the platform will call your
+application to notify that something is
+
+dd0d145a-4173-4ff8-ab73-4e6e289c2db8-1
+01:23:52.910 --> 01:23:57.280
+something happened before we go to
+screenshot to see how it works.
+
+76068715-7bae-4e3a-b5e5-9d09721c42dd-0
+01:23:57.800 --> 01:24:02.558
+All three of them was created by knowing
+the common uses that OK,
+
+76068715-7bae-4e3a-b5e5-9d09721c42dd-1
+01:24:02.558 --> 01:24:08.182
+so we had the use cases where the people
+do use and some sort of do use these
+
+76068715-7bae-4e3a-b5e5-9d09721c42dd-2
+01:24:08.182 --> 01:24:09.119
+integrations.
+
+718e3b64-ea05-4efc-8969-c68caf865d11-0
+01:24:09.400 --> 01:24:12.673
+And then we created, OK,
+let's create these like normal
+
+718e3b64-ea05-4efc-8969-c68caf865d11-1
+01:24:12.673 --> 01:24:16.240
+integration tool so you can use it on
+every future products.
+
+c89b4c40-d3b4-4410-9dfb-f07b18ee4a01-0
+01:24:17.200 --> 01:24:17.960
+Let's move forward.
+
+4e9360a9-44f1-4eae-bbdc-a8d46a3ce9ce-0
+01:24:18.800 --> 01:24:24.596
+This is an example prepares for prepared
+for the export created like all these
+
+4e9360a9-44f1-4eae-bbdc-a8d46a3ce9ce-1
+01:24:24.596 --> 01:24:30.320
+data are coming from the platform,
+but visualization part is part of the eye.
+
+1156a8cb-33c2-499c-a720-9bf2cbd5f7c4-0
+01:24:31.160 --> 01:24:37.697
+OK, big, big Aspana again,
+who works with Grapana will recognize
+
+1156a8cb-33c2-499c-a720-9bf2cbd5f7c4-1
+01:24:37.697 --> 01:24:38.200
+this.
+
+5ee13e80-0021-4555-96b8-49ff42326ddc-0
+01:24:38.320 --> 01:24:40.800
+This is a typical Grapana screen showing
+some trends.
+
+493f03c0-6ff9-4f91-b0c3-aac5bdfee28a-0
+01:24:40.800 --> 01:24:45.940
+We wanted to show all the use cases as
+most Grapana screens looks like only
+
+493f03c0-6ff9-4f91-b0c3-aac5bdfee28a-1
+01:24:45.940 --> 01:24:48.240
+dashboards, only time series data.
+
+c470b10b-e76c-49fe-b0f5-314e326bd719-0
+01:24:48.240 --> 01:24:53.199
+They wanted to show all these cases for
+alarms, events, trends, live values,
+
+c470b10b-e76c-49fe-b0f5-314e326bd719-1
+01:24:53.199 --> 01:24:55.840
+all of it is present on the Grapana also.
+
+b67a17e9-6012-41d3-b9b8-0af298770146-0
+01:24:55.880 --> 01:25:00.318
+So if someone is more content and more
+like to use Grapana,
+
+b67a17e9-6012-41d3-b9b8-0af298770146-1
+01:25:00.318 --> 01:25:05.941
+you can get all the data from the
+platform and there's there and then books
+
+b67a17e9-6012-41d3-b9b8-0af298770146-2
+01:25:05.941 --> 01:25:09.640
+nothing special to show it's more
+developer tool.
+
+7fe6852f-f865-48b3-8b98-7bace5e27063-0
+01:25:09.640 --> 01:25:11.569
+But yeah,
+you are able in the grouping related to
+
+7fe6852f-f865-48b3-8b98-7bace5e27063-1
+01:25:11.569 --> 01:25:11.840
+set up.
+
+d20384c0-83da-4f75-b8ee-7db470496a53-0
+01:25:11.880 --> 01:25:15.400
+OK,
+when this variable you get special this
+
+d20384c0-83da-4f75-b8ee-7db470496a53-1
+01:25:15.400 --> 01:25:21.320
+which variable want to you want to listen
+on define the type of the book.
+
+9299082b-8288-4cb4-bc86-5ba277e74d00-0
+01:25:21.400 --> 01:25:25.260
+So you want on real time,
+real time change or allow you then what
+
+9299082b-8288-4cb4-bc86-5ba277e74d00-1
+01:25:25.260 --> 01:25:28.360
+you want to listen,
+the external API will be called.
+
+c2f67c6f-5439-4475-9935-2c81f81a06f8-0
+01:25:28.360 --> 01:25:31.666
+So again,
+this is also developed by the needs of
+
+c2f67c6f-5439-4475-9935-2c81f81a06f8-1
+01:25:31.666 --> 01:25:35.040
+some of external projects that we are
+working on.
+
+8031a32d-d3e9-4d68-aa5e-041e865381bb-0
+01:25:39.080 --> 01:25:39.520
+Yes.
+
+e446159c-760c-42a4-a355-047a29def6bd-0
+01:25:39.880 --> 01:25:44.520
+And it's all about the highlights from 25
+S 1st.
+
+7c5babcc-3e2b-454d-ac17-19a73c28b502-0
+01:25:44.840 --> 01:25:50.000
+Do we have any questions about these
+topics feeling to speed it up at the end.
+
+ca96cc71-e693-41ae-8ece-f7ea1c8e8c0f-0
+01:25:50.000 --> 01:25:52.480
+But yeah, you do not have too much time.
+
+77ca8a7a-672b-473f-8c8c-fb28c36c37c7-0
+01:25:52.480 --> 01:25:53.880
+So we have to finish.
+
+eefb2bd5-4496-4678-be25-62974bcc8a51-0
+01:25:55.200 --> 01:26:00.179
+Let's first here if you have any
+questions about these highlights using AI
+
+eefb2bd5-4496-4678-be25-62974bcc8a51-1
+01:26:00.179 --> 01:26:01.640
+and integration tools.
+
+a064224a-0afc-44b3-9949-78064a6c5656-0
+01:26:06.720 --> 01:26:08.240
+Two more big chocolates out there.
+
+c8f3a11d-af02-472d-9ede-6557bc55b99a-0
+01:26:15.200 --> 01:26:19.092
+If not,
+you can jump to the final questions
+
+c8f3a11d-af02-472d-9ede-6557bc55b99a-1
+01:26:19.092 --> 01:26:19.800
+session.
+
+f4907726-180d-4d9a-bd41-d991e964ac32-0
+01:26:19.800 --> 01:26:23.440
+So anything else regarding the whole
+presentation?
+
+d81ac2a6-bf6a-48d7-b264-13c9619b8333-0
+01:26:28.400 --> 01:26:30.000
+Come on guys, I cannot eat all this.
+
+00a46683-dfa9-43ef-9319-e00ca5cd9fce-0
+01:26:30.280 --> 01:26:30.640
+Hello.
+
+80c4820e-be05-4927-b5d8-a92f7291c092-0
+01:26:36.520 --> 01:26:41.495
+What are the major parts of follow up
+development in Q2 based on this work
+
+80c4820e-be05-4927-b5d8-a92f7291c092-1
+01:26:41.495 --> 01:26:41.960
+itself?
+
+acbd74f2-595f-4c1b-a257-bb251578b346-0
+01:26:43.320 --> 01:26:47.488
+Yes,
+you have a few ideas of stealing for
+
+acbd74f2-595f-4c1b-a257-bb251578b346-1
+01:26:47.488 --> 01:26:52.748
+weeks you told that there is to be
+continued on LMR,
+
+acbd74f2-595f-4c1b-a257-bb251578b346-2
+01:26:52.748 --> 01:27:00.887
+so that is one of the important boxes and
+yet these are the main boxes that I can
+
+acbd74f2-595f-4c1b-a257-bb251578b346-3
+01:27:00.887 --> 01:27:01.880
+right now.
+
+6573eb35-acca-45a3-abc6-5f0a89668c08-0
+01:27:08.200 --> 01:27:12.400
+If they are agent going to go close as
+well or just try the script.
+
+4f9ffc65-400e-4e7d-a512-20683bb7953e-0
+01:27:13.640 --> 01:27:16.040
+Great to hear nothing.
+
+7eb60c7a-3624-4c5d-89ae-1ec368e04239-0
+01:27:16.160 --> 01:27:20.670
+But for the Q2,
+especially those traditional matters,
+
+7eb60c7a-3624-4c5d-89ae-1ec368e04239-1
+01:27:20.670 --> 01:27:27.437
+why I'm asking because no tool kind of
+shifted from this area of backdrop we can
+
+7eb60c7a-3624-4c5d-89ae-1ec368e04239-2
+01:27:27.437 --> 01:27:31.279
+configure to this to let's do some
+prompting.
+
+7a24a162-caf0-45d9-b387-5fae99522ec9-0
+01:27:31.920 --> 01:27:33.880
+I just wanted to give,
+give that as the answer.
+
+1bfd0518-d185-479c-9670-97cc6877a4e3-0
+01:27:33.880 --> 01:27:37.440
+So the prompting goes,
+goes at the primary.
+
+90ec4e46-52db-4c4d-a071-a8bfbf14dc85-0
+01:27:37.440 --> 01:27:41.491
+So the close is maybe right now is
+something you know,
+
+90ec4e46-52db-4c4d-a071-a8bfbf14dc85-1
+01:27:41.491 --> 01:27:43.480
+and draw screens in editor.
+
+9877e67a-e70e-4e82-9b32-9375e538dac2-0
+01:27:44.120 --> 01:27:47.040
+I need 3 components,
+2 buttons in the front.
+
+fa69892f-e441-4453-9c82-41c9eb7118db-0
+01:27:48.120 --> 01:27:48.480
+Why not?
+
+2a8e2a2b-0042-4c04-9701-a2c32ab973fe-0
+01:27:53.080 --> 01:27:55.660
+Yep, this is a great example of of,
+as I said,
+
+2a8e2a2b-0042-4c04-9701-a2c32ab973fe-1
+01:27:55.660 --> 01:27:58.240
+report the topic about continuous
+improvement.
+
+6b05fc8d-544e-4df5-9d5d-04ed7302a4db-0
+01:27:58.960 --> 01:28:00.360
+Let us hear your ideas.
+
+c4b0717d-dc80-4ccc-93fe-1676e2f79206-0
+01:28:01.160 --> 01:28:02.800
+Some of them are not possible.
+
+3cdf1c16-977e-4ca3-821c-86f2512a4459-0
+01:28:02.800 --> 01:28:03.720
+Some of them are not possible.
+
+30aed03e-74d1-4b22-921d-d61a97e15dc3-0
+01:28:05.960 --> 01:28:08.945
+Yeah, or,
+or maybe just keep thinking that they are
+
+30aed03e-74d1-4b22-921d-d61a97e15dc3-1
+01:28:08.945 --> 01:28:13.480
+not possible or that they have my team
+right there to prove me that I'm wrong.
+
+df7ea96b-6d2e-4b35-a203-198cc34d52e1-0
+01:28:18.200 --> 01:28:24.760
+OK, guys, if no other questions,
+I would like to thank you.
+
+55c7e095-c074-4531-89cf-8db49d982f0f-0
+01:28:25.600 --> 01:28:29.462
+Thank you for being part of the team,
+first of all,
+
+55c7e095-c074-4531-89cf-8db49d982f0f-1
+01:28:29.462 --> 01:28:35.480
+and doing all these improvements one more
+time, call for continuous improvement.
+
+afec2d6a-1f85-49d1-9c3f-58049a7348b8-0
+01:28:36.240 --> 01:28:38.983
+And yeah,
+just one more huge thank you for all of
+
+afec2d6a-1f85-49d1-9c3f-58049a7348b8-1
+01:28:38.983 --> 01:28:42.440
+you because I'm just here standing and
+presenting and talking.
+
+680bf037-0fc6-4518-a1e5-c70dafb4083b-0
+01:28:42.920 --> 01:28:46.480
+But you are guys,
+the team who did it by your own tense.
+
+0483ae20-c263-4512-a6c1-898e179f8cbf-0
+01:28:46.640 --> 01:28:46.920
+OK?
+
+57e6a644-1634-4fe0-ad7e-69ddcd2307ca-0
+01:28:46.960 --> 01:28:50.961
+So I'm just the one who take the cherry
+from the from the cake at the end by
+
+57e6a644-1634-4fe0-ad7e-69ddcd2307ca-1
+01:28:50.961 --> 01:28:54.600
+presenting all of these that you guys all
+make these groups together.
+
+bc9a33e6-35ea-4992-9159-ff04e8ba8def-0
+01:28:56.120 --> 01:28:58.280
+Thank you and see you in three months.
+
+4da286d6-ca8d-4a8f-bf8c-0096389cc4d1-0
+01:29:09.440 --> 01:29:15.240
+Maybe some questions online,
+Maybe some questions online.

@@ -1,0 +1,1091 @@
+Feedback:
+
+What worked well
+
+You covered all topics and finished in ~62 minutes — good pacing
+The OFM wells use case for Edge Scripts was concrete and memorable
+Demos appeared smooth (the transitions to live demos were natural)
+You consistently invited questions between topics — good habit
+What to focus on most
+
+1. The opening — most critical, weakest spot
+The first 2 minutes are the hardest to follow. "Welcome to New Feder presentation. Of inu, plator." — the audience doesn't know yet what they're watching. Practice the first 60 seconds until it's automatic:
+
+"Welcome everyone. Every quarter we hold this session to show what's new in inView. This is our first one, so we're also catching up on highlights from last year. Today we cover six topics — Edge Scripts, AI agents, Responsive Client, App UX, Quality, and Highlights from 2025. Let's get into it."
+
+2. Sentence completion
+This is the single most consistent issue throughout. You start sentences and change direction mid-way:
+
+"So creating the location can stay it out. The internet script feel execute real-time."
+
+Practice finishing each sentence before moving to the next thought. Slow down slightly.
+
+3. The Quality section — most disorganized
+Around the 45–52 minute mark, the structure collapses. You were jumping between documentation, TestRails, and automated tests without clear separators. Each of these three deserves one clean sentence that introduces it:
+
+"Three things. First — documentation. Second — TestRails. Third — automated Cypress tests."
+
+Then explain each. Right now it blends together.
+
+4. Consistent terminology
+"Commentation" appeared multiple times instead of "documentation." "Air scripts" / "atscripts" instead of "Edge Scripts." "Dogs agent" instead of "Docs Agent." These are your own features — say them slowly and clearly every time.
+
+Practice priority order:
+
+Opening 60 seconds — memorize it
+Topic transition sentences — write one for each section, say them out loud
+Quality section — restructure and rehearse separately
+Say product names (inView, Edge Scripts, Docs Agent) out loud 20 times before the next session
+
+----------------------------
+----------------------------
+----------------------------
+Transcript:
+
+Speaker 1 (00:03)
+Hello, everyone. Welcome to New Feder
+presentation. Of inu, plator.
+Speaker 1 (00:12)
+What is idiot this presentation? We googles have
+a quarterly, showing all the news that we've done
+in the previous in the previous 4 months, early
+months. So every after every quarter we will talk
+about and show you what we have done in this
+period And this is first of our sessions like that.
+Speaker 1 (00:37)
+So because of the first accuracy, first
+presentation of this type, we would like to
+include what we've missed. Vacuum guys may
+be missed in the previews year, so during the
+agenda that we will cover today. So talk about 3
+or 4 Bigger topics.
+Speaker 1 (01:02)
+Described them die to Represent, what is better?
+What we've done. Based based on histopics and
+we will include some highlights from last year's
+fair presentation.
+Speaker 1 (01:18)
+As you know, we was presenting on the SBS in a
+Newburg, so a few key points from this
+Presenting will include also in this presentation.
+Today, the topics that will coverability atscripts
+Ah, chat boss that we're doing A responsive
+client improvements on the application site
+quality guarantee how to Can we uh continue
+development and steel currency, the quality not
+crashing? The things that we are as legacy and
+The highlights from last year and at the very end,
+I believe you time for the questions.
+Speaker 1 (02:08)
+After reached speaker, I would like to hear
+anything if I mean, I would like to hear from you
+if you have anything. Misunderstanding or any
+question or a conclusion, let us know. I will leave
+a few moments after every topic to discuss
+about it.
+Speaker 1 (02:29)
+Okay, let's start to be exclusive. So you all know
+about the screens that we have in the on the
+India platform. So what we are doing, we have
+even If we are targeting in man to be a cold, less
+snow cold.
+Speaker 1 (02:51)
+Ida snow platform. The scripts are obviously
+maybe the favourite and mostly used the tool
+when we come to the advanced usage. When
+the user, the application user comes to the some
+interesting logics.
+Speaker 1 (03:09)
+Maybe more complex execution, it will he will
+use scripts at all. What is the problem? Problem,
+the descriptions that they're executed in the
+cloud.
+Speaker 1 (03:21)
+So in the case of a remote location, a remote
+location communication, there is a probability
+that we, the script cannot be executed because
+The communication is not present. For that
+reason, we built edge scripts, what is that
+scripts? These are the scripts, very similar to the
+primary ones, but we ran them locally on the
+gateway.
+Speaker 1 (03:50)
+They're strict to the right now to the etrix. The
+stricts right out of the drinks. Did the Easter
+drink accommodation did eat skater?
+Speaker 1 (04:02)
+So any type of gate a is required to be present in
+the field to be executed. What we do? And what
+is the key advantage of doing And what we are
+getting is a benefit if you push the script to the
+location.
+Speaker 1 (04:29)
+So creating the location can stay it out. The
+internet script feel execute real-time. Reaction is
+by defence on latency because there is no cloud.
+Speaker 1 (04:42)
+The way to it and Then, everything is Everything
+is excused locally, so you do not depend. You do
+not depend a little My car, we had a lot So what
+we do, uh, in the configurator we are able to
+develop 2 fright scripts, almost in ethical to
+diverse scrips. We will try the few differences
+there are from some There are some additional
+things required to be to support all the features
+that we get in the scripts and also be introduced.
+Speaker 1 (05:30)
+Some funal functionalities that can help users to
+write more optimistic and more. Easily covered
+scripts. So once we develop it, we just keep the
+save It will automatically build the plugin build to
+executable version of it, and with upcoming
+sense of configuration, it will bring down the The
+version local gateway got the script execution,
+start its own execution and he gave a locally on
+the edge of the network.
+Speaker 1 (06:18)
+Does the Advance does together a read, right
+communication with a device in execution of
+descripts. So even if you cut off the internet, the
+execution will continue with work, how that can
+help us. How let's assume about some River
+reduce case wisher, very nice use cases from
+the oilfield.
+Speaker 1 (06:51)
+Monitoring. And the pummer rank project Yes,
+the user needed to Previously, no, so let's go very
+back previously without the boomerang. Without
+the platform used at all, when something is
+broken on the bell.
+Speaker 1 (07:10)
+The definitely technical guys should go. They
+object what's going on, start it again and we are
+great Well, when we introduce the author
+monitoring indicate a failure. We'll get the post
+notification, but he have to open open the
+diswelle.
+Speaker 1 (07:28)
+Check what's going on and start it again. Set up
+the parameters, which introducing the edge
+scripts we built scrips, not we I mean the
+applicate the eptem our ep team, together with
+the US team, build the scripts that covers the
+scenarios for outer recovery. It means that when
+you detect failure.
+Speaker 1 (07:52)
+I will give you example when you detect a failure
+of type that type abrc. Keep the folder status for
+10 minutes after that, tried by yourself to start it
+up with a slower speed and slowly speed it up to
+the target target speed. So Before the platform
+technical go to the field, win the platform
+technical login and A trek was the problem with
+edclips technical do nothing technical guy, do
+nothing you just, you know, to slive, live it to work
+as it is, and On the next day you will check What
+what was happening and what was okay?
+Speaker 1 (08:40)
+What was what what was not? Into saint part
+about their scripties, and that we can also fetch
+data from the From the cloud. Do you like to end
+the forced to use all the lock of variables that
+you do care on this catchey?
+Speaker 1 (09:03)
+But very use cases when you want to get some
+data from the cloud. And it is possible, so you
+can with dysfunctionalities, you know, the
+gateway sends all the data to the cloud. To the
+cloud.
+Speaker 1 (09:21)
+
+the case, the location a would like to Ask
+anything about location, please. You can get it
+from the cloud.
+Speaker 1 (09:40)
+It converted from the glad For this use case, we
+have implemented Behaviour, what if location is
+not online? What to do if we do not have
+Communication So with dysfunctionality, we're
+able to communicate between the locations. The
+right locations bump must be dislocation, as
+well, or this facility must be running or speed.
+Speaker 1 (10:17)
+It up indicates the other one is struggling. Or
+other example, if you see that That common
+storage of 2 location is almost full check. What's
+going on at the other location so you can slow
+down to make sure that we do not have offer for
+This is the scenario carbitrop, so previously,
+without this one we get airscripts, we had IBS
+scripts, that's just sending Executive in nagla,
+assending data to the gateway right now we to
+download the air script locally and locally the
+gateway communicates with t With the uh Adrid,
+the field site to dot I guess you're familiar a bit
+that on the eat.
+Speaker 1 (11:17)
+We do have multiple protocols covered from
+adversus. Madvers, monbas DCP US7 right now,
+the Local emputity abb protocol, so all these
+protocols can are covered, but detrict a it means
+that you can use them all when you're doing air
+scripts. So yes, this is image And what's to do
+okay, let's go to the live demo Ah, so You can
+find it, you can we can find A We can find the
+excripts on the contrigerator under the scripts
+screen.
+
+There is a new type called air scripts. And yes, I
+ding it so if you go to new one and this is the
+model of adding, you will notice that there is
+Specificity to choose the device type that will
+help you to bring and choose which were able to
+heavily And it will automatically when you're
+down and you save it will automatically be
+deployed on the all the devices of this device
+type. When we are the script, you'll get
+commented out few lines showing you
+examples of the user.
+Speaker 1 (12:51)
+You are able to remove them or to use some of
+them if you do not want. You can go at the very
+right core, very top right coordinary. You will find
+Button for the recommendations and the
+foreables here we can click in it to write you the
+code of the Yeah, do read, it didn't have to ride it
+next to that.
+Speaker 1 (13:13)
+Uh, this is If you want anything and wise, you
+should know that this is a Java God at the
+background, so it is uncapsulated Java code.
+That is compiled built and sentence on the
+gateway. Uh, also, realist, you can work with
+drink or double And with the recommendations,
+here is state management.
+Speaker 1 (13:51)
+For the local executions, so we can You can play
+with it also, but again it's advanced advanced
+groups. Notice the other part of the screen is
+additional methods helps you to provide
+comologic used in More parts of the script, so
+you do not get to repeat it. You can write the
+common method there and just using on the
+main execution back Uh, and just, we do say you
+can see that the development we go to the
+configuration.
+Speaker 1 (14:31)
+To have managed plaguins, you'll see the city.
+The plaquet is building linked with the
+connection Okay. So let's go back to the
+targeting of no cold.
+Speaker 1 (14:50)
+ID as we said we are targeting to be no good. ID
+also be able to give the user to application user
+to We'll fully bitter dragon drops and so on.
+Supported reason we've developed Adon on
+these groups, which is a flobs.
+Speaker 1 (15:09)
+Resolisation, it means that you are able to code
+to drove your sleeps and I simply drank drop
+functions functions input outputs. Yeah, you
+could be in build your own logic. And with that,
+you will have more Visa representation, that
+work so She is the one of the examples we've
+developed on the left side.
+Speaker 1 (15:39)
+You will be able to see the list of Eels. If you
+bring any all decent locality variables, if you
+bring any of them, it will ask you what you want
+to do. It, is it input or output?
+Speaker 1 (15:54)
+To treat it as you book or output and also, you
+look out a list of the offline Offline, like external
+Were able to 6 external tax? That you have to
+keep in mind that are that can be 190%, yes. The
+great thing end here, we go downstairs.
+Speaker 1 (16:15)
+We can have a functionality spirit, still adding
+them as a team using more and more basic
+functional function that are required for the
+writing correct script. Grading about this
+visalisation is that you can play with the
+debacker. 2 can turn on the simulator mode.
+Speaker 1 (16:40)
+Enter the variable values, and it will just bring
+you. Just bring you all the All the ways and you
+can click on step to see how the logic is acuted.
+So this is very powerful tool if you want to test.
+Speaker 1 (16:57)
+About your functionality, does Also And the main
+target of this scripts is doing offline. You can
+also challenge that one. And similarly, what we'll
+go in this scenario and you go offline.
+Speaker 1 (17:16)
+And yes, it's almost all. Do you care? Do you let's
+uh, check?
+Speaker 1 (17:36)
+Ah, yeah, I'd like to add it. Here I do care. Keep in
+mind, this information works only in the Lago
+simulation.
+Speaker 1 (17:54)
+So it will not do any right. It is executed only like
+Unlike full simulation, there in your web browser,
+so nothing will be sent there. And they have
+depended drawing the flows is the start of
+Driving the floors to just part of the
+Visualisation, in the background, this is still the
+gold excliped code Britain.
+Speaker 1 (18:26)
+So if you also want to check how it standhouse
+to develop makes relative. Everything is correct.
+You can go to your estate.
+Speaker 1 (18:36)
+This is a good In any moment, if you want to can
+link from the flowers and continue on coding,
+like writing a code, but you can not do reverse.
+Okay, so you cannot write code and expect it. It's
+a vis visualised in the flow on the floors type of
+preview, so If you're standing with a starctics, a
+goal you get to do as a gold, if you start with the
+flow you are able once to go to the gold and
+continue coding, but noback.
+Speaker 1 (19:11)
+No.
+Speaker 1 (19:33)
+A lot of drinking models, we're all weak victims.
+Visit. We're all very familiar with I would say.
+Speaker 1 (19:59)
+Industrial Revolution, maybe its viral victims of
+It's a revolution that you're facing these days,
+and it is using the LLMs, someone uses the
+stregpt summon uses some other tools. We all
+see how it is changing the Where are the
+business? Everything Is it transulating?
+Speaker 1 (20:32)
+It must change the The industry industry also
+The LLMs are changing how to be interact with
+the softer, so Very beginning, we have uh It's very
+beginning. We get one type of very beginning.
+We wrote, we wrote some fires and some
+comments to get the code executed.
+Speaker 1 (21:00)
+After that, we get the guy like graphic user
+interface to be able to click, then we focused on
+About nice. You are to short everything right
+now. The other lambs are trying to simulate the
+human behind the Behind the the soccer, so we
+would like to go to Would like to go in the
+direction to Simulated talk.
+Speaker 1 (21:35)
+Some someone to be able to get How to get the
+correct response? That is, we are doing our best
+to bring the alarms in multi knowledge to the
+industry at all end of four sure to engage with
+implementing. Some of them on the interview.
+Speaker 1 (21:56)
+Right now we do have a till now we covered to
+So immediately, the valuability cases in new one
+is not lecture. Is the knowledge share? And the
+other is a scriptioneration let's see where we are
+waited, so Uh, ducks.
+Speaker 1 (22:24)
+Ducks agent is agent is the use case which will
+help you to use the platform. You can ask them
+anything that we want. You will give us the
+instructions have to do it and where to it.
+Speaker 1 (22:40)
+Okay, so this one is still a distance to help you
+have To do which, by yourself. So you can open
+ER Dogs, agent advice and has given okay. What
+do I need for doing the 7 communication?
+Speaker 1 (23:00)
+It will give? What do I need to do the O PC? UA
+communication, it'll give me the destruction.
+Speaker 1 (23:05)
+What is required and where to edit? Also, in the
+case of doing that editor you can ask him, okay,
+what is the best solution to visualise? The piece
+of values, or can you help me where to set up the
+alarm view to shop on the actival alarms and all
+the things like that?
+Speaker 1 (23:27)
+You know, have of the of the invo will be in his
+mind to answer you. So it means what does it
+help you help you do not go through to the
+commentation to maybe not ask your colleague,
+just right here. Maybe he will know it, but there
+are cases when your colleague knows
+something better and give you more direct and
+concrete answer.
+Speaker 1 (24:01)
+And this great parties, it presents you the No
+context switching needed, so it needed no
+context which is needed as this agent is right
+under the immune editor so just when you're
+working with click on ask assistants and to give
+you the response a critic about
+Speaker 2 (24:26)
+We can't even know
+Speaker 1 (24:30)
+I think we do share a motor language sport, so
+Uh, it is present right now. A little When you go to
+turn on that I don't know. You'll send a button.
+Speaker 1 (24:42)
+It is an, you can ask me ask him whatever
+question Either it is located right now. The editor
+he is not limited to answer only about editor so
+he can tell you about the configurated editor and
+all the questions that you could ask cube as you
+If we do think our best to limited to Dock only
+about the immo platform. So make generic
+questions like autigger prognos of the gold price
+next year.
+Speaker 1 (25:16)
+It's limited and tell you, okay, this is not. This is
+not my business. The great thing is, it is Muslim
+supported.
+Speaker 1 (25:22)
+It means that you can ask, on the other question.
+In the show. To be honest how it works, it
+analyses the old documentation and examples
+that we have to give you the best proper Answer
+about capital.
+Speaker 1 (25:41)
+The other one is The other one is the coding
+agent. As we talked about the Previously, so
+Coding, we're focusing to Ben no called. ID so to
+give you possibility of noncode, do everything
+without coding and But there are also screams
+that we are doing with their coding, right?
+Speaker 1 (26:09)
+So this agent that will help you with it. Okay.
+These harder coding part will be cover is
+covered with the agent so you can use it even if
+you are not a good base.
+Speaker 1 (26:23)
+If you do not know anything about coding for
+sure for the IBS creeps, or for the old type of
+scrips you do, have you don't need your full
+developer, knowledge? You kept know a little bit
+of the coding background to be understanding
+like, what is the getting value? Uh, dig operation
+and writing to the variable.
+Speaker 1 (26:49)
+So these multorms should be not. I suffered for
+that reason. Um, be introduced, coat
+engagement that will help you about it.
+Speaker 1 (27:00)
+He is able to analyse and describe the code, Q
+able to analyse crab. The code that and it is very
+typical you scared that you go to the script and
+let's read. Let's read the script according it into
+normal words.
+Speaker 1 (27:17)
+What it does Uh, we can together with Chatbot
+with coding agent. We can Edit these groups.
+And another one click, it will be applied.
+Speaker 1 (27:32)
+An advantlake, it will be applied a variables
+context Is a tool tour? Maybe lime is a total limit.
+His knowledge to the variables that are required
+on some products.
+Speaker 1 (27:50)
+We look about Don't Dunst of the variables, so
+using all of them would be very good to be
+problematic. So it's easy to I can drop, you. Can
+advers to make his focusing on this one or for
+example, about only variable?
+Speaker 1 (28:10)
+So these 2 connections, and let's, and then ask
+him, let's do. Let's work with this. Audios, so Jill,
+we are when we open the existing script.
+Speaker 1 (28:22)
+It was automatically. It will automatically include
+in the context so we can ask him whatever we
+do want. Uh, we can ask him to correct it.
+Speaker 1 (28:34)
+Correct it so we will give us with the applied
+optimatic supplier. Compilation error also You
+try to compile and see some failure. It will be
+able to ask you to give you the possibility to
+quickly check And yes, when you're reading a
+newscript, it is kindly recommended to manage
+by your own vituary, able to like to use Did that
+show?
+Speaker 1 (29:03)
+To make sure you're limited to only that you are
+looking for. Oh, GJ. We are ah, next topic.
+Speaker 1 (29:13)
+Any questions Let's move to the next topic. Next
+topic is responsient. The legacy scarda systems
+has this very Yi zi approach with absolute
+referencing.
+Speaker 1 (29:35)
+So you just put button there and I want to make
+it there. And we are perfectly correct that is the
+easiest way to do. But the problem it is that you
+do have to cut code, like, write the dimensions of
+your screen and locate all the elements.
+Speaker 1 (29:56)
+Absolutely like by doing cell this one will be
+located here this well nextly someone so if you
+try to resize it or open on the screen. The other
+size there will be some tips or something will be
+crashed like you will not see it. Reintroduce,
+responsive.
+Speaker 1 (30:17)
+Responsibly like relative positioning in the
+inview, but that we are getting one layout to
+correct for the any screen and the automatically
+automatically resiable when we are rendering. A
+responsibly end is built on the web standards. Or
+like called the flake slay out.
+Speaker 1 (30:43)
+Publicly out the cloud is built on C. Yes. Yes.
+Speaker 1 (30:47)
+Flex boxes is like web standards is since years
+from from now but just to what we did, we
+included it to the editor to the properties of the
+editor so The responsibility we are not doing like
+positioning. Okay. I wanted to be located right
+there rather than that.
+Speaker 1 (31:10)
+We do. Create like the orientation of the screen,
+for example, set A container on the left side to
+take like fifth like 20% of the on the screen. On
+the right.
+Speaker 1 (31:26)
+I make agreed of the 3 × 3 Metrics to show, but if
+we want to show and all these are small
+containers, so what we do, we put containers
+And inside the containers, we are adding the
+element. So containers Are built to like only the
+placeholder. To be easier to organise an inside
+the containers, we can put wear putting
+elements, elements, society container can be
+aligned or etc.
+Speaker 1 (32:00)
+Or Yes, aligned. Oh, African build them Vert Kelly
+or or horizontally. Ah, we do this.
+Speaker 1 (32:13)
+Containers ER containers points. Degrade layout
+is something that that is multimodal than the
+most of the Web applications, and that you're
+using, so you can create like greed 3 × 3 and
+then merge. Cellson the first column and on the
+first floor and the columbson, and you will get
+some scenario that So let's see, ah, let's see how
+it works in a moment of dadding screen.
+Speaker 1 (32:45)
+You are able to choose watch. What is your
+intentional dead screen that you're looking for is
+it Absolute or relative? And yes, here is example
+we are adding containers are adding the Greek.
+Speaker 1 (33:01)
+You will have a predefined gree greed
+dimensions. And yes, you can add the complex
+for or a simple elements inside it. And when do it
+when you do?
+Speaker 1 (33:17)
+Ujo, centralised at the Web client will be
+automatically. Add and remove what you're
+looking what you're looking for. As it's a super
+basic example, there is no much Impression to
+see this basics when you're starting to develop
+the screen.
+Speaker 1 (33:37)
+Let's check we build the We'll build the one hotel
+known screen that is, previecable and absolute
+referencing will build the same one in the A
+responsive in the relative referencing Lenojack,
+is your recognised? If you do not recognise, this
+is the tesport screen of the Uh BMS like building
+management system of this building where we
+are standing it right now so for most few
+distribute well-known because you as your
+opening meet. You see that we started with the
+where we start.
+Speaker 1 (34:30)
+With 23 more containers between we code to
+the most complex, more complex value. You'll
+see like tonnes of the containers doing working
+together to make Audiosis presentation and yes,
+we quickly on it. We can do the preview and
+Every time and you resize it, it will Optimal resize
+or even to go Uh, to change the position.
+Speaker 1 (34:59)
+Today bunished position of the containers to
+make sure You see a lot of them Ah, the
+problem. Yes For sure. Venue venue.
+Speaker 1 (35:17)
+Come to usage of the responsibilant, there will
+be A Ah, break, this is something total, you know,
+as you know, your guys know like very well. Like
+these store, just dreg and drop. But a dare and
+your capit with it.
+Speaker 1 (35:40)
+Not once when you start With this one, you start
+to use it us data, I mean, the absolute
+referencing at the absolute referencing with the
+Web. The recommendation we develop a pages,
+web was attractive and present in 90s, right?
+And then you realise it's okay, this is not this
+networking, we have to change it very similarly
+
+are hit it for sure for sure.
+Speaker 1 (36:13)
+A little bit late, we did. But yes. But to be But now
+we are giving the possibility to it, so it doesn't
+mean that you will Gold and Your legacy project
+suit engine, right?
+Speaker 1 (36:32)
+All the screeze to the new layout it? Will help you
+to an extend it when you're starting to develop
+some application to start with this and check
+how it's done for 1st. This product will be painful
+for you if you're not familiar with flex but it is the
+cost of learning right?
+Speaker 1 (36:51)
+You will learn it. And after that, you are free and
+more powerful to use it. Okay, any questions
+about it.
+Speaker 1 (37:04)
+No great, okay, the next topic we would like to
+cover Ease the US suppromes, so Is you know?
+Our very important feedback is what we are
+getting from the Uh, our user users right? You
+will perform.
+Speaker 1 (37:26)
+We have 2 type of users. Uh, one is the end user.
+So the someone who is watching the screens or
+In the platform in the other user and their
+favourite ones are the application users because
+they are the theme and place that writing Our
+creative creating application, the screens for the
+end user and the feedback of the application of
+the application users is most important is more
+important for us as they are the guys for using
+this as a tool.
+Speaker 1 (38:06)
+And what's we've done? But we are doing we do
+have secret Feedback about ideas of adaptation
+What would what would make it every day?
+Easier and life easier.
+Speaker 1 (38:24)
+So We were conducted. One of our goals is
+always to make a progress with the tools we're
+giving for the for them. There is a number of
+tasks that we have done on this topic, but we do
+not have time to present all of them.
+Speaker 1 (38:44)
+And it's not a point to present all of them so we
+needed to highlight view of them. And we do
+have 3 of this one. So what you see is what you
+get.
+Speaker 1 (38:58)
+This is a short Sport, shortcut of something very
+and does anyone know about what it is? So
+WJSI WAG it stands for what you see is what
+you get. The idea is together tool on the editor
+for the quick review of what you're driving
+drawing right now, so When you are drawing in
+the editor you do not scape visualisation, capital,
+copit or work on the save and go to client to see
+with t Uh, with the real values.
+Speaker 1 (39:43)
+Right, so For that time, we created the A special
+mode. Just quick review of your work. Quick
+preview of your work.
+Speaker 1 (39:57)
+So and the very bottom I come, you have a
+button for Greek review and it will render review
+in the run time the advantage of Of this review is
+that your current state is that stated at all? So
+you do not care to save where you are right now
+and remember that this is invalid. You can save
+it configuration, and See, I was like the other
+good thing is, there is no login required.
+Speaker 1 (40:32)
+And yes. Yes, so it's pretty much basic. We'll see
+open it to a render.
+Speaker 1 (40:41)
+Review the civil lives. You can closely continue
+develop dragon, drop or add remove anything
+that you want. And yes, render it again.
+Speaker 1 (40:53)
+Let's see how it's how it's done. It is great to try
+when you're trying something to see how to visit.
+Okay The next 2 tools are Yeah, yeah, mostly
+used most used for when I'm looking for much.
+Speaker 1 (41:15)
+I'm used in the configurator. In the moment
+when you're looking for checking live values.
+Then, netrican.
+Speaker 1 (41:50)
+So one is I usually
+Speaker 1 (42:04)
+So usually you'll need a user and needs a
+variable of the Oh, the different naming and from
+the different Connection so for that we realised
+that users are operating multiple types on that
+one find the connections with variables with
+ABC on the connection a on the other one on the
+other tab tub, find connections, and then we are
+spitting or splitting screen, we created the follow
+of live values that gives your ability to group
+them into the single Into a single Yeah, single
+group. And to be able to fall them together.
+Speaker 1 (42:48)
+So it's kind of it's only like a debut tool to keep
+out your variables together. This can help. Period
+can help you not to manage of them for when
+you're focusing on exactly one problem you're
+looking for these 10 ver labels, you can select
+them and call it like Problem.
+Speaker 1 (43:09)
+Problem a soul. So we will show you all of them
+together. Our next day is advanced.
+Speaker 1 (43:17)
+We're facing like regular. What is the problem not
+advances? Whenever you hit the space, the
+space is provider for the terms.
+Speaker 1 (43:27)
+So if you're looking for the For the white space, I
+read, it will give you all the temperature space
+sensor it'll go or give you all the variability or
+whatever you're searching for to give you the
+temperature. Everything that gets the
+temperature and everything that gives sensor in
+kidney. So if you would like to use like more
+advanced, you can use " or "and inside the"
+bright, the advancer, what you write in the codes
+is something that exactly we are looking for
+without stars.
+Speaker 1 (44:12)
+If you Buddhar, sign it'll treat it as anything. So if
+I write temps sensor write, it'll it will put
+everything that we start with depth sensor if I
+could sensor dance. This is a place out to and it
+is, and we are targeting to make all the searches,
+and it is covered in all the searches.
+Speaker 1 (44:44)
+Let's take a letters. Let's be care.
+Speaker 1 (45:02)
+And 2000s Subgroup creation. Garu creation.
+He's here you can see, and when you're
+switching here to the connection, you can trough
+the group, and you'll show you all the relatives
+from this group and yes, create the search for
+example.
+Speaker 1 (45:22)
+The way So that's very basic. Let's help you out.
+Next topic that we are coming in to is quality.
+Speaker 1 (45:40)
+We enterprise and open a question. What Have
+to keep the quality. Have to be able to continue
+with the development And do not crash the
+legacido products.
+
+So for that, on, yes. And the products so It is
+kind of Of default behaviour right? Whenever
+you're doing by default, you understand by
+default is in its kind of normal that you just
+Improve that dinner's measure.
+Speaker 1 (46:29)
+In the complex systems like this one, it is not, it's
+not that easy for that one, but fully separated
+team only working on the quality. Uh and
+managing all the gaps of the gaps of the
+deployments and taking care of all the risks that
+you have, how would we maintain inequality?
+How to maintain equality?
+Speaker 1 (46:59)
+One is Human would like to focus on the 33
+Made points the commentation every new
+feature Yes, descarto like quickly changing
+system to keep the accommodation up, so That
+
+it's very much focus on it. Testing by the memory.
+Speaker 1 (47:27)
+The challenges that you're facing is the
+commentation gap. Uh, test cases where the
+memory and Best problem is an olding guy. So
+when you get someone who not everything and
+he will think about it, how can you deploy the
+new version?
+Speaker 1 (47:44)
+Does this still work to have any problem with it?
+And And yes, it is not acceptable for us to deploy
+something, and just hopefully everything works.
+And after a few days, we are getting back that
+we get back from the end user, like okay?
+Speaker 1 (48:09)
+Did something starting on our product?
+Documentation. The presentation is attended to
+focus on previews.
+Speaker 1 (48:19)
+In the previous sprint. In the previous party, this
+right now, it is well covered all the functionities
+and if you develop until now and you can find It's
+available right until now, on internally on the
+straight point. There could I oil discommodation?
+Speaker 1 (48:42)
+To see all the patterns solder links all the
+properties better than but this stands for what
+was the reason of introducing them? So we are
+very detailed description of the but Uh, other this
+solution? That's Yes, for sure.
+Speaker 1 (49:05)
+I want and we want and we need to focus point
+that this one is done, but there is a no proper
+usage with it has been introduced. Dogs eighten
+so dogs agent will do and the development of
+the dogs. Agent cannot be done without this.
+Speaker 1 (49:27)
+Because this is because the feed the main feed
+for the books agent, to be able to answer you the
+questions and humit is how it looks, how it looks
+you just to see that you're free to You are free to
+find it on the checkpoint. The latest version that
+will keep up-to-date next to that. Thanks for the
+2 commentation.
+Speaker 1 (49:53)
+Testing is the testing is a very important part of
+the inview. For it, we do have to, we have to keep
+the focus. So the test case management We all
+kept as well.
+Speaker 1 (50:10)
+First growing as we're fest growing Peppaing
+
+Okay, it's your first movie. There are a lot of
+changes and a lot of Greek changes be here to
+know the test cases so is it still expected to
+work like that. What is the expectation to do?
+Speaker 1 (50:35)
+Did we forget about it? So all these had to be
+written in the proper form to be able to
+guarantee the quality guaranteed the accuracy
+of the product. Uh, so for that, the team is using
+testrails for the test case management where
+they write all the test scenarios.
+Speaker 1 (50:52)
+Okay, when you play this, it should work like this.
+It should show you this when you click there.
+You should get waiting of this much amount and
+then get the answer and so on.
+Speaker 1 (51:03)
+And base it on the test cases test trails. We are
+moving. Yes, we are doing The automated test
+where the code by itself test data product clarity
+is done so Their colour came to all the test
+cases to We are hard-working to add more and
+more test cases in the test trails, and to all of
+them try to cover without automated tests.
+Speaker 1 (51:32)
+So we can more focus on the new features and
+not getting back to the other ones. So And yes
+for trial, we're always The automated tests are
+prioritised by the most Like priority and going to
+lower. So we are creating test cases and
+covering.
+Speaker 1 (51:56)
+I put them from the car to delivery in these low is
+closed. I mean, and this is a full of fight. While
+we are we are developing and we are moving.
+Speaker 1 (52:10)
+Well, we have developing, we are moving, these
+bill will be one of our focuses. It's not just
+anything change to it. You capture to the test
+trails.
+Speaker 1 (52:22)
+It had to cover it to the automatic test so you
+could feel examples. On the reports and havisan
+khapistan How it looks like Ah, additions report
+that you are checking The okay here we are, with
+them. That would be all the topics.
+Speaker 1 (52:43)
+Now let's jump to the 2025. In February, we are
+bringing a few interesting keynotes. Let's start
+with the normally detection.
+Speaker 1 (52:59)
+It's alru, until now. The traditional skaters to be
+mostly used is that we manually set the alarms
+and events. A Joe engineer or app a user
+channel the limits and set up those senior or
+advanced for the if anything is not okay Vito.
+Speaker 1 (53:19)
+Normally detection, we are covering like five
+different algorithms that will tell you that took
+something is not let's say normal, something is
+not as it is usual. To be easier and smarter, to
+understand like General of the general variable
+values. Is it normal or not beautiful algorithms?
+Speaker 1 (53:41)
+That is Describing to us. If something is not
+normal. So these 5 can work together or gear.
+Speaker 1 (53:53)
+So what we've done, what you've done, right
+there On the threats that anomalies will be show
+on the trends, the anomaly will be shown you like
+to comment and it will tell, okay, this isn't this is
+not as expected. When you go to have to set it
+app in the configurator you are able to when you
+go to Find a Tabor anomaly here. You can
+choose virtually able to like to work on
+anomalies.
+Speaker 1 (54:23)
+And his choose all the 5 algorithms that you
+have. If you choose all of them can be chosen
+and choose automatic and it will be default and
+it is recommended to use the automatic setup of
+the limits. So that is It is led the delgritten learn
+by itself.
+Speaker 1 (54:50)
+I calculations set, uh, dog myself. It learns from
+the data. Plan the data if we choose more of
+them.
+Speaker 1 (55:00)
+You choose all of them if you choose fewer
+algorithms, so them We will see anomalies of
+any of these algorithms attacks, or for example,
+out of range or rate of change. If it finds it'll give
+you like okay. Here is we found the number that
+If you're facing a lot of anomalies and would like
+to, and it is like you started to feel like everything
+is anomaly.
+Speaker 1 (55:30)
+Here is an assemble mode that helps you to fix
+to fix. Them ensemble mode helps you to Put
+them together. So if you choose 3 or 4 of them,
+and clicken samble, it will tell you, okay, this is
+normally I'm telling you because all these 3
+algorithms said that it's anomaly.
+Speaker 1 (55:53)
+So semble mode, you can merger them together,
+self prediction. One more one more AI think from
+the last last year fair is the stels prediction. Yes,
+here what we did is here we are simple
+forecasting.
+Speaker 1 (56:14)
+Yes, when we say it's a very simple now we're
+just get for able to get out. It is when it's a
+simple simple inputs. But think about it, this is of
+self prediction built for the old cases that users
+can do on this platform.
+Speaker 1 (56:32)
+So whatever date you do, have whatever you
+would like to include your capitoop, play with it.
+And together get the prediction. So this is the
+tool to easily without any AI knowledge.
+Speaker 1 (56:48)
+Do some AI. Okay, so how it works, you'll be able
+to Uh, choose very Ables that you would like to
+include into the forecast and choose which one
+will be the forecasted forcast value you can play
+with the future selection. So the variable
+selections you can drill like 3 of them and the
+previous selection.
+Speaker 1 (57:10)
+With all this, you can play with a training model.
+Training your model, and all this is done on the
+confirator you will see on the demo so it easily,
+you can do they by your own. To do the forecast
+of some values that you're looking for and the
+great part of it is also the incremental updates it
+needed when you finally find something that
+works fine for you, you can leave it and you'll do
+the forecast for you focus for you all the time
+and do tomorrow when you have 24 hours of
+data, more And what sure incremental updates
+
+turned on if you try to update the model?
+Speaker 1 (57:59)
+So check the accuracy of the model before. Ed
+like train with to one more day. Looks so edit
+these one more day in the data check.
+Speaker 1 (58:10)
+Then, if the curacy is better, it'll be automatically
+replaced because the better model, if the
+additional data makes the accuracy. Versus like
+worse dentus, until now, it would be discarded,
+so Then, now I'll think about the predicted value.
+You can put up alarms for renting on the
+predicted value.
+Speaker 1 (58:37)
+So the predicted value can be putting in the
+other variables, so you can play with alarms with
+events, a email notifications about the predicted
+values. So how it's work here we are. We have a
+very simple example of variable coving.
+Speaker 1 (58:54)
+The red one is the variable coving from the 0 to 1
+from the 0 to 100. One by one and when it's
+marked goal to 0. So it is a very simple, very
+simple example, but it is one that shows the
+simplicity, the Comes simple, it is, and this Is at
+the very end of the seat of progress at predicted
+venue in the future?
+Speaker 1 (59:22)
+But in the history, heat is, how was how it was
+predicted, like 10 minutes to set up 10 minutes
+before that, so here on this red 10 minutes
+before that, we predicted this will be so, and you
+can see an analysed idea like prediction is pretty
+much good. For sure, this is a text example, but
+its trust what you can do with your data. Keep in
+mind that all these prediction and time forecast
+as good as your data is good so as much.
+Speaker 1 (59:58)
+It has a problem that we faced whenever we are
+trying and put a simple Point anything like
+randomised with the formulas? We'll get a
+Christopher funhalit. But when you go to reality,
+it cannot reach that this high decision.
+Speaker 1 (01:00:15)
+Okay And yes, few more tools, and you like we
+focus last year, we focused a lot of external
+integrations. We really platform is great, but
+sometimes the user are very happy with our
+platform, but sometimes the users can have
+their own cabits. And they are needs And
+sometimes it's hard to Uh, a Sil rherect them
+from the well-known those they're using to
+switch to.
+Speaker 1 (01:00:50)
+To art, so for that reason, but you've done, we
+wanted to. Let's connect the well-known uses.
+Well, known tools with the platform.
+Speaker 1 (01:01:05)
+So we built power BI so few of these integrations
+are power bifana ecooks. Therapy, for example,
+is a well-known a reporting tool. When the user
+Kevin knowledge about power BI it is hard to
+move the injury reports right?
+Speaker 1 (01:01:27)
+So for that reason, we created a plug in Plucking
+to be able to apply in to be able to set up power
+BI report that is feed fed by Impute data.
+Grafana also all of his civilisation. Well, known in
+the deals.
+Speaker 1 (01:01:52)
+Well, known in the delves world.
+Speaker 1 (01:02:06)
+Then, delvastor's very They're widely used their
+sport bell documented. So again, one more type
+of visualisation that can be Uh, discount rise
+view data. So if you're familiar and like I would
+always address to use the inview editor because
+here we have more advanced settings, but for
+some basic number basic use case if you want
+to profound a can show you the alarms even
+trend the live data.
+Speaker 1 (01:02:36)
+So most of the cases you're doing No, uh and
+turn advance the most developer like approach
+is verbooks. If you have any other external tool.
+The 2 want to integrate with the platform, you
+will be able to do it with the cooks, your stupid
+set up your end point you'll be called on the even
+strickgered by the by the platform. And yes, it's
+pretty much all Thank you so much. And let as
+long as you go any questions.

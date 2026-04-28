@@ -31,9 +31,9 @@
 - Live Values screen - add variables to group (differenc conn)
 - Preview group
 - Adv search - examples: news letter, "news letter", "*ter", "*s l*"
-8. Anomaly detection
-- Client - preview treing
-- Configurator setup
-9. Self Pred
+8. Self Pred
 - Client - preview
+- Configurator setup
+9. Anomaly detection
+- Client - preview treing
 - Configurator setup
